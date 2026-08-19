@@ -93,7 +93,6 @@ def start_attempt(
         cooldown_filters.append((Attempt.device_fingerprint == fp) & (Attempt.device_fingerprint != None) & (Attempt.device_fingerprint != ""))
 
     recent_finished = db.query(Attempt).filter(
-        Attempt.tp_id == req_data.tp_id,
         Attempt.status == "finished",
         Attempt.ended_at >= cooldown_cutoff,
         or_(*cooldown_filters)
@@ -106,7 +105,7 @@ def start_attempt(
             remaining_min = max(1, (remaining_sec + 59) // 60)
             raise HTTPException(
                 status_code=status.HTTP_429_TOO_MANY_REQUESTS,
-                detail=f"Cooldown active for TP {req_data.tp_id} (IP: {client_ip or 'Local'}). Please wait {remaining_min} minute(s) before trying again. ({remaining_sec}s remaining)",
+                detail=f"Cooldown active on your PC/IP address (TP {recent_finished.tp_id} completed). Please wait {remaining_min} minute(s) before starting any attempt. ({remaining_sec}s remaining)",
                 headers={"X-Cooldown-Remaining-Sec": str(remaining_sec)}
             )
 
