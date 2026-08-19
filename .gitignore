@@ -1,3 +1,7 @@
+# Admin Audit Application (Local Teacher Only - Never Commit)
+admin_app/
+start_admin_app.sh
+
 # Environment & Secret Credentials
 .env
 .env.*

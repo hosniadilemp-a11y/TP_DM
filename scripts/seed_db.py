@@ -75,13 +75,22 @@ def seed_database():
                 db.add(Session(tp_id=tp_id, opens_at=opens_at, closes_at=closes_at))
         db.commit()
 
-        # 4. Seed Questions
+        # 4. Seed Questions & Ensure Topics Exist
         print("❓ Seeding 1000 question bank...")
         if not os.path.exists(QUESTION_BANK_PATH):
             raise FileNotFoundError(f"Question bank file not found at {QUESTION_BANK_PATH}. Run scripts/generate_questions.py first!")
 
         with open(QUESTION_BANK_PATH, "r", encoding="utf-8") as f:
             questions_list = json.load(f)
+
+        existing_topic_ids = {t.id for t in db.query(Topic).all()}
+        for q in questions_list:
+            tid = q["topic_id"]
+            tpid = q["tp_id"]
+            if tid not in existing_topic_ids:
+                existing_topic_ids.add(tid)
+                db.add(Topic(id=tid, tp_id=tpid, name=f"Topic {tid}"))
+        db.commit()
 
         db.query(Question).delete()
         db.commit()
