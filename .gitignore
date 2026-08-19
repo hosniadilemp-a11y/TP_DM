@@ -1,0 +1,30 @@
+# Environment & Secret Credentials
+.env
+.env.*
+*.env
+
+# Question Bank & Private Evaluation Data (NEVER COMMIT TO GITHUB)
+data/question_bank.json
+data/*.json
+data/*.db
+data/*.sqlite3
+data/tp_eval.db
+*.db
+
+# Python & Test Cache Files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+env/
+venv/
+ENV/
+
+# IDE & OS Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Mining TP Continuous Evaluation</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- App CSS -->
+    <link rel="stylesheet" href="/static/css/style.css?v=20260819_v8">
+</head>
+<body>
+    <div class="app-background">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <!-- Top Cooldown Fixed Banner -->
+    <div id="top-cooldown-bar" class="top-cooldown-banner hidden">
+        <div class="top-cooldown-container">
+            <i class="fa-solid fa-hourglass-half fa-spin text-warning"></i>
+            <span><strong>COOLDOWN ACTIVE:</strong> <span id="top-cooldown-timer">09:45</span> remaining before you can start another evaluation attempt on your PC/IP address.</span>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="app-header">
+        <div class="header-container">
+            <div class="brand">
+                <i class="fa-solid fa-brain brand-icon"></i>
+                <div>
+                    <span class="brand-title">Data Mining Evaluation</span>
+                    <span class="brand-subtitle">Continuous Assessment Platform</span>
+                </div>
+            </div>
+            <div id="user-badge" class="user-badge hidden">
+                <i class="fa-solid fa-id-card"></i>
+                <span id="active-user-code">--</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Notification Toast / Banner -->
+    <div id="alert-banner" class="alert-banner hidden">
+        <i class="fa-solid fa-circle-exclamation alert-icon"></i>
+        <span id="alert-message">Error message</span>
+        <button id="btn-reset-cooldown" class="btn btn-sm btn-secondary hidden" style="margin-left: auto; padding: 4px 10px; font-size: 12px;">Reset Cooldown</button>
+        <button id="alert-close" class="alert-close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <!-- Main App Container -->
+    <main class="main-container">
+
+        <!-- SCREEN 1: Code Input & TP Selection -->
+        <section id="screen-login" class="screen-view active">
+            <div class="card glass-card hero-card">
+                <div class="card-header text-center">
+                    <div class="badge-pill"><i class="fa-solid fa-bolt"></i> Timed Evaluation System</div>
+                    <h1>TP Continuous Test</h1>
+                    <p class="subtitle">Enter your official student code and select a TP to begin your timed 20-question evaluation.</p>
+                </div>
+
+                <form id="start-form" class="start-form">
+                    <div class="form-group">
+                        <label for="student-code-input">
+                            <i class="fa-solid fa-user-graduate"></i> Student Identifier Code
+                        </label>
+                        <div class="input-wrapper">
+                            <input 
+                                type="text" 
+                                id="student-code-input" 
+                                placeholder="e.g. IASD01, SIAD15, RSD02, CS99" 
+                                autocomplete="off"
+                                required
+                            >
+                            <span class="input-hint">Format: Speciality (SIAD, IASD, RSD, CS) + 2-digit number (01..100)</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label><i class="fa-solid fa-book-bookmark"></i> Select Evaluation TP</label>
+                        <div id="tp-grid" class="tp-grid">
+                            <!-- Dynamically loaded TP cards -->
+                            <div class="loading-spinner"><i class="fa-solid fa-circle-notch fa-spin"></i> Loading TPs...</div>
+                        </div>
+                    </div>
+
+                    <div class="rules-notice">
+                        <div class="rule-item"><i class="fa-solid fa-stopwatch"></i> <strong>20s Per Question:</strong> Server-enforced timer per question.</div>
+                        <div class="rule-item"><i class="fa-solid fa-scale-balanced"></i> <strong>Scoring Rule:</strong> +1 for correct, −1 for wrong or expired. Final mark out of 20.</div>
+                        <div class="rule-item"><i class="fa-solid fa-hourglass-half"></i> <strong>10-Min Cooldown:</strong> Enforced between consecutive attempts of the same TP.</div>
+                    </div>
+
+                    <button type="submit" id="btn-start-test" class="btn btn-primary btn-large btn-block" disabled>
+                        <span>Start Timed Test</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- SCREEN 2: Live Quiz View -->
+        <section id="screen-quiz" class="screen-view hidden">
+            <div class="card glass-card quiz-card">
+                
+                <!-- Quiz Status Bar -->
+                <div class="quiz-status-bar">
+                    <div class="progress-info">
+                        <span class="question-counter">Question <strong id="current-pos">1</strong> / <span id="total-pos">20</span></span>
+                        <div class="progress-bar-track">
+                            <div id="progress-bar-fill" class="progress-bar-fill" style="width: 5%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Circular Timer Display -->
+                    <div class="timer-widget" id="timer-widget">
+                        <svg class="timer-svg" viewBox="0 0 100 100">
+                            <circle class="timer-bg-circle" cx="50" cy="50" r="42"></circle>
+                            <circle id="timer-progress-circle" class="timer-fg-circle" cx="50" cy="50" r="42"></circle>
+                        </svg>
+                        <span id="timer-display-num" class="timer-number">20</span>
+                    </div>
+                </div>
+
+                <!-- Question Text Section -->
+                <div class="question-container">
+                    <div class="statement-badge">True / False Statement</div>
+                    <h2 id="question-text" class="question-text">Loading question text...</h2>
+                </div>
+
+                <!-- Answer Action Buttons -->
+                <div class="answers-grid">
+                    <button type="button" id="btn-answer-true" class="btn btn-choice btn-true" data-value="true">
+                        <i class="fa-solid fa-check"></i>
+                        <span>TRUE</span>
+                    </button>
+                    <button type="button" id="btn-answer-false" class="btn btn-choice btn-false" data-value="false">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>FALSE</span>
+                    </button>
+                </div>
+                
+                <div class="skip-action-wrapper">
+                    <button type="button" id="btn-answer-skip" class="btn btn-skip" data-value="skip">
+                        <i class="fa-solid fa-forward"></i>
+                        <span>Skip Question (0 pts)</span>
+                    </button>
+                </div>
+
+                <div class="quiz-footer-hint">
+                    <i class="fa-solid fa-shield-halved"></i> Strictly server-timed. Select your answer before the clock reaches 0.
+                </div>
+            </div>
+        </section>
+
+        <!-- SCREEN 3: Results View -->
+        <section id="screen-results" class="screen-view hidden">
+            <div class="card glass-card results-card text-center">
+                <div class="result-badge-icon">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+                <h2>Evaluation Complete</h2>
+                <p class="subtitle">Your official test mark has been registered.</p>
+
+                <div class="score-display-box">
+                    <span class="score-label">Final Evaluation Mark</span>
+                    <div class="score-number-wrapper">
+                        <span id="final-score-val" class="score-val">15.0</span>
+                        <span class="score-max">/ 20</span>
+                    </div>
+                    <div id="performance-pill" class="performance-pill pill-pass">Passed</div>
+                </div>
+
+                <div class="score-breakdown-info">
+                    <div class="info-row">
+                        <span><i class="fa-solid fa-check text-success"></i> Correct Answers (+1 pt):</span>
+                        <strong id="res-correct-count" class="text-success">0</strong>
+                    </div>
+                    <div class="info-row">
+                        <span><i class="fa-solid fa-xmark text-danger"></i> Wrong / Expired (-1 pt):</span>
+                        <strong id="res-wrong-count" class="text-danger">0</strong>
+                    </div>
+                    <div class="info-row">
+                        <span><i class="fa-solid fa-forward text-muted"></i> Skipped (0 pts):</span>
+                        <strong id="res-skipped-count" class="text-muted">0</strong>
+                    </div>
+                    <div class="info-row border-top pt-2 mt-1">
+                        <span>Scoring Formula:</span>
+                        <strong>Max(0, Correct − Wrong)</strong>
+                    </div>
+                </div>
+
+                <button type="button" id="btn-return-home" class="btn btn-secondary btn-large btn-block mt-4">
+                    <i class="fa-solid fa-house"></i> Return to Dashboard
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- App JS -->
+    <script src="/static/js/app.js?v=20260819_v8"></script>
+</body>
+</html>
