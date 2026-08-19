@@ -36,6 +36,7 @@ os.makedirs(STATIC_DIR, exist_ok=True)
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 
 @app.get("/")
+@app.head("/")
 def read_root():
     index_file = os.path.join(STATIC_DIR, "index.html")
     if os.path.exists(index_file):
@@ -43,6 +44,7 @@ def read_root():
     return {"message": "Data Mining Evaluation API Engine is Running. Static files not yet deployed."}
 
 @app.get("/health")
+@app.head("/health")
 def health_check():
     return {"status": "ok", "app": "TP Continuous Evaluation Engine"}
 

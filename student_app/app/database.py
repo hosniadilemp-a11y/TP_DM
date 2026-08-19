@@ -5,6 +5,17 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 STUDENT_APP_DIR = os.path.dirname(APP_DIR)
 PROJECT_ROOT = os.path.dirname(STUDENT_APP_DIR)
+
+# Load local .env file if present
+ENV_PATH = os.path.join(PROJECT_ROOT, ".env")
+if os.path.exists(ENV_PATH):
+    with open(ENV_PATH, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                os.environ.setdefault(k.strip(), v.strip())
+
 DEFAULT_DB_PATH = os.path.join(PROJECT_ROOT, "data", "tp_eval.db")
 os.makedirs(os.path.dirname(DEFAULT_DB_PATH), exist_ok=True)
 
