@@ -576,32 +576,19 @@ body {
 }
 
 .skip-action-wrapper {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
     margin-bottom: 24px;
+    padding-top: 8px;
 }
 
 .btn-skip {
-    background: rgba(148, 163, 184, 0.1);
-    border: 1px solid rgba(148, 163, 184, 0.3);
-    color: var(--text-muted);
+    background: rgba(30, 41, 59, 0.6);
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    color: #94A3B8;
     padding: 12px 24px;
-    font-size: 14px;
-    border-radius: var(--radius-md);
-    transition: var(--transition);
-}
-
-.btn-skip:hover {
-    background: rgba(148, 163, 184, 0.25);
-    color: var(--text-main);
-    border-color: rgba(148, 163, 184, 0.6);
-    transform: translateY(-2px);
-}
-
-.btn-exit {
-    background: rgba(239, 68, 68, 0.12);
-    border: 1px solid rgba(239, 68, 68, 0.4);
-    color: #F87171;
-    padding: 12px 20px;
     font-size: 14px;
     font-weight: 600;
     border-radius: var(--radius-md);
@@ -609,14 +596,41 @@ body {
     cursor: pointer;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 8px;
+    backdrop-filter: blur(8px);
+}
+
+.btn-skip:hover {
+    background: rgba(30, 41, 59, 0.9);
+    color: #F8FAFC;
+    border-color: rgba(99, 102, 241, 0.5);
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.2);
+    transform: translateY(-2px);
+}
+
+.btn-exit {
+    background: rgba(239, 68, 68, 0.12);
+    border: 1px solid rgba(239, 68, 68, 0.35);
+    color: #F87171;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: var(--radius-md);
+    transition: var(--transition);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    backdrop-filter: blur(8px);
 }
 
 .btn-exit:hover {
-    background: rgba(239, 68, 68, 0.3);
-    color: #ffffff;
-    border-color: #EF4444;
-    box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3);
+    background: rgba(239, 68, 68, 0.25);
+    color: #FFFFFF;
+    border-color: rgba(239, 68, 68, 0.7);
+    box-shadow: 0 4px 20px rgba(239, 68, 68, 0.35);
     transform: translateY(-2px);
 }
 
