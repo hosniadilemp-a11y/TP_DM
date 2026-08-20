@@ -1,1672 +1,1602 @@
 [
   {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "MinMaxScaler scales feature values into a fixed range, typically between 0 and 1.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 337
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "StandardScaler centers data by subtracting the mean and scaling to unit variance.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 338
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "One-Hot Encoding creates K binary dummy variables for a categorical feature with K categories.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 339
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "PCA (Principal Component Analysis) projects high-dimensional data onto orthogonal axes of maximum variance.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 340
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "RobustScaler uses the median and IQR, making it less sensitive to extreme outliers.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 341
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Feature scaling is crucial for distance-based algorithms like K-NN and SVM.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 342
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Label Encoding assigns an integer code to each unique category in a ordinal variable.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 343
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Tree-based models like Decision Trees are invariant to monotonic feature scaling transformations.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 344
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "The first principal component accounts for the largest possible variance in the dataset.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 345
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Dummy variable trap occurs when one-hot encoded features are perfectly multicollinear.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 346
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "PCA principal components are linear combinations of the original input features.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 347
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Eigenvalues of the covariance matrix represent the variance explained by corresponding principal components.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 348
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Target Encoding replaces categorical levels with the average target value for each category.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 349
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Feature selection reduces dimensionality by retaining a subset of original features without transformation.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 350
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "MinMaxScaler is sensitive to extreme outliers because min and max values define the scaling bound.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 351
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "StandardScaler produces transformed features with a mean of 0 and standard deviation of 1.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 352
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "One-Hot Encoding with drop='first' avoids perfect multicollinearity in linear models.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 353
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "PCA eigenvectors determine the directions of the new principal component axes.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 354
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Interaction terms are generated by multiplying two or more existing features together.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 355
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Polynomial features expand feature space by generating all degree-d combinations of attributes.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 356
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Feature scaling parameters (mean, std, min, max) must be fitted on training data only.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 357
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Dimensionality reduction helps alleviate the curse of dimensionality in high-dimensional space.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 358
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Variance Thresholding removes features whose sample variance falls below a designated threshold.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 359
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Sequential Feature Selection iteratively adds or removes features based on model cross-validation score.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 360
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Standardizing features ensures equal weighting in distance metric calculations.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 361
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "StandardScaler bounds scaled output values strictly between -1.0 and +1.0.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 362
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "MinMaxScaler is unaffected by the presence of extreme minimum or maximum outliers.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 363
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Label Encoding should be applied to nominal categories with no inherent ordinal ranking.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 364
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "PCA transforms features into non-linear orthogonal polynomial curves.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 365
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Decision Trees perform significantly better after applying StandardScaler normalization.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 366
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "One-Hot Encoding reduces the total number of features in high-cardinality datasets.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 367
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "The sum of variances of all PCA components is smaller than the total variance of original features.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 368
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "StandardScaler should be fitted on the combined train and test dataset before splitting.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 369
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "PCA principal components are correlated with each other by design.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 370
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "RobustScaler uses mean and standard deviation to scale feature vectors.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 371
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Label Encoding creates K separate binary columns for K unique categorical labels.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 372
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "MinMaxScaler preserves zero values in sparse matrices without dense conversion.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 373
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Feature extraction selects a subset of original attributes without altering feature definitions.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 374
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Principal components are always ranked in order of decreasing correlation with the target class.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 375
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "One-Hot Encoding guarantees that linear regression models will not overfit.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 376
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "PCA can be applied directly to unencoded categorical attributes without numerical conversion.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 377
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Target Encoding never risks target leakage or overfitting on small training samples.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 378
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Polynomial features reduce the total number of dimensions in the transformed dataset.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 379
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "RobustScaler sets feature variance to exactly 1.0 regardless of sample distribution.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 380
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "In scikit-learn, fit_transform() should be called on the test dataset.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 381
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "MinMaxScaler transforms any non-Gaussian feature into a perfect standard normal curve.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 382
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "The first principal component always captures 100% of total sample variance.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 383
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Ordinal Encoding loses ranking information when converting ordered categories to numbers.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 384
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "L1 regularization (Lasso) performs feature selection by setting coefficient weights to zero.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 385
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "StandardScaler modifies the correlation coefficient between two scaled features.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 386
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Feature engineering can be completely automated without domain knowledge or data analysis.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 387
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "PCA eigenvectors are non-orthogonal vectors in the feature space.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 388
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "One-Hot Encoding with high-cardinality features improves memory efficiency.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 389
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "MinMaxScaler produces negative output values when input data contains only positive numbers.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 390
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "PCA requires target class labels to calculate the principal component directions.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 391
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Scaling features is required before calculating Random Forest feature importances.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 392
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Variance Thresholding removes features that have high correlation with the target variable.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 393
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Target Encoding replaces categorical values with their frequency counts in the dataset.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 394
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "PCA projection retains the original feature column names and physical interpretations.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 395
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "StandardScaler relies on median and IQR to compute scaling factors.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 396
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "One-Hot Encoding works optimally for high-cardinality features with over 10,000 unique values.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 397
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "RobustScaler scales data using the minimum and maximum observed values.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 398
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "PCA variance explained ratio is independent of initial feature scaling.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 399
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Label Encoding introduces artificial magnitude order relationships into nominal categories.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 400
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Filtering features using correlation threshold guarantees improved model classification accuracy.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 401
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "MinMaxScaler maps negative input values into positive range [0, 1].",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 402
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Feature selection using Recursive Feature Elimination (RFE) operates independently of any base estimator.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 403
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "PCA components are always ordered by increasing variance explained.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 404
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "StandardScaler should be re-fitted separately on each mini-batch during prediction.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 405
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Polynomial features of degree 2 for 10 features generate fewer than 15 total features.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 406
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Frequency encoding replaces categories with their target probability distribution.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 407
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "One-Hot Encoding causes the dummy variable trap in tree-based algorithms.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 408
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "PCA can reduce dimensionality only if input features are perfectly linear.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 409
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "MinMaxScaler formula is (x - mean) / (max - min).",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 410
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Feature transformation always increases the total variance of the dataset.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 411
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "StandardScaler is less sensitive to extreme outliers than RobustScaler.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 412
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Label Binarizer is restricted to single-label binary classification targets.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 413
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "PCA principal components retain physical measurement units of the original input features.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 414
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Scaling features changes the optimal split decisions in a Decision Tree model.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 415
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "One-Hot Encoding creates ordinal numerical values for text features.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 416
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "L2 regularization (Ridge) sets redundant feature coefficients to exact zero.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 417
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Scree plots show the cumulative loss function value per PCA component.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 418
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 9,
-    "text": "Data scaling must be re-executed after cross-validation folds are created.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 419
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "StandardScaler normalizes features to have a mean of 0 and a standard deviation of 1.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 85,
-    "trap_mode": "hidden",
-    "id": 420
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "StandardScaler normalizes features to have a median of 0 and an interquartile range of 1.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 85,
-    "trap_mode": "hidden",
-    "id": 421
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "MinMaxScaler maps feature values into a bounded range between 0 and 1.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 86,
-    "trap_mode": "hidden",
-    "id": 422
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "MinMaxScaler maps feature values into an unbounded range centered at zero.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 86,
-    "trap_mode": "hidden",
-    "id": 423
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "RobustScaler uses median and IQR to scale features in the presence of outliers.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 87,
-    "trap_mode": "hidden",
-    "id": 424
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "RobustScaler uses sample mean and standard deviation to scale features in the presence of outliers.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 87,
-    "trap_mode": "hidden",
-    "id": 425
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "One-Hot Encoding creates K binary dummy columns for K unique categories.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 88,
-    "trap_mode": "hidden",
-    "id": 426
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "One-Hot Encoding creates a single integer column containing unique numerical category IDs.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 88,
-    "trap_mode": "hidden",
-    "id": 427
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Label Encoding converts categorical categories into ordered integer labels.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 89,
-    "trap_mode": "hidden",
-    "id": 428
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Label Encoding creates K separate binary vector columns for nominal categories.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 89,
-    "trap_mode": "hidden",
-    "id": 429
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "PCA projects high-dimensional data onto orthogonal directions of maximum variance.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 90,
-    "trap_mode": "hidden",
-    "id": 430
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "PCA projects high-dimensional data onto non-orthogonal directions of minimum variance.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 90,
-    "trap_mode": "hidden",
-    "id": 431
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "The first principal component accounts for the largest proportion of total variance.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 91,
-    "trap_mode": "hidden",
-    "id": 432
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "The first principal component accounts for the smallest proportion of total variance.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 91,
-    "trap_mode": "hidden",
-    "id": 433
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "PCA principal components are uncorrelated with each other.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 92,
-    "trap_mode": "hidden",
-    "id": 434
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "PCA principal components are highly correlated with each other by design.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 92,
-    "trap_mode": "hidden",
-    "id": 435
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Tree-based algorithms are invariant to monotonic feature scaling transformations.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 93,
-    "trap_mode": "hidden",
-    "id": 436
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Tree-based algorithms require features to be scaled using StandardScaler prior to training.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 93,
-    "trap_mode": "hidden",
-    "id": 437
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Distance-based algorithms like KNN require features to be normalized on equal scales.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 94,
-    "trap_mode": "hidden",
-    "id": 438
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Distance-based algorithms like KNN perform identically regardless of feature scale differences.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 94,
-    "trap_mode": "hidden",
-    "id": 439
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Target Encoding replaces categories with the mean target value of each class level.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 95,
-    "trap_mode": "hidden",
-    "id": 440
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Target Encoding replaces categories with principal component score coordinates.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 95,
-    "trap_mode": "hidden",
-    "id": 441
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Feature selection retains a subset of original features without changing their definitions.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 96,
-    "trap_mode": "hidden",
-    "id": 442
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Feature selection transforms original features into linear combinations of new components.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 96,
-    "trap_mode": "hidden",
-    "id": 443
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Feature extraction creates new transformed features from combinations of original inputs.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 97,
-    "trap_mode": "hidden",
-    "id": 444
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Feature extraction removes low-variance columns while preserving original feature names.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 97,
-    "trap_mode": "hidden",
-    "id": 445
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Dummy variable trap occurs when one-hot encoded columns exhibit perfect multicollinearity.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 98,
-    "trap_mode": "hidden",
-    "id": 446
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Dummy variable trap occurs when features are normalized to zero mean.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 98,
-    "trap_mode": "hidden",
-    "id": 447
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Dropping one dummy column (drop='first') eliminates perfect multicollinearity in linear models.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 99,
-    "trap_mode": "hidden",
-    "id": 448
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Dropping one dummy column (drop='first') increases multicollinearity in linear models.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 99,
-    "trap_mode": "hidden",
-    "id": 449
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Scaling parameters must be fitted exclusively on the training dataset to prevent data leakage.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 100,
-    "trap_mode": "hidden",
-    "id": 450
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Scaling parameters must be fitted on the combined train and test dataset before splitting.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 100,
-    "trap_mode": "hidden",
-    "id": 451
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Eigenvalues of the covariance matrix represent the variance captured by each principal component.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 101,
-    "trap_mode": "hidden",
-    "id": 452
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Eigenvalues of the covariance matrix represent the classification error rate of each component.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 101,
-    "trap_mode": "hidden",
-    "id": 453
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Scree plot displays the variance explained by each principal component in descending order.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 102,
-    "trap_mode": "hidden",
-    "id": 454
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Scree plot displays the correlation between features and target labels in ascending order.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 102,
-    "trap_mode": "hidden",
-    "id": 455
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "PCA is an unsupervised dimensionality reduction method operating without target labels.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 103,
-    "trap_mode": "hidden",
-    "id": 456
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "PCA is a supervised dimensionality reduction method requiring target class labels.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 103,
-    "trap_mode": "hidden",
-    "id": 457
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Ordinal Encoding preserves inherent logical ranking order among categorical levels.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 104,
-    "trap_mode": "hidden",
-    "id": 458
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Ordinal Encoding converts ordered categories into unordered binary dummy vectors.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 104,
-    "trap_mode": "hidden",
-    "id": 459
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "MinMaxScaler formula subtracts the minimum value and divides by the feature range.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 105,
-    "trap_mode": "hidden",
-    "id": 460
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "MinMaxScaler formula subtracts the sample mean and divides by standard deviation.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 105,
-    "trap_mode": "hidden",
-    "id": 461
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "StandardScaler formula subtracts the sample mean and divides by standard deviation.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 106,
-    "trap_mode": "hidden",
-    "id": 462
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "StandardScaler formula subtracts the minimum value and divides by the feature range.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 106,
-    "trap_mode": "hidden",
-    "id": 463
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "RobustScaler formula subtracts the median and divides by the interquartile range (IQR).",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 107,
-    "trap_mode": "hidden",
-    "id": 464
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "RobustScaler formula subtracts the mode and divides by total range (Max - Min).",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 107,
-    "trap_mode": "hidden",
-    "id": 465
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "L1 regularization (Lasso) can reduce feature weights to exact zero for feature selection.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 108,
-    "trap_mode": "hidden",
-    "id": 466
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "L2 regularization (Ridge) reduces feature weights to exact zero for feature selection.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 108,
-    "trap_mode": "hidden",
-    "id": 467
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "L2 regularization (Ridge) shrinks feature weights toward zero without driving them to exact zero.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 109,
-    "trap_mode": "hidden",
-    "id": 468
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "L1 regularization (Lasso) shrinks feature weights toward zero without driving them to exact zero.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 109,
-    "trap_mode": "hidden",
-    "id": 469
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "PolynomialFeatures generates degree-d power combinations of input attributes.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 110,
-    "trap_mode": "hidden",
-    "id": 470
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "PolynomialFeatures applies logarithmic transformations to continuous attributes.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 110,
-    "trap_mode": "hidden",
-    "id": 471
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "VarianceThreshold removes features whose sample variance falls below a designated threshold.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 111,
-    "trap_mode": "hidden",
-    "id": 472
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "VarianceThreshold removes features whose correlation with target falls below a threshold.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 111,
-    "trap_mode": "hidden",
-    "id": 473
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Recursive Feature Elimination (RFE) selects features by recursively pruning smallest weights.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 112,
-    "trap_mode": "hidden",
-    "id": 474
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Recursive Feature Elimination (RFE) selects features by computing unsupervised PCA eigenvalues.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 112,
-    "trap_mode": "hidden",
-    "id": 475
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "The sum of variances of all PCA components equals total variance of original scaled features.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 113,
-    "trap_mode": "hidden",
-    "id": 476
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "The sum of variances of all PCA components is always zero.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 113,
-    "trap_mode": "hidden",
-    "id": 477
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Eigenvectors define the directional axes of principal components in feature space.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 114,
-    "trap_mode": "hidden",
-    "id": 478
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Eigenvectors define the optimal classification decision threshold values.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 114,
-    "trap_mode": "hidden",
-    "id": 479
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "One-Hot Encoding expands feature space dimensionality proportionally to number of categories.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 115,
-    "trap_mode": "attention_check",
-    "id": 480
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "One-Hot Encoding reduces feature space dimensionality to a single column.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 115,
-    "trap_mode": "attention_check",
-    "id": 481
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Frequency encoding replaces categorical levels with their frequency counts in the dataset.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 116,
-    "trap_mode": "attention_check",
-    "id": 482
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Frequency encoding replaces categorical levels with target class log-odds ratio.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 116,
-    "trap_mode": "attention_check",
-    "id": 483
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Interaction features capture multiplicative combined effects between two or more attributes.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 117,
-    "trap_mode": "attention_check",
-    "id": 484
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Interaction features remove non-linear correlations between input variables.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 117,
-    "trap_mode": "attention_check",
-    "id": 485
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "MinMaxScaler output values lie strictly within [0, 1] when test inputs stay within train bounds.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 118,
-    "trap_mode": "attention_check",
-    "id": 486
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "MinMaxScaler output values lie strictly within [-3, +3] regardless of input values.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 118,
-    "trap_mode": "attention_check",
-    "id": 487
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "StandardScaler output values have mean 0 and standard deviation 1.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 119,
-    "trap_mode": "attention_check",
-    "id": 488
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "StandardScaler output values have mean 1 and standard deviation 0.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 119,
-    "trap_mode": "attention_check",
-    "id": 489
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "PCA components are ranked in decreasing order of variance explained.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 120,
-    "trap_mode": "attention_check",
-    "id": 490
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "PCA components are ranked in increasing order of variance explained.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 120,
-    "trap_mode": "attention_check",
-    "id": 491
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Curse of dimensionality refers to sparsity and distance distortion in high-dimensional space.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 121,
-    "trap_mode": "attention_check",
-    "id": 492
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Curse of dimensionality refers to high memory usage during one-hot encoding of binary features.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 121,
-    "trap_mode": "attention_check",
-    "id": 493
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Fitting scaler parameters on test data causes data leakage from evaluation set.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 122,
-    "trap_mode": "attention_check",
-    "id": 494
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Fitting scaler parameters on training data causes data leakage into test set.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 122,
-    "trap_mode": "attention_check",
-    "id": 495
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Target encoding risks severe overfitting on small dataset sample sizes.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 123,
-    "trap_mode": "attention_check",
-    "id": 496
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Target encoding guarantees zero overfitting on small dataset sample sizes.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 123,
-    "trap_mode": "attention_check",
-    "id": 497
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "PCA cannot capture non-linear manifold structures without kernel extensions.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 124,
-    "trap_mode": "attention_check",
-    "id": 498
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "PCA captures non-linear manifold structures natively using Euclidean distance.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 124,
-    "trap_mode": "attention_check",
-    "id": 499
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Feature binarization threshold converts continuous numeric values into binary 0 or 1.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 125,
-    "trap_mode": "attention_check",
-    "id": 500
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Feature binarization threshold converts categorical text strings into principal components.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 125,
-    "trap_mode": "attention_check",
-    "id": 501
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Scaling continuous features preserves the correlation matrix structure among features.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 126,
-    "trap_mode": "attention_check",
-    "id": 502
-  },
-  {
-    "tp_id": 3,
-    "topic_id": 7,
-    "text": "Scaling continuous features flips the sign of all positive correlation coefficients.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 126,
-    "trap_mode": "attention_check",
-    "id": 503
+    "id": "TP3_001",
+    "tp": 3,
+    "category": "normal",
+    "question": "In scikit-learn, SimpleImputer provides strategies to replace missing values using mean, median, most_frequent, or constant.",
+    "answer": true,
+    "explanation": "SimpleImputer supports four core univariate imputation strategies for handling missing data."
+  },
+  {
+    "id": "TP3_002",
+    "tp": 3,
+    "category": "normal",
+    "question": "SimpleImputer(strategy='mean') replaces missing values in a column with the column average.",
+    "answer": true,
+    "explanation": "The mean strategy computes column arithmetic averages for missing numerical entries."
+  },
+  {
+    "id": "TP3_003",
+    "tp": 3,
+    "category": "normal",
+    "question": "SimpleImputer(strategy='median') replaces missing values with the 50th percentile median of available column entries.",
+    "answer": true,
+    "explanation": "The median strategy uses central percentile values, robust against numerical outliers."
+  },
+  {
+    "id": "TP3_004",
+    "tp": 3,
+    "category": "normal",
+    "question": "The 'most_frequent' strategy in SimpleImputer replaces missing values with the mode of the column.",
+    "answer": true,
+    "explanation": "The most_frequent strategy calculates the most common value, suitable for categorical features."
+  },
+  {
+    "id": "TP3_005",
+    "tp": 3,
+    "category": "normal",
+    "question": "SimpleImputer(strategy='constant', fill_value=99) substitutes all missing entries with the specified constant scalar value.",
+    "answer": true,
+    "explanation": "The constant strategy replaces NaNs with a user-defined fixed fill value like 99 or 'Missing'."
+  },
+  {
+    "id": "TP3_006",
+    "tp": 3,
+    "category": "normal",
+    "question": "Mean and median imputation strategies are suitable for continuous numerical distributions.",
+    "answer": true,
+    "explanation": "Mean and median represent continuous central tendencies for numerical variables."
+  },
+  {
+    "id": "TP3_007",
+    "tp": 3,
+    "category": "normal",
+    "question": "Mode ('most_frequent') imputation is appropriate for categorical attributes.",
+    "answer": true,
+    "explanation": "Categorical attributes lack numerical order, making the mode the appropriate frequency-based fill statistic."
+  },
+  {
+    "id": "TP3_008",
+    "tp": 3,
+    "category": "normal",
+    "question": "Applying fit_transform() on SimpleImputer calculates imputation statistics and replaces missing entries in one step.",
+    "answer": true,
+    "explanation": "fit_transform() fits imputer statistics on the dataset and immediately applies the transformation."
+  },
+  {
+    "id": "TP3_009",
+    "tp": 3,
+    "category": "normal",
+    "question": "SimpleImputer defaults missing_values to np.nan.",
+    "answer": true,
+    "explanation": "By default, SimpleImputer identifies np.nan as the missing value target to replace."
+  },
+  {
+    "id": "TP3_010",
+    "tp": 3,
+    "category": "normal",
+    "question": "Imputing missing values prevents errors when passing data to algorithms that cannot handle NaNs natively.",
+    "answer": true,
+    "explanation": "Most scikit-learn estimators raise errors if input arrays contain NaN values."
+  },
+  {
+    "id": "TP3_011",
+    "tp": 3,
+    "category": "normal",
+    "question": "LabelEncoder transforms categorical string labels into unique discrete integer values.",
+    "answer": true,
+    "explanation": "LabelEncoder maps distinct text categories to integer labels (e.g., 0, 1, 2)."
+  },
+  {
+    "id": "TP3_012",
+    "tp": 3,
+    "category": "normal",
+    "question": "LabelEncoder is primarily intended for encoding target labels (y) rather than feature matrices (X).",
+    "answer": true,
+    "explanation": "Scikit-learn documentation recommends LabelEncoder for 1D target vectors and OrdinalEncoder for 2D feature matrices."
+  },
+  {
+    "id": "TP3_013",
+    "tp": 3,
+    "category": "normal",
+    "question": "OneHotEncoder converts categorical features into a binary matrix with distinct 0/1 indicator columns.",
+    "answer": true,
+    "explanation": "OneHotEncoder creates separate dummy columns for each unique category level."
+  },
+  {
+    "id": "TP3_014",
+    "tp": 3,
+    "category": "normal",
+    "question": "OneHotEncoder avoids introducing an artificial numerical ordering among nominal categories.",
+    "answer": true,
+    "explanation": "Binarizing categories into separate dummy columns prevents algorithms from inferring false ordinal rank."
+  },
+  {
+    "id": "TP3_015",
+    "tp": 3,
+    "category": "normal",
+    "question": "OrdinalEncoder maps ordered categorical variables to integers while preserving their relative rank.",
+    "answer": true,
+    "explanation": "OrdinalEncoder assigns sequential integer values respecting intrinsic category ordering."
+  },
+  {
+    "id": "TP3_016",
+    "tp": 3,
+    "category": "normal",
+    "question": "LabelBinarizer transforms binary or multi-class target labels into a binary indicator matrix.",
+    "answer": true,
+    "explanation": "LabelBinarizer converts 1D categorical targets into 1-hot or binary matrices."
+  },
+  {
+    "id": "TP3_017",
+    "tp": 3,
+    "category": "normal",
+    "question": "MultiLabelBinarizer is designed for multi-label data where an observation can belong to multiple categories simultaneously.",
+    "answer": true,
+    "explanation": "MultiLabelBinarizer processes tuples/lists of tags per sample into multi-hot binary indicator vectors."
+  },
+  {
+    "id": "TP3_018",
+    "tp": 3,
+    "category": "normal",
+    "question": "OneHotEncoder(sparse=False) returns a dense NumPy array instead of a scipy sparse matrix.",
+    "answer": true,
+    "explanation": "sparse=False (or sparse_output=False in newer sklearn) forces dense array output."
+  },
+  {
+    "id": "TP3_019",
+    "tp": 3,
+    "category": "normal",
+    "question": "Applying LabelEncoder on nominal features like animal species ('cat', 'dog', 'bird') imposes an arbitrary numerical ordering.",
+    "answer": true,
+    "explanation": "Encoding nominal categories as 0, 1, 2 implies 'bird' > 'dog' > 'cat', which distorts non-ordered attributes."
+  },
+  {
+    "id": "TP3_020",
+    "tp": 3,
+    "category": "normal",
+    "question": "Inverse transformation with encoder.inverse_transform() maps encoded integers back to original string labels.",
+    "answer": true,
+    "explanation": "inverse_transform() reverses the encoding mapping to recover raw string labels."
+  },
+  {
+    "id": "TP3_021",
+    "tp": 3,
+    "category": "normal",
+    "question": "MinMaxScaler rescales feature values to a fixed range, typically between 0 and 1.",
+    "answer": true,
+    "explanation": "MinMaxScaler uses min and max bounds to compress values into [0, 1]."
+  },
+  {
+    "id": "TP3_022",
+    "tp": 3,
+    "category": "normal",
+    "question": "The formula for Min-Max scaling is X_scaled = (X - X_min) / (X_max - X_min).",
+    "answer": true,
+    "explanation": "MinMaxScaler subtracts the minimum and divides by the total feature range."
+  },
+  {
+    "id": "TP3_023",
+    "tp": 3,
+    "category": "normal",
+    "question": "StandardScaler standardizes features by centering them around a mean of 0 with a standard deviation of 1.",
+    "answer": true,
+    "explanation": "StandardScaler computes Z-scores: Z = (X - mean) / std_dev."
+  },
+  {
+    "id": "TP3_024",
+    "tp": 3,
+    "category": "normal",
+    "question": "The formula for Standard scaling (Z-score) is X_scaled = (X - mean) / std_dev.",
+    "answer": true,
+    "explanation": "StandardScaler centers by subtracting the sample mean and divides by standard deviation."
+  },
+  {
+    "id": "TP3_025",
+    "tp": 3,
+    "category": "normal",
+    "question": "RobustScaler uses the median and Interquartile Range (IQR) for scaling, making it robust against outliers.",
+    "answer": true,
+    "explanation": "RobustScaler subtracts Q2 (median) and divides by IQR (Q3 - Q1), resisting outlier distortion."
+  },
+  {
+    "id": "TP3_026",
+    "tp": 3,
+    "category": "normal",
+    "question": "The formula for Robust scaling is X_scaled = (X - Q1) / (Q3 - Q1).",
+    "answer": true,
+    "explanation": "RobustScaler scales features using interquartile spread around the median."
+  },
+  {
+    "id": "TP3_027",
+    "tp": 3,
+    "category": "normal",
+    "question": "Distance-based algorithms like k-Nearest Neighbors (k-NN) are sensitive to feature scales.",
+    "answer": true,
+    "explanation": "k-NN computes Euclidean distances; unscaled features with large ranges dominate distance metrics."
+  },
+  {
+    "id": "TP3_028",
+    "tp": 3,
+    "category": "normal",
+    "question": "StandardScaler can be influenced by extreme outliers because outliers distort sample mean and standard deviation.",
+    "answer": true,
+    "explanation": "Outliers pull the mean and inflate standard deviation, altering Z-score scaling results."
+  },
+  {
+    "id": "TP3_029",
+    "tp": 3,
+    "category": "normal",
+    "question": "MinMaxScaler is sensitive to extreme outliers because outliers define the X_min or X_max bounds.",
+    "answer": true,
+    "explanation": "An extreme outlier sets X_max, compressing non-outlier data into a tiny sub-range near 0."
+  },
+  {
+    "id": "TP3_030",
+    "tp": 3,
+    "category": "normal",
+    "question": "Feature scaling ensures that continuous features with large numerical magnitudes do not dominate smaller-scale features.",
+    "answer": true,
+    "explanation": "Scaling unifies feature ranges so all variables contribute proportionally to model training."
+  },
+  {
+    "id": "TP3_031",
+    "tp": 3,
+    "category": "normal",
+    "question": "The train_test_split function in scikit-learn partitions a dataset into distinct training and testing subsets.",
+    "answer": true,
+    "explanation": "train_test_split divides data arrays into train and test sets for model validation."
+  },
+  {
+    "id": "TP3_032",
+    "tp": 3,
+    "category": "normal",
+    "question": "test_size=0.2 allocates 20% of the dataset to the test set and 80% to the training set.",
+    "answer": true,
+    "explanation": "test_size specifies the proportion of sample data assigned to the evaluation test split."
+  },
+  {
+    "id": "TP3_033",
+    "tp": 3,
+    "category": "normal",
+    "question": "Setting random_state in train_test_split ensures reproducible random data partitions across code runs.",
+    "answer": true,
+    "explanation": "random_state seeds the pseudo-random generator for consistent data splitting."
+  },
+  {
+    "id": "TP3_034",
+    "tp": 3,
+    "category": "normal",
+    "question": "shuffle=True shuffles the dataset before splitting to prevent ordered sample bias.",
+    "answer": true,
+    "explanation": "Shuffling randomizes row ordering before splitting into training and testing sets."
+  },
+  {
+    "id": "TP3_035",
+    "tp": 3,
+    "category": "normal",
+    "question": "Stratified splitting (stratify=y) maintains identical class label proportions in both train and test sets.",
+    "answer": true,
+    "explanation": "stratify ensures class distribution ratios in train and test splits match the original dataset."
+  },
+  {
+    "id": "TP3_036",
+    "tp": 3,
+    "category": "normal",
+    "question": "Data leakage occurs when information from the test set is inadvertently used during preprocessing or training.",
+    "answer": true,
+    "explanation": "Data leakage corrupts validation integrity by giving the model access to test set information."
+  },
+  {
+    "id": "TP3_037",
+    "tp": 3,
+    "category": "normal",
+    "question": "To avoid data leakage, scalers and imputers must be fitted strictly on the training set only.",
+    "answer": true,
+    "explanation": "Fitting transformers on training data alone prevents leaking test set parameters into the model."
+  },
+  {
+    "id": "TP3_038",
+    "tp": 3,
+    "category": "normal",
+    "question": "Applying transform() on the test set using train-fitted parameters applies learned training statistics safely.",
+    "answer": true,
+    "explanation": "test_set.transform() uses parameters (means, mins, modes) learned exclusively from training data."
+  },
+  {
+    "id": "TP3_039",
+    "tp": 3,
+    "category": "normal",
+    "question": "Evaluating a model on unseen test data provides an unbiased estimate of its generalization performance.",
+    "answer": true,
+    "explanation": "Test set metrics reflect how well the trained model generalizes to new real-world data."
+  },
+  {
+    "id": "TP3_040",
+    "tp": 3,
+    "category": "normal",
+    "question": "Stratified splitting is particularly crucial when dealing with imbalanced target classes.",
+    "answer": true,
+    "explanation": "Stratification prevents rare minority classes from being underrepresented or absent in train or test splits."
+  },
+  {
+    "id": "TP3_041",
+    "tp": 3,
+    "category": "normal",
+    "question": "make_column_transformer allows applying different preprocessing pipelines to specific column subsets.",
+    "answer": true,
+    "explanation": "make_column_transformer maps distinct feature column lists to specialized transformers."
+  },
+  {
+    "id": "TP3_042",
+    "tp": 3,
+    "category": "normal",
+    "question": "make_pipeline creates a sequential chain of transformers and a final estimator.",
+    "answer": true,
+    "explanation": "make_pipeline chains preprocessing steps sequentially, ending with an estimator or transformer."
+  },
+  {
+    "id": "TP3_043",
+    "tp": 3,
+    "category": "normal",
+    "question": "In scikit-learn, a Pipeline automatically executes fit_transform on transformers and fit on the final estimator.",
+    "answer": true,
+    "explanation": "Calling pipeline.fit(X, y) sequentially fits and transforms data through all pipeline stages."
+  },
+  {
+    "id": "TP3_044",
+    "tp": 3,
+    "category": "normal",
+    "question": "Using Pipelines prevents data leakage during cross-validation by refitting all transformers within each CV fold.",
+    "answer": true,
+    "explanation": "Pipelines isolate fold-level transformer fitting inside cross-validation loops, preventing leakage."
+  },
+  {
+    "id": "TP3_045",
+    "tp": 3,
+    "category": "normal",
+    "question": "ColumnTransformers can combine numerical pipelines (imputer + scaler) and categorical pipelines (imputer + encoder).",
+    "answer": true,
+    "explanation": "ColumnTransformers apply custom sub-pipelines in parallel across different feature types."
+  },
+  {
+    "id": "TP3_046",
+    "tp": 3,
+    "category": "normal",
+    "question": "The fit_transform method of a Pipeline returns the transformed dataset after executing all processing steps.",
+    "answer": true,
+    "explanation": "fit_transform runs fit and transform sequentially across all pipeline steps."
+  },
+  {
+    "id": "TP3_047",
+    "tp": 3,
+    "category": "normal",
+    "question": "Pipelines simplify production deployment by encapsulating all data transformation rules into a single object.",
+    "answer": true,
+    "explanation": "A single pipeline object accepts raw input data and outputs model predictions end-to-end."
+  },
+  {
+    "id": "TP3_048",
+    "tp": 3,
+    "category": "normal",
+    "question": "In a Pipeline ending with a classifier, calling model.score(X_test, y_test) automatically transforms X_test first.",
+    "answer": true,
+    "explanation": "Pipeline predict() and score() pass raw test data through all fitted transformers before scoring."
+  },
+  {
+    "id": "TP3_049",
+    "tp": 3,
+    "category": "normal",
+    "question": "Specifying feature column lists (numerical_features, categorical_features) guides ColumnTransformer operations.",
+    "answer": true,
+    "explanation": "Passing explicit column names or indices directs appropriate transformers to target columns."
+  },
+  {
+    "id": "TP3_050",
+    "tp": 3,
+    "category": "normal",
+    "question": "Combining SimpleImputer and StandardScaler in a numerical pipeline ensures clean scaled numerical inputs.",
+    "answer": true,
+    "explanation": "Chaining imputation then scaling cleans missing entries first before standardizing feature scales."
+  },
+  {
+    "id": "TP3_051",
+    "tp": 3,
+    "category": "normal",
+    "question": "Feature engineering involves creating new features or transforming existing ones to improve model performance.",
+    "answer": true,
+    "explanation": "Engineering domain-relevant features exposes underlying patterns more effectively to models."
+  },
+  {
+    "id": "TP3_052",
+    "tp": 3,
+    "category": "normal",
+    "question": "Log transformation can stabilize variance and linearize exponential relationships in numerical features.",
+    "answer": true,
+    "explanation": "Log transforms compress skewed ranges and linearize multiplicative relationships."
+  },
+  {
+    "id": "TP3_053",
+    "tp": 3,
+    "category": "normal",
+    "question": "PolynomialFeatures generates interaction terms and polynomial powers of input numerical features.",
+    "answer": true,
+    "explanation": "PolynomialFeatures creates degree powers (X^2) and pairwise interaction terms (X1 * X2)."
+  },
+  {
+    "id": "TP3_054",
+    "tp": 3,
+    "category": "normal",
+    "question": "Binarization converts continuous numerical features into binary 0/1 flags based on a specified threshold.",
+    "answer": true,
+    "explanation": "Binarizer thresholding maps values above a limit to 1 and values below to 0."
+  },
+  {
+    "id": "TP3_055",
+    "tp": 3,
+    "category": "normal",
+    "question": "Feature selection reduces dimensionality by removing irrelevant or redundant features.",
+    "answer": true,
+    "explanation": "Selecting top informative features reduces noise, speeds training, and mitigates overfitting."
+  },
+  {
+    "id": "TP3_056",
+    "tp": 3,
+    "category": "normal",
+    "question": "One-Hot Encoding a categorical feature with K unique levels creates K binary dummy columns by default.",
+    "answer": true,
+    "explanation": "By default, OneHotEncoder creates a separate binary column for every unique category level."
+  },
+  {
+    "id": "TP3_057",
+    "tp": 3,
+    "category": "normal",
+    "question": "Dropping one dummy column (drop='first') in OneHotEncoder avoids multicollinearity in linear models.",
+    "answer": true,
+    "explanation": "drop='first' creates K-1 dummy variables, preventing the dummy variable trap in linear models."
+  },
+  {
+    "id": "TP3_058",
+    "tp": 3,
+    "category": "normal",
+    "question": "Preprocessing choices directly influence the prediction accuracy of k-NN classifiers.",
+    "answer": true,
+    "explanation": "Imputation quality, scaling, and encoding directly dictate Euclidean distance calculations in k-NN."
+  },
+  {
+    "id": "TP3_059",
+    "tp": 3,
+    "category": "normal",
+    "question": "RobustScaler uses median and IQR, making scaled values resistant to extreme outlier distortions.",
+    "answer": true,
+    "explanation": "Centering on the median and dividing by IQR prevents extreme values from warping non-outlier scaling."
+  },
+  {
+    "id": "TP3_060",
+    "tp": 3,
+    "category": "normal",
+    "question": "Applying StandardScaler before k-NN classification prevents features with large ranges from dominating predictions.",
+    "answer": true,
+    "explanation": "Standardizing feature variances balances feature weights in Euclidean distance calculations."
+  },
+  {
+    "id": "TP3_061",
+    "tp": 3,
+    "category": "normal",
+    "question": "Scikit-learn transformers implement fit(), transform(), and fit_transform() methods.",
+    "answer": true,
+    "explanation": "Transformers conform to the standard scikit-learn API layout with fit and transform methods."
+  },
+  {
+    "id": "TP3_062",
+    "tp": 3,
+    "category": "normal",
+    "question": "The fit() method computes transformer parameters (e.g., mean and std) from training data without altering data.",
+    "answer": true,
+    "explanation": "fit() calculates summary statistics needed for transformation without modifying input arrays."
+  },
+  {
+    "id": "TP3_063",
+    "tp": 3,
+    "category": "normal",
+    "question": "The transform() method applies learned transformation parameters to convert input dataset arrays.",
+    "answer": true,
+    "explanation": "transform() executes the mathematical scaling or encoding mapping using previously fitted parameters."
+  },
+  {
+    "id": "TP3_064",
+    "tp": 3,
+    "category": "normal",
+    "question": "Scikit-learn estimators implement fit() and predict() (or score()) methods.",
+    "answer": true,
+    "explanation": "Estimators learn model parameters during fit() and generate output predictions via predict()."
+  },
+  {
+    "id": "TP3_065",
+    "tp": 3,
+    "category": "normal",
+    "question": "Categorical encoding must be performed before passing data to scikit-learn estimators.",
+    "answer": true,
+    "explanation": "Scikit-learn classification models require numerical input arrays and fail on raw string data."
+  },
+  {
+    "id": "TP3_066",
+    "tp": 3,
+    "category": "normal",
+    "question": "Passing sparse=False to OneHotEncoder produces dense NumPy array outputs.",
+    "answer": true,
+    "explanation": "Setting sparse=False forces dense array format instead of scipy compressed sparse row matrices."
+  },
+  {
+    "id": "TP3_067",
+    "tp": 3,
+    "category": "normal",
+    "question": "ColumnTransformers concatenate parallel transformation outputs into a single unified array.",
+    "answer": true,
+    "explanation": "ColumnTransformer executes feature transformations in parallel and horizontally stacks results."
+  },
+  {
+    "id": "TP3_068",
+    "tp": 3,
+    "category": "normal",
+    "question": "OrdinalEncoder requires defining explicit category order lists if natural rank ordering exists.",
+    "answer": true,
+    "explanation": "Providing an explicit categories list ensures integers map to the correct rank hierarchy."
+  },
+  {
+    "id": "TP3_069",
+    "tp": 3,
+    "category": "normal",
+    "question": "Numerical feature scaling does not alter the relative rank order of values within a single column.",
+    "answer": true,
+    "explanation": "Monotonic scalers like MinMaxScaler and StandardScaler preserve rank order within individual features."
+  },
+  {
+    "id": "TP3_070",
+    "tp": 3,
+    "category": "normal",
+    "question": "Imputing missing values after splitting prevents test set summary statistics from influencing training fills.",
+    "answer": true,
+    "explanation": "Calculating fill statistics solely on training data maintains true out-of-sample evaluation."
+  },
+  {
+    "id": "TP3_071",
+    "tp": 3,
+    "category": "normal",
+    "question": "In scikit-learn, SimpleImputer(strategy='constant', fill_value=0) fills NaNs with zeros.",
+    "answer": true,
+    "explanation": "Specifying strategy='constant' and fill_value=0 substitutes missing entries with numeric 0."
+  },
+  {
+    "id": "TP3_072",
+    "tp": 3,
+    "category": "normal",
+    "question": "Target variable y should be separated from feature matrix X before applying feature scaling.",
+    "answer": true,
+    "explanation": "Scaling applies to independent predictor features (X), not target classification labels (y)."
+  },
+  {
+    "id": "TP3_073",
+    "tp": 3,
+    "category": "normal",
+    "question": "Evaluating preprocessing pipelines on test data confirms which scaling technique maximizes accuracy.",
+    "answer": true,
+    "explanation": "Comparing pipeline test scores identifies optimal preprocessing configurations for specific models."
+  },
+  {
+    "id": "TP3_074",
+    "tp": 3,
+    "category": "normal",
+    "question": "Using make_pipeline removes the need to manually name every processing step.",
+    "answer": true,
+    "explanation": "make_pipeline automatically generates step names based on class names."
+  },
+  {
+    "id": "TP3_075",
+    "tp": 3,
+    "category": "normal",
+    "question": "StandardScaler subtracts the feature mean and divides by the feature standard deviation.",
+    "answer": true,
+    "explanation": "StandardScaler computes Z = (X - u) / s for each numerical column."
+  },
+  {
+    "id": "TP3_076",
+    "tp": 3,
+    "category": "normal",
+    "question": "MinMaxScaler maps the minimum feature value to 0 and maximum feature value to 1.",
+    "answer": true,
+    "explanation": "After Min-Max scaling, the column minimum becomes 0.0 and maximum becomes 1.0."
+  },
+  {
+    "id": "TP3_077",
+    "tp": 3,
+    "category": "normal",
+    "question": "Handling missing values is required before applying StandardScaler in scikit-learn.",
+    "answer": true,
+    "explanation": "StandardScaler cannot process NaN entries and raises a ValueError if missing values remain."
+  },
+  {
+    "id": "TP3_078",
+    "tp": 3,
+    "category": "normal",
+    "question": "OneHotEncoder handles unknown categories during test transform when handle_unknown='ignore' is set.",
+    "answer": true,
+    "explanation": "handle_unknown='ignore' encodes unseen test categories as all zeros without raising errors."
+  },
+  {
+    "id": "TP3_079",
+    "tp": 3,
+    "category": "normal",
+    "question": "Preprocessing pipelines can be evaluated inside cross-validation loops seamlessly using cross_val_score.",
+    "answer": true,
+    "explanation": "cross_val_score accepts Pipeline objects, fitting transformers on each fold automatically."
+  },
+  {
+    "id": "TP3_080",
+    "tp": 3,
+    "category": "normal",
+    "question": "Feature scaling is unnecessary for Decision Tree classifiers because tree splits are invariant to monotonic scaling.",
+    "answer": true,
+    "explanation": "Decision trees split features based on value order thresholds, making scaling unnecessary for tree logic."
+  },
+  {
+    "id": "TP3_081",
+    "tp": 3,
+    "category": "normal",
+    "question": "SimpleImputer can be initialized with strategy='most_frequent' to perform mode imputation.",
+    "answer": true,
+    "explanation": "most_frequent calculates the modal value for missing entries."
+  },
+  {
+    "id": "TP3_082",
+    "tp": 3,
+    "category": "normal",
+    "question": "OneHotEncoder creates separate dummy binary columns for each unique categorical value.",
+    "answer": true,
+    "explanation": "One-hot encoding creates binary 0/1 indicator features per category level."
+  },
+  {
+    "id": "TP3_083",
+    "tp": 3,
+    "category": "normal",
+    "question": "StandardScaler centers numerical features by subtracting the mean and dividing by the standard deviation.",
+    "answer": true,
+    "explanation": "StandardScaler calculates Z-scores to transform variables to zero mean and unit variance."
+  },
+  {
+    "id": "TP3_084",
+    "tp": 3,
+    "category": "normal",
+    "question": "MinMaxScaler rescales feature values to a bounded interval between 0 and 1 by default.",
+    "answer": true,
+    "explanation": "MinMax scaling compresses data into the [0, 1] range using minimum and maximum bounds."
+  },
+  {
+    "id": "TP3_085",
+    "tp": 3,
+    "category": "normal",
+    "question": "RobustScaler uses the median and Interquartile Range (IQR) for scaling, resisting extreme outliers.",
+    "answer": true,
+    "explanation": "RobustScaler subtracts the median and divides by IQR, resisting outlier distortions."
+  },
+  {
+    "id": "TP3_086",
+    "tp": 3,
+    "category": "normal",
+    "question": "scikit-learn ColumnTransformer applies different preprocessing pipelines to specified column lists.",
+    "answer": true,
+    "explanation": "make_column_transformer maps separate transformer pipelines to distinct feature column subsets."
+  },
+  {
+    "id": "TP3_087",
+    "tp": 3,
+    "category": "normal",
+    "question": "scikit-learn Pipeline chains preprocessing transformers and a final estimator sequentially.",
+    "answer": true,
+    "explanation": "Pipelines execute sequential transformations before passing processed data to an estimator."
+  },
+  {
+    "id": "TP3_088",
+    "tp": 3,
+    "category": "normal",
+    "question": "Fitting scalers only on training data prevents test set data leakage.",
+    "answer": true,
+    "explanation": "Learning transformation parameters strictly from training data preserves test set validation integrity."
+  },
+  {
+    "id": "TP3_089",
+    "tp": 3,
+    "category": "normal",
+    "question": "Stratified splitting with train_test_split preserves class label proportions in train and test sets.",
+    "answer": true,
+    "explanation": "stratify=y ensures identical target class ratios in train and test splits."
+  },
+  {
+    "id": "TP3_090",
+    "tp": 3,
+    "category": "normal",
+    "question": "LabelEncoder maps categorical text strings to unique discrete integer labels.",
+    "answer": true,
+    "explanation": "LabelEncoder assigns discrete integer codes to distinct target class labels."
+  },
+  {
+    "id": "TP3_091",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Fitting a StandardScaler on the entire dataset before train_test_split is valid and prevents data leakage.",
+    "answer": false,
+    "explanation": "Fitting scalers on the entire dataset prior to splitting leaks test set statistics into training data."
+  },
+  {
+    "id": "TP3_092",
+    "tp": 3,
+    "category": "tricky",
+    "question": "LabelEncoder should be used to encode multi-column nominal feature matrices in scikit-learn.",
+    "answer": false,
+    "explanation": "LabelEncoder is designed for 1D target labels; 2D nominal feature matrices should be encoded with OneHotEncoder or OrdinalEncoder."
+  },
+  {
+    "id": "TP3_093",
+    "tp": 3,
+    "category": "tricky",
+    "question": "MinMaxScaler transforms feature distributions so that their mean becomes exactly 0 and standard deviation becomes 1.",
+    "answer": false,
+    "explanation": "StandardScaler sets mean to 0 and std to 1; MinMaxScaler rescales data between 0 and 1 without setting mean to 0."
+  },
+  {
+    "id": "TP3_094",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Decision Tree classifiers require strict numerical feature scaling with StandardScaler to operate correctly.",
+    "answer": false,
+    "explanation": "Decision trees evaluate threshold splits on individual features independently and are invariant to monotonic feature scaling."
+  },
+  {
+    "id": "TP3_095",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Applying fit_transform() on the test set using a StandardScaler updates the training mean parameters.",
+    "answer": false,
+    "explanation": "fit_transform() on the test set computes NEW test statistics, corrupting learned training parameters and leaking data."
+  },
+  {
+    "id": "TP3_096",
+    "tp": 3,
+    "category": "tricky",
+    "question": "SimpleImputer(strategy='mean') works directly on categorical string columns containing text.",
+    "answer": false,
+    "explanation": "Mean imputation calculates arithmetic averages, which cannot be computed for non-numeric text columns."
+  },
+  {
+    "id": "TP3_097",
+    "tp": 3,
+    "category": "tricky",
+    "question": "RobustScaler scales data using the minimum and maximum values of the feature distribution.",
+    "answer": false,
+    "explanation": "RobustScaler scales data using the median and Interquartile Range (IQR); MinMaxScaler uses min and max values."
+  },
+  {
+    "id": "TP3_098",
+    "tp": 3,
+    "category": "tricky",
+    "question": "OneHotEncoder with drop='first' creates K dummy columns for a categorical feature with K unique levels.",
+    "answer": false,
+    "explanation": "drop='first' removes the baseline category, producing K-1 dummy columns instead of K."
+  },
+  {
+    "id": "TP3_099",
+    "tp": 3,
+    "category": "tricky",
+    "question": "In scikit-learn, fit() returns the fully transformed output array.",
+    "answer": false,
+    "explanation": "fit() calculates parameter statistics and returns the fitted transformer object; transform() returns the transformed array."
+  },
+  {
+    "id": "TP3_100",
+    "tp": 3,
+    "category": "tricky",
+    "question": "OneHotEncoder automatically converts string target vectors y into 1D integer classification labels.",
+    "answer": false,
+    "explanation": "OneHotEncoder produces 2D binary dummy matrices; target vector encoding uses LabelEncoder or LabelBinarizer."
+  },
+  {
+    "id": "TP3_101",
+    "tp": 3,
+    "category": "tricky",
+    "question": "StandardScaler guarantees that transformed feature values will strictly lie between -1 and +1.",
+    "answer": false,
+    "explanation": "StandardScaler computes Z-scores, which have no bounded upper or lower limit; values can exceed +/-3."
+  },
+  {
+    "id": "TP3_102",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Using SimpleImputer(strategy='median') on nominal categorical string features is standard practice.",
+    "answer": false,
+    "explanation": "Median requires ordered numerical data; nominal categorical features require 'most_frequent' or 'constant' imputation."
+  },
+  {
+    "id": "TP3_103",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Applying fit_transform() to test data within a cross-validation fold prevents data leakage.",
+    "answer": false,
+    "explanation": "Transformers must be fit ONLY on training folds; fit_transforming test folds causes severe data leakage."
+  },
+  {
+    "id": "TP3_104",
+    "tp": 3,
+    "category": "tricky",
+    "question": "MultiLabelBinarizer produces a 1D vector containing categorical text strings for each row.",
+    "answer": false,
+    "explanation": "MultiLabelBinarizer outputs a 2D binary matrix where columns represent distinct tag presence/absence."
+  },
+  {
+    "id": "TP3_105",
+    "tp": 3,
+    "category": "tricky",
+    "question": "In a scikit-learn Pipeline, transformers can be placed after the final classifier estimator.",
+    "answer": false,
+    "explanation": "Pipelines require all intermediate steps to be transformers; only the FINAL step can be an estimator/classifier."
+  },
+  {
+    "id": "TP3_106",
+    "tp": 3,
+    "category": "tricky",
+    "question": "MinMaxScaler is robust against extreme outliers because it compresses data into [0, 1].",
+    "answer": false,
+    "explanation": "Extreme outliers define X_max or X_min, compressing non-outlier values into a tiny dense sub-interval."
+  },
+  {
+    "id": "TP3_107",
+    "tp": 3,
+    "category": "tricky",
+    "question": "OrdinalEncoder introduces no implicit numerical ordering when applied to nominal categorical features.",
+    "answer": false,
+    "explanation": "OrdinalEncoder maps categories to integers (0, 1, 2), which imposes an implicit numerical order that linear/distance models exploit."
+  },
+  {
+    "id": "TP3_108",
+    "tp": 3,
+    "category": "tricky",
+    "question": "SimpleImputer(strategy='constant', fill_value=0) preserves the original standard deviation of a feature.",
+    "answer": false,
+    "explanation": "Imputing constant zeros alters sample variance and reduces standard deviation."
+  },
+  {
+    "id": "TP3_109",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Stratified splitting with train_test_split shuffles data without preserving class label ratios.",
+    "answer": false,
+    "explanation": "Stratified splitting explicitly preserves original class label ratios in both train and test splits."
+  },
+  {
+    "id": "TP3_110",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Calling transform() on a scikit-learn scaler re-fits its internal mean and variance parameters.",
+    "answer": false,
+    "explanation": "transform() applies previously fitted mean and variance parameters without recalculating them."
+  },
+  {
+    "id": "TP3_111",
+    "tp": 3,
+    "category": "tricky",
+    "question": "LabelBinarizer can be used inside a ColumnTransformer to process multi-column feature matrices.",
+    "answer": false,
+    "explanation": "LabelBinarizer is designed for 1D target vectors y and raises errors if used in ColumnTransformer on 2D feature matrices."
+  },
+  {
+    "id": "TP3_112",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Applying log transformation to negative numbers in a numerical column produces valid positive float outputs.",
+    "answer": false,
+    "explanation": "Logarithms of negative numbers are undefined in real numbers and produce NaN values in NumPy."
+  },
+  {
+    "id": "TP3_113",
+    "tp": 3,
+    "category": "tricky",
+    "question": "make_column_transformer applies specified transformations sequentially to the same columns.",
+    "answer": false,
+    "explanation": "ColumnTransformer applies specified transformations in PARALLEL to selected column subsets and concatenates results."
+  },
+  {
+    "id": "TP3_114",
+    "tp": 3,
+    "category": "tricky",
+    "question": "StandardScaler alters the shape of a feature distribution from skewed to perfectly Gaussian.",
+    "answer": false,
+    "explanation": "StandardScaler shifts location and rescales spread without changing the underlying skewness or shape of the distribution."
+  },
+  {
+    "id": "TP3_115",
+    "tp": 3,
+    "category": "tricky",
+    "question": "SimpleImputer automatically encodes categorical text columns into numeric integers during imputation.",
+    "answer": false,
+    "explanation": "SimpleImputer replaces missing entries with string mode/constant values without performing numeric encoding."
+  },
+  {
+    "id": "TP3_116",
+    "tp": 3,
+    "category": "tricky",
+    "question": "PolynomialFeatures with degree=2 reduces the total number of features in a dataset.",
+    "answer": false,
+    "explanation": "PolynomialFeatures creates squared terms and pairwise interactions, increasing total feature count."
+  },
+  {
+    "id": "TP3_117",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Passing random_state=None to train_test_split ensures identical reproducible data splits across executions.",
+    "answer": false,
+    "explanation": "random_state=None uses random system noise, generating different splits on every code execution."
+  },
+  {
+    "id": "TP3_118",
+    "tp": 3,
+    "category": "tricky",
+    "question": "In scikit-learn, Pipeline.fit(X, y) calls fit_transform on every step including the final classifier.",
+    "answer": false,
+    "explanation": "Pipeline calls fit_transform on intermediate transformers, but calls fit() on the final classifier step."
+  },
+  {
+    "id": "TP3_119",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Dropping rows with missing values (dropna) inside a ColumnTransformer is standard scikit-learn practice.",
+    "answer": false,
+    "explanation": "ColumnTransformers apply column-wise transformations and cannot drop rows; row dropping must occur prior to pipeline execution."
+  },
+  {
+    "id": "TP3_120",
+    "tp": 3,
+    "category": "tricky",
+    "question": "The 'most_frequent' strategy in SimpleImputer computes the arithmetic mean of discrete integer columns.",
+    "answer": false,
+    "explanation": "The 'most_frequent' strategy finds the categorical mode (most frequent value), not the arithmetic mean."
+  },
+  {
+    "id": "TP3_121",
+    "tp": 3,
+    "category": "tricky",
+    "question": "MinMaxScaler preserves original zero values in sparse matrices when feature minimum is negative.",
+    "answer": false,
+    "explanation": "If feature minimum is negative, subtracting X_min shifts zeroes to non-zero positive values, destroying sparsity."
+  },
+  {
+    "id": "TP3_122",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Scikit-learn KNeighborsClassifier automatically scales unscaled input features before distance calculations.",
+    "answer": false,
+    "explanation": "KNeighborsClassifier uses raw feature values directly; feature scaling must be applied explicitly in preprocessing."
+  },
+  {
+    "id": "TP3_123",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Using OneHotEncoder with handle_unknown='ignore' throws an error whenever an unseen category appears in test data.",
+    "answer": false,
+    "explanation": "handle_unknown='ignore' silently encodes unseen test categories as all-zero vectors without raising errors."
+  },
+  {
+    "id": "TP3_124",
+    "tp": 3,
+    "category": "tricky",
+    "question": "LabelEncoder fit_transform() accepts 2D DataFrames containing multiple feature columns.",
+    "answer": false,
+    "explanation": "LabelEncoder expects a 1D vector (target label y) and raises a DataConversionWarning or ValueError on 2D inputs."
+  },
+  {
+    "id": "TP3_125",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Scaling continuous features alters the decision boundaries of a Decision Tree classifier significantly.",
+    "answer": false,
+    "explanation": "Decision trees evaluate axis-aligned threshold splits per feature independently, making them invariant to monotonic scaling."
+  },
+  {
+    "id": "TP3_126",
+    "tp": 3,
+    "category": "tricky",
+    "question": "SimpleImputer(strategy='mean') can impute missing values in boolean true/false columns without casting.",
+    "answer": false,
+    "explanation": "Mean imputation converts boolean columns to floating-point averages, altering boolean data types."
+  },
+  {
+    "id": "TP3_127",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Applying StandardScaler before OneHotEncoding categorical variables is recommended.",
+    "answer": false,
+    "explanation": "Categorical text strings must be One-Hot encoded into numbers BEFORE numerical scaling can be applied."
+  },
+  {
+    "id": "TP3_128",
+    "tp": 3,
+    "category": "tricky",
+    "question": "The fit() method of a transformer modifies the input array X in place and returns the transformed array.",
+    "answer": false,
+    "explanation": "fit() computes parameter statistics without modifying input array X and returns the transformer instance itself."
+  },
+  {
+    "id": "TP3_129",
+    "tp": 3,
+    "category": "tricky",
+    "question": "StratifiedKFold cross-validation should be used for regression targets with continuous floating-point values.",
+    "answer": false,
+    "explanation": "StratifiedKFold requires discrete classification labels y; continuous regression targets use standard KFold."
+  },
+  {
+    "id": "TP3_130",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Applying log1p transformation log(x + 1) fails on zero values.",
+    "answer": false,
+    "explanation": "log1p(x) computes log(1 + x), which safely evaluates log(1) = 0 when x = 0."
+  },
+  {
+    "id": "TP3_131",
+    "tp": 3,
+    "category": "tricky",
+    "question": "ColumnTransformer automatically reorders output columns to match the original input DataFrame column order.",
+    "answer": false,
+    "explanation": "ColumnTransformer concatenates transformed outputs in the order transformers were specified, not original column order."
+  },
+  {
+    "id": "TP3_132",
+    "tp": 3,
+    "category": "tricky",
+    "question": "SimpleImputer strategy='constant' without fill_value defaults to filling missing entries with 0 for text columns.",
+    "answer": false,
+    "explanation": "SimpleImputer with strategy='constant' defaults fill_value to 0 for numbers and 'missing_value' for strings."
+  },
+  {
+    "id": "TP3_133",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Over-sampling minority classes with SMOTE before splitting data into train and test sets prevents data leakage.",
+    "answer": false,
+    "explanation": "Applying SMOTE before splitting creates synthetic test samples derived from training data, causing severe leakage."
+  },
+  {
+    "id": "TP3_134",
+    "tp": 3,
+    "category": "tricky",
+    "question": "StandardScaler divides feature values by the Interquartile Range (IQR).",
+    "answer": false,
+    "explanation": "StandardScaler divides by the standard deviation; RobustScaler divides by the Interquartile Range."
+  },
+  {
+    "id": "TP3_135",
+    "tp": 3,
+    "category": "tricky",
+    "question": "OrdinalEncoder automatically detects ordinal rank from categorical string labels alphabetically.",
+    "answer": false,
+    "explanation": "Alphabetical ordering rarely reflects true ordinal rank (e.g., 'low', 'medium', 'high'); explicit categories must be supplied."
+  },
+  {
+    "id": "TP3_136",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Using test_size=0.0 in train_test_split allocates 100% of data to the test set.",
+    "answer": false,
+    "explanation": "test_size=0.0 allocates 0% to the test set and 100% to the training set."
+  },
+  {
+    "id": "TP3_137",
+    "tp": 3,
+    "category": "tricky",
+    "question": "Feature binarization with Binarizer(threshold=0.5) transforms values above 0.5 into 2.",
+    "answer": false,
+    "explanation": "Binarizer maps values above threshold to 1 and values below or equal to threshold to 0."
+  },
+  {
+    "id": "TP3_138",
+    "tp": 3,
+    "category": "tricky",
+    "question": "ColumnTransformer can execute fit_transform on a pandas DataFrame and return a pandas DataFrame with original headers.",
+    "answer": false,
+    "explanation": "ColumnTransformer returns a raw 2D NumPy ndarray by default, stripping pandas column headers."
+  },
+  {
+    "id": "TP3_139",
+    "tp": 3,
+    "category": "tricky",
+    "question": "MinMaxScaler scales features so that sample variance is guaranteed to equal 1.0.",
+    "answer": false,
+    "explanation": "MinMaxScaler bounds values between 0 and 1; StandardScaler sets sample variance to 1.0."
+  },
+  {
+    "id": "TP3_140",
+    "tp": 3,
+    "category": "tricky",
+    "question": "SimpleImputer(strategy='most_frequent') always returns a 1D vector regardless of input dimensions.",
+    "answer": false,
+    "explanation": "SimpleImputer preserves 2D array shapes when transforming 2D feature matrices."
+  },
+  {
+    "id": "TP3_141",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing data leakage with feature scaling when fitting transformers on the entire dataset prior to splitting.",
+    "answer": false,
+    "explanation": "Fitting scalers on full datasets before splitting causes data leakage by exposing test distribution parameters to training."
+  },
+  {
+    "id": "TP3_142",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that LabelEncoder is designed for multi-column categorical feature matrix X in scikit-learn.",
+    "answer": false,
+    "explanation": "LabelEncoder is meant for 1D target vectors y; feature matrices require OneHotEncoder or OrdinalEncoder."
+  },
+  {
+    "id": "TP3_143",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that MinMaxScaler centers data around a mean of 0 with standard deviation of 1.",
+    "answer": false,
+    "explanation": "StandardScaler centers around mean 0 with std 1; MinMaxScaler rescales data strictly into [0, 1]."
+  },
+  {
+    "id": "TP3_144",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing Ordinal Encoding with One-Hot Encoding when processing nominal categorical variables without intrinsic rank.",
+    "answer": false,
+    "explanation": "Ordinal encoding imposes arbitrary integer ranks on nominal data, misleading linear and distance-based algorithms."
+  },
+  {
+    "id": "TP3_145",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that fitting SimpleImputer on test data inside a cross-validation fold avoids data leakage.",
+    "answer": false,
+    "explanation": "Imputers must be fit ONLY on training folds; fitting on test folds leaks test statistics into preprocessing."
+  },
+  {
+    "id": "TP3_146",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that Decision Tree classifiers require feature scaling with StandardScaler to build splits.",
+    "answer": false,
+    "explanation": "Decision trees evaluate axis-aligned threshold splits per feature independently, making scaling unnecessary."
+  },
+  {
+    "id": "TP3_147",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing SimpleImputer strategy='mean' with strategy='most_frequent' when imputing categorical string columns.",
+    "answer": false,
+    "explanation": "Mean imputation fails on string columns; categorical text requires 'most_frequent' (mode) or 'constant' imputation."
+  },
+  {
+    "id": "TP3_148",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that RobustScaler uses feature min and max values to perform feature normalization.",
+    "answer": false,
+    "explanation": "RobustScaler uses median and IQR; MinMaxScaler uses minimum and maximum values."
+  },
+  {
+    "id": "TP3_149",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that OneHotEncoder(drop='first') produces K dummy columns for K unique categories.",
+    "answer": false,
+    "explanation": "drop='first' drops the reference category, creating K-1 dummy columns to prevent dummy variable trap multicollinearity."
+  },
+  {
+    "id": "TP3_150",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing transformer fit() method with transform() method during dataset preparation.",
+    "answer": false,
+    "explanation": "fit() calculates transformation parameters from data; transform() applies learned parameters to scale or encode data."
+  },
+  {
+    "id": "TP3_151",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that StandardScaler bounds scaled feature values strictly between -1 and +1.",
+    "answer": false,
+    "explanation": "StandardScaler Z-scores have no fixed upper/lower bounds and can exceed +/-3 for extreme values."
+  },
+  {
+    "id": "TP3_152",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that MultiLabelBinarizer outputs a 1D vector of text strings per sample.",
+    "answer": false,
+    "explanation": "MultiLabelBinarizer outputs a 2D binary indicator matrix where columns represent individual tag presence."
+  },
+  {
+    "id": "TP3_153",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing Pipeline intermediate steps with final estimator steps in scikit-learn.",
+    "answer": false,
+    "explanation": "All intermediate pipeline steps must be transformers implementing fit_transform; only the final step can be an estimator."
+  },
+  {
+    "id": "TP3_154",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that StratifiedKFold cross-validation works on continuous floating-point regression targets.",
+    "answer": false,
+    "explanation": "StratifiedKFold requires discrete classification labels y; continuous regression targets require standard KFold."
+  },
+  {
+    "id": "TP3_155",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that SimpleImputer fit_transform preserves pandas DataFrame column headers.",
+    "answer": false,
+    "explanation": "SimpleImputer fit_transform returns a raw NumPy ndarray, stripping DataFrame column names."
+  },
+  {
+    "id": "TP3_156",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing log transformation (log1p) requirements with scaling negative continuous values.",
+    "answer": false,
+    "explanation": "Log transforms require non-negative inputs (x >= 0); applying log to negative numbers produces NaN values."
+  },
+  {
+    "id": "TP3_157",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that make_column_transformer executes feature transformers sequentially in series.",
+    "answer": false,
+    "explanation": "ColumnTransformer executes specified feature transformations in PARALLEL and stacks resulting columns."
+  },
+  {
+    "id": "TP3_158",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that MinMaxScaler is immune to extreme outlier distortions.",
+    "answer": false,
+    "explanation": "Extreme outliers set X_max or X_min, compressing non-outlier data into a tiny sub-range."
+  },
+  {
+    "id": "TP3_159",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing train_test_split shuffle=False with stratified splitting (stratify=y).",
+    "answer": false,
+    "explanation": "shuffle=False retains original dataset row ordering; stratify=y preserves class label ratios in splits."
+  },
+  {
+    "id": "TP3_160",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that k-NN classifiers are unaffected by unscaled features with large numerical magnitudes.",
+    "answer": false,
+    "explanation": "k-NN relies on Euclidean distances, allowing unscaled large-magnitude features to dominate distance calculations."
+  },
+  {
+    "id": "TP3_161",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that LabelBinarizer can be passed directly inside ColumnTransformer for feature matrices.",
+    "answer": false,
+    "explanation": "LabelBinarizer is designed for 1D target labels y and raises errors when used in ColumnTransformer on 2D feature matrices."
+  },
+  {
+    "id": "TP3_162",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing fit_transform() on test set with transform() on test set.",
+    "answer": false,
+    "explanation": "fit_transform() on test set calculates NEW test parameters causing leakage; transform() correctly applies learned training parameters."
+  },
+  {
+    "id": "TP3_163",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that SimpleImputer strategy='median' can process nominal text columns.",
+    "answer": false,
+    "explanation": "Median calculation requires ordered numerical data and fails on non-numeric text columns."
+  },
+  {
+    "id": "TP3_164",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that PolynomialFeatures degree=2 reduces total feature count.",
+    "answer": false,
+    "explanation": "PolynomialFeatures creates interaction terms and squared terms, increasing total feature count."
+  },
+  {
+    "id": "TP3_165",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing random_state=None with random_state=42 in train_test_split.",
+    "answer": false,
+    "explanation": "random_state=None generates different random splits on every execution; integer seeds like 42 ensure exact reproducibility."
+  },
+  {
+    "id": "TP3_166",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that Pipeline.fit(X, y) calls fit_transform on the final estimator step.",
+    "answer": false,
+    "explanation": "Pipeline calls fit_transform on intermediate transformers, but calls fit() on the final estimator step."
+  },
+  {
+    "id": "TP3_167",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that ColumnTransformer can drop rows containing missing values natively.",
+    "answer": false,
+    "explanation": "ColumnTransformer operates column-wise and cannot drop rows; row dropping must be done before pipeline execution."
+  },
+  {
+    "id": "TP3_168",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing OneHotEncoder handle_unknown='ignore' with handle_unknown='error'.",
+    "answer": false,
+    "explanation": "handle_unknown='ignore' encodes unseen test categories as all zeros; 'error' raises an exception on unseen categories."
+  },
+  {
+    "id": "TP3_169",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that target variable y should be included in feature scaling pipelines.",
+    "answer": false,
+    "explanation": "Feature scaling applies to independent predictors X, not target classification labels y."
+  },
+  {
+    "id": "TP3_170",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that StandardScaler changes feature distribution skewness.",
+    "answer": false,
+    "explanation": "StandardScaler shifts location and rescales spread without altering the underlying distribution skewness."
+  },
+  {
+    "id": "TP3_171",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing Min-Max scaling with Robust scaling when handling datasets with extreme outliers.",
+    "answer": false,
+    "explanation": "MinMax scaling is warped by extreme outliers; RobustScaler uses median and IQR to resist outlier distortion."
+  },
+  {
+    "id": "TP3_172",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that OneHotEncoder requires categorical inputs to be pre-encoded as numerical integers.",
+    "answer": false,
+    "explanation": "Scikit-learn OneHotEncoder processes raw string categorical columns directly without pre-encoding to integers."
+  },
+  {
+    "id": "TP3_173",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that SimpleImputer strategy='constant' fill_value defaults to 0 for text columns.",
+    "answer": false,
+    "explanation": "SimpleImputer with strategy='constant' defaults fill_value to 'missing_value' for string columns."
+  },
+  {
+    "id": "TP3_174",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing test_size=0.2 with train_size=0.2 in train_test_split.",
+    "answer": false,
+    "explanation": "test_size=0.2 allocates 20% to test and 80% to train; train_size=0.2 allocates 20% to train and 80% to test."
+  },
+  {
+    "id": "TP3_175",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that Binarizer threshold=0.5 maps values above 0.5 to 2.",
+    "answer": false,
+    "explanation": "Binarizer maps values above threshold to 1 and values below or equal to 0."
+  },
+  {
+    "id": "TP3_176",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that SMOTE oversampling applied before train_test_split is valid.",
+    "answer": false,
+    "explanation": "Applying SMOTE before splitting creates synthetic test samples derived from training data, causing severe data leakage."
+  },
+  {
+    "id": "TP3_177",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing OrdinalEncoder with LabelEncoder in scikit-learn.",
+    "answer": false,
+    "explanation": "OrdinalEncoder processes 2D feature matrices X; LabelEncoder processes 1D target vectors y."
+  },
+  {
+    "id": "TP3_178",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that MinMaxScaler preserves sparse matrix structure when feature minimum is negative.",
+    "answer": false,
+    "explanation": "If feature minimum is negative, subtracting X_min converts zeroes to non-zero values, destroying matrix sparsity."
+  },
+  {
+    "id": "TP3_179",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that Pipeline.predict() requires manual step-by-step feature transformation of raw test data.",
+    "answer": false,
+    "explanation": "Pipeline.predict() automatically passes raw test inputs through all intermediate transformers before predicting."
+  },
+  {
+    "id": "TP3_180",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing StandardScaler formula (X - mean)/std with MinMax formula (X - min)/(max - min).",
+    "answer": false,
+    "explanation": "StandardScaler divides by std_dev after subtracting mean; MinMaxScaler divides by range (max - min) after subtracting min."
+  },
+  {
+    "id": "TP3_181",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that SimpleImputer(strategy='most_frequent') computes the arithmetic mean of discrete columns.",
+    "answer": false,
+    "explanation": "The 'most_frequent' strategy computes the mode (most common value), not the arithmetic mean."
+  },
+  {
+    "id": "TP3_182",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that StandardScaler converts negative numbers into positive numbers exclusively.",
+    "answer": false,
+    "explanation": "StandardScaler centers data around 0, producing negative Z-scores for values below the mean."
+  },
+  {
+    "id": "TP3_183",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing fit() with fit_transform() when initializing a scikit-learn scaler object.",
+    "answer": false,
+    "explanation": "fit() calculates parameters without returning transformed data; fit_transform() calculates parameters and returns transformed data."
+  },
+  {
+    "id": "TP3_184",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that OneHotEncoder dense output is forced by sparse=True.",
+    "answer": false,
+    "explanation": "Dense output is produced when sparse=False (or sparse_output=False); sparse=True outputs scipy sparse matrices."
+  },
+  {
+    "id": "TP3_185",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that feature selection must be performed AFTER training the final classifier.",
+    "answer": false,
+    "explanation": "Feature selection must be performed BEFORE or DURING pipeline training to reduce input dimension for the classifier."
+  },
+  {
+    "id": "TP3_186",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing train set metrics with generalization metrics evaluated on unseen test data.",
+    "answer": false,
+    "explanation": "Train metrics measure fitting on known data; test metrics measure generalization to unseen data."
+  },
+  {
+    "id": "TP3_187",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that log1p(x) transformation can be applied to negative numbers smaller than -1.",
+    "answer": false,
+    "explanation": "log1p(x) computes log(1 + x), which fails for x < -1 because log of negative numbers is undefined in real arithmetic."
+  },
+  {
+    "id": "TP3_188",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that ColumnTransformer output column names match input DataFrame column names by default.",
+    "answer": false,
+    "explanation": "ColumnTransformer outputs a raw NumPy array without column names unless verbose_feature_names_out or get_feature_names_out is used."
+  },
+  {
+    "id": "TP3_189",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing scikit-learn Pipeline with pandas DataFrame chaining.",
+    "answer": false,
+    "explanation": "Scikit-learn Pipeline encapsulates ML transformers/estimators; pandas chaining sequences DataFrame method calls."
+  },
+  {
+    "id": "TP3_190",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that StratifiedKFold maintains equal fold sizes when dataset class distribution is imbalanced.",
+    "answer": false,
+    "explanation": "StratifiedKFold maintains class PROPORTIONS within folds; fold sample sizes remain equal while class counts reflect ratios."
+  },
+  {
+    "id": "TP3_191",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that SimpleImputer handles missing values represented as '?' without configuring missing_values parameter.",
+    "answer": false,
+    "explanation": "SimpleImputer defaults missing_values to np.nan; custom text representations like '?' must be passed explicitly to missing_values."
+  },
+  {
+    "id": "TP3_192",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing LabelEncoder inverse_transform with OneHotEncoder fit_transform.",
+    "answer": false,
+    "explanation": "inverse_transform reverses encoded integers to original text labels; fit_transform computes and applies initial encoding."
+  },
+  {
+    "id": "TP3_193",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that feature scaling changes the number of rows in a dataset matrix.",
+    "answer": false,
+    "explanation": "Feature scaling transforms numerical values within columns without adding or dropping rows."
+  },
+  {
+    "id": "TP3_194",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that MinMaxScaler scales features based on sample variance.",
+    "answer": false,
+    "explanation": "MinMaxScaler scales features based on min and max range bounds; StandardScaler scales based on variance/std_dev."
+  },
+  {
+    "id": "TP3_195",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing data preprocessing pipelines with raw dataset exploratory visualization.",
+    "answer": false,
+    "explanation": "Preprocessing pipelines transform data for modeling; exploratory visualization inspects data distributions graphics."
+  },
+  {
+    "id": "TP3_196",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that fit_transform should be called on test data when deploying a production pipeline.",
+    "answer": false,
+    "explanation": "Production pipelines must call transform() on new data using fitted training parameters, NEVER fit_transform()."
+  },
+  {
+    "id": "TP3_197",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that OneHotEncoder creates 10 dummy columns for a binary feature with 2 categories.",
+    "answer": false,
+    "explanation": "OneHotEncoder creates exactly 2 dummy columns for a binary feature (or 1 column if drop='first')."
+  },
+  {
+    "id": "TP3_198",
+    "tp": 3,
+    "category": "trap",
+    "question": "Confusing RobustScaler median centering with StandardScaler mean centering.",
+    "answer": false,
+    "explanation": "RobustScaler centers data by subtracting the median (Q2); StandardScaler centers data by subtracting the mean."
+  },
+  {
+    "id": "TP3_199",
+    "tp": 3,
+    "category": "trap",
+    "question": "Assuming that scikit-learn transformers modify Python list objects directly.",
+    "answer": false,
+    "explanation": "Scikit-learn transformers operate on NumPy arrays, pandas DataFrames, or scipy sparse matrices, returning array structures."
+  },
+  {
+    "id": "TP3_200",
+    "tp": 3,
+    "category": "trap",
+    "question": "Believing that feature engineering guarantees 100% elimination of all classification errors.",
+    "answer": false,
+    "explanation": "Feature engineering improves model representation signal but cannot guarantee zero classification error on complex noisy data."
   }
 ]

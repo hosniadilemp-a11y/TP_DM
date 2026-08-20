@@ -1,71 +1,65 @@
 {
-  "total_questions": 1000,
-  "tp_summary": [
-    {
-      "tp_id": 1,
-      "name": "Data Cleaning & Preparation",
+  "tps": {
+    "1": {
+      "title": "Raw Data Cleaning",
       "filename": "tp1_data_cleaning.json",
-      "total_questions": 168,
-      "plain_count": 25,
-      "trick_count": 59,
-      "trap_count": 84,
-      "true_count": 68,
-      "false_count": 100
+      "total": 200,
+      "categories": {
+        "normal": 90,
+        "tricky": 50,
+        "trap": 60
+      }
     },
-    {
-      "tp_id": 2,
-      "name": "Exploratory Data Analysis & Visualization",
+    "2": {
+      "title": "Exploratory Data Analysis and Visualization",
       "filename": "tp2_eda_visualization.json",
-      "total_questions": 168,
-      "plain_count": 25,
-      "trick_count": 59,
-      "trap_count": 84,
-      "true_count": 68,
-      "false_count": 100
+      "total": 200,
+      "categories": {
+        "normal": 90,
+        "tricky": 50,
+        "trap": 60
+      }
     },
-    {
-      "tp_id": 3,
-      "name": "Feature Engineering & Selection",
+    "3": {
+      "title": "Data Preprocessing, Feature Engineering and Selection",
       "filename": "tp3_feature_engineering.json",
-      "total_questions": 167,
-      "plain_count": 25,
-      "trick_count": 58,
-      "trap_count": 84,
-      "true_count": 67,
-      "false_count": 100
+      "total": 200,
+      "categories": {
+        "normal": 90,
+        "tricky": 50,
+        "trap": 60
+      }
     },
-    {
-      "tp_id": 4,
-      "name": "Supervised Learning — Classification",
+    "4": {
+      "title": "Model Evaluation & Performance Metrics",
       "filename": "tp4_classification.json",
-      "total_questions": 167,
-      "plain_count": 25,
-      "trick_count": 58,
-      "trap_count": 84,
-      "true_count": 67,
-      "false_count": 100
+      "total": 200,
+      "categories": {
+        "normal": 90,
+        "tricky": 50,
+        "trap": 60
+      }
     },
-    {
-      "tp_id": 5,
-      "name": "Supervised Learning — Regression",
+    "5": {
+      "title": "Supervised Classification Algorithms & Training",
       "filename": "tp5_regression.json",
-      "total_questions": 167,
-      "plain_count": 25,
-      "trick_count": 58,
-      "trap_count": 84,
-      "true_count": 67,
-      "false_count": 100
+      "total": 200,
+      "categories": {
+        "normal": 90,
+        "tricky": 50,
+        "trap": 60
+      }
     },
-    {
-      "tp_id": 6,
-      "name": "Unsupervised Learning & Clustering",
+    "6": {
+      "title": "Unsupervised Learning, Clustering & Association Rules",
       "filename": "tp6_clustering.json",
-      "total_questions": 163,
-      "plain_count": 25,
-      "trick_count": 58,
-      "trap_count": 80,
-      "true_count": 65,
-      "false_count": 98
+      "total": 200,
+      "categories": {
+        "normal": 90,
+        "tricky": 50,
+        "trap": 60
+      }
     }
-  ]
+  },
+  "total_questions": 1200
 }

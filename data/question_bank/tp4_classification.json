@@ -1,1672 +1,1602 @@
 [
   {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Accuracy is defined as the ratio of correct predictions to total predictions.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 504
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Precision measures the proportion of true positive predictions among all positive predictions made.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 505
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Recall (Sensitivity) measures the proportion of true positives correctly identified among all actual positives.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 506
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "F1-score is the harmonic mean of precision and recall.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 507
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "The confusion matrix displays True Positives, False Positives, True Negatives, and False Negatives.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 508
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Specificity measures the true negative rate (TN / (TN + FP)).",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 509
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "ROC curve plots True Positive Rate (Sensitivity) against False Positive Rate (1 - Specificity).",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 510
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "An AUC-ROC score of 1.0 indicates perfect classification performance.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 511
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "An AUC-ROC score of 0.5 represents a model with no discrimination capability (random guessing).",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 512
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Stratified K-Fold cross-validation preserves the percentage of samples for each class in each fold.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 513
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Accuracy can be misleading for evaluating models trained on severely imbalanced datasets.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 514
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "False Positive Rate (FPR) is calculated as FP / (FP + TN).",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 515
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Macro-averaged F1 calculates metrics independently for each class and then takes the unweighted mean.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 516
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Weighted-averaged F1 weights class metrics by the support (number of true instances) of each class.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 517
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Precision-Recall curve is preferred over ROC curve when dealing with highly imbalanced datasets.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 518
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Log-loss (Binary Cross-Entropy) penalizes confident incorrect classification predictions heavily.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 519
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "A confusion matrix for a binary classifier has a dimension of 2x2.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 520
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "F1-score reaches its maximum value of 1.0 when precision and recall are both equal to 1.0.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 521
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Cross-validation provides a robust estimate of model generalization performance on unseen data.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 522
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Type I error corresponds to a False Positive, while Type II error corresponds to a False Negative.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 523
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Adjusting the decision threshold changes the trade-off between precision and recall.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 524
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "High precision with low recall means the model makes few false positive errors but misses many true positives.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 525
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Mean Squared Error (MSE) is a standard regression evaluation metric, not a classification metric.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 526
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Cohen's Kappa measures inter-rater agreement accounting for agreement occurring by chance.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 527
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Overfitting is indicated by high training performance coupled with significantly lower test performance.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 528
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "F1-score is the arithmetic average of precision and recall values.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 529
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Accuracy is the single best metric for evaluating medical anomaly detection with 0.1% positive class prevalence.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 530
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Recall is calculated as TP / (TP + FP) using predicted positives as denominator.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 531
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Precision is calculated as TP / (TP + FN) using actual positives as denominator.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 532
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "An AUC-ROC score of 0.0 represents random guessing classification performance.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 533
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Specificity measures the proportion of predicted negatives that are truly negative.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 534
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "ROC curves plot Precision on the Y-axis against Recall on the X-axis.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 535
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Cross-validation eliminates the need for an independent held-out final test set.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 536
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Macro-averaged metrics give higher weight to majority classes in imbalanced classification.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 537
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "A model with 99% accuracy on a 99% majority class dataset is guaranteed to be highly effective.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 538
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "False Positive Rate (FPR) is equal to 1 minus Precision.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 539
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "F1-score gives greater weight to higher values when precision and recall differ significantly.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 540
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Increasing the classification decision threshold always increases model recall.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 541
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Log-loss equals zero when predicted class probabilities are equal to 0.5 for all instances.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 542
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Confusion matrix rows always represent predicted classes and columns always represent actual classes in all libraries.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 543
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Type I error represents False Negative predictions in hypothesis testing.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 544
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Stratified K-Fold is unnecessary for datasets with heavy class imbalance.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 545
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "An AUC-ROC score can never be less than 0.5 under any circumstances.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 546
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Precision and Recall always increase simultaneously when tuning decision thresholds.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 547
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Micro-averaged F1 score differs from Accuracy in single-label multi-class classification.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 548
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "High recall guarantees that the model has very few false positive predictions.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 549
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Regression metrics like RMSE can be used directly to evaluate binary classification threshold outputs.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 550
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "K-Fold cross-validation with K=1 is equivalent to leave-one-out cross-validation.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 551
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "The F-beta score with beta=2 places twice as much emphasis on precision as on recall.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 552
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Confusion matrix diagonal elements represent classification error counts.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 553
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Overfitting models exhibit low training accuracy and high testing accuracy.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 554
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "ROC AUC score depends heavily on the chosen decision classification threshold value.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 555
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Precision-Recall AUC score is 0.5 for a random classifier regardless of baseline class ratio.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 556
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Sensitivity and Recall refer to two completely different classification metrics.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 557
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Evaluating model performance on training data gives an unbiased estimate of test generalization.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 558
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "F1-score can be calculated even if both precision and recall are equal to 0.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 559
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "False Negative Rate (FNR) is equal to 1 minus Precision.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 560
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Stratified splits shuffle data randomly without considering target class label distributions.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 561
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "High accuracy always implies high precision and high recall simultaneously.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 562
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "A model predicting only the majority class has an F1-score equal to its accuracy on imbalanced data.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 563
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Log-loss is bounded strictly between -1.0 and +1.0.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 564
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Type II error is also known as a False Positive error in statistical testing.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 565
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "AUC-ROC score increases monotonically with the total number of test set instances.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 566
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Specificty is calculated as TN / (TN + FN).",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 567
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Precision is insensitive to changes in false positive rate.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 568
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Leave-One-Out Cross-Validation (LOOCV) has lower computational variance than 10-Fold CV.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 569
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Brier score measures classification accuracy using zero-one step loss.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 570
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "An ROC curve passing through point (0, 1) has an AUC equal to 0.5.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 571
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "F1-score treats precision and recall with unequal differential weights.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 572
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Cross-validation test scores are always higher than training scores for properly fitted models.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 573
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Accuracy equals Precision when False Positives are equal to zero.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 574
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "A classification threshold of 0.0 results in 100% precision for all models.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 575
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Recall increases when the decision threshold is raised from 0.5 to 0.8.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 576
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Confusion matrices can only be constructed for binary classification problems.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 577
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "AUC-PR is identical to AUC-ROC on balanced classification tasks.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 578
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Zero False Negatives implies that Recall is equal to 1.0 (100%).",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 579
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Macro F1 is calculated by pooling global TP, FP, and FN across all classes first.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 580
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Underfitting occurs when a model performs extremely well on training data but poorly on test data.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 581
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "The ROC curve is constructed by varying the classification decision threshold from 0 to 1.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 582
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Cohen's Kappa score of 0 indicates perfect agreement between predicted and true labels.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 583
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Log-loss heavily penalizes incorrect predictions made with low confidence probabilities.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 584
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Precision measures the proportion of actual positives that were correctly classified.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 585
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 13,
-    "text": "Cross-validation score with K=N folds has zero computational overhead.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 586
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "F1-score is defined as the harmonic mean of precision and recall.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 127,
-    "trap_mode": "hidden",
-    "id": 587
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "F1-score is defined as the arithmetic mean of precision and recall.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 127,
-    "trap_mode": "hidden",
-    "id": 588
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Precision is calculated as TP / (TP + FP).",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 128,
-    "trap_mode": "hidden",
-    "id": 589
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Precision is calculated as TP / (TP + FN).",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 128,
-    "trap_mode": "hidden",
-    "id": 590
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Recall (Sensitivity) is calculated as TP / (TP + FN).",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 129,
-    "trap_mode": "hidden",
-    "id": 591
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Recall (Sensitivity) is calculated as TP / (TP + FP).",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 129,
-    "trap_mode": "hidden",
-    "id": 592
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Specificity (True Negative Rate) is calculated as TN / (TN + FP).",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 130,
-    "trap_mode": "hidden",
-    "id": 593
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Specificity (True Negative Rate) is calculated as TN / (TN + FN).",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 130,
-    "trap_mode": "hidden",
-    "id": 594
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "False Positive Rate (FPR) is calculated as FP / (FP + TN).",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 131,
-    "trap_mode": "hidden",
-    "id": 595
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "False Positive Rate (FPR) is calculated as FP / (FP + TP).",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 131,
-    "trap_mode": "hidden",
-    "id": 596
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Accuracy is calculated as (TP + TN) / (TP + TN + FP + FN).",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 132,
-    "trap_mode": "hidden",
-    "id": 597
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Accuracy is calculated as (TP + FP) / (TP + TN + FP + FN).",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 132,
-    "trap_mode": "hidden",
-    "id": 598
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "ROC curve plots True Positive Rate (Sensitivity) on Y-axis against False Positive Rate on X-axis.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 133,
-    "trap_mode": "hidden",
-    "id": 599
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "ROC curve plots Precision on Y-axis against Recall on X-axis.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 133,
-    "trap_mode": "hidden",
-    "id": 600
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "An AUC-ROC score of 1.0 represents perfect classification performance.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 134,
-    "trap_mode": "hidden",
-    "id": 601
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "An AUC-ROC score of 0.5 represents perfect classification performance.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 134,
-    "trap_mode": "hidden",
-    "id": 602
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "An AUC-ROC score of 0.5 represents random guessing performance.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 135,
-    "trap_mode": "hidden",
-    "id": 603
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "An AUC-ROC score of 0.0 represents random guessing performance.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 135,
-    "trap_mode": "hidden",
-    "id": 604
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Stratified K-Fold preserves target class proportions across all cross-validation folds.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 136,
-    "trap_mode": "hidden",
-    "id": 605
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Stratified K-Fold randomly shuffles data without preserving target class proportions.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 136,
-    "trap_mode": "hidden",
-    "id": 606
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Type I error occurs when a true null hypothesis is incorrectly rejected (False Positive).",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 137,
-    "trap_mode": "hidden",
-    "id": 607
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Type I error occurs when a false null hypothesis is incorrectly accepted (False Negative).",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 137,
-    "trap_mode": "hidden",
-    "id": 608
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Type II error occurs when a false null hypothesis fails to be rejected (False Negative).",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 138,
-    "trap_mode": "hidden",
-    "id": 609
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Type II error occurs when a true null hypothesis is incorrectly rejected (False Positive).",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 138,
-    "trap_mode": "hidden",
-    "id": 610
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Raising the decision threshold decreases Recall and increases Precision.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 139,
-    "trap_mode": "hidden",
-    "id": 611
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Raising the decision threshold increases Recall and decreases Precision.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 139,
-    "trap_mode": "hidden",
-    "id": 612
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Lowering the decision threshold increases Recall and decreases Precision.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 140,
-    "trap_mode": "hidden",
-    "id": 613
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Lowering the decision threshold decreases Recall and increases Precision.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 140,
-    "trap_mode": "hidden",
-    "id": 614
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Log-loss heavily penalizes confident incorrect classification probability predictions.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 141,
-    "trap_mode": "hidden",
-    "id": 615
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Log-loss penalizes unconfident correct classification probability predictions.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 141,
-    "trap_mode": "hidden",
-    "id": 616
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Macro-averaged F1 computes unweighted average of F1 scores across individual classes.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 142,
-    "trap_mode": "hidden",
-    "id": 617
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Macro-averaged F1 weights class F1 scores by support count of each class.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 142,
-    "trap_mode": "hidden",
-    "id": 618
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Weighted-averaged F1 weights class metrics by the sample support of each target class.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 143,
-    "trap_mode": "hidden",
-    "id": 619
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Weighted-averaged F1 computes simple unweighted average of metrics across classes.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 143,
-    "trap_mode": "hidden",
-    "id": 620
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Micro-averaged F1 calculates total global TP, FP, and FN across all classes first.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 144,
-    "trap_mode": "hidden",
-    "id": 621
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Micro-averaged F1 computes average of class medians across folds.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 144,
-    "trap_mode": "hidden",
-    "id": 622
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Confusion matrix main diagonal entries represent correctly classified instance counts.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 145,
-    "trap_mode": "hidden",
-    "id": 623
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Confusion matrix main diagonal entries represent misclassified instance counts.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 145,
-    "trap_mode": "hidden",
-    "id": 624
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Confusion matrix off-diagonal entries represent misclassified error counts.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 146,
-    "trap_mode": "hidden",
-    "id": 625
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Confusion matrix off-diagonal entries represent correctly classified instance counts.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 146,
-    "trap_mode": "hidden",
-    "id": 626
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Precision-Recall curve is preferred over ROC curve for severely imbalanced target datasets.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 147,
-    "trap_mode": "hidden",
-    "id": 627
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "ROC curve is preferred over Precision-Recall curve for severely imbalanced target datasets.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 147,
-    "trap_mode": "hidden",
-    "id": 628
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Overfitting manifests as high training accuracy coupled with low test generalization accuracy.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 148,
-    "trap_mode": "hidden",
-    "id": 629
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Overfitting manifests as low training accuracy coupled with high test generalization accuracy.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 148,
-    "trap_mode": "hidden",
-    "id": 630
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Underfitting manifests as low training accuracy and low test accuracy.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 149,
-    "trap_mode": "hidden",
-    "id": 631
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Underfitting manifests as 100% training accuracy and 100% test accuracy.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 149,
-    "trap_mode": "hidden",
-    "id": 632
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "F-beta score with beta=0.5 places greater weight on Precision than on Recall.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 150,
-    "trap_mode": "hidden",
-    "id": 633
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "F-beta score with beta=0.5 places greater weight on Recall than on Precision.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 150,
-    "trap_mode": "hidden",
-    "id": 634
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "F-beta score with beta=2.0 places greater weight on Recall than on Precision.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 151,
-    "trap_mode": "hidden",
-    "id": 635
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "F-beta score with beta=2.0 places greater weight on Precision than on Recall.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 151,
-    "trap_mode": "hidden",
-    "id": 636
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Zero False Negatives implies a Recall score of exactly 1.0 (100%).",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 152,
-    "trap_mode": "hidden",
-    "id": 637
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Zero False Negatives implies a Precision score of exactly 1.0 (100%).",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 152,
-    "trap_mode": "hidden",
-    "id": 638
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Zero False Positives implies a Precision score of exactly 1.0 (100%).",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 153,
-    "trap_mode": "hidden",
-    "id": 639
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Zero False Positives implies a Recall score of exactly 1.0 (100%).",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 153,
-    "trap_mode": "hidden",
-    "id": 640
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Cross-validation K=10 splits dataset into 10 folds using 9 for training and 1 for validation.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 154,
-    "trap_mode": "hidden",
-    "id": 641
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Cross-validation K=10 splits dataset into 10 folds using 1 for training and 9 for validation.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 154,
-    "trap_mode": "hidden",
-    "id": 642
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Leave-One-Out Cross-Validation (LOOCV) sets K equal to the total sample size N.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 155,
-    "trap_mode": "hidden",
-    "id": 643
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Leave-One-Out Cross-Validation (LOOCV) sets K equal to 2 folds.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 155,
-    "trap_mode": "hidden",
-    "id": 644
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Cohen's Kappa score of 1.0 indicates perfect agreement beyond chance expectation.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 156,
-    "trap_mode": "hidden",
-    "id": 645
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Cohen's Kappa score of 0.0 indicates perfect agreement beyond chance expectation.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 156,
-    "trap_mode": "hidden",
-    "id": 646
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Sensitivity is identical to Recall in binary classification.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 157,
-    "trap_mode": "attention_check",
-    "id": 647
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Sensitivity is identical to Specificity in binary classification.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 157,
-    "trap_mode": "attention_check",
-    "id": 648
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "True Negative Rate is identical to Specificity in binary classification.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 158,
-    "trap_mode": "attention_check",
-    "id": 649
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "True Negative Rate is identical to Precision in binary classification.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 158,
-    "trap_mode": "attention_check",
-    "id": 650
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "High Precision means most positive predictions made by the model are truly positive.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 159,
-    "trap_mode": "attention_check",
-    "id": 651
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "High Precision means most actual positive instances were successfully found by model.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 159,
-    "trap_mode": "attention_check",
-    "id": 652
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "High Recall means most actual positive instances in dataset were successfully retrieved.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 160,
-    "trap_mode": "attention_check",
-    "id": 653
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "High Recall means most positive predictions made by model are truly positive.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 160,
-    "trap_mode": "attention_check",
-    "id": 654
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Accuracy of 0.95 on 95% negative class dataset can be achieved by predicting all negative.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 161,
-    "trap_mode": "attention_check",
-    "id": 655
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Accuracy of 0.95 on 95% negative class dataset proves model has high positive recall.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 161,
-    "trap_mode": "attention_check",
-    "id": 656
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "A classification model with ROC AUC of 0.8 outperforms a random classifier.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 162,
-    "trap_mode": "attention_check",
-    "id": 657
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "A classification model with ROC AUC of 0.4 outperforms a random classifier.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 162,
-    "trap_mode": "attention_check",
-    "id": 658
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Brier score measures mean squared difference between predicted probability and actual outcome.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 163,
-    "trap_mode": "attention_check",
-    "id": 659
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Brier score measures harmonic mean of precision and recall.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 163,
-    "trap_mode": "attention_check",
-    "id": 660
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Log-loss ranges from 0 to positive infinity.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 164,
-    "trap_mode": "attention_check",
-    "id": 661
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Log-loss ranges from -1.0 to +1.0.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 164,
-    "trap_mode": "attention_check",
-    "id": 662
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "AUC-ROC is independent of classification decision threshold because it evaluates all thresholds.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 165,
-    "trap_mode": "attention_check",
-    "id": 663
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "AUC-ROC depends on choosing one single fixed classification decision threshold.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 165,
-    "trap_mode": "attention_check",
-    "id": 664
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Confusion matrix dimension for 3-class target is 3x3.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 166,
-    "trap_mode": "attention_check",
-    "id": 665
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Confusion matrix dimension for 3-class target is 2x2.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 166,
-    "trap_mode": "attention_check",
-    "id": 666
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "K-Fold CV score variance decreases as fold count K increases from 2 to 10.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 167,
-    "trap_mode": "attention_check",
-    "id": 667
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "K-Fold CV score variance increases as fold count K decreases from 10 to 2.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 167,
-    "trap_mode": "attention_check",
-    "id": 668
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Class imbalance causes Accuracy to overestimate model effectiveness on minority class.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 168,
-    "trap_mode": "attention_check",
-    "id": 669
-  },
-  {
-    "tp_id": 4,
-    "topic_id": 10,
-    "text": "Class imbalance causes Precision to overestimate model effectiveness on minority class.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 168,
-    "trap_mode": "attention_check",
-    "id": 670
+    "id": "TP4_001",
+    "tp": 4,
+    "category": "normal",
+    "question": "A confusion matrix is a tabular layout displaying true positive, true negative, false positive, and false negative prediction counts.",
+    "answer": true,
+    "explanation": "The confusion matrix summarizes classification predictions against actual ground truth labels."
+  },
+  {
+    "id": "TP4_002",
+    "tp": 4,
+    "category": "normal",
+    "question": "True Positives (TP) represent actual positive instances that were correctly predicted as positive by the model.",
+    "answer": true,
+    "explanation": "TP counts positive cases where model prediction matches actual positive ground truth."
+  },
+  {
+    "id": "TP4_003",
+    "tp": 4,
+    "category": "normal",
+    "question": "True Negatives (TN) represent actual negative instances that were correctly predicted as negative by the model.",
+    "answer": true,
+    "explanation": "TN counts negative cases where model prediction matches actual negative ground truth."
+  },
+  {
+    "id": "TP4_004",
+    "tp": 4,
+    "category": "normal",
+    "question": "False Positives (FP) represent actual negative instances that were incorrectly predicted as positive by the model.",
+    "answer": true,
+    "explanation": "FP (Type I error) occurs when a negative instance is falsely classified as positive."
+  },
+  {
+    "id": "TP4_005",
+    "tp": 4,
+    "category": "normal",
+    "question": "False Negatives (FN) represent actual positive instances that were incorrectly predicted as negative by the model.",
+    "answer": true,
+    "explanation": "FN (Type II error) occurs when a positive instance is falsely classified as negative."
+  },
+  {
+    "id": "TP4_006",
+    "tp": 4,
+    "category": "normal",
+    "question": "Accuracy is calculated as the ratio of correct predictions (TP + TN) to total predictions (TP + TN + FP + FN).",
+    "answer": true,
+    "explanation": "Accuracy measures the overall proportion of correctly classified instances."
+  },
+  {
+    "id": "TP4_007",
+    "tp": 4,
+    "category": "normal",
+    "question": "Precision is calculated as TP / (TP + FP), measuring the proportion of true positives among all positive predictions.",
+    "answer": true,
+    "explanation": "Precision evaluates prediction accuracy within the positive predicted class."
+  },
+  {
+    "id": "TP4_008",
+    "tp": 4,
+    "category": "normal",
+    "question": "Recall (Sensitivity) is calculated as TP / (TP + FN), measuring the proportion of actual positive instances correctly identified.",
+    "answer": true,
+    "explanation": "Recall measures the model's ability to catch all true positive instances."
+  },
+  {
+    "id": "TP4_009",
+    "tp": 4,
+    "category": "normal",
+    "question": "F1-score is the harmonic mean of precision and recall.",
+    "answer": true,
+    "explanation": "F1-score balances precision and recall into a single metric using their harmonic mean."
+  },
+  {
+    "id": "TP4_010",
+    "tp": 4,
+    "category": "normal",
+    "question": "The formula for F1-score is 2 * (Precision * Recall) / (Precision + Recall).",
+    "answer": true,
+    "explanation": "The harmonic mean formula balances precision and recall, penalizing extreme trade-off imbalances."
+  },
+  {
+    "id": "TP4_011",
+    "tp": 4,
+    "category": "normal",
+    "question": "Precision is particularly critical when False Positives carry high cost or penalty.",
+    "answer": true,
+    "explanation": "High precision minimizes false alarms in scenarios where false positive predictions are costly."
+  },
+  {
+    "id": "TP4_012",
+    "tp": 4,
+    "category": "normal",
+    "question": "Recall is particularly critical when False Negatives carry high cost or danger, such as medical disease detection.",
+    "answer": true,
+    "explanation": "High recall ensures missing a true positive case (e.g., undiagnosed illness) is minimized."
+  },
+  {
+    "id": "TP4_013",
+    "tp": 4,
+    "category": "normal",
+    "question": "Accuracy can be misleading when evaluating models on heavily imbalanced datasets.",
+    "answer": true,
+    "explanation": "In imbalanced data (e.g., 99% negative), a naive model predicting all negatives achieves 99% accuracy while failing completely."
+  },
+  {
+    "id": "TP4_014",
+    "tp": 4,
+    "category": "normal",
+    "question": "The ROC curve plots the True Positive Rate (Recall) against the False Positive Rate (FPR) across various classification thresholds.",
+    "answer": true,
+    "explanation": "ROC curves map TPR (y-axis) vs FPR (x-axis) across varying probability decision thresholds."
+  },
+  {
+    "id": "TP4_015",
+    "tp": 4,
+    "category": "normal",
+    "question": "False Positive Rate (FPR) is calculated as FP / (FP + TN).",
+    "answer": true,
+    "explanation": "FPR measures the proportion of actual negatives incorrectly flagged as positive."
+  },
+  {
+    "id": "TP4_016",
+    "tp": 4,
+    "category": "normal",
+    "question": "The Area Under the ROC Curve (AUC-ROC) score ranges from 0.0 to 1.0.",
+    "answer": true,
+    "explanation": "AUC-ROC measures discrimination capability: 1.0 represents perfect separation, 0.5 represents random guessing."
+  },
+  {
+    "id": "TP4_017",
+    "tp": 4,
+    "category": "normal",
+    "question": "An AUC-ROC score of 0.5 indicates a classifier with performance equivalent to random guessing.",
+    "answer": true,
+    "explanation": "An AUC of 0.5 corresponds to the diagonal baseline of no class discrimination capability."
+  },
+  {
+    "id": "TP4_018",
+    "tp": 4,
+    "category": "normal",
+    "question": "An AUC-ROC score of 1.0 represents a perfect classification model with zero prediction error.",
+    "answer": true,
+    "explanation": "AUC = 1.0 means the model separates positive and negative classes perfectly across thresholds."
+  },
+  {
+    "id": "TP4_019",
+    "tp": 4,
+    "category": "normal",
+    "question": "In scikit-learn, classification_report generates precision, recall, f1-score, and support metrics for each class.",
+    "answer": true,
+    "explanation": "classification_report summarizes comprehensive per-class classification metrics in a clean text layout."
+  },
+  {
+    "id": "TP4_020",
+    "tp": 4,
+    "category": "normal",
+    "question": "The predict_proba() method returns predicted class probabilities for input instances.",
+    "answer": true,
+    "explanation": "predict_proba() outputs continuous probability estimates used to construct ROC curves and threshold metrics."
+  },
+  {
+    "id": "TP4_021",
+    "tp": 4,
+    "category": "normal",
+    "question": "Cross-validation provides a robust estimate of model generalization performance by partitioning data into multiple folds.",
+    "answer": true,
+    "explanation": "Cross-validation evaluates models across iterative train/validation splits, reducing single-split sampling variance."
+  },
+  {
+    "id": "TP4_022",
+    "tp": 4,
+    "category": "normal",
+    "question": "In K-Fold cross-validation, the dataset is divided into K equal partitions (folds).",
+    "answer": true,
+    "explanation": "K-Fold splits data into K subsets, training K times on K-1 folds and validating on the remaining fold."
+  },
+  {
+    "id": "TP4_023",
+    "tp": 4,
+    "category": "normal",
+    "question": "In 5-Fold cross-validation, the model is trained 5 separate times, each time using 4 folds for training and 1 for validation.",
+    "answer": true,
+    "explanation": "Each iteration uses 80% data for training and 20% for validation across 5 total iterations."
+  },
+  {
+    "id": "TP4_024",
+    "tp": 4,
+    "category": "normal",
+    "question": "The final cross-validation score is typically reported as the mean of the validation scores across all K folds.",
+    "answer": true,
+    "explanation": "Averaging fold scores yields a stable summary metric of generalization performance."
+  },
+  {
+    "id": "TP4_025",
+    "tp": 4,
+    "category": "normal",
+    "question": "StratifiedKFold ensures that each fold maintains approximately the same class label proportions as the full dataset.",
+    "answer": true,
+    "explanation": "Stratification preserves target class distributions across every cross-validation partition fold."
+  },
+  {
+    "id": "TP4_026",
+    "tp": 4,
+    "category": "normal",
+    "question": "StratifiedKFold is recommended over standard KFold when evaluating models on imbalanced classification datasets.",
+    "answer": true,
+    "explanation": "Preserving class ratios prevents folds from lacking minority class samples entirely."
+  },
+  {
+    "id": "TP4_027",
+    "tp": 4,
+    "category": "normal",
+    "question": "ShuffleSplit cross-validation randomly shuffles and splits data into training and validation sets for a specified number of iterations.",
+    "answer": true,
+    "explanation": "ShuffleSplit allows independent random splits with custom train/validation sizing per iteration."
+  },
+  {
+    "id": "TP4_028",
+    "tp": 4,
+    "category": "normal",
+    "question": "LeaveOneOut (LOO) cross-validation is equivalent to K-Fold cross-validation where K equals the total sample size N.",
+    "answer": true,
+    "explanation": "LOO uses N-1 samples for training and 1 sample for validation across N iterations."
+  },
+  {
+    "id": "TP4_029",
+    "tp": 4,
+    "category": "normal",
+    "question": "In scikit-learn, cross_val_score(model, X, y, cv=5) returns an array of 5 validation scores.",
+    "answer": true,
+    "explanation": "cross_val_score evaluates estimator performance over cross-validation folds and returns fold score arrays."
+  },
+  {
+    "id": "TP4_030",
+    "tp": 4,
+    "category": "normal",
+    "question": "LeaveOneOut cross-validation can be computationally expensive on large datasets because it fits the model N times.",
+    "answer": true,
+    "explanation": "Fitting N separate models when N is large requires extensive computational processing time."
+  },
+  {
+    "id": "TP4_031",
+    "tp": 4,
+    "category": "normal",
+    "question": "GridSearchCV systematically evaluates a specified grid of hyperparameter combinations using cross-validation.",
+    "answer": true,
+    "explanation": "GridSearchCV performs exhaustive search over a parameter grid to find optimal model settings."
+  },
+  {
+    "id": "TP4_032",
+    "tp": 4,
+    "category": "normal",
+    "question": "In scikit-learn, param_grid is defined as a dictionary mapping hyperparameter names to lists of values to test.",
+    "answer": true,
+    "explanation": "param_grid dict specifies candidate parameter arrays (e.g., {'n_neighbors': [3, 5, 7], 'metric': ['euclidean', 'manhattan']})."
+  },
+  {
+    "id": "TP4_033",
+    "tp": 4,
+    "category": "normal",
+    "question": "GridSearchCV identifies the hyperparameter combination that achieves the highest mean cross-validation score.",
+    "answer": true,
+    "explanation": "GridSearchCV ranks parameter configurations by their mean validation performance."
+  },
+  {
+    "id": "TP4_034",
+    "tp": 4,
+    "category": "normal",
+    "question": "After fitting, grid.best_params_ returns a dictionary of the top-performing hyperparameter settings.",
+    "answer": true,
+    "explanation": "best_params_ stores the parameter dictionary yielding the highest cross-validation score."
+  },
+  {
+    "id": "TP4_035",
+    "tp": 4,
+    "category": "normal",
+    "question": "After fitting, grid.best_score_ returns the mean cross-validation score achieved by the best hyperparameter configuration.",
+    "answer": true,
+    "explanation": "best_score_ reports the peak mean validation score observed during grid search."
+  },
+  {
+    "id": "TP4_036",
+    "tp": 4,
+    "category": "normal",
+    "question": "After fitting, grid.best_estimator_ returns the trained model instance configured with the best hyperparameters.",
+    "answer": true,
+    "explanation": "best_estimator_ holds the optimized model fitted on the complete training set."
+  },
+  {
+    "id": "TP4_037",
+    "tp": 4,
+    "category": "normal",
+    "question": "GridSearchCV automatically refits the best model on the entire training dataset after completing grid search by default.",
+    "answer": true,
+    "explanation": "refit=True (default) fits the optimal parameter model on the full training dataset after search completion."
+  },
+  {
+    "id": "TP4_038",
+    "tp": 4,
+    "category": "normal",
+    "question": "Evaluating grid.best_estimator_.score(X_test, y_test) measures generalization performance on unseen test data.",
+    "answer": true,
+    "explanation": "Scoring the best estimator on held-out test data verifies out-of-sample prediction capability."
+  },
+  {
+    "id": "TP4_039",
+    "tp": 4,
+    "category": "normal",
+    "question": "Grid Search helps optimize non-learnable hyperparameters like the number of neighbors k in k-NN.",
+    "answer": true,
+    "explanation": "Hyperparameters cannot be learned directly via gradient descent and require tuning routines like Grid Search."
+  },
+  {
+    "id": "TP4_040",
+    "tp": 4,
+    "category": "normal",
+    "question": "Exhaustive grid search on large parameter grids can require significant computation time.",
+    "answer": true,
+    "explanation": "Testing all parameter combinations across K folds multiplies training iterations rapidly."
+  },
+  {
+    "id": "TP4_041",
+    "tp": 4,
+    "category": "normal",
+    "question": "A validation curve displays model training and validation scores as a function of varying hyperparameter values.",
+    "answer": true,
+    "explanation": "validation_curve plots performance against hyperparameter values to diagnose underfitting and overfitting ranges."
+  },
+  {
+    "id": "TP4_042",
+    "tp": 4,
+    "category": "normal",
+    "question": "A learning curve displays training and validation scores as a function of increasing training dataset size.",
+    "answer": true,
+    "explanation": "learning_curve plots performance against training sample size N to evaluate data volume impact."
+  },
+  {
+    "id": "TP4_043",
+    "tp": 4,
+    "category": "normal",
+    "question": "Overfitting occurs when a model performs exceptionally well on training data but poorly on validation/test data.",
+    "answer": true,
+    "explanation": "Overfitting means the model memorizes training noise, failing to generalize to unseen samples."
+  },
+  {
+    "id": "TP4_044",
+    "tp": 4,
+    "category": "normal",
+    "question": "Underfitting occurs when a model performs poorly on both training data and validation/test data.",
+    "answer": true,
+    "explanation": "Underfitting indicates insufficient model complexity or poor feature representation to capture signal."
+  },
+  {
+    "id": "TP4_045",
+    "tp": 4,
+    "category": "normal",
+    "question": "On a validation curve, a large gap between high training score and low validation score indicates overfitting.",
+    "answer": true,
+    "explanation": "A wide performance gap signifies high variance (overfitting) on training data."
+  },
+  {
+    "id": "TP4_046",
+    "tp": 4,
+    "category": "normal",
+    "question": "On a validation curve, low training score and low validation score together indicate underfitting.",
+    "answer": true,
+    "explanation": "Simultaneously poor training and validation scores signify high bias (underfitting)."
+  },
+  {
+    "id": "TP4_047",
+    "tp": 4,
+    "category": "normal",
+    "question": "A learning curve can indicate whether collecting additional training samples is likely to improve model performance.",
+    "answer": true,
+    "explanation": "If validation score is still rising as training size increases, adding data can improve performance."
+  },
+  {
+    "id": "TP4_048",
+    "tp": 4,
+    "category": "normal",
+    "question": "In scikit-learn, validation_curve returns arrays of training and validation scores for specified hyperparameter values.",
+    "answer": true,
+    "explanation": "validation_curve outputs train_scores and test_scores matrices across parameter values and folds."
+  },
+  {
+    "id": "TP4_049",
+    "tp": 4,
+    "category": "normal",
+    "question": "In scikit-learn, learning_curve returns training set sizes N along with train and validation score arrays.",
+    "answer": true,
+    "explanation": "learning_curve outputs sample sizes N, train_scores, and test_scores across specified sample fractions."
+  },
+  {
+    "id": "TP4_050",
+    "tp": 4,
+    "category": "normal",
+    "question": "Plotting mean train vs mean validation scores on diagnostic curves helps select optimal parameter ranges visually.",
+    "answer": true,
+    "explanation": "Visualizing curve means clarifies where validation performance peaks relative to training fit."
+  },
+  {
+    "id": "TP4_051",
+    "tp": 4,
+    "category": "normal",
+    "question": "In binary classification, Macro Average calculates metrics independently for each class and averages them equally.",
+    "answer": true,
+    "explanation": "Macro average treats all classes equally, averaging per-class metrics without weighting by class support."
+  },
+  {
+    "id": "TP4_052",
+    "tp": 4,
+    "category": "normal",
+    "question": "Weighted Average calculates per-class metrics weighted by the number of actual instances (support) in each class.",
+    "answer": true,
+    "explanation": "Weighted average scales per-class metrics by class instance frequency, accounting for class imbalance."
+  },
+  {
+    "id": "TP4_053",
+    "tp": 4,
+    "category": "normal",
+    "question": "Support in a classification report represents the actual count of ground truth instances in each class.",
+    "answer": true,
+    "explanation": "Support lists the total number of true samples belonging to each target category in the test set."
+  },
+  {
+    "id": "TP4_054",
+    "tp": 4,
+    "category": "normal",
+    "question": "Evaluating accuracy alone on a dataset with 95% Class 0 and 5% Class 1 can mask a model that predicts only Class 0.",
+    "answer": true,
+    "explanation": "A trivial model predicting only majority class achieves 95% accuracy while failing 100% of minority class 1 cases."
+  },
+  {
+    "id": "TP4_055",
+    "tp": 4,
+    "category": "normal",
+    "question": "The Receiver Operating Characteristic (ROC) curve x-axis represents the False Positive Rate (FPR).",
+    "answer": true,
+    "explanation": "ROC curve plots FPR on the horizontal x-axis and TPR (Recall) on the vertical y-axis."
+  },
+  {
+    "id": "TP4_056",
+    "tp": 4,
+    "category": "normal",
+    "question": "The ROC curve y-axis represents the True Positive Rate (TPR / Recall).",
+    "answer": true,
+    "explanation": "TPR (Sensitivity/Recall) is plotted on the vertical y-axis of the ROC curve."
+  },
+  {
+    "id": "TP4_057",
+    "tp": 4,
+    "category": "normal",
+    "question": "Increasing the classification decision threshold increases precision while generally decreasing recall.",
+    "answer": true,
+    "explanation": "A higher decision threshold requires higher probability confidence for positive predictions, raising precision but missing positive cases."
+  },
+  {
+    "id": "TP4_058",
+    "tp": 4,
+    "category": "normal",
+    "question": "Decreasing the classification decision threshold increases recall while generally decreasing precision.",
+    "answer": true,
+    "explanation": "A lower decision threshold flags more positive predictions, catching more true positives (higher recall) with more false alarms (lower precision)."
+  },
+  {
+    "id": "TP4_059",
+    "tp": 4,
+    "category": "normal",
+    "question": "A random classifier yields a diagonal line from (0,0) to (1,1) on an ROC plot.",
+    "answer": true,
+    "explanation": "Uninformative random guessing produces a straight diagonal line with AUC = 0.5."
+  },
+  {
+    "id": "TP4_060",
+    "tp": 4,
+    "category": "normal",
+    "question": "Precision-Recall (PR) curves are often preferred over ROC curves for evaluating models on highly imbalanced datasets.",
+    "answer": true,
+    "explanation": "PR curves focus exclusively on the minority positive class without being dampened by large true negative counts."
+  },
+  {
+    "id": "TP4_061",
+    "tp": 4,
+    "category": "normal",
+    "question": "In scikit-learn, accuracy_score(y_true, y_pred) calculates classification accuracy.",
+    "answer": true,
+    "explanation": "accuracy_score computes the fraction of correct prediction matches between y_true and y_pred."
+  },
+  {
+    "id": "TP4_062",
+    "tp": 4,
+    "category": "normal",
+    "question": "In scikit-learn, precision_score(y_true, y_pred) computes precision for positive class predictions.",
+    "answer": true,
+    "explanation": "precision_score calculates TP / (TP + FP) for binary target classification."
+  },
+  {
+    "id": "TP4_063",
+    "tp": 4,
+    "category": "normal",
+    "question": "In scikit-learn, recall_score(y_true, y_pred) computes recall for true positive instances.",
+    "answer": true,
+    "explanation": "recall_score calculates TP / (TP + FN) for binary target classification."
+  },
+  {
+    "id": "TP4_064",
+    "tp": 4,
+    "category": "normal",
+    "question": "In scikit-learn, f1_score(y_true, y_pred) computes the harmonic mean F1-score.",
+    "answer": true,
+    "explanation": "f1_score evaluates the balanced harmonic metric between precision and recall."
+  },
+  {
+    "id": "TP4_065",
+    "tp": 4,
+    "category": "normal",
+    "question": "In scikit-learn, roc_auc_score(y_true, y_score) computes the area under the ROC curve.",
+    "answer": true,
+    "explanation": "roc_auc_score calculates the numerical AUC score given true labels and predicted positive probabilities."
+  },
+  {
+    "id": "TP4_066",
+    "tp": 4,
+    "category": "normal",
+    "question": "In scikit-learn, confusion_matrix(y_true, y_pred) returns a 2x2 matrix for binary classification.",
+    "answer": true,
+    "explanation": "confusion_matrix outputs array([[TN, FP], [FN, TP]]) for binary targets."
+  },
+  {
+    "id": "TP4_067",
+    "tp": 4,
+    "category": "normal",
+    "question": "Seaborn heatmap (sns.heatmap) can visually display a confusion matrix with numerical annotations.",
+    "answer": true,
+    "explanation": "sns.heatmap(cm, annot=True, fmt='d') renders a clear annotated visual matrix layout."
+  },
+  {
+    "id": "TP4_068",
+    "tp": 4,
+    "category": "normal",
+    "question": "Evaluating cross_val_score with scoring='f1' computes F1-scores across cross-validation folds.",
+    "answer": true,
+    "explanation": "Passing scoring='f1' directs cross_val_score to evaluate F1 performance instead of default accuracy."
+  },
+  {
+    "id": "TP4_069",
+    "tp": 4,
+    "category": "normal",
+    "question": "GridSearchCV can optimize models based on custom scoring metrics such as scoring='roc_auc'.",
+    "answer": true,
+    "explanation": "GridSearchCV accepts custom scoring targets (e.g., roc_auc, f1, precision) to guide hyperparameter selection."
+  },
+  {
+    "id": "TP4_070",
+    "tp": 4,
+    "category": "normal",
+    "question": "Holding out a dedicated test set guarantees unbiased validation of final model performance after hyperparameter tuning.",
+    "answer": true,
+    "explanation": "Evaluating on held-out test data ensures hyperparameter search choices did not overfit validation folds."
+  },
+  {
+    "id": "TP4_071",
+    "tp": 4,
+    "category": "normal",
+    "question": "Cross-validation prevents reporting overly optimistic performance metrics caused by a single lucky train/test split.",
+    "answer": true,
+    "explanation": "Averaging across multiple fold partitions smooths out random split variations."
+  },
+  {
+    "id": "TP4_072",
+    "tp": 4,
+    "category": "normal",
+    "question": "When tuning hyperparameters, the test set must remain untouched until final model validation.",
+    "answer": true,
+    "explanation": "Tuning parameters directly on test data corrupts test set independence and leads to biased evaluation."
+  },
+  {
+    "id": "TP4_073",
+    "tp": 4,
+    "category": "normal",
+    "question": "A model with 99% training accuracy and 50% test accuracy suffers from severe overfitting.",
+    "answer": true,
+    "explanation": "A huge performance drop between train and test performance is a textbook indicator of high variance overfitting."
+  },
+  {
+    "id": "TP4_074",
+    "tp": 4,
+    "category": "normal",
+    "question": "Underfitting can be mitigated by increasing model complexity or engineering more informative features.",
+    "answer": true,
+    "explanation": "Adding model capacity or richer feature signals helps underfitting models capture complex data patterns."
+  },
+  {
+    "id": "TP4_075",
+    "tp": 4,
+    "category": "normal",
+    "question": "Overfitting can be mitigated by regularization, reducing feature count, or collecting more training samples.",
+    "answer": true,
+    "explanation": "Constraining model complexity or expanding sample size prevents models from memorizing sample noise."
+  },
+  {
+    "id": "TP4_076",
+    "tp": 4,
+    "category": "normal",
+    "question": "In scikit-learn, cross_val_score uses StratifiedKFold by default when passed a classification estimator and discrete y.",
+    "answer": true,
+    "explanation": "Scikit-learn cross_val_score automatically applies stratified splitting for classification tasks by default."
+  },
+  {
+    "id": "TP4_077",
+    "tp": 4,
+    "category": "normal",
+    "question": "In K-Fold cross-validation, increasing K increases training set size per fold while increasing computational load.",
+    "answer": true,
+    "explanation": "Larger K provides more training data per fold (N*(K-1)/K) but requires training K separate model iterations."
+  },
+  {
+    "id": "TP4_078",
+    "tp": 4,
+    "category": "normal",
+    "question": "In scikit-learn, roc_curve returns false positive rates, true positive rates, and decision thresholds.",
+    "answer": true,
+    "explanation": "roc_curve outputs (fpr, tpr, thresholds) arrays used for ROC plotting and threshold selection."
+  },
+  {
+    "id": "TP4_079",
+    "tp": 4,
+    "category": "normal",
+    "question": "Comparing multiple algorithms using identical cross-validation folds ensures fair model comparison.",
+    "answer": true,
+    "explanation": "Evaluating candidate algorithms on identical data partitions isolates algorithm quality from split noise."
+  },
+  {
+    "id": "TP4_080",
+    "tp": 4,
+    "category": "normal",
+    "question": "Model evaluation strategy should align directly with domain business goals and error costs.",
+    "answer": true,
+    "explanation": "Metric selection must reflect domain consequences, prioritizing recall for critical safety/medical tasks or precision for low-false-alarm requirements."
+  },
+  {
+    "id": "TP4_081",
+    "tp": 4,
+    "category": "normal",
+    "question": "In binary classification, accuracy is defined as (TP + TN) / (TP + TN + FP + FN).",
+    "answer": true,
+    "explanation": "Accuracy computes the total proportion of correct predictions across all instances."
+  },
+  {
+    "id": "TP4_082",
+    "tp": 4,
+    "category": "normal",
+    "question": "Precision measures the proportion of positive predictions that are true positive cases.",
+    "answer": true,
+    "explanation": "Precision evaluates TP / (TP + FP) to measure prediction reliability."
+  },
+  {
+    "id": "TP4_083",
+    "tp": 4,
+    "category": "normal",
+    "question": "Recall measures the proportion of actual positive instances correctly flagged by the model.",
+    "answer": true,
+    "explanation": "Recall evaluates TP / (TP + FN) to measure true positive coverage."
+  },
+  {
+    "id": "TP4_084",
+    "tp": 4,
+    "category": "normal",
+    "question": "F1-score combines precision and recall into a single metric using their harmonic mean.",
+    "answer": true,
+    "explanation": "F1-score balances precision and recall into a single harmonic mean metric."
+  },
+  {
+    "id": "TP4_085",
+    "tp": 4,
+    "category": "normal",
+    "question": "AUC-ROC score measures the ability of a classification model to rank positive samples higher than negative samples.",
+    "answer": true,
+    "explanation": "AUC-ROC quantifies overall class ranking discrimination across thresholds."
+  },
+  {
+    "id": "TP4_086",
+    "tp": 4,
+    "category": "normal",
+    "question": "Confusion matrix summarizes true positive, true negative, false positive, and false negative predictions.",
+    "answer": true,
+    "explanation": "The confusion matrix organizes prediction results into a 2x2 contingency table."
+  },
+  {
+    "id": "TP4_087",
+    "tp": 4,
+    "category": "normal",
+    "question": "K-Fold cross-validation splits data into K equal folds, training K times on K-1 folds and validating on 1 fold.",
+    "answer": true,
+    "explanation": "K-Fold evaluates model stability across K iterative partitions."
+  },
+  {
+    "id": "TP4_088",
+    "tp": 4,
+    "category": "normal",
+    "question": "StratifiedKFold maintains identical target class proportions in every fold partition.",
+    "answer": true,
+    "explanation": "Stratification preserves target class distributions across cross-validation splits."
+  },
+  {
+    "id": "TP4_089",
+    "tp": 4,
+    "category": "normal",
+    "question": "GridSearchCV exhaustively tests hyperparameter combinations on cross-validation folds.",
+    "answer": true,
+    "explanation": "GridSearchCV searches parameter grids to find configurations yielding peak cross-validation scores."
+  },
+  {
+    "id": "TP4_090",
+    "tp": 4,
+    "category": "normal",
+    "question": "Learning curves plot training and validation performance against increasing sample size N.",
+    "answer": true,
+    "explanation": "Learning curves diagnose underfitting or overfitting as dataset size increases."
+  },
+  {
+    "id": "TP4_091",
+    "tp": 4,
+    "category": "tricky",
+    "question": "Accuracy is always the best metric for evaluating classification models regardless of class balance.",
+    "answer": false,
+    "explanation": "Accuracy is misleading on imbalanced datasets; a model predicting only the majority class achieves high accuracy while failing completely on minority cases."
+  },
+  {
+    "id": "TP4_092",
+    "tp": 4,
+    "category": "tricky",
+    "question": "In a binary confusion matrix formatted as [[TN, FP], [FN, TP]], the top-left cell represents True Positives.",
+    "answer": false,
+    "explanation": "In standard scikit-learn confusion matrix layout [[TN, FP], [FN, TP]], the top-left cell represents True Negatives (TN)."
+  },
+  {
+    "id": "TP4_093",
+    "tp": 4,
+    "category": "tricky",
+    "question": "Recall measures the proportion of positive predictions that are actually correct.",
+    "answer": false,
+    "explanation": "Precision measures correct positive PREDICTIONS (TP / (TP+FP)); Recall measures identified actual POSITIVE INSTANCES (TP / (TP+FN))."
+  },
+  {
+    "id": "TP4_094",
+    "tp": 4,
+    "category": "tricky",
+    "question": "F1-score is calculated as the standard arithmetic mean of precision and recall.",
+    "answer": false,
+    "explanation": "F1-score is the HARMONIC mean of precision and recall: 2*(P*R)/(P+R), not the arithmetic mean."
+  },
+  {
+    "id": "TP4_095",
+    "tp": 4,
+    "category": "tricky",
+    "question": "An AUC-ROC score of 0.0 indicates a model whose predictions are equivalent to random guessing.",
+    "answer": false,
+    "explanation": "AUC of 0.5 represents random guessing; AUC of 0.0 represents a perfectly inverted model whose predictions can be flipped to achieve AUC 1.0."
+  },
+  {
+    "id": "TP4_096",
+    "tp": 4,
+    "category": "tricky",
+    "question": "Cross-validation fit statistics computed across all folds simultaneously should be used to scale pre-split data.",
+    "answer": false,
+    "explanation": "Computing scaling statistics across all data/folds prior to splitting leaks validation statistics into training, causing data leakage."
+  },
+  {
+    "id": "TP4_097",
+    "tp": 4,
+    "category": "tricky",
+    "question": "In scikit-learn, cross_val_score modifies the input model object in place and saves the best fold model.",
+    "answer": false,
+    "explanation": "cross_val_score clones the estimator for each fold and discards fold models, returning only score arrays without modifying the input estimator."
+  },
+  {
+    "id": "TP4_098",
+    "tp": 4,
+    "category": "tricky",
+    "question": "GridSearchCV evaluates hyperparameter combinations directly on the held-out test set.",
+    "answer": false,
+    "explanation": "GridSearchCV evaluates parameter combinations using cross-validation on the TRAINING set, reserving the test set for final evaluation."
+  },
+  {
+    "id": "TP4_099",
+    "tp": 4,
+    "category": "tricky",
+    "question": "A model with low training accuracy and high validation accuracy suffers from severe overfitting.",
+    "answer": false,
+    "explanation": "Overfitting is characterized by HIGH training accuracy and LOW validation accuracy."
+  },
+  {
+    "id": "TP4_100",
+    "tp": 4,
+    "category": "tricky",
+    "question": "Increasing the decision probability threshold from 0.5 to 0.8 always increases recall.",
+    "answer": false,
+    "explanation": "Raising the probability threshold makes positive predictions stricter, which DECREASES (or maintains) recall while increasing precision."
+  },
+  {
+    "id": "TP4_101",
+    "tp": 4,
+    "category": "tricky",
+    "question": "LeaveOneOut cross-validation is fast and computationally cheap for a dataset with 1,000,000 samples.",
+    "answer": false,
+    "explanation": "LeaveOneOut fits N separate models (1,000,000 model fits here), making it extremely slow and computationally expensive."
+  },
+  {
+    "id": "TP4_102",
+    "tp": 4,
+    "category": "tricky",
+    "question": "StratifiedKFold partitions data such that each fold contains equal numbers of samples from every class, even on imbalanced data.",
+    "answer": false,
+    "explanation": "StratifiedKFold preserves the ORIGINAL class proportion ratio in each fold, not equal numbers across classes."
+  },
+  {
+    "id": "TP4_103",
+    "tp": 4,
+    "category": "tricky",
+    "question": "On a validation curve, an underfitting model exhibits a very high training score and a very low validation score.",
+    "answer": false,
+    "explanation": "Underfitting is characterized by LOW training score and LOW validation score; high train and low validation indicate overfitting."
+  },
+  {
+    "id": "TP4_104",
+    "tp": 4,
+    "category": "tricky",
+    "question": "A learning curve that shows training score and validation score converging at a high performance level indicates severe underfitting.",
+    "answer": false,
+    "explanation": "Convergence at a HIGH performance level indicates a well-fitted model that generalizes well with sufficient data."
+  },
+  {
+    "id": "TP4_105",
+    "tp": 4,
+    "category": "tricky",
+    "question": "In scikit-learn, precision_score(y_true, y_pred) requires y_pred to contain continuous probability floats.",
+    "answer": false,
+    "explanation": "precision_score requires discrete binary/class predictions (0/1), whereas roc_auc_score requires continuous probabilities."
+  },
+  {
+    "id": "TP4_106",
+    "tp": 4,
+    "category": "tricky",
+    "question": "The ROC curve is plotted with Precision on the y-axis and Recall on the x-axis.",
+    "answer": false,
+    "explanation": "ROC curve plots True Positive Rate (Recall) on the y-axis and False Positive Rate (FPR) on the x-axis; PR curves plot Precision vs Recall."
+  },
+  {
+    "id": "TP4_107",
+    "tp": 4,
+    "category": "tricky",
+    "question": "Using grid.best_estimator_ automatically fits a new model using default hyperparameters.",
+    "answer": false,
+    "explanation": "best_estimator_ returns the model configured with OPTIMAL hyperparameters tuned during grid search."
+  },
+  {
+    "id": "TP4_108",
+    "tp": 4,
+    "category": "tricky",
+    "question": "Macro average in classification_report weights each class metric by its sample size support.",
+    "answer": false,
+    "explanation": "Macro average computes an UNWEIGHTED arithmetic mean across classes; Weighted average weights metrics by class support."
+  },
+  {
+    "id": "TP4_109",
+    "tp": 4,
+    "category": "tricky",
+    "question": "A model with 100% precision is guaranteed to catch all actual positive cases in the dataset.",
+    "answer": false,
+    "explanation": "100% precision means every positive prediction was correct, but it may miss many positive cases (yielding low recall)."
+  },
+  {
+    "id": "TP4_110",
+    "tp": 4,
+    "category": "tricky",
+    "question": "ShuffleSplit cross-validation guarantees that every sample is used in the validation set exactly once.",
+    "answer": false,
+    "explanation": "ShuffleSplit samples partitions randomly with replacement across iterations; some samples may appear in validation multiple times or never."
+  },
+  {
+    "id": "TP4_111",
+    "tp": 4,
+    "category": "tricky",
+    "question": "Applying cross_val_score on a dataset with missing NaN values automatically imputes missing entries.",
+    "answer": false,
+    "explanation": "cross_val_score does not impute NaNs automatically; missing entries must be handled in a Pipeline or prior to scoring."
+  },
+  {
+    "id": "TP4_112",
+    "tp": 4,
+    "category": "tricky",
+    "question": "The False Positive Rate (FPR) is calculated as FP / (TP + FP).",
+    "answer": false,
+    "explanation": "FPR is calculated as FP / (FP + TN); FP / (TP + FP) equals 1 - Precision."
+  },
+  {
+    "id": "TP4_113",
+    "tp": 4,
+    "category": "tricky",
+    "question": "A high F1-score guarantees that both precision and recall are equal to 1.0.",
+    "answer": false,
+    "explanation": "High F1-score indicates a strong balance between precision and recall, but they need not be exactly 1.0 nor equal."
+  },
+  {
+    "id": "TP4_114",
+    "tp": 4,
+    "category": "tricky",
+    "question": "GridSearchCV parameter param_grid accepts a list of trained classifier instances.",
+    "answer": false,
+    "explanation": "param_grid accepts a dictionary mapping hyperparameter string names to lists of candidate parameter values."
+  },
+  {
+    "id": "TP4_115",
+    "tp": 4,
+    "category": "tricky",
+    "question": "An AUC-ROC score of 0.85 means the model correctly classifies 85% of all test instances.",
+    "answer": false,
+    "explanation": "AUC-ROC measures class ranking discrimination probability (85% chance a random positive ranks higher than a random negative), not raw accuracy."
+  },
+  {
+    "id": "TP4_116",
+    "tp": 4,
+    "category": "tricky",
+    "question": "KFold with shuffle=False generates identical random splits regardless of initial dataset order.",
+    "answer": false,
+    "explanation": "shuffle=False takes consecutive sample slices based strictly on initial dataset order; changing dataset order changes fold contents."
+  },
+  {
+    "id": "TP4_117",
+    "tp": 4,
+    "category": "tricky",
+    "question": "Evaluating a classifier using model.score(X_test, y_test) calculates the F1-score by default.",
+    "answer": false,
+    "explanation": "In scikit-learn classifiers, model.score() calculates mean ACCURACY by default, not F1-score."
+  },
+  {
+    "id": "TP4_118",
+    "tp": 4,
+    "category": "tricky",
+    "question": "On a learning curve, if training score remains much higher than validation score as N grows, adding data will never help.",
+    "answer": false,
+    "explanation": "A persistent gap between train and validation scores indicates high variance (overfitting); adding more training data often helps close the gap."
+  },
+  {
+    "id": "TP4_119",
+    "tp": 4,
+    "category": "tricky",
+    "question": "Precision-Recall curves are uninformative when evaluating datasets with severe class imbalance.",
+    "answer": false,
+    "explanation": "Precision-Recall curves are specifically RECOMMENDED for severely imbalanced datasets because they ignore True Negatives."
+  },
+  {
+    "id": "TP4_120",
+    "tp": 4,
+    "category": "tricky",
+    "question": "In scikit-learn confusion_matrix(y_true, y_pred), the rows represent predicted labels and columns represent true labels.",
+    "answer": false,
+    "explanation": "In scikit-learn confusion_matrix, ROWS represent TRUE labels and COLUMNS represent PREDICTED labels."
+  },
+  {
+    "id": "TP4_121",
+    "tp": 4,
+    "category": "tricky",
+    "question": "A model that predicts the positive class for every single instance achieves 100% precision.",
+    "answer": false,
+    "explanation": "Predicting positive for every instance catches all positive cases (100% recall) but generates many false positives, lowering precision."
+  },
+  {
+    "id": "TP4_122",
+    "tp": 4,
+    "category": "tricky",
+    "question": "Setting cv=1 in cross_val_score executes standard single-fold validation.",
+    "answer": false,
+    "explanation": "Cross-validation requires at least 2 folds (cv >= 2); passing cv=1 raises a ValueError in scikit-learn."
+  },
+  {
+    "id": "TP4_123",
+    "tp": 4,
+    "category": "tricky",
+    "question": "The harmonic mean used in F1-score gives equal weight to extreme values compared to the arithmetic mean.",
+    "answer": false,
+    "explanation": "The harmonic mean heavily penalizes low values, ensuring F1-score stays low if EITHER precision or recall is low."
+  },
+  {
+    "id": "TP4_124",
+    "tp": 4,
+    "category": "tricky",
+    "question": "GridSearchCV refit=False returns a fully trained best_estimator_ model fitted on all training data.",
+    "answer": false,
+    "explanation": "refit=False skips final model fitting on the full dataset; best_estimator_ is NOT available when refit=False."
+  },
+  {
+    "id": "TP4_125",
+    "tp": 4,
+    "category": "tricky",
+    "question": "In ROC analysis, a lower threshold always produces a lower True Positive Rate.",
+    "answer": false,
+    "explanation": "Lowering the decision threshold makes positive predictions easier, which INCREASES (or maintains) the True Positive Rate (Recall)."
+  },
+  {
+    "id": "TP4_126",
+    "tp": 4,
+    "category": "tricky",
+    "question": "Validation curves plot training size N on the horizontal x-axis.",
+    "answer": false,
+    "explanation": "Validation curves plot HYPERPARAMETER values on the x-axis; Learning curves plot training size N on the x-axis."
+  },
+  {
+    "id": "TP4_127",
+    "tp": 4,
+    "category": "tricky",
+    "question": "A classification model with high variance is characterized by underfitting both train and test data.",
+    "answer": false,
+    "explanation": "High variance corresponds to OVERFITTING (memorizing training data); high bias corresponds to underfitting."
+  },
+  {
+    "id": "TP4_128",
+    "tp": 4,
+    "category": "tricky",
+    "question": "LeaveOneOut cross-validation uses 50% of data for training and 50% for validation in each iteration.",
+    "answer": false,
+    "explanation": "LeaveOneOut uses N-1 samples (almost 100%) for training and exactly 1 sample for validation in each iteration."
+  },
+  {
+    "id": "TP4_129",
+    "tp": 4,
+    "category": "tricky",
+    "question": "Evaluating accuracy on balanced binary data yields misleading results compared to imbalanced data.",
+    "answer": false,
+    "explanation": "Accuracy is a valid and reliable metric on BALANCED data; it becomes misleading on IMBALANCED data."
+  },
+  {
+    "id": "TP4_130",
+    "tp": 4,
+    "category": "tricky",
+    "question": "Scikit-learn roc_curve function accepts discrete binary predictions (0/1) to draw smooth ROC curves.",
+    "answer": false,
+    "explanation": "roc_curve requires continuous probability estimates or decision scores (from predict_proba or decision_function) to evaluate thresholds."
+  },
+  {
+    "id": "TP4_131",
+    "tp": 4,
+    "category": "tricky",
+    "question": "StratifiedKFold splits continuous target values y into equal-width histogram bins for regression scoring.",
+    "answer": false,
+    "explanation": "StratifiedKFold is strictly for discrete classification labels; continuous regression targets use standard KFold."
+  },
+  {
+    "id": "TP4_132",
+    "tp": 4,
+    "category": "tricky",
+    "question": "In scikit-learn, precision_score with pos_label=0 computes precision targeting class 1.",
+    "answer": false,
+    "explanation": "pos_label specifies which class is treated as positive; pos_label=0 computes precision targeting class 0."
+  },
+  {
+    "id": "TP4_133",
+    "tp": 4,
+    "category": "tricky",
+    "question": "A model with 0% false positives achieves 100% recall unconditionally.",
+    "answer": false,
+    "explanation": "0% false positives means FP = 0 (100% precision), but recall depends on TP / (TP + FN) and can still be low if FN > 0."
+  },
+  {
+    "id": "TP4_134",
+    "tp": 4,
+    "category": "tricky",
+    "question": "GridSearchCV evaluate step executes fit_transform on test set folds to optimize scaling.",
+    "answer": false,
+    "explanation": "GridSearchCV fits transformers ONLY on training folds to prevent data leakage into validation folds."
+  },
+  {
+    "id": "TP4_135",
+    "tp": 4,
+    "category": "tricky",
+    "question": "Specificty is mathematically identical to Recall in binary classification.",
+    "answer": false,
+    "explanation": "Recall is Sensitivity (TP / (TP+FN)); Specificity is True Negative Rate (TN / (TN+FP))."
+  },
+  {
+    "id": "TP4_136",
+    "tp": 4,
+    "category": "tricky",
+    "question": "Overfitting models exhibit low training error and low cross-validation error.",
+    "answer": false,
+    "explanation": "Overfitting models exhibit low training error but HIGH cross-validation error."
+  },
+  {
+    "id": "TP4_137",
+    "tp": 4,
+    "category": "tricky",
+    "question": "In scikit-learn classification_report, support indicates the accuracy score achieved for that class.",
+    "answer": false,
+    "explanation": "Support indicates the total number of actual ground truth samples present in that class."
+  },
+  {
+    "id": "TP4_138",
+    "tp": 4,
+    "category": "tricky",
+    "question": "AUC-ROC score is heavily distorted by changing the classification decision threshold.",
+    "answer": false,
+    "explanation": "AUC-ROC evaluates performance ACROSS ALL decision thresholds, making it invariant to single threshold choices."
+  },
+  {
+    "id": "TP4_139",
+    "tp": 4,
+    "category": "tricky",
+    "question": "K-Fold cross-validation with K=10 trains a total of 100 model instances.",
+    "answer": false,
+    "explanation": "K-Fold cross-validation with K=10 trains exactly 10 model instances (one per fold)."
+  },
+  {
+    "id": "TP4_140",
+    "tp": 4,
+    "category": "tricky",
+    "question": "Setting scoring='accuracy' in GridSearchCV optimizes for F1-score.",
+    "answer": false,
+    "explanation": "scoring='accuracy' optimizes for classification accuracy; optimizing for F1 requires scoring='f1'."
+  },
+  {
+    "id": "TP4_141",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing Precision with Recall when evaluating medical diagnosis models where missing a disease case is fatal.",
+    "answer": false,
+    "explanation": "Medical diagnosis prioritizes RECALL (catching all true positive cases) to minimize dangerous false negatives."
+  },
+  {
+    "id": "TP4_142",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that Accuracy is a reliable performance metric for severely imbalanced datasets (e.g., 99% negative).",
+    "answer": false,
+    "explanation": "Accuracy is misleading on imbalanced data because a dummy model predicting 100% negative achieves 99% accuracy while failing completely."
+  },
+  {
+    "id": "TP4_143",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that scikit-learn confusion_matrix places True Positives in the top-left cell.",
+    "answer": false,
+    "explanation": "Scikit-learn confusion_matrix format [[TN, FP], [FN, TP]] places True Negatives (TN) top-left and True Positives (TP) bottom-right."
+  },
+  {
+    "id": "TP4_144",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing the arithmetic mean with the harmonic mean when calculating F1-score.",
+    "answer": false,
+    "explanation": "F1-score uses the HARMONIC mean 2*(P*R)/(P+R), which heavily penalizes imbalances between precision and recall."
+  },
+  {
+    "id": "TP4_145",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that an AUC-ROC score of 0.5 represents a perfect classification model.",
+    "answer": false,
+    "explanation": "AUC of 0.5 represents uninformative random guessing; AUC of 1.0 represents a perfect classifier."
+  },
+  {
+    "id": "TP4_146",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that fitting transformers on the full dataset before cross_val_score is valid preprocessing.",
+    "answer": false,
+    "explanation": "Fitting transformers on full datasets before cross-validation leaks validation fold statistics into training folds."
+  },
+  {
+    "id": "TP4_147",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing False Positives (Type I error) with False Negatives (Type II error).",
+    "answer": false,
+    "explanation": "False Positive (Type I) is incorrectly flagging a negative as positive; False Negative (Type II) is failing to flag a true positive."
+  },
+  {
+    "id": "TP4_148",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that GridSearchCV best_estimator_ evaluates parameter combinations directly on the test set.",
+    "answer": false,
+    "explanation": "GridSearchCV tunes parameters using training set cross-validation, reserving the test set for final evaluation."
+  },
+  {
+    "id": "TP4_149",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that high training accuracy combined with low test accuracy indicates an underfitting model.",
+    "answer": false,
+    "explanation": "High training accuracy with low test accuracy indicates OVERFITTING (high variance), not underfitting."
+  },
+  {
+    "id": "TP4_150",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing ROC curves (TPR vs FPR) with Precision-Recall curves (Precision vs Recall).",
+    "answer": false,
+    "explanation": "ROC curves plot TPR against FPR across thresholds; PR curves plot Precision against Recall."
+  },
+  {
+    "id": "TP4_151",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that raising the classification decision threshold from 0.5 to 0.8 always increases recall.",
+    "answer": false,
+    "explanation": "Raising the probability threshold requires stronger confidence for positive calls, which DECREASES recall."
+  },
+  {
+    "id": "TP4_152",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that StratifiedKFold alters class proportions in each fold to make classes 50/50 balanced.",
+    "answer": false,
+    "explanation": "StratifiedKFold preserves the ORIGINAL dataset class proportions in each fold, not a 50/50 balance."
+  },
+  {
+    "id": "TP4_153",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing validation curves (score vs hyperparameter) with learning curves (score vs sample size N).",
+    "answer": false,
+    "explanation": "Validation curves evaluate hyperparameter impact; learning curves evaluate training sample size N impact."
+  },
+  {
+    "id": "TP4_154",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that cross_val_score modifies the input classifier object and saves fold model weights.",
+    "answer": false,
+    "explanation": "cross_val_score evaluates temporary clones of the estimator across folds without modifying the original input estimator."
+  },
+  {
+    "id": "TP4_155",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that Macro Average in classification_report weights class metrics by sample support.",
+    "answer": false,
+    "explanation": "Macro average computes an unweighted mean across classes; Weighted average weights class metrics by support."
+  },
+  {
+    "id": "TP4_156",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing Sensitivity (Recall) with Specificity (True Negative Rate).",
+    "answer": false,
+    "explanation": "Sensitivity/Recall is TP / (TP+FN); Specificity is TN / (TN+FP)."
+  },
+  {
+    "id": "TP4_157",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that a model with 100% precision catches every actual positive instance in the dataset.",
+    "answer": false,
+    "explanation": "100% precision means zero false positives, but the model may miss many positive instances (yielding low recall)."
+  },
+  {
+    "id": "TP4_158",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that LeaveOneOut cross-validation is computationally fast for 500,000 samples.",
+    "answer": false,
+    "explanation": "LeaveOneOut fits N separate models (500,000 model fits here), making it extremely slow for large datasets."
+  },
+  {
+    "id": "TP4_159",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing FPR formula FP/(FP+TN) with Precision formula TP/(TP+FP).",
+    "answer": false,
+    "explanation": "FPR measures false alarms among actual negatives; Precision measures accuracy among positive predictions."
+  },
+  {
+    "id": "TP4_160",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that GridSearchCV parameter grid param_grid accepts a list of fitted model instances.",
+    "answer": false,
+    "explanation": "param_grid accepts a dictionary mapping hyperparameter string names to lists of candidate parameter values."
+  },
+  {
+    "id": "TP4_161",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that PR curves are inferior to ROC curves for evaluating severely imbalanced datasets.",
+    "answer": false,
+    "explanation": "PR curves are specifically RECOMMENDED for imbalanced data because they focus on the minority positive class without TN dampening."
+  },
+  {
+    "id": "TP4_162",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing scikit-learn predict() discrete labels with predict_proba() continuous probabilities.",
+    "answer": false,
+    "explanation": "predict() outputs discrete class labels (0/1); predict_proba() outputs continuous class probability estimates."
+  },
+  {
+    "id": "TP4_163",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that K-Fold cross-validation with K=5 trains a total of 1 model.",
+    "answer": false,
+    "explanation": "K-Fold with K=5 trains exactly 5 separate model instances (one per fold iteration)."
+  },
+  {
+    "id": "TP4_164",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that a learning curve showing high train score and low validation score needs higher model complexity.",
+    "answer": false,
+    "explanation": "A persistent gap between high train and low validation score indicates OVERFITTING, which requires regularization or simpler models."
+  },
+  {
+    "id": "TP4_165",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing scikit-learn accuracy_score(y_true, y_pred) argument order.",
+    "answer": false,
+    "explanation": "accuracy_score expects ground truth y_true as first argument and predictions y_pred as second argument."
+  },
+  {
+    "id": "TP4_166",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that setting refit=False in GridSearchCV still exposes grid.best_estimator_.",
+    "answer": false,
+    "explanation": "When refit=False, GridSearchCV skips final model fitting and best_estimator_ is NOT generated."
+  },
+  {
+    "id": "TP4_167",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that increasing training sample size N always worsens model validation performance.",
+    "answer": false,
+    "explanation": "Increasing training sample size N generally improves generalization and raises validation scores."
+  },
+  {
+    "id": "TP4_168",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing high bias (underfitting) with high variance (overfitting) in error diagnosis.",
+    "answer": false,
+    "explanation": "High bias causes underfitting (poor train and test scores); high variance causes overfitting (high train, poor test scores)."
+  },
+  {
+    "id": "TP4_169",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that roc_auc_score function can accept raw text labels without binary/probability conversion.",
+    "answer": false,
+    "explanation": "roc_auc_score requires numerical binary target labels and continuous probability estimates."
+  },
+  {
+    "id": "TP4_170",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that model evaluation can be skipped if training score reaches 100%.",
+    "answer": false,
+    "explanation": "100% training score often indicates severe memorization/overfitting, making rigorous test set evaluation essential."
+  },
+  {
+    "id": "TP4_171",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing support in classification_report with classification accuracy percentage.",
+    "answer": false,
+    "explanation": "Support represents the actual COUNT of ground truth instances in a class, not an accuracy percentage."
+  },
+  {
+    "id": "TP4_172",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that StratifiedKFold can be used on continuous numerical target variables in regression.",
+    "answer": false,
+    "explanation": "StratifiedKFold requires discrete classification labels y; continuous regression targets use standard KFold."
+  },
+  {
+    "id": "TP4_173",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that an AUC-ROC score of 1.0 means the model makes 50% prediction errors.",
+    "answer": false,
+    "explanation": "AUC-ROC of 1.0 represents a perfect classification model with ZERO prediction errors."
+  },
+  {
+    "id": "TP4_174",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing F1-score with Accuracy on balanced classification datasets.",
+    "answer": false,
+    "explanation": "Accuracy measures overall correct fraction (TP+TN)/Total; F1-score measures harmonic balance 2*P*R/(P+R)."
+  },
+  {
+    "id": "TP4_175",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that cross_val_score scoring='roc_auc' accepts discrete binary predictions y_pred.",
+    "answer": false,
+    "explanation": "scoring='roc_auc' requires estimators that implement predict_proba or decision_function to generate continuous probabilities."
+  },
+  {
+    "id": "TP4_176",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that lowering the classification decision threshold always decreases recall.",
+    "answer": false,
+    "explanation": "Lowering the decision threshold makes positive calls easier, which INCREASES (or maintains) recall."
+  },
+  {
+    "id": "TP4_177",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing scikit-learn f1_score average='macro' with average='weighted'.",
+    "answer": false,
+    "explanation": "average='macro' averages class F1-scores equally; average='weighted' weights class F1-scores by class support."
+  },
+  {
+    "id": "TP4_178",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that random guessing yields an AUC-ROC curve hugging the top-left corner.",
+    "answer": false,
+    "explanation": "Random guessing yields a straight diagonal line from (0,0) to (1,1) with AUC = 0.5."
+  },
+  {
+    "id": "TP4_179",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that model.score() on a scikit-learn classifier computes F1-score by default.",
+    "answer": false,
+    "explanation": "Scikit-learn classifier model.score() computes mean ACCURACY by default."
+  },
+  {
+    "id": "TP4_180",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing test set evaluation with cross-validation fold evaluation during hyperparameter tuning.",
+    "answer": false,
+    "explanation": "Cross-validation tunes parameters on training folds; test set provides final independent validation."
+  },
+  {
+    "id": "TP4_181",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that precision_score equals recall_score when False Positives equal False Negatives.",
+    "answer": true,
+    "explanation": "If FP == FN, then TP / (TP + FP) equals TP / (TP + FN), making precision equal to recall."
+  },
+  {
+    "id": "TP4_182",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that GridSearchCV cannot optimize multiple hyperparameters simultaneously.",
+    "answer": false,
+    "explanation": "GridSearchCV evaluates all combinations of multiple specified hyperparameters simultaneously across a grid matrix."
+  },
+  {
+    "id": "TP4_183",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing Type I error (False Positive) with Type II error (False Negative).",
+    "answer": false,
+    "explanation": "Type I error is a False Positive (incorrectly flagging negative as positive); Type II error is a False Negative (missing a true positive)."
+  },
+  {
+    "id": "TP4_184",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that LeaveOneOut cross-validation uses test_size=0.5 in each fold.",
+    "answer": false,
+    "explanation": "LeaveOneOut uses exactly 1 sample for validation (test_size = 1/N) and N-1 samples for training in each fold."
+  },
+  {
+    "id": "TP4_185",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that a confusion matrix can only be constructed for binary classification problems.",
+    "answer": false,
+    "explanation": "Confusion matrices extend naturally to multi-class problems as N x N matrices comparing actual vs predicted classes."
+  },
+  {
+    "id": "TP4_186",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing training score curves with test score curves on a learning curve plot.",
+    "answer": false,
+    "explanation": "Training score curves measure performance on training subsets; test/validation curves measure generalization on validation folds."
+  },
+  {
+    "id": "TP4_187",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that zero false negatives results in a Recall score of 1.0 (100%).",
+    "answer": true,
+    "explanation": "Recall = TP / (TP + FN); if FN = 0, Recall = TP / TP = 1.0 (100%)."
+  },
+  {
+    "id": "TP4_188",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that cross-validation eliminates the need for an independent test set completely.",
+    "answer": false,
+    "explanation": "An independent test set is still required to provide unbiased final validation after using cross-validation for parameter tuning."
+  },
+  {
+    "id": "TP4_189",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing ROC AUC score calculation with raw confusion matrix accuracy.",
+    "answer": false,
+    "explanation": "ROC AUC calculates area under probability threshold curves; accuracy calculates discrete prediction matches."
+  },
+  {
+    "id": "TP4_190",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that raising the probability threshold to 1.0 guarantees catching all true positive cases.",
+    "answer": false,
+    "explanation": "Threshold of 1.0 requires 100% confidence for positive calls, missing most positive cases and driving recall toward 0."
+  },
+  {
+    "id": "TP4_191",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that scikit-learn f1_score returns a 2x2 matrix object.",
+    "answer": false,
+    "explanation": "f1_score returns a single scalar float value (or array of per-class floats), not a 2x2 matrix."
+  },
+  {
+    "id": "TP4_192",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing KFold n_splits parameter with total dataset sample count N.",
+    "answer": false,
+    "explanation": "n_splits specifies the number of partition folds K (e.g., 5 or 10), not the total dataset sample count N."
+  },
+  {
+    "id": "TP4_193",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that high bias in a model is resolved by dropping training data.",
+    "answer": false,
+    "explanation": "High bias (underfitting) requires increasing model complexity or feature richness, not dropping training data."
+  },
+  {
+    "id": "TP4_194",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that GridSearchCV param_grid values must be numerical floats exclusively.",
+    "answer": false,
+    "explanation": "param_grid supports any hyperparameter types, including strings (e.g., metrics, kernels) and booleans."
+  },
+  {
+    "id": "TP4_195",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing precision_score with recall_score when false alarms must be minimized.",
+    "answer": false,
+    "explanation": "Minimizing false alarms (False Positives) prioritizes Precision; catching all true cases (minimizing FN) prioritizes Recall."
+  },
+  {
+    "id": "TP4_196",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that a model with high variance performs poorly on training data.",
+    "answer": false,
+    "explanation": "High variance (overfitting) models perform EXCELLENTLY on training data but poorly on test data."
+  },
+  {
+    "id": "TP4_197",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that ROC curves can be computed without probability predictions or decision scores.",
+    "answer": false,
+    "explanation": "ROC curves evaluate performance across varying threshold cutoffs, requiring continuous probability or decision scores."
+  },
+  {
+    "id": "TP4_198",
+    "tp": 4,
+    "category": "trap",
+    "question": "Confusing StratifiedKFold with ShuffleSplit in scikit-learn.",
+    "answer": false,
+    "explanation": "StratifiedKFold splits data into K non-overlapping folds preserving class ratios; ShuffleSplit generates independent random train/test iterations."
+  },
+  {
+    "id": "TP4_199",
+    "tp": 4,
+    "category": "trap",
+    "question": "Assuming that F1-score is always greater than both Precision and Recall.",
+    "answer": false,
+    "explanation": "F1-score is the harmonic mean of Precision and Recall and lies BETWEEN them (or equals them if P == R)."
+  },
+  {
+    "id": "TP4_200",
+    "tp": 4,
+    "category": "trap",
+    "question": "Believing that model evaluation metrics guarantee an algorithm will perform flawlessly on future out-of-distribution data.",
+    "answer": false,
+    "explanation": "Evaluation metrics measure performance on sampled test data; future out-of-distribution data shifts can still degrade performance."
   }
 ]

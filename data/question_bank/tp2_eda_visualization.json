@@ -1,1682 +1,1602 @@
 [
   {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "The sample mean is sensitive to extreme values in a skewed distribution.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 169
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Pearson correlation measures linear relationships between continuous variables.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 170
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "A Spearman correlation of +1.0 indicates a perfect monotonic relationship.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 171
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "In a right-skewed distribution, the mean is typically greater than the median.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 172
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "A boxplot visually displays the median, IQR, and potential outliers of a dataset.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 173
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Covariance measures the direction of linear association between two quantitative variables.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 174
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Histograms display the frequency distribution of a continuous feature divided into bins.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 175
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Zero correlation between two variables does not necessarily imply independence.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 176
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "The variance of a sample is the average of squared deviations from the mean.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 177
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Spearman correlation is calculated based on rank order rather than raw metric values.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 178
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Kurtosis measures the heavy-tailedness or lightness of tails relative to a normal distribution.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 179
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Scatter plots are used to visualize the bivariate relationship between two continuous variables.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 180
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "A correlation matrix is symmetric across its main diagonal.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 181
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "The diagonal entries of a standardized correlation matrix are all equal to 1.0.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 182
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Positive skewness indicates a distribution with a tail extending towards higher positive values.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 183
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Pairplots show scatter plots for all pairs of continuous variables in a dataset.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 184
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "The median divides a dataset into two halves containing equal numbers of observations.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 185
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Standard deviation is expressed in the same physical units as the original data measurement.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 186
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "A heat map is effective for visualizing correlation matrices using color gradients.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 187
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Negative covariance indicates that as one variable increases, the other tends to decrease.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 188
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "A bimodal distribution contains two local modes or peaks in its probability density.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 189
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "The 50th percentile of a sample distribution corresponds to the sample median.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 190
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Cross-tabulation (contingency tables) summarizes the joint frequency distribution of categorical attributes.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 191
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Quantile-Quantile (Q-Q) plots assess whether a sample distribution matches a theoretical distribution.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 192
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "The standard error of the mean decreases as the sample size increases.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 193
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Pearson correlation coefficient ranges from -100 to +100 depending on variance scaling.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 194
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "A Pearson correlation of 0 guarantees that two continuous variables are completely independent.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 195
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "In a left-skewed distribution, the mean is strictly greater than the median and mode.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 196
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Spearman rank correlation requires both attributes to follow a Gaussian normal distribution.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 197
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Covariance values are bounded strictly between -1.0 and +1.0 regardless of measurement scale.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 198
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "A boxplot box width represents the total range (Max - Min) of the dataset.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 199
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Histograms are used to visualize the exact joint frequency distribution of two categorical features.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 200
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "High correlation between two features directly implies a causal relationship between them.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 201
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "The variance of a feature can be negative if values lie between 0 and 1.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 202
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Adding a constant value to all data points changes the sample standard deviation proportionally.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 203
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "A symmetric distribution always has a sample kurtosis of exactly zero.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 204
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Bar charts and histograms are identical plots used interchangeably for continuous variables.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 205
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "The correlation between feature X and feature Y can differ from the correlation between Y and X.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 206
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Pearson correlation is robust against non-linear monotonic relationships.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 207
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Skewness is measured in squared units of the original feature variable.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 208
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "The median of a sample changes when all values are multiplied by a positive constant.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 209
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Covariance between two variables is zero if and only if they are linearly correlated.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 210
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Scatter plot matrices can only display continuous variables against categorical targets.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 211
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Standard deviation is insensitive to extreme value outliers.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 212
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "In pandas, df.describe() includes mode calculations for numeric columns by default.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 213
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "A correlation of -0.9 indicates a much weaker relationship than a correlation of +0.3.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 214
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Spearman correlation measures linear relationships while Pearson measures rank monotonic relationships.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 215
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Q-Q plot points forming a straight line indicate severe deviation from normality.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 216
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "The empirical rule states that 99.7% of data lies within 1 standard deviation of the mean.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 217
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "A boxplot whisker length is proportional to the mean standard error of the sample.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 218
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Multivariate EDA eliminates the need for checking univariate distributions.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 219
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Logarithmic transformation increases the positive skewness of a right-skewed variable.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 220
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "A heatmap requires input data to be strictly non-negative values.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 221
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "The mode is always unique for any given continuous numerical dataset.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 222
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Sample standard deviation uses N in the denominator instead of N-1 for unbiased estimation.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 223
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Covariance retains the same value regardless of changes in unit measurement scale.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 224
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Zero skewness guarantees that a probability distribution is perfectly Gaussian normal.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 225
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "In pandas, df.corr() computes Spearman correlation by default unless specified otherwise.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 226
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Violin plots display only the mean and standard deviation without density estimates.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 227
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Pearson correlation can accurately capture quadratic parabolic relationships between variables.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 228
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Extreme outliers increase the median more than they increase the sample mean.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 229
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "A scatter plot with points forming a circle represents a correlation of r = 1.0.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 230
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "High variance in a feature indicates that all data points are clustered near the mean.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 231
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Cross-tabulation can only be computed for continuous numerical variables.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 232
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Standardizing a dataset changes its Pearson correlation coefficient with another variable.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 233
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Bimodal distributions always have equal frequency counts in both local modes.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 234
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "The range of a dataset is resistant to extreme outliers.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 235
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Spearman correlation is sensitive to linear scaling of raw values.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 236
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Linear correlation implies non-linear independence in all cases.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 237
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Density plots represent discrete probability mass functions for continuous attributes.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 238
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "The mean absolute deviation (MAD) is always larger than the sample variance.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 239
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Skewness values above +1 indicate a left-skewed distribution with a heavy left tail.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 240
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "In pandas, df.skew() returns 0 for a dataset with all identical values.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 241
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Histograms with 100 bins always reveal the true underlying distribution better than 10 bins.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 242
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Boxplots display individual data points for all observations inside the IQR box.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 243
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Correlation coefficients change sign when features are shifted by adding a positive constant.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 244
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Pairplots can only process maximum 3 variables simultaneously in seaborn.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 245
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Covariance is dimensionless and unconstrained by feature measurement units.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 246
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Negative kurtosis indicates a distribution with heavier tails than a normal distribution.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 247
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Calculating Spearman correlation on ranked data yields a different value than Pearson correlation on ranks.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 248
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "The 75th percentile is also known as the first quartile (Q1).",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 249
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "EDA should only be performed after model evaluation is complete.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 250
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Summary statistics provide a complete description of distribution shape without visualization.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 251
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 5,
-    "text": "Covariance between two standardized features equals their Pearson correlation coefficient.",
-    "correct_answer": true,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 252
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Pearson correlation measures linear relationships between continuous variables.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 43,
-    "trap_mode": "hidden",
-    "id": 253
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Pearson correlation measures non-linear monotonic relationships between continuous variables.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 43,
-    "trap_mode": "hidden",
-    "id": 254
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Spearman correlation measures monotonic relationships using feature rank orders.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 44,
-    "trap_mode": "hidden",
-    "id": 255
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Spearman correlation measures linear relationships using raw metric values.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 44,
-    "trap_mode": "hidden",
-    "id": 256
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "In a right-skewed distribution, the mean is greater than the median.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 45,
-    "trap_mode": "hidden",
-    "id": 257
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "In a right-skewed distribution, the mean is less than the median.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 45,
-    "trap_mode": "hidden",
-    "id": 258
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "In a left-skewed distribution, the mean is less than the median.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 46,
-    "trap_mode": "hidden",
-    "id": 259
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "In a left-skewed distribution, the mean is greater than the median.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 46,
-    "trap_mode": "hidden",
-    "id": 260
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "A Pearson correlation coefficient ranges strictly between -1.0 and +1.0.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 47,
-    "trap_mode": "hidden",
-    "id": 261
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "A Pearson correlation coefficient ranges strictly between 0.0 and +1.0.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 47,
-    "trap_mode": "hidden",
-    "id": 262
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Covariance values depend on the measurement units of the input variables.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 48,
-    "trap_mode": "hidden",
-    "id": 263
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Covariance values are dimensionless and independent of input measurement units.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 48,
-    "trap_mode": "hidden",
-    "id": 264
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Pearson correlation is dimensionless and unconstrained by measurement units.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 49,
-    "trap_mode": "hidden",
-    "id": 265
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Pearson correlation depends directly on the physical units of measurement.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 49,
-    "trap_mode": "hidden",
-    "id": 266
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "A scatter plot visualizes the bivariate relationship between two continuous attributes.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 50,
-    "trap_mode": "hidden",
-    "id": 267
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "A scatter plot visualizes the univariate frequency distribution of one continuous attribute.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 50,
-    "trap_mode": "hidden",
-    "id": 268
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Histograms group continuous data into discrete numerical bins.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 51,
-    "trap_mode": "hidden",
-    "id": 269
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Histograms group categorical nominal data into ordered discrete categories.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 51,
-    "trap_mode": "hidden",
-    "id": 270
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Boxplots display the median as a line inside the interquartile range box.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 52,
-    "trap_mode": "hidden",
-    "id": 271
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Boxplots display the arithmetic mean as a line inside the interquartile range box.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 52,
-    "trap_mode": "hidden",
-    "id": 272
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Positive skewness indicates a long tail extending toward higher positive values.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 53,
-    "trap_mode": "hidden",
-    "id": 273
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Positive skewness indicates a long tail extending toward lower negative values.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 53,
-    "trap_mode": "hidden",
-    "id": 274
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Negative skewness indicates a long tail extending toward lower negative values.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 54,
-    "trap_mode": "hidden",
-    "id": 275
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Negative skewness indicates a long tail extending toward higher positive values.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 54,
-    "trap_mode": "hidden",
-    "id": 276
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Kurtosis measures the tail weight and peakedness of a distribution relative to normal.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 55,
-    "trap_mode": "hidden",
-    "id": 277
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Kurtosis measures the directional asymmetry of a distribution relative to normal.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 55,
-    "trap_mode": "hidden",
-    "id": 278
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "A correlation matrix is always symmetric across its main diagonal.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 56,
-    "trap_mode": "hidden",
-    "id": 279
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "A correlation matrix is always asymmetric across its main diagonal.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 56,
-    "trap_mode": "hidden",
-    "id": 280
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "The diagonal values of a correlation matrix are all equal to 1.0.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 57,
-    "trap_mode": "hidden",
-    "id": 281
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "The diagonal values of a correlation matrix are all equal to 0.0.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 57,
-    "trap_mode": "hidden",
-    "id": 282
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Zero Pearson correlation implies no linear association between two variables.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 58,
-    "trap_mode": "hidden",
-    "id": 283
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Zero Pearson correlation guarantees complete statistical independence between two variables.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 58,
-    "trap_mode": "hidden",
-    "id": 284
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "The median is the 50th percentile of an ordered sample distribution.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 59,
-    "trap_mode": "hidden",
-    "id": 285
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "The median is the 75th percentile of an ordered sample distribution.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 59,
-    "trap_mode": "hidden",
-    "id": 286
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "The first quartile (Q1) corresponds to the 25th percentile of a sample.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 60,
-    "trap_mode": "hidden",
-    "id": 287
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "The first quartile (Q1) corresponds to the 50th percentile of a sample.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 60,
-    "trap_mode": "hidden",
-    "id": 288
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "The third quartile (Q3) corresponds to the 75th percentile of a sample.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 61,
-    "trap_mode": "hidden",
-    "id": 289
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "The third quartile (Q3) corresponds to the 25th percentile of a sample.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 61,
-    "trap_mode": "hidden",
-    "id": 290
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Variance is measured in squared units of the original attribute.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 62,
-    "trap_mode": "hidden",
-    "id": 291
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Variance is measured in the exact same physical units as the original attribute.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 62,
-    "trap_mode": "hidden",
-    "id": 292
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Standard deviation is expressed in the same units as the original feature.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 63,
-    "trap_mode": "hidden",
-    "id": 293
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Standard deviation is expressed in squared units of the original feature.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 63,
-    "trap_mode": "hidden",
-    "id": 294
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Cross-tabulation computes joint frequency distributions between categorical features.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 64,
-    "trap_mode": "hidden",
-    "id": 295
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Cross-tabulation computes continuous covariance matrices between numerical features.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 64,
-    "trap_mode": "hidden",
-    "id": 296
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Violin plots combine boxplots with kernel density probability estimates.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 65,
-    "trap_mode": "hidden",
-    "id": 297
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Violin plots combine scatter plots with linear regression trendlines.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 65,
-    "trap_mode": "hidden",
-    "id": 298
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Q-Q plots compare sample quantiles against theoretical distribution quantiles.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 66,
-    "trap_mode": "hidden",
-    "id": 299
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Q-Q plots compare bivariate sample correlation against covariance matrices.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 66,
-    "trap_mode": "hidden",
-    "id": 300
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Spearman correlation is robust against extreme numerical outliers.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 67,
-    "trap_mode": "hidden",
-    "id": 301
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Spearman correlation is highly sensitive to extreme numerical outliers.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 67,
-    "trap_mode": "hidden",
-    "id": 302
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Pearson correlation of +1.0 indicates a perfect positive linear relationship.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 68,
-    "trap_mode": "hidden",
-    "id": 303
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Pearson correlation of +1.0 indicates a perfect positive monotonic non-linear relationship.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 68,
-    "trap_mode": "hidden",
-    "id": 304
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Pearson correlation of -1.0 indicates a perfect negative linear relationship.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 69,
-    "trap_mode": "hidden",
-    "id": 305
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Pearson correlation of -1.0 indicates zero association between variables.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 69,
-    "trap_mode": "hidden",
-    "id": 306
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Standardizing variables does not change their Pearson correlation coefficient.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 70,
-    "trap_mode": "hidden",
-    "id": 307
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Standardizing variables doubles their Pearson correlation coefficient.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 70,
-    "trap_mode": "hidden",
-    "id": 308
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Bimodal distributions feature two distinct local modes or frequency peaks.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 71,
-    "trap_mode": "hidden",
-    "id": 309
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Bimodal distributions feature no local modes and a completely flat density.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 71,
-    "trap_mode": "hidden",
-    "id": 310
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Interquartile range (IQR) measures the spread of the middle 50% of data.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 72,
-    "trap_mode": "hidden",
-    "id": 311
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Interquartile range (IQR) measures the spread of the outer 10% of data.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 72,
-    "trap_mode": "hidden",
-    "id": 312
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Mean absolute deviation (MAD) measures average distance of points from mean.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 73,
-    "trap_mode": "attention_check",
-    "id": 313
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Mean absolute deviation (MAD) measures squared distance of points from mean.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 73,
-    "trap_mode": "attention_check",
-    "id": 314
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Correlation of 0.8 represents a stronger linear relationship than 0.3.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 74,
-    "trap_mode": "attention_check",
-    "id": 315
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Correlation of 0.3 represents a stronger linear relationship than -0.8.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 74,
-    "trap_mode": "attention_check",
-    "id": 316
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Correlation of -0.9 represents a stronger linear relationship than +0.4.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 75,
-    "trap_mode": "attention_check",
-    "id": 317
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Correlation of +0.4 represents a stronger linear relationship than -0.9.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 75,
-    "trap_mode": "attention_check",
-    "id": 318
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Adding a constant shift to a variable leaves its variance unchanged.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 76,
-    "trap_mode": "attention_check",
-    "id": 319
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Adding a constant shift to a variable increases its variance proportionally.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 76,
-    "trap_mode": "attention_check",
-    "id": 320
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Multiplying a variable by a constant scale factor scales its standard deviation.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 77,
-    "trap_mode": "attention_check",
-    "id": 321
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Multiplying a variable by a constant scale factor leaves its standard deviation unchanged.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 77,
-    "trap_mode": "attention_check",
-    "id": 322
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Scatter plot matrices display pairwise relationships for multiple continuous attributes.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 78,
-    "trap_mode": "attention_check",
-    "id": 323
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Scatter plot matrices display decision tree rules for classification features.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 78,
-    "trap_mode": "attention_check",
-    "id": 324
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "High variance indicates data points are spread out widely around the mean.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 79,
-    "trap_mode": "attention_check",
-    "id": 325
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "High variance indicates data points are tightly clustered at the exact mean.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 79,
-    "trap_mode": "attention_check",
-    "id": 326
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Contingency tables display frequency counts for combinations of categorical levels.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 80,
-    "trap_mode": "attention_check",
-    "id": 327
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Contingency tables display continuous regression residuals for fitted models.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 80,
-    "trap_mode": "attention_check",
-    "id": 328
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Heatmaps use color intensity gradients to visualize numerical matrix values.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 81,
-    "trap_mode": "attention_check",
-    "id": 329
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Heatmaps use dendrogram branch lengths to visualize cluster distance thresholds.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 81,
-    "trap_mode": "attention_check",
-    "id": 330
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Range is calculated as maximum value minus minimum value.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 82,
-    "trap_mode": "attention_check",
-    "id": 331
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Range is calculated as upper quartile Q3 minus lower quartile Q1.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 82,
-    "trap_mode": "attention_check",
-    "id": 332
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Empirical rule states that ~68% of normal data lies within 1 standard deviation.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 83,
-    "trap_mode": "attention_check",
-    "id": 333
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Empirical rule states that ~95% of normal data lies within 1 standard deviation.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 83,
-    "trap_mode": "attention_check",
-    "id": 334
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Empirical rule states that ~95% of normal data lies within 2 standard deviations.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 84,
-    "trap_mode": "attention_check",
-    "id": 335
-  },
-  {
-    "tp_id": 2,
-    "topic_id": 4,
-    "text": "Empirical rule states that ~68% of normal data lies within 2 standard deviations.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 84,
-    "trap_mode": "attention_check",
-    "id": 336
+    "id": "TP2_001",
+    "tp": 2,
+    "category": "normal",
+    "question": "Exploratory Data Analysis (EDA) is the process of summarizing dataset main characteristics, often using visual methods.",
+    "answer": true,
+    "explanation": "EDA uses descriptive statistics and graphics to discover patterns and anomaly signals before modeling."
+  },
+  {
+    "id": "TP2_002",
+    "tp": 2,
+    "category": "normal",
+    "question": "In pandas, df.describe() generates summary statistics including mean, std, min, percentiles, and max for numeric columns.",
+    "answer": true,
+    "explanation": "describe() outputs key descriptive statistics for numerical columns in a DataFrame."
+  },
+  {
+    "id": "TP2_003",
+    "tp": 2,
+    "category": "normal",
+    "question": "The pandas DataFrame is a two-dimensional labeled data structure with columns of potentially different types.",
+    "answer": true,
+    "explanation": "DataFrames store tabular data with index rows and named heterogenous columns."
+  },
+  {
+    "id": "TP2_004",
+    "tp": 2,
+    "category": "normal",
+    "question": "In pandas, df.shape returns a tuple where the first element is the row count and the second is the column count.",
+    "answer": true,
+    "explanation": "df.shape[0] gives the total number of rows and df.shape[1] the column count."
+  },
+  {
+    "id": "TP2_005",
+    "tp": 2,
+    "category": "normal",
+    "question": "A pandas Series is a one-dimensional labeled array capable of holding any data type.",
+    "answer": true,
+    "explanation": "A Series is a 1D labeled array representing a single DataFrame column or standalone sequence."
+  },
+  {
+    "id": "TP2_006",
+    "tp": 2,
+    "category": "normal",
+    "question": "Calling df.info() provides a summary of column data types, non-null counts, and memory usage.",
+    "answer": true,
+    "explanation": "info() prints a concise summary of DataFrame structural metadata and nullness."
+  },
+  {
+    "id": "TP2_007",
+    "tp": 2,
+    "category": "normal",
+    "question": "In pandas, df.head() displays the first 5 rows of a DataFrame by default.",
+    "answer": true,
+    "explanation": "head() defaults to returning the top 5 rows unless a different integer parameter is passed."
+  },
+  {
+    "id": "TP2_008",
+    "tp": 2,
+    "category": "normal",
+    "question": "The df.tail(n) method displays the last n rows of a DataFrame.",
+    "answer": true,
+    "explanation": "tail(n) extracts the bottom n rows from a DataFrame."
+  },
+  {
+    "id": "TP2_009",
+    "tp": 2,
+    "category": "normal",
+    "question": "EDA helps identify class imbalance in target categorical variables prior to model training.",
+    "answer": true,
+    "explanation": "Examining category counts during EDA highlights severe class proportion imbalances."
+  },
+  {
+    "id": "TP2_010",
+    "tp": 2,
+    "category": "normal",
+    "question": "Pandas read_excel() is used to read data from Microsoft Excel files into a DataFrame.",
+    "answer": true,
+    "explanation": "read_excel() parses spreadsheet formats like .xls and .xlsx into pandas DataFrames."
+  },
+  {
+    "id": "TP2_011",
+    "tp": 2,
+    "category": "normal",
+    "question": "The mean is the arithmetic average of a set of numerical values.",
+    "answer": true,
+    "explanation": "Mean is calculated by dividing the sum of all values by the sample count."
+  },
+  {
+    "id": "TP2_012",
+    "tp": 2,
+    "category": "normal",
+    "question": "The median represents the middle value when a numerical dataset is ordered from smallest to largest.",
+    "answer": true,
+    "explanation": "The median divides an ordered distribution into two equal halves."
+  },
+  {
+    "id": "TP2_013",
+    "tp": 2,
+    "category": "normal",
+    "question": "The standard deviation measures the dispersion or spread of numerical values relative to their mean.",
+    "answer": true,
+    "explanation": "Standard deviation quantifies the average deviation of data points from the sample mean."
+  },
+  {
+    "id": "TP2_014",
+    "tp": 2,
+    "category": "normal",
+    "question": "In a symmetric normal distribution, the mean, median, and mode are approximately equal.",
+    "answer": true,
+    "explanation": "Normal distributions exhibit perfect symmetry where mean, median, and mode coincide at the center."
+  },
+  {
+    "id": "TP2_015",
+    "tp": 2,
+    "category": "normal",
+    "question": "Variance is the average of the squared deviations from the mean.",
+    "answer": true,
+    "explanation": "Variance equals the square of the standard deviation, measuring dispersion in squared units."
+  },
+  {
+    "id": "TP2_016",
+    "tp": 2,
+    "category": "normal",
+    "question": "The 25th percentile (Q1) marks the value below which 25% of the data falls.",
+    "answer": true,
+    "explanation": "Q1 represents the first quartile, marking the lower 25% boundary of ordered data."
+  },
+  {
+    "id": "TP2_017",
+    "tp": 2,
+    "category": "normal",
+    "question": "The 75th percentile (Q3) marks the value below which 75% of the data falls.",
+    "answer": true,
+    "explanation": "Q3 represents the third quartile, separating the lower 75% of data from the top 25%."
+  },
+  {
+    "id": "TP2_018",
+    "tp": 2,
+    "category": "normal",
+    "question": "Skewness measures the asymmetry of a probability distribution around its mean.",
+    "answer": true,
+    "explanation": "Positive skew indicates a long right tail; negative skew indicates a long left tail."
+  },
+  {
+    "id": "TP2_019",
+    "tp": 2,
+    "category": "normal",
+    "question": "Kurtosis measures the heavy-tailedness or light-tailedness of a distribution relative to a normal distribution.",
+    "answer": true,
+    "explanation": "Kurtosis quantifies extreme tail weights and peak sharpness in a distribution."
+  },
+  {
+    "id": "TP2_020",
+    "tp": 2,
+    "category": "normal",
+    "question": "The range of a numerical variable is computed as the maximum value minus the minimum value.",
+    "answer": true,
+    "explanation": "Range measures total spread from the smallest to the largest observed value."
+  },
+  {
+    "id": "TP2_021",
+    "tp": 2,
+    "category": "normal",
+    "question": "In pandas, boolean indexing filters rows using boolean conditional expressions like df[df['age'] > 18].",
+    "answer": true,
+    "explanation": "Boolean indexing passes a boolean mask Series to filter DataFrame rows matching True."
+  },
+  {
+    "id": "TP2_022",
+    "tp": 2,
+    "category": "normal",
+    "question": "The df.groupby('sex').mean() method computes the mean of numerical columns separately for each sex category.",
+    "answer": true,
+    "explanation": "groupby() splits data into groups by category and applies an aggregation function to each group."
+  },
+  {
+    "id": "TP2_023",
+    "tp": 2,
+    "category": "normal",
+    "question": "In pandas, df['pclass'].value_counts() returns the frequency count of each unique value in the pclass column.",
+    "answer": true,
+    "explanation": "value_counts() computes discrete counts of unique occurrences in a Series."
+  },
+  {
+    "id": "TP2_024",
+    "tp": 2,
+    "category": "normal",
+    "question": "Grouping by multiple columns, such as df.groupby(['sex', 'pclass']).mean(), produces multi-level group aggregations.",
+    "answer": true,
+    "explanation": "groupby accepts a list of column names to aggregate data across combinations of categories."
+  },
+  {
+    "id": "TP2_025",
+    "tp": 2,
+    "category": "normal",
+    "question": "In pandas, df['age'].isnull().sum() counts the total number of missing NaN values in the age column.",
+    "answer": true,
+    "explanation": "isnull() returns True for missing entries and sum() counts total missing items."
+  },
+  {
+    "id": "TP2_026",
+    "tp": 2,
+    "category": "normal",
+    "question": "Slicing a pandas Series with data['age'][0:10] selects the first 10 element entries.",
+    "answer": true,
+    "explanation": "Series positional slicing returns elements from start index up to end index minus one."
+  },
+  {
+    "id": "TP2_027",
+    "tp": 2,
+    "category": "normal",
+    "question": "The df.sort_values(by='age', ascending=False) method sorts rows by age in descending order.",
+    "answer": true,
+    "explanation": "sort_values() orders DataFrame rows by specified column values; ascending=False sorts high to low."
+  },
+  {
+    "id": "TP2_028",
+    "tp": 2,
+    "category": "normal",
+    "question": "In pandas, df['fare'].nunique() returns the number of distinct unique non-null values in the fare column.",
+    "answer": true,
+    "explanation": "nunique() counts unique scalar values, excluding NaNs by default."
+  },
+  {
+    "id": "TP2_029",
+    "tp": 2,
+    "category": "normal",
+    "question": "Pandas crosstab function pd.crosstab(df['sex'], df['survived']) computes a frequency cross-tabulation table.",
+    "answer": true,
+    "explanation": "pd.crosstab() constructs a contingency table showing joint frequencies of two categorical variables."
+  },
+  {
+    "id": "TP2_030",
+    "tp": 2,
+    "category": "normal",
+    "question": "Resetting group indices with df.groupby(...).mean().reset_index() converts group keys back into standard columns.",
+    "answer": true,
+    "explanation": "reset_index() flattens multi-level group indices into standard DataFrame columns."
+  },
+  {
+    "id": "TP2_031",
+    "tp": 2,
+    "category": "normal",
+    "question": "A histogram displays the frequency distribution of a continuous numerical variable using adjacent bars (bins).",
+    "answer": true,
+    "explanation": "Histograms bin continuous range intervals to visualize distribution shapes and frequencies."
+  },
+  {
+    "id": "TP2_032",
+    "tp": 2,
+    "category": "normal",
+    "question": "A box plot (box-and-whisker plot) visually depicts median, quartiles, and potential outliers of a distribution.",
+    "answer": true,
+    "explanation": "Box plots draw a central box between Q1 and Q3, a median line, whiskers, and individual outlier points."
+  },
+  {
+    "id": "TP2_033",
+    "tp": 2,
+    "category": "normal",
+    "question": "In Seaborn, sns.countplot(x='sex', data=df) creates a bar plot showing category counts for a categorical variable.",
+    "answer": true,
+    "explanation": "countplot() renders discrete frequency bars for categorical column levels."
+  },
+  {
+    "id": "TP2_034",
+    "tp": 2,
+    "category": "normal",
+    "question": "A scatter plot graphs individual data points on two continuous axes to inspect relationships between variables.",
+    "answer": true,
+    "explanation": "Scatter plots display pairs of continuous values as points to reveal correlations and patterns."
+  },
+  {
+    "id": "TP2_035",
+    "tp": 2,
+    "category": "normal",
+    "question": "In Seaborn, sns.heatmap(df.corr(), annot=True) displays a color-coded matrix of correlation values with numbers.",
+    "answer": true,
+    "explanation": "heatmap() renders a colored matrix grid; annot=True prints numerical values inside cells."
+  },
+  {
+    "id": "TP2_036",
+    "tp": 2,
+    "category": "normal",
+    "question": "A bar chart is appropriate for comparing discrete values or summary statistics across distinct categories.",
+    "answer": true,
+    "explanation": "Bar charts represent discrete categorical levels using rectangular bars proportional to values."
+  },
+  {
+    "id": "TP2_037",
+    "tp": 2,
+    "category": "normal",
+    "question": "In Matplotlib, plt.figure(figsize=(10, 6)) sets the canvas width to 10 inches and height to 6 inches.",
+    "answer": true,
+    "explanation": "plt.figure(figsize=(w, h)) defines figure dimensions prior to plotting graphics."
+  },
+  {
+    "id": "TP2_038",
+    "tp": 2,
+    "category": "normal",
+    "question": "Adding a legend with plt.legend() helps label different data series or groups in a plot.",
+    "answer": true,
+    "explanation": "plt.legend() displays descriptive labels associated with plot markers and lines."
+  },
+  {
+    "id": "TP2_039",
+    "tp": 2,
+    "category": "normal",
+    "question": "Seaborn sns.boxplot(x='pclass', y='age', data=df) compares age distributions across passenger classes.",
+    "answer": true,
+    "explanation": "Passing categorical x and numerical y to boxplot() draws parallel boxplots per category."
+  },
+  {
+    "id": "TP2_040",
+    "tp": 2,
+    "category": "normal",
+    "question": "A density plot (KDE plot) estimates and visualizes the smooth probability density function of a continuous variable.",
+    "answer": true,
+    "explanation": "Kernel Density Estimation (KDE) generates a smooth continuous probability curve over data points."
+  },
+  {
+    "id": "TP2_041",
+    "tp": 2,
+    "category": "normal",
+    "question": "The Pearson correlation coefficient measures the strength and direction of linear relationship between two continuous variables.",
+    "answer": true,
+    "explanation": "Pearson's r quantifies linear dependency, ranging from -1.0 (perfect negative) to +1.0 (perfect positive)."
+  },
+  {
+    "id": "TP2_042",
+    "tp": 2,
+    "category": "normal",
+    "question": "A Pearson correlation coefficient of 0 indicates no linear relationship between two continuous variables.",
+    "answer": true,
+    "explanation": "An r value of 0 signifies absence of linear association, though non-linear relationships may still exist."
+  },
+  {
+    "id": "TP2_043",
+    "tp": 2,
+    "category": "normal",
+    "question": "Correlation does not imply causation.",
+    "answer": true,
+    "explanation": "Statistical correlation between two variables does not prove that one variable causes the other."
+  },
+  {
+    "id": "TP2_044",
+    "tp": 2,
+    "category": "normal",
+    "question": "Spearman rank correlation assesses monotonic relationships between two ranked or continuous variables.",
+    "answer": true,
+    "explanation": "Spearman's rho evaluates rank-order monotonicity without requiring linear relationship assumptions."
+  },
+  {
+    "id": "TP2_045",
+    "tp": 2,
+    "category": "normal",
+    "question": "In pandas, df.corr() computes the pairwise correlation of numerical columns in a DataFrame.",
+    "answer": true,
+    "explanation": "df.corr() calculates a square pairwise correlation matrix across numeric DataFrame columns."
+  },
+  {
+    "id": "TP2_046",
+    "tp": 2,
+    "category": "normal",
+    "question": "A correlation coefficient close to +1.0 indicates a strong positive linear relationship.",
+    "answer": true,
+    "explanation": "As one variable increases, the other increases proportionally in a strong positive correlation."
+  },
+  {
+    "id": "TP2_047",
+    "tp": 2,
+    "category": "normal",
+    "question": "A correlation coefficient close to -1.0 indicates a strong negative linear relationship.",
+    "answer": true,
+    "explanation": "As one variable increases, the other decreases proportionally in a strong negative correlation."
+  },
+  {
+    "id": "TP2_048",
+    "tp": 2,
+    "category": "normal",
+    "question": "A pair plot (sns.pairplot) renders pairwise scatter plots and marginal distributions across multiple numerical variables.",
+    "answer": true,
+    "explanation": "pairplot() constructs a matrix grid of scatter plots for all numerical variable pairs."
+  },
+  {
+    "id": "TP2_049",
+    "tp": 2,
+    "category": "normal",
+    "question": "Strong multicollinearity occurs when two or more predictor features are highly correlated with each other.",
+    "answer": true,
+    "explanation": "Multicollinearity describes strong linear dependencies among independent input variables."
+  },
+  {
+    "id": "TP2_050",
+    "tp": 2,
+    "category": "normal",
+    "question": "Examining correlations between features and target labels identifies top predictive variables during EDA.",
+    "answer": true,
+    "explanation": "High target correlation highlights attributes that contain strong predictive signal for modeling."
+  },
+  {
+    "id": "TP2_051",
+    "tp": 2,
+    "category": "normal",
+    "question": "Outliers appear as individual data points plotted beyond the whiskers in a standard box plot.",
+    "answer": true,
+    "explanation": "Whiskers extend to 1.5*IQR beyond Q1/Q3; points outside are drawn as standalone outlier points."
+  },
+  {
+    "id": "TP2_052",
+    "tp": 2,
+    "category": "normal",
+    "question": "A right-skewed (positively skewed) distribution has a long tail extending toward higher positive values.",
+    "answer": true,
+    "explanation": "Right skew pulls the sample mean to the right of the median toward large positive values."
+  },
+  {
+    "id": "TP2_053",
+    "tp": 2,
+    "category": "normal",
+    "question": "A left-skewed (negatively skewed) distribution has a long tail extending toward lower negative values.",
+    "answer": true,
+    "explanation": "Left skew pulls the sample mean to the left of the median toward small negative values."
+  },
+  {
+    "id": "TP2_054",
+    "tp": 2,
+    "category": "normal",
+    "question": "In right-skewed distributions, the mean is typically greater than the median.",
+    "answer": true,
+    "explanation": "Large extreme values in the right tail inflate the mean above the 50th percentile median."
+  },
+  {
+    "id": "TP2_055",
+    "tp": 2,
+    "category": "normal",
+    "question": "In left-skewed distributions, the mean is typically less than the median.",
+    "answer": true,
+    "explanation": "Small extreme values in the left tail pull the mean below the 50th percentile median."
+  },
+  {
+    "id": "TP2_056",
+    "tp": 2,
+    "category": "normal",
+    "question": "Logarithmic transformation can reduce positive skewness in non-negative continuous features like income or fare.",
+    "answer": true,
+    "explanation": "Applying log(x + 1) compresses large positive values, normalizing right-skewed distributions."
+  },
+  {
+    "id": "TP2_057",
+    "tp": 2,
+    "category": "normal",
+    "question": "Bimodal distributions exhibit two distinct prominent peaks in their frequency histograms.",
+    "answer": true,
+    "explanation": "Bimodality indicates two separate sub-populations or modes within the same feature distribution."
+  },
+  {
+    "id": "TP2_058",
+    "tp": 2,
+    "category": "normal",
+    "question": "Summary statistics should include both central tendency (mean/median) and dispersion (std/IQR).",
+    "answer": true,
+    "explanation": "Reporting spread alongside central tendency provides a complete description of distribution properties."
+  },
+  {
+    "id": "TP2_059",
+    "tp": 2,
+    "category": "normal",
+    "question": "Using plt.savefig('plot.png') saves the current Matplotlib figure to an image file on disk.",
+    "answer": true,
+    "explanation": "plt.savefig() exports the rendered plot graphic to specified file formats like PNG or PDF."
+  },
+  {
+    "id": "TP2_060",
+    "tp": 2,
+    "category": "normal",
+    "question": "Outliers can significantly skew the mean while having minimal impact on the median.",
+    "answer": true,
+    "explanation": "The mean incorporates extreme magnitudes, whereas the median depends only on rank order position."
+  },
+  {
+    "id": "TP2_061",
+    "tp": 2,
+    "category": "normal",
+    "question": "Examining survival rates by gender in the Titanic dataset reveals a higher survival proportion for females.",
+    "answer": true,
+    "explanation": "df.groupby('sex')['survived'].mean() shows female survival (~75%) exceeds male survival (~20%)."
+  },
+  {
+    "id": "TP2_062",
+    "tp": 2,
+    "category": "normal",
+    "question": "Analyzing passenger class survival demonstrates that 1st class passengers survived at a higher rate than 3rd class.",
+    "answer": true,
+    "explanation": "PClass 1 survival rate is significantly higher than PClass 3 survival rate in Titanic EDA."
+  },
+  {
+    "id": "TP2_063",
+    "tp": 2,
+    "category": "normal",
+    "question": "Categorical variables can be nominal (unordered labels like Gender) or ordinal (ranked categories like Class).",
+    "answer": true,
+    "explanation": "Nominal categories have no intrinsic ordering; ordinal categories possess a natural progression."
+  },
+  {
+    "id": "TP2_064",
+    "tp": 2,
+    "category": "normal",
+    "question": "A pie chart represents categorical proportions as slices of a circle totaling 100%.",
+    "answer": true,
+    "explanation": "Pie charts display relative percentage contributions of discrete categories as circular slices."
+  },
+  {
+    "id": "TP2_065",
+    "tp": 2,
+    "category": "normal",
+    "question": "Bar charts are generally preferred over pie charts for comparing multiple categorical levels accurately.",
+    "answer": true,
+    "explanation": "Human visual perception assesses linear bar lengths more accurately than circular slice angles."
+  },
+  {
+    "id": "TP2_066",
+    "tp": 2,
+    "category": "normal",
+    "question": "In Seaborn, sns.barplot(x='sex', y='survived', data=df) plots mean survival rates with error bars by gender.",
+    "answer": true,
+    "explanation": "sns.barplot automatically computes group means for y and renders confidence interval error bars."
+  },
+  {
+    "id": "TP2_067",
+    "tp": 2,
+    "category": "normal",
+    "question": "Cross-tabulation normalization pd.crosstab(df['sex'], df['survived'], normalize='index') yields row percentages.",
+    "answer": true,
+    "explanation": "normalize='index' calculates proportions within each row category, converting counts to relative percentages."
+  },
+  {
+    "id": "TP2_068",
+    "tp": 2,
+    "category": "normal",
+    "question": "Visualizing missing values with a heatmap (sns.heatmap(df.isnull())) reveals missingness patterns across rows.",
+    "answer": true,
+    "explanation": "Null heatmaps render missing entries in a distinct color to expose missingness clusters across columns."
+  },
+  {
+    "id": "TP2_069",
+    "tp": 2,
+    "category": "normal",
+    "question": "Filtering children (age < 18) in EDA helps compare minor vs adult survival trends explicitly.",
+    "answer": true,
+    "explanation": "Boolean indexing df[df['age'] < 18] isolates child subset records for demographic breakdown."
+  },
+  {
+    "id": "TP2_070",
+    "tp": 2,
+    "category": "normal",
+    "question": "Modifying plot aesthetics using plt.style.use('ggplot') applies the popular ggplot visual style.",
+    "answer": true,
+    "explanation": "plt.style.use() alters default Matplotlib gridlines, background shading, and color palettes."
+  },
+  {
+    "id": "TP2_071",
+    "tp": 2,
+    "category": "normal",
+    "question": "In pandas, df.value_counts(normalize=True) calculates the relative proportions of unique values instead of raw counts.",
+    "answer": true,
+    "explanation": "normalize=True scales count output so all unique category frequencies sum to 1.0."
+  },
+  {
+    "id": "TP2_072",
+    "tp": 2,
+    "category": "normal",
+    "question": "Setting alpha parameter (e.g., plt.scatter(x, y, alpha=0.5)) reduces marker opacity to visualize overlapping points.",
+    "answer": true,
+    "explanation": "Alpha transparency highlights point density in regions where scatter plot markers overlap heavily."
+  },
+  {
+    "id": "TP2_073",
+    "tp": 2,
+    "category": "normal",
+    "question": "In Matplotlib, plt.xlabel() and plt.ylabel() add custom text labels to plot axes.",
+    "answer": true,
+    "explanation": "xlabel() and ylabel() annotate x and y axes with descriptive titles."
+  },
+  {
+    "id": "TP2_074",
+    "tp": 2,
+    "category": "normal",
+    "question": "Calling plt.show() displays all constructed plot figures in the user interface.",
+    "answer": true,
+    "explanation": "plt.show() renders active figure canvases to the visual output device."
+  },
+  {
+    "id": "TP2_075",
+    "tp": 2,
+    "category": "normal",
+    "question": "The pandas function df.sample(n=5) returns a random sample of 5 rows from the DataFrame.",
+    "answer": true,
+    "explanation": "df.sample() extracts a random subset of rows without changing original data order."
+  },
+  {
+    "id": "TP2_076",
+    "tp": 2,
+    "category": "normal",
+    "question": "In Seaborn, hue parameter in sns.scatterplot(x, y, hue='survived') colors scatter points by class label.",
+    "answer": true,
+    "explanation": "hue maps a categorical variable to distinct colors, adding a 3rd dimension to 2D scatter plots."
+  },
+  {
+    "id": "TP2_077",
+    "tp": 2,
+    "category": "normal",
+    "question": "Calling plt.clf() or plt.close() clears the active figure to prevent plot overlap in script loops.",
+    "answer": true,
+    "explanation": "Clearing the figure canvas prevents subsequent plots from drawing over previous graphic axes."
+  },
+  {
+    "id": "TP2_078",
+    "tp": 2,
+    "category": "normal",
+    "question": "In Matplotlib, plt.subplots(2, 2) creates a grid layout containing 2 rows and 2 columns of subplots.",
+    "answer": true,
+    "explanation": "plt.subplots(nrows, ncols) returns a figure and an array of subplot axes for multi-panel plotting."
+  },
+  {
+    "id": "TP2_079",
+    "tp": 2,
+    "category": "normal",
+    "question": "Box plots draw a horizontal or vertical line inside the interquartile box to indicate the median value.",
+    "answer": true,
+    "explanation": "The line inside the Q1-Q3 box explicitly marks the 50th percentile median."
+  },
+  {
+    "id": "TP2_080",
+    "tp": 2,
+    "category": "normal",
+    "question": "Histograms with small bin counts can oversmoot distributions, hiding underlying multi-modal features.",
+    "answer": true,
+    "explanation": "Using too few bins lumps data into wide intervals, masking detailed structural features."
+  },
+  {
+    "id": "TP2_081",
+    "tp": 2,
+    "category": "normal",
+    "question": "Exploratory Data Analysis should always precede feature engineering and model building steps.",
+    "answer": true,
+    "explanation": "EDA provides necessary insights into distribution shapes, missingness, and outliers to guide preprocessing."
+  },
+  {
+    "id": "TP2_082",
+    "tp": 2,
+    "category": "normal",
+    "question": "In a left-skewed distribution, the tail extends toward lower values on the left side of the plot.",
+    "answer": true,
+    "explanation": "Left-skewed distributions feature an elongated tail stretching toward negative or small values."
+  },
+  {
+    "id": "TP2_083",
+    "tp": 2,
+    "category": "normal",
+    "question": "Violin plots combine box plot statistics with kernel density estimation curves on each side.",
+    "answer": true,
+    "explanation": "sns.violinplot displays density width profiles alongside inner quartile box markers."
+  },
+  {
+    "id": "TP2_084",
+    "tp": 2,
+    "category": "normal",
+    "question": "Pair plots with hue parameter (sns.pairplot(df, hue='target')) visualize class separability across feature pairs.",
+    "answer": true,
+    "explanation": "Color-coding pair plots by target label reveals which feature pairs effectively separate classes."
+  },
+  {
+    "id": "TP2_085",
+    "tp": 2,
+    "category": "normal",
+    "question": "Analyzing feature correlations prevents introducing redundant collinear inputs into linear models.",
+    "answer": true,
+    "explanation": "Identifying highly correlated predictor pairs enables removing redundant inputs before modeling."
+  },
+  {
+    "id": "TP2_086",
+    "tp": 2,
+    "category": "normal",
+    "question": "In pandas, df.describe(include='all') computes descriptive statistics for both numeric and categorical columns.",
+    "answer": true,
+    "explanation": "include='all' forces describe() to report top category, frequency, and unique count for non-numeric columns."
+  },
+  {
+    "id": "TP2_087",
+    "tp": 2,
+    "category": "normal",
+    "question": "Histograms with high bin counts can display sample noise, masking the smooth underlying distribution.",
+    "answer": true,
+    "explanation": "Excessive binning breaks data into tiny sparse intervals, creating noisy jagged bars."
+  },
+  {
+    "id": "TP2_088",
+    "tp": 2,
+    "category": "normal",
+    "question": "Correlation matrices are always symmetric along their main diagonal.",
+    "answer": true,
+    "explanation": "The correlation between Variable A and Variable B equals the correlation between B and A."
+  },
+  {
+    "id": "TP2_089",
+    "tp": 2,
+    "category": "normal",
+    "question": "The main diagonal of a correlation matrix always contains values equal to 1.0.",
+    "answer": true,
+    "explanation": "Every numerical variable has a perfect positive linear correlation (1.0) with itself."
+  },
+  {
+    "id": "TP2_090",
+    "tp": 2,
+    "category": "normal",
+    "question": "Exploratory visualizations allow discovering unexpected data recording errors and corrupted entries.",
+    "answer": true,
+    "explanation": "Visual plots quickly expose unrealistic boundary spikes, zero-imputation artifacts, and extreme typos."
+  },
+  {
+    "id": "TP2_091",
+    "tp": 2,
+    "category": "tricky",
+    "question": "A Pearson correlation coefficient of 0.0 guarantees that two variables have no relationship of any kind.",
+    "answer": false,
+    "explanation": "Pearson correlation only detects linear relationships; two variables can have a strong non-linear relationship while r = 0."
+  },
+  {
+    "id": "TP2_092",
+    "tp": 2,
+    "category": "tricky",
+    "question": "The median of a numerical column is always equal to its arithmetic mean.",
+    "answer": false,
+    "explanation": "Mean and median differ in skewed distributions; they are equal only in perfectly symmetric distributions."
+  },
+  {
+    "id": "TP2_093",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In pandas, df.describe() includes categorical string columns in its summary table by default.",
+    "answer": false,
+    "explanation": "By default, describe() processes only numerical columns unless include='all' or include=['object'] is passed."
+  },
+  {
+    "id": "TP2_094",
+    "tp": 2,
+    "category": "tricky",
+    "question": "Increasing the number of bins in a histogram always makes the distribution look smoother.",
+    "answer": false,
+    "explanation": "Increasing bin counts creates narrower bins, making the histogram look more jagged and noisy."
+  },
+  {
+    "id": "TP2_095",
+    "tp": 2,
+    "category": "tricky",
+    "question": "The standard deviation of a feature can be negative if the dataset contains negative numbers.",
+    "answer": false,
+    "explanation": "Standard deviation is the square root of variance and is always non-negative (>= 0)."
+  },
+  {
+    "id": "TP2_096",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In pandas, df.groupby('sex').mean() automatically includes string columns in the calculated averages.",
+    "answer": false,
+    "explanation": "Pandas mean() excludes non-numeric string columns automatically because text cannot be averaged."
+  },
+  {
+    "id": "TP2_097",
+    "tp": 2,
+    "category": "tricky",
+    "question": "A scatter plot is the primary visualization for displaying frequency counts of a single nominal categorical variable.",
+    "answer": false,
+    "explanation": "Scatter plots compare two continuous variables; categorical frequencies are displayed using bar or count plots."
+  },
+  {
+    "id": "TP2_098",
+    "tp": 2,
+    "category": "tricky",
+    "question": "A correlation coefficient of -0.9 indicates a much weaker relationship than a correlation coefficient of +0.3.",
+    "answer": false,
+    "explanation": "The magnitude (|r|) determines relationship strength; |-0.9| = 0.9 is much stronger than |0.3| = 0.3."
+  },
+  {
+    "id": "TP2_099",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In Seaborn, sns.heatmap() requires all input columns to be string object data types.",
+    "answer": false,
+    "explanation": "Heatmaps require a numerical matrix (e.g., correlation matrix of floats), failing on string objects."
+  },
+  {
+    "id": "TP2_100",
+    "tp": 2,
+    "category": "tricky",
+    "question": "Box plots display the exact mean of a continuous variable as the line inside the interquartile box.",
+    "answer": false,
+    "explanation": "The line inside the box marks the median (50th percentile), not the arithmetic mean."
+  },
+  {
+    "id": "TP2_101",
+    "tp": 2,
+    "category": "tricky",
+    "question": "Adding a constant value (e.g., +10) to every numerical observation in a column doubles its standard deviation.",
+    "answer": false,
+    "explanation": "Adding a constant shifts the distribution location without altering its spread or standard deviation."
+  },
+  {
+    "id": "TP2_102",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In pandas, df['age'].value_counts() returns values sorted by age in ascending order by default.",
+    "answer": false,
+    "explanation": "value_counts() sorts output by frequency counts in descending order by default, not by key values."
+  },
+  {
+    "id": "TP2_103",
+    "tp": 2,
+    "category": "tricky",
+    "question": "If a feature has a right-skewed distribution, its median is typically larger than its mean.",
+    "answer": false,
+    "explanation": "Right-skewed distributions have a long positive tail that pulls the mean to the RIGHT of (greater than) the median."
+  },
+  {
+    "id": "TP2_104",
+    "tp": 2,
+    "category": "tricky",
+    "question": "A pair plot (sns.pairplot) can only be generated for datasets with exactly two continuous variables.",
+    "answer": false,
+    "explanation": "pairplot generates an N x N matrix grid for any number of numerical features in a DataFrame."
+  },
+  {
+    "id": "TP2_105",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In Matplotlib, plt.legend() creates axis tick labels for numeric dimensions.",
+    "answer": false,
+    "explanation": "plt.legend() displays color/marker label keys; axis tick labels are controlled by xticks/yticks."
+  },
+  {
+    "id": "TP2_106",
+    "tp": 2,
+    "category": "tricky",
+    "question": "Calculating df.corr() on a DataFrame automatically includes missing NaN values in pairwise products.",
+    "answer": false,
+    "explanation": "Pandas corr() skips NaN values pairwise by default when computing correlation coefficients."
+  },
+  {
+    "id": "TP2_107",
+    "tp": 2,
+    "category": "tricky",
+    "question": "Histograms and bar charts are identical visualizations that can be used interchangeably for any data type.",
+    "answer": false,
+    "explanation": "Histograms plot continuous numeric bin intervals; bar charts display discrete separate categorical groups."
+  },
+  {
+    "id": "TP2_108",
+    "tp": 2,
+    "category": "tricky",
+    "question": "The interquartile range (IQR) covers 75% of the data in any distribution.",
+    "answer": false,
+    "explanation": "The IQR (Q3 - Q1) covers the middle 50% of the data distribution by definition."
+  },
+  {
+    "id": "TP2_109",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In pandas, boolean indexing with df[df['age'] = 20] correctly filters rows where age equals 20.",
+    "answer": false,
+    "explanation": "Single '=' is an assignment operator and causes a SyntaxError; comparison requires double '=='."
+  },
+  {
+    "id": "TP2_110",
+    "tp": 2,
+    "category": "tricky",
+    "question": "Spearman rank correlation coefficient evaluates linear relationships exclusively.",
+    "answer": false,
+    "explanation": "Spearman rank correlation evaluates monotonic relationships based on ranks, not strictly linear associations."
+  },
+  {
+    "id": "TP2_111",
+    "tp": 2,
+    "category": "tricky",
+    "question": "A box plot whisker always extends to the absolute maximum value of the dataset, regardless of outliers.",
+    "answer": false,
+    "explanation": "Whiskers extend up to 1.5*IQR from quartiles; values beyond are plotted as individual outlier points."
+  },
+  {
+    "id": "TP2_112",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In pandas, df.head(10) creates a permanent standalone file on disk named head10.csv.",
+    "answer": false,
+    "explanation": "df.head() returns a memory slice preview in Python without saving files to disk."
+  },
+  {
+    "id": "TP2_113",
+    "tp": 2,
+    "category": "tricky",
+    "question": "Replacing missing values with the column median always increases the interquartile range (IQR).",
+    "answer": false,
+    "explanation": "Imputing the median accumulates values at the center, leaving IQR unchanged or slightly compressed."
+  },
+  {
+    "id": "TP2_114",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In Seaborn, sns.countplot(x='age', data=df) is optimal for continuous floating-point variables with 1000 unique values.",
+    "answer": false,
+    "explanation": "countplot renders separate bars for every unique value; continuous floats create an unreadable overcrowded plot."
+  },
+  {
+    "id": "TP2_115",
+    "tp": 2,
+    "category": "tricky",
+    "question": "If two variables have a Pearson correlation of +1.0, an increase in one variable guarantees an identical absolute unit increase in the other.",
+    "answer": false,
+    "explanation": "Correlation of +1.0 indicates a perfect positive LINEAR relationship (y = a*x + b); the slope 'a' can be any positive constant, not necessarily 1."
+  },
+  {
+    "id": "TP2_116",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In pandas, df.shape[0] returns the total number of columns in the DataFrame.",
+    "answer": false,
+    "explanation": "df.shape[0] returns the total number of ROWS; df.shape[1] returns the column count."
+  },
+  {
+    "id": "TP2_117",
+    "tp": 2,
+    "category": "tricky",
+    "question": "A distribution with kurtosis of 0 has infinitely heavy extreme tails.",
+    "answer": false,
+    "explanation": "A kurtosis of 0 (or excess kurtosis 0) corresponds to a standard normal distribution."
+  },
+  {
+    "id": "TP2_118",
+    "tp": 2,
+    "category": "tricky",
+    "question": "The variance of a feature is measured in the same units as the original feature values.",
+    "answer": false,
+    "explanation": "Variance is measured in SQUARED units of the original feature; standard deviation retains original units."
+  },
+  {
+    "id": "TP2_119",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In Matplotlib, plt.savefig() must always be called AFTER plt.show() to save the rendered figure properly.",
+    "answer": false,
+    "explanation": "Calling plt.show() clears the active figure canvas in Matplotlib; calling savefig() after show() saves a blank image."
+  },
+  {
+    "id": "TP2_120",
+    "tp": 2,
+    "category": "tricky",
+    "question": "A pie chart is the recommended visual tool for displaying continuous time-series trend lines.",
+    "answer": false,
+    "explanation": "Time-series trends are displayed using line plots; pie charts show static categorical proportions."
+  },
+  {
+    "id": "TP2_121",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In pandas, df.groupby('sex')['age'].mean() returns a 2D DataFrame with 10 columns.",
+    "answer": false,
+    "explanation": "Grouping a single column by a category returns a 1D pandas Series indexed by category."
+  },
+  {
+    "id": "TP2_122",
+    "tp": 2,
+    "category": "tricky",
+    "question": "A negative covariance between two numerical features implies that both features decrease together.",
+    "answer": false,
+    "explanation": "Negative covariance means as one feature increases, the other feature tends to DECREASE."
+  },
+  {
+    "id": "TP2_123",
+    "tp": 2,
+    "category": "tricky",
+    "question": "Log-transforming a left-skewed distribution with negative values makes it normally distributed.",
+    "answer": false,
+    "explanation": "Log transforms require positive values (x > 0) and are used to fix RIGHT-skewness, not left-skewness."
+  },
+  {
+    "id": "TP2_124",
+    "tp": 2,
+    "category": "tricky",
+    "question": "The pandas function pd.crosstab() can only process boolean 0/1 indicator columns.",
+    "answer": false,
+    "explanation": "pd.crosstab() accepts any categorical, ordinal, or discrete Series to compute joint frequency tables."
+  },
+  {
+    "id": "TP2_125",
+    "tp": 2,
+    "category": "tricky",
+    "question": "Adding an extreme positive outlier to a numerical column significantly shifts its median to the right while leaving its mean unchanged.",
+    "answer": false,
+    "explanation": "Outliers heavily pull the MEAN toward the extreme value while having minimal impact on the rank-based MEDIAN."
+  },
+  {
+    "id": "TP2_126",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In Seaborn, setting hue='age' in a scatter plot automatically bins age into 3 discrete age brackets.",
+    "answer": false,
+    "explanation": "Setting a continuous numerical variable as hue applies a continuous gradient color spectrum without binning."
+  },
+  {
+    "id": "TP2_127",
+    "tp": 2,
+    "category": "tricky",
+    "question": "The 50th percentile of a dataset is mathematically identical to its sample mean.",
+    "answer": false,
+    "explanation": "The 50th percentile is the MEDIAN, which equals the mean only in symmetric distributions."
+  },
+  {
+    "id": "TP2_128",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In pandas, df.drop(columns=['age']) modifies the original DataFrame on disk without re-saving.",
+    "answer": false,
+    "explanation": "Pandas operates strictly in in-memory RAM; disk files are unaffected unless explicitly written with to_csv/to_excel."
+  },
+  {
+    "id": "TP2_129",
+    "tp": 2,
+    "category": "tricky",
+    "question": "A correlation matrix computed on 5 features has dimensions 5 x 10.",
+    "answer": false,
+    "explanation": "A pairwise correlation matrix for N features is always a square N x N matrix (5 x 5)."
+  },
+  {
+    "id": "TP2_130",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In Seaborn, sns.boxplot() cannot draw horizontal box plots.",
+    "answer": false,
+    "explanation": "Passing a continuous feature to x (or setting orient='h') draws horizontal box plots in Seaborn."
+  },
+  {
+    "id": "TP2_131",
+    "tp": 2,
+    "category": "tricky",
+    "question": "The area under a frequency histogram equals 100 by definition.",
+    "answer": false,
+    "explanation": "The total area under a standard frequency histogram equals bin width times sample count; probability density histograms sum area to 1.0."
+  },
+  {
+    "id": "TP2_132",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In pandas, df.isnull().sum() computes the total number of valid non-null rows in each column.",
+    "answer": false,
+    "explanation": "isnull().sum() counts MISSING NaN values; non-null values are counted via df.notnull().sum() or df.count()."
+  },
+  {
+    "id": "TP2_133",
+    "tp": 2,
+    "category": "tricky",
+    "question": "A scatter plot matrix (pairplot) displays target class probabilities directly.",
+    "answer": false,
+    "explanation": "Pair plots graph feature vs feature scatter plots; class probabilities require trained probabilistic models."
+  },
+  {
+    "id": "TP2_134",
+    "tp": 2,
+    "category": "tricky",
+    "question": "The variance of a constant feature whose entries are all equal to 5.0 is equal to 5.0.",
+    "answer": false,
+    "explanation": "A constant feature has zero dispersion; its variance and standard deviation are exactly 0.0."
+  },
+  {
+    "id": "TP2_135",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In pandas, df.sort_values(by=['pclass', 'age']) sorts by pclass descending and age descending by default.",
+    "answer": false,
+    "explanation": "sort_values() defaults to ASCENDING=True for all specified sort columns unless ascending=False is passed."
+  },
+  {
+    "id": "TP2_136",
+    "tp": 2,
+    "category": "tricky",
+    "question": "A distribution with positive skewness has its longest tail extending toward negative infinity.",
+    "answer": false,
+    "explanation": "Positive skewness means the long tail extends toward POSITIVE infinity (to the right)."
+  },
+  {
+    "id": "TP2_137",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In Seaborn, sns.heatmap(df.corr()) fails if the DataFrame contains float values.",
+    "answer": false,
+    "explanation": "sns.heatmap() requires numerical floats or integers to color-code matrix cells."
+  },
+  {
+    "id": "TP2_138",
+    "tp": 2,
+    "category": "tricky",
+    "question": "The range of a dataset is robust against extreme outliers.",
+    "answer": false,
+    "explanation": "Range = Max - Min depends directly on the extreme boundary values, making it highly sensitive to outliers."
+  },
+  {
+    "id": "TP2_139",
+    "tp": 2,
+    "category": "tricky",
+    "question": "In pandas, df['sex'].unique() returns a DataFrame containing sorted unique frequency counts.",
+    "answer": false,
+    "explanation": ".unique() returns a NumPy 1D array of unique values without frequency counts or DataFrame formatting."
+  },
+  {
+    "id": "TP2_140",
+    "tp": 2,
+    "category": "tricky",
+    "question": "Bimodal distributions can be accurately characterized by reporting only their sample mean and standard deviation.",
+    "answer": false,
+    "explanation": "Reporting only mean and std hides the two-peak bimodal structure; graphical histograms or KDE plots are required."
+  },
+  {
+    "id": "TP2_141",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing correlation with causation during EDA leads to incorrectly assuming feature X directly drives target Y.",
+    "answer": false,
+    "explanation": "Correlation establishes association strength but does not prove direct causal mechanisms."
+  },
+  {
+    "id": "TP2_142",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that df.describe() displays statistics for text/string columns by default.",
+    "answer": false,
+    "explanation": "By default, describe() processes only numerical columns, ignoring non-numeric string features."
+  },
+  {
+    "id": "TP2_143",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that a Pearson correlation of 0.0 proves two variables are completely independent.",
+    "answer": false,
+    "explanation": "Pearson r = 0 checks for linear dependence only; strong non-linear relationships can exist with r = 0."
+  },
+  {
+    "id": "TP2_144",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing the median (50th percentile) with the arithmetic mean in right-skewed distributions.",
+    "answer": false,
+    "explanation": "In right-skewed data, the mean is pulled right toward large tail values while the median stays at the 50th percentile."
+  },
+  {
+    "id": "TP2_145",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that calling plt.savefig() after plt.show() saves the rendered visual plot correctly.",
+    "answer": false,
+    "explanation": "plt.show() clears the visual canvas; calling savefig() afterward saves a blank image."
+  },
+  {
+    "id": "TP2_146",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that histograms and bar plots are identical tools for continuous numerical features.",
+    "answer": false,
+    "explanation": "Histograms plot continuous numerical range bins; bar plots compare discrete categorical levels."
+  },
+  {
+    "id": "TP2_147",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing IQR (Q3 - Q1) with full range (Max - Min) when evaluating distribution spread.",
+    "answer": false,
+    "explanation": "IQR measures middle 50% spread between quartiles, whereas Range measures total distance between extremes."
+  },
+  {
+    "id": "TP2_148",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that sns.countplot() is suitable for visualizing continuous floating-point attributes with 5000 unique values.",
+    "answer": false,
+    "explanation": "countplot renders distinct bars per unique value, producing an unreadable overcrowded plot for continuous floats."
+  },
+  {
+    "id": "TP2_149",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that df.shape[0] reports the number of columns in a pandas DataFrame.",
+    "answer": false,
+    "explanation": "df.shape[0] gives the total ROW count; df.shape[1] gives the column count."
+  },
+  {
+    "id": "TP2_150",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing positive skewness (long right tail) with negative skewness (long left tail).",
+    "answer": false,
+    "explanation": "Positive skew stretches toward high values (right); negative skew stretches toward low values (left)."
+  },
+  {
+    "id": "TP2_151",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that adding a constant value to every observation increases feature variance.",
+    "answer": false,
+    "explanation": "Adding a constant shifts the mean location without changing dispersion or variance."
+  },
+  {
+    "id": "TP2_152",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that df.groupby('sex').mean() includes non-numeric string columns in its output table.",
+    "answer": false,
+    "explanation": "Pandas mean() automatically skips non-numeric string columns because text cannot be averaged."
+  },
+  {
+    "id": "TP2_153",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing Spearman rank correlation with Pearson linear correlation when analyzing non-linear monotonic trends.",
+    "answer": false,
+    "explanation": "Spearman evaluates rank-order monotonicity; Pearson evaluates strict linear association."
+  },
+  {
+    "id": "TP2_154",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that a box plot whisker always extends to the absolute maximum data value.",
+    "answer": false,
+    "explanation": "Whiskers stop at 1.5*IQR from quartiles; points beyond are plotted individually as outliers."
+  },
+  {
+    "id": "TP2_155",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that high multicollinearity between predictor features improves linear model stability.",
+    "answer": false,
+    "explanation": "High multicollinearity inflates coefficient variance and destabilizes linear model estimation."
+  },
+  {
+    "id": "TP2_156",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing df.isnull().sum() with total non-null row counts.",
+    "answer": false,
+    "explanation": "df.isnull().sum() counts missing NaN entries; non-null entries are counted via df.notnull().sum()."
+  },
+  {
+    "id": "TP2_157",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that a correlation matrix of 4 numerical features has dimensions 4 x 8.",
+    "answer": false,
+    "explanation": "Pairwise correlation matrices are always square N x N matrices (4 x 4)."
+  },
+  {
+    "id": "TP2_158",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that log-transformation can be directly applied to columns containing negative numbers.",
+    "answer": false,
+    "explanation": "Log transforms require strictly positive inputs (x > 0) and fail or yield NaNs on negative numbers."
+  },
+  {
+    "id": "TP2_159",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing Seaborn pairplot with single feature distribution histograms.",
+    "answer": false,
+    "explanation": "Pairplot constructs an N x N matrix of scatter plots and marginal distributions across feature pairs."
+  },
+  {
+    "id": "TP2_160",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that df.value_counts() returns results sorted alphabetically by category name by default.",
+    "answer": false,
+    "explanation": "value_counts() sorts results by frequency counts in descending order by default."
+  },
+  {
+    "id": "TP2_161",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that high correlation between two input features guarantees both features are necessary for modeling.",
+    "answer": false,
+    "explanation": "Highly correlated inputs provide redundant information; one feature can often be removed."
+  },
+  {
+    "id": "TP2_162",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing df.sort_values(ascending=False) with default ascending sort order.",
+    "answer": false,
+    "explanation": "ascending=False sorts from highest to lowest; default ascending=True sorts from lowest to highest."
+  },
+  {
+    "id": "TP2_163",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that plt.legend() defines numerical axis ranges on Matplotlib plots.",
+    "answer": false,
+    "explanation": "plt.legend() annotates plot series keys; axis ranges are set via xlim/ylim or xticks/yticks."
+  },
+  {
+    "id": "TP2_164",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that mean imputation on a bimodal distribution preserves its original shape.",
+    "answer": false,
+    "explanation": "Imputing the mean places values between the two peaks, distorting the original bimodal structure."
+  },
+  {
+    "id": "TP2_165",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing sample standard deviation with sample variance when interpreting feature units.",
+    "answer": false,
+    "explanation": "Standard deviation shares the original feature units; variance is expressed in squared units."
+  },
+  {
+    "id": "TP2_166",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that df.head() permanently modifies the DataFrame structure on disk.",
+    "answer": false,
+    "explanation": "df.head() returns an in-memory preview slice without altering original stored files."
+  },
+  {
+    "id": "TP2_167",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that a correlation magnitude of -0.8 reflects a weaker relationship than +0.4.",
+    "answer": false,
+    "explanation": "Correlation strength depends on absolute value: |-0.8| = 0.8 is stronger than |+0.4| = 0.4."
+  },
+  {
+    "id": "TP2_168",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing pd.crosstab() with pd.DataFrame.describe().",
+    "answer": false,
+    "explanation": "crosstab computes joint frequency tables for categorical pairs; describe outputs univariate summary statistics."
+  },
+  {
+    "id": "TP2_169",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that out-of-range outlier values in box plots are always data recording errors.",
+    "answer": false,
+    "explanation": "Outliers beyond 1.5*IQR can represent legitimate extreme physical events in real distributions."
+  },
+  {
+    "id": "TP2_170",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that Seaborn heatmap requires categorical string text inside matrix cells.",
+    "answer": false,
+    "explanation": "sns.heatmap requires a numerical matrix of floats or ints to map cell colors."
+  },
+  {
+    "id": "TP2_171",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing Q1 (25th percentile) with Q3 (75th percentile) when calculating IQR.",
+    "answer": false,
+    "explanation": "Q1 is the lower 25th percentile boundary; Q3 is the upper 75th percentile boundary."
+  },
+  {
+    "id": "TP2_172",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that df.sample(n=5) selects the first 5 rows of a DataFrame sequentially.",
+    "answer": false,
+    "explanation": "df.sample(n=5) extracts 5 random rows; sequential extraction is done via df.head(5) or iloc[:5]."
+  },
+  {
+    "id": "TP2_173",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that alpha parameter in scatter plots changes marker font size.",
+    "answer": false,
+    "explanation": "alpha controls marker transparency (0.0 transparent to 1.0 opaque), not font size."
+  },
+  {
+    "id": "TP2_174",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing row-level missingness heatmaps with feature correlation heatmaps.",
+    "answer": false,
+    "explanation": "Missingness heatmaps visualize NaN locations across rows; correlation heatmaps show pairwise float correlations."
+  },
+  {
+    "id": "TP2_175",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that df.corr() throws an error when missing NaN values are present.",
+    "answer": false,
+    "explanation": "Pandas corr() computes correlations by automatically skipping NaN values pairwise."
+  },
+  {
+    "id": "TP2_176",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that a pie chart is superior to a bar chart for comparing 15 categorical levels.",
+    "answer": false,
+    "explanation": "Pie charts become cluttered and unreadable with 15 slices; bar charts compare many levels far better."
+  },
+  {
+    "id": "TP2_177",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing right-skewed distributions with left-skewed distributions when choosing central metrics.",
+    "answer": false,
+    "explanation": "Right-skewed data has a long positive tail (mean > median); left-skewed data has a long negative tail (mean < median)."
+  },
+  {
+    "id": "TP2_178",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that setting hue in Seaborn scatter plots reduces dataset row count.",
+    "answer": false,
+    "explanation": "hue adds a categorical or numeric color dimension to plot points without dropping rows."
+  },
+  {
+    "id": "TP2_179",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that variance of a constant feature equals 1.0.",
+    "answer": false,
+    "explanation": "A constant feature has zero variation; its variance is strictly 0.0."
+  },
+  {
+    "id": "TP2_180",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing pd.read_excel() with pd.read_csv() when parsing comma-separated text files.",
+    "answer": false,
+    "explanation": "read_csv() parses text CSVs; read_excel() parses binary spreadsheet formats like .xlsx."
+  },
+  {
+    "id": "TP2_181",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that calculating df.nunique() includes missing NaN values in the unique count.",
+    "answer": false,
+    "explanation": "nunique() excludes NaN values by default (dropna=True) when counting unique elements."
+  },
+  {
+    "id": "TP2_182",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that plt.clf() exports the rendered figure to a PNG file.",
+    "answer": false,
+    "explanation": "plt.clf() clears the current figure canvas; exporting to file requires plt.savefig()."
+  },
+  {
+    "id": "TP2_183",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing univariate EDA (single variable) with bivariate EDA (variable pairs).",
+    "answer": false,
+    "explanation": "Univariate EDA analyzes one feature alone; bivariate EDA examines relationships between feature pairs."
+  },
+  {
+    "id": "TP2_184",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that pd.crosstab normalize='index' computes column percentages that sum to 100% vertically.",
+    "answer": false,
+    "explanation": "normalize='index' computes ROW percentages summing to 1.0 horizontally; column percentages require normalize='columns'."
+  },
+  {
+    "id": "TP2_185",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that standard deviation can be calculated for non-ordinal nominal text categories.",
+    "answer": false,
+    "explanation": "Standard deviation requires numerical values and cannot be computed for non-numeric nominal text."
+  },
+  {
+    "id": "TP2_186",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing df.info() with df.describe().",
+    "answer": false,
+    "explanation": "df.info() summarizes data types and null counts; df.describe() outputs numerical summary statistics."
+  },
+  {
+    "id": "TP2_187",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that KDE density curves can only be plotted for discrete binary 0/1 features.",
+    "answer": false,
+    "explanation": "KDE estimates smooth probability density functions for continuous numerical variables."
+  },
+  {
+    "id": "TP2_188",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that Pearson correlation matrix diagonal contains zeroes.",
+    "answer": false,
+    "explanation": "The main diagonal of a correlation matrix contains 1.0 because every variable has perfect correlation with itself."
+  },
+  {
+    "id": "TP2_189",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing sample range (Max - Min) with standard deviation.",
+    "answer": false,
+    "explanation": "Range measures distance between extreme bounds; standard deviation measures average distance from the mean."
+  },
+  {
+    "id": "TP2_190",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that scatter plot markers must always be drawn as solid black dots.",
+    "answer": false,
+    "explanation": "Scatter plot markers can be customized with different shapes, sizes, colors (hue), and opacity (alpha)."
+  },
+  {
+    "id": "TP2_191",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that filtering a DataFrame with boolean mask alters column names.",
+    "answer": false,
+    "explanation": "Boolean filtering selects matching rows while leaving DataFrame column names unchanged."
+  },
+  {
+    "id": "TP2_192",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing exploratory data analysis with final production model deployment.",
+    "answer": false,
+    "explanation": "EDA explores dataset characteristics during initial analysis; deployment runs trained models in production."
+  },
+  {
+    "id": "TP2_193",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that pd.value_counts(dropna=False) ignores missing values.",
+    "answer": false,
+    "explanation": "dropna=False explicitly INCLUDES missing NaN values in the output frequency count table."
+  },
+  {
+    "id": "TP2_194",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that a high correlation between feature X and target Y guarantees 100% classification accuracy.",
+    "answer": false,
+    "explanation": "Correlation indicates linear association strength but does not guarantee error-free classification performance."
+  },
+  {
+    "id": "TP2_195",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing horizontal box plots with vertical bar charts.",
+    "answer": false,
+    "explanation": "Box plots display quartile distribution summaries; bar charts display discrete group value heights."
+  },
+  {
+    "id": "TP2_196",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that df.tail() returns the top rows of a DataFrame.",
+    "answer": false,
+    "explanation": "df.tail() returns the BOTTOM (last) rows; df.head() returns the top rows."
+  },
+  {
+    "id": "TP2_197",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that Seaborn pairplot displays non-numeric text columns as scatter axes.",
+    "answer": false,
+    "explanation": "Seaborn pairplot selects only numerical columns for scatter plot grid axes."
+  },
+  {
+    "id": "TP2_198",
+    "tp": 2,
+    "category": "trap",
+    "question": "Confusing dataset mean with dataset mode.",
+    "answer": false,
+    "explanation": "Mean is the arithmetic average; mode is the most frequently occurring value."
+  },
+  {
+    "id": "TP2_199",
+    "tp": 2,
+    "category": "trap",
+    "question": "Assuming that Matplotlib plt.subplots() creates a single figure with no axes.",
+    "answer": false,
+    "explanation": "plt.subplots() creates a figure object AND one or more subplot axes objects."
+  },
+  {
+    "id": "TP2_200",
+    "tp": 2,
+    "category": "trap",
+    "question": "Believing that exploratory data analysis eliminates the need for data preprocessing.",
+    "answer": false,
+    "explanation": "EDA identifies data issues (missingness, scaling needs, outliers) that MUST then be handled during preprocessing."
   }
 ]

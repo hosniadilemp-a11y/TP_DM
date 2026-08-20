@@ -1,1672 +1,1602 @@
 [
   {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Decision Trees split nodes to maximize Information Gain or minimize Gini Impurity.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 671
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Gini Impurity measures the likelihood of misclassifying a randomly chosen element.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 672
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Entropy measures the degree of impurity or randomness in a group of samples.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 673
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Random Forest is an ensemble learning method using bagging (bootstrap aggregating) of decision trees.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 674
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "K-Nearest Neighbors (KNN) is a non-parametric, instance-based lazy learning algorithm.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 675
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Support Vector Machines (SVM) find the optimal hyperplane maximizing the margin between classes.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 676
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Naive Bayes classifier assumes conditional independence between features given the class label.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 677
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Logistic Regression uses the sigmoid (logistic) function to model binary class probabilities.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 678
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Random Forest reduces prediction variance compared to an individual single decision tree.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 679
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Pruning a decision tree reduces model complexity and helps prevent overfitting.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 680
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "SVM uses kernel functions (RBF, Polynomial) to project data into higher-dimensional linearly separable spaces.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 681
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "In KNN, smaller values of K make the model more sensitive to noise and local data fluctuations.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 682
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Out-of-Bag (OOB) error in Random Forest provides an unbiased estimate of test error using un-sampled bootstrap data.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 683
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Decision Trees are non-parametric models capable of capturing non-linear relationships.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 684
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Feature scaling is mandatory for distance-based algorithms like KNN and SVM with RBF kernel.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 685
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Gini Impurity for a pure node containing only one class is equal to 0.0.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 686
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Gradient Boosting builds trees sequentially, where each tree fits to the residual errors of prior trees.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 687
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Logistic Regression produces output values bounded strictly between 0 and 1.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 688
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Naive Bayes computes class posterior probability using Bayes' theorem.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 689
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Support vectors are the data points lying closest to the SVM decision boundary hyperplane.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 690
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Increasing tree depth in a Decision Tree increases model complexity and overfitting risk.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 691
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Random Forest samples both observations (bootstrap) and feature subsets at each split node.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 692
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Logistic Regression decision boundary is linear in feature space when using linear features.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 693
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "KNN requires storing the entire training dataset in memory during prediction time.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 694
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Gaussian Naive Bayes assumes continuous features follow a Gaussian normal distribution per class.",
-    "correct_answer": true,
-    "question_type": "plain",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 695
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Decision Trees require features to be scaled using StandardScaler prior to model training.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 696
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Gini Impurity for a node with equal 50/50 binary class distribution is equal to 1.0.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 697
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Random Forest builds sequential trees where each tree corrects errors of the previous tree.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 698
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "KNN algorithm requires an explicit training phase to compute internal model parameters.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 699
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "SVM maximizes the classification error margin on training instances.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 700
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Naive Bayes assumption of feature independence is strictly satisfied in almost all real-world tabular datasets.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 701
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Logistic Regression is a regression model used to predict continuous numeric target outputs.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 702
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Random Forest is more prone to overfitting than a single unpruned decision tree.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 703
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Pruning a decision tree increases tree depth and increases training set accuracy.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 704
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Linear SVM can easily classify non-linearly separable data without kernel transformations.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 705
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "In KNN, setting K equal to the total number of training samples N creates a model that overfits noise.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 706
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "OOB error estimation in Random Forest requires a separate held-out test dataset.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 707
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Decision Trees compute non-linear hyperplane boundaries with diagonal slopes in feature space.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 708
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "KNN classification predictions are independent of feature measurement scale.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 709
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Gini Impurity calculation is computationally slower than Log Entropy calculation due to logarithm evaluations.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 710
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "AdaBoost builds independent decision trees in parallel using bootstrap aggregating.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 711
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Logistic Regression uses the linear step function to output exact discrete 0/1 class decisions.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 712
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Naive Bayes cannot handle zero probability categories even when Laplace smoothing is applied.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 713
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Support vectors consist of all training data points located far away from the decision margin.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 714
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Increasing min_samples_split in a Decision Tree leads to deeper trees and overfitting.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 715
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Random Forest selects the best feature split from all available features at every node.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 716
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Logistic Regression odds ratio is unbounded negative to positive infinity.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 717
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "KNN makes instant predictions with O(1) time complexity during inference time.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 718
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Gaussian Naive Bayes requires categorical variables to remain unencoded as raw strings.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 719
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Entropy of a node with equal 50/50 binary class distribution is equal to 0.0.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 720
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Bagging algorithms fit base estimators sequentially on weighted residual samples.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 721
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "SVM hyper-parameter C controls the tree depth of internal weak learners.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 722
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "KNN with K=1 yields a smooth decision boundary resistant to noise.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 723
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Information Gain is calculated as the sum of child node impurities minus parent impurity.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 724
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Logistic Regression cost function (Log-loss) is non-convex with multiple local minima.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 725
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Random Forest feature importance measures the absolute correlation between features and target.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 726
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Decision Trees can extrapolate linear trends far outside the range of training data.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 727
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Kernel trick in SVM explicitly computes feature coordinates in high-dimensional space.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 728
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Laplace smoothing in Naive Bayes adds 1 to the numerator to avoid zero probability estimates.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 729
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Hard-margin SVM allows misclassified training points within the margin zone.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 730
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Random Forest requires all base decision trees to be fully pruned to single root nodes.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 731
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "KNN uses gradient descent optimization during training to find optimal cluster centroids.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 732
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Information Gain Ratio penalizes attributes with many fine-grained uniform categories.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 733
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Logistic regression models multi-class target labels natively without One-vs-Rest or Softmax.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 734
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Decision Tree splits are always computed using principal component directions.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 735
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Soft-margin SVM with high C value allows large margin violations and tolerates misclassifications.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 736
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Multinomial Naive Bayes is designed specifically for continuous Gaussian features.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 737
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Increasing K in KNN increases model variance and decreases bias.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 738
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Random Forest trees are correlated because each tree receives identical training bootstrap samples.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 739
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Gini Impurity ranges from 0.0 to 1.0 for binary classification problems.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 740
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Decision Trees split continuous attributes into categorical bins prior to calculating impurity.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 741
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Sigmoid function maps real inputs to output range [-1, 1].",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 742
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "SVM with RBF kernel has only one hyper-parameter C and no gamma parameter.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 743
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Naive Bayes computes exact joint probability distributions without independence assumptions.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 744
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Random Forest cannot perform regression tasks on continuous numerical target variables.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 745
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Pruning methods include pre-pruning (early stopping) and post-pruning (cost-complexity pruning).",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 746
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "KNN prediction speed increases linearly as the size of training data N increases.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 747
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Logistic regression assumes features are highly multicollinear with each other.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 748
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Decision Trees are highly sensitive to small variations in training sample data.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 749
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "SVM decision boundary depends on every single training instance in the dataset.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 750
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Boosting algorithms reduce model variance while Bagging algorithms primarily reduce model bias.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 751
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Entropy calculation uses log base 10 by default in standard information theory formulations.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 752
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 17,
-    "text": "Single Decision Trees always outperform Random Forests on noisy high-dimensional data.",
-    "correct_answer": false,
-    "question_type": "trick",
-    "trap_group_id": null,
-    "trap_mode": null,
-    "id": 753
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Random Forest uses Bagging (bootstrap aggregating) to train independent decision trees in parallel.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 169,
-    "trap_mode": "hidden",
-    "id": 754
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Random Forest uses Boosting to train sequential decision trees on residual error weights.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 169,
-    "trap_mode": "hidden",
-    "id": 755
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Gradient Boosting trains sequential trees where each tree fits to residual errors of prior trees.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 170,
-    "trap_mode": "hidden",
-    "id": 756
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Gradient Boosting trains independent trees in parallel using bootstrap sample aggregation.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 170,
-    "trap_mode": "hidden",
-    "id": 757
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Gini Impurity for a completely pure single-class node is equal to 0.0.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 171,
-    "trap_mode": "hidden",
-    "id": 758
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Gini Impurity for a completely pure single-class node is equal to 1.0.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 171,
-    "trap_mode": "hidden",
-    "id": 759
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Entropy for a completely pure single-class node is equal to 0.0.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 172,
-    "trap_mode": "hidden",
-    "id": 760
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Entropy for a completely pure single-class node is equal to 1.0.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 172,
-    "trap_mode": "hidden",
-    "id": 761
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Gini Impurity for an equal 50/50 binary class node is equal to 0.5.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 173,
-    "trap_mode": "hidden",
-    "id": 762
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Gini Impurity for an equal 50/50 binary class node is equal to 1.0.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 173,
-    "trap_mode": "hidden",
-    "id": 763
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Entropy for an equal 50/50 binary class node is equal to 1.0 (with log base 2).",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 174,
-    "trap_mode": "hidden",
-    "id": 764
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Entropy for an equal 50/50 binary class node is equal to 0.0 (with log base 2).",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 174,
-    "trap_mode": "hidden",
-    "id": 765
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "KNN is a non-parametric lazy learner that performs computation during prediction time.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 175,
-    "trap_mode": "hidden",
-    "id": 766
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "KNN is an eager parametric learner that computes model weights during training phase.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 175,
-    "trap_mode": "hidden",
-    "id": 767
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Smaller K in KNN makes the model more sensitive to noise and increases variance.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 176,
-    "trap_mode": "hidden",
-    "id": 768
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Smaller K in KNN smooths decision boundaries and decreases variance.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 176,
-    "trap_mode": "hidden",
-    "id": 769
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Larger K in KNN smooths decision boundaries and increases bias.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 177,
-    "trap_mode": "hidden",
-    "id": 770
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Larger K in KNN overfits noisy training instances and increases variance.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 177,
-    "trap_mode": "hidden",
-    "id": 771
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "SVM finds the optimal hyperplane that maximizes the margin between classes.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 178,
-    "trap_mode": "hidden",
-    "id": 772
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "SVM finds the optimal hyperplane that minimizes the distance between class centroids.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 178,
-    "trap_mode": "hidden",
-    "id": 773
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Support vectors are data points lying closest to the SVM decision margin boundary.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 179,
-    "trap_mode": "hidden",
-    "id": 774
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Support vectors are data points lying furthest away from the SVM decision margin boundary.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 179,
-    "trap_mode": "hidden",
-    "id": 775
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Naive Bayes assumes features are conditionally independent given the class label.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 180,
-    "trap_mode": "hidden",
-    "id": 776
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Naive Bayes assumes features are highly correlated and interdependent given the class label.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 180,
-    "trap_mode": "hidden",
-    "id": 777
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Laplace smoothing adds a constant to frequency counts to prevent zero probability estimates.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 181,
-    "trap_mode": "hidden",
-    "id": 778
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Laplace smoothing removes low-frequency categories to reduce feature space size.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 181,
-    "trap_mode": "hidden",
-    "id": 779
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Logistic Regression uses the sigmoid function to map real inputs to probabilities [0, 1].",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 182,
-    "trap_mode": "hidden",
-    "id": 780
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Logistic Regression uses the step function to map real inputs to continuous linear predictions.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 182,
-    "trap_mode": "hidden",
-    "id": 781
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Sigmoid function outputs values strictly bounded between 0.0 and 1.0.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 183,
-    "trap_mode": "hidden",
-    "id": 782
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Sigmoid function outputs values strictly bounded between -1.0 and +1.0.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 183,
-    "trap_mode": "hidden",
-    "id": 783
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Pruning decision trees reduces tree depth and prevents overfitting.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 184,
-    "trap_mode": "hidden",
-    "id": 784
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Pruning decision trees increases tree depth and causes overfitting.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 184,
-    "trap_mode": "hidden",
-    "id": 785
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Out-of-Bag (OOB) error in Random Forest uses unselected bootstrap samples for validation.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 185,
-    "trap_mode": "hidden",
-    "id": 786
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Out-of-Bag (OOB) error in Random Forest uses training samples to evaluate training accuracy.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 185,
-    "trap_mode": "hidden",
-    "id": 787
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Random Forest samples both observations and feature subsets at each split node.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 186,
-    "trap_mode": "hidden",
-    "id": 788
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Random Forest uses all observations and all features at every split node.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 186,
-    "trap_mode": "hidden",
-    "id": 789
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Decision Trees create axis-aligned orthogonal split boundaries in feature space.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 187,
-    "trap_mode": "hidden",
-    "id": 790
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Decision Trees create smooth non-linear circular split boundaries in feature space.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 187,
-    "trap_mode": "hidden",
-    "id": 791
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "SVM kernel trick projects data into higher-dimensional space without computing new coordinates explicitly.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 188,
-    "trap_mode": "hidden",
-    "id": 792
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "SVM kernel trick projects data into lower-dimensional space by dropping non-linear features.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 188,
-    "trap_mode": "hidden",
-    "id": 793
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Hard-margin SVM requires data to be perfectly linearly separable without misclassifications.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 189,
-    "trap_mode": "hidden",
-    "id": 794
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Hard-margin SVM allows margin violations and tolerates misclassified training points.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 189,
-    "trap_mode": "hidden",
-    "id": 795
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Soft-margin SVM uses hyper-parameter C to control trade-off between margin width and error penalty.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 190,
-    "trap_mode": "hidden",
-    "id": 796
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Soft-margin SVM uses hyper-parameter K to control number of nearest neighbors.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 190,
-    "trap_mode": "hidden",
-    "id": 797
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Higher C parameter in SVM penalizes misclassifications heavily, creating a narrower margin.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 191,
-    "trap_mode": "hidden",
-    "id": 798
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Higher C parameter in SVM allows large margin violations, creating a wider soft margin.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 191,
-    "trap_mode": "hidden",
-    "id": 799
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "KNN requires feature scaling because Euclidean distance is sensitive to attribute magnitude.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 192,
-    "trap_mode": "hidden",
-    "id": 800
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "KNN is invariant to feature scaling because Euclidean distance normalizes feature scales.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 192,
-    "trap_mode": "hidden",
-    "id": 801
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Decision Trees are invariant to monotonic feature scaling transformations.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 193,
-    "trap_mode": "hidden",
-    "id": 802
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Decision Trees require features to be scaled with StandardScaler before computing splits.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 193,
-    "trap_mode": "hidden",
-    "id": 803
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Information Gain is calculated as parent node entropy minus weighted average child entropy.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 194,
-    "trap_mode": "hidden",
-    "id": 804
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Information Gain is calculated as child node entropy minus parent node entropy.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 194,
-    "trap_mode": "hidden",
-    "id": 805
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Information Gain Ratio penalizes attributes with large numbers of distinct fine-grained categories.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 195,
-    "trap_mode": "hidden",
-    "id": 806
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Information Gain Ratio favors attributes with large numbers of distinct fine-grained categories.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 195,
-    "trap_mode": "hidden",
-    "id": 807
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "AdaBoost adjusts sample weights after each iteration to focus on misclassified instances.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 196,
-    "trap_mode": "hidden",
-    "id": 808
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "AdaBoost adjusts feature scaling factors after each iteration to reduce dimensionality.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 196,
-    "trap_mode": "hidden",
-    "id": 809
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Gaussian Naive Bayes assumes continuous feature variables follow Gaussian normal distributions per class.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 197,
-    "trap_mode": "hidden",
-    "id": 810
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Gaussian Naive Bayes assumes continuous feature variables follow uniform step distributions.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 197,
-    "trap_mode": "hidden",
-    "id": 811
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "KNN prediction time complexity scales linearly O(N) with number of training samples N.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 198,
-    "trap_mode": "hidden",
-    "id": 812
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "KNN prediction time complexity is constant O(1) regardless of training sample size N.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 198,
-    "trap_mode": "hidden",
-    "id": 813
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Cost-complexity pruning (post-pruning) trims branches after full decision tree is grown.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 199,
-    "trap_mode": "attention_check",
-    "id": 814
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Cost-complexity pruning (post-pruning) stops tree growth early before reaching max depth.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 199,
-    "trap_mode": "attention_check",
-    "id": 815
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Pre-pruning halts decision tree expansion early based on depth or min sample thresholds.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 200,
-    "trap_mode": "attention_check",
-    "id": 816
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Pre-pruning grows the tree to full max depth and then deletes non-essential leaves.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 200,
-    "trap_mode": "attention_check",
-    "id": 817
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Linear SVM decision boundary is a linear hyperplane in input feature space.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 201,
-    "trap_mode": "attention_check",
-    "id": 818
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Linear SVM decision boundary is a non-linear parabolic curve in input feature space.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 201,
-    "trap_mode": "attention_check",
-    "id": 819
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "RBF kernel (Gaussian) measures similarity between samples based on squared Euclidean distance.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 202,
-    "trap_mode": "attention_check",
-    "id": 820
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "RBF kernel (Gaussian) measures similarity based on categorical one-hot dot products.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 202,
-    "trap_mode": "attention_check",
-    "id": 821
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Multinomial Naive Bayes is suited for discrete feature counts like word frequencies in text.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 203,
-    "trap_mode": "attention_check",
-    "id": 822
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Multinomial Naive Bayes is suited for continuous scaled Gaussian features.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 203,
-    "trap_mode": "attention_check",
-    "id": 823
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Logistic regression models log-odds ratio as a linear combination of input features.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 204,
-    "trap_mode": "attention_check",
-    "id": 824
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Logistic regression models sample variance as a quadratic combination of input features.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 204,
-    "trap_mode": "attention_check",
-    "id": 825
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Base decision trees in Random Forest are decorrelated by random feature subspace sampling.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 205,
-    "trap_mode": "attention_check",
-    "id": 826
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Base decision trees in Random Forest are identical because they use identical feature subsets.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 205,
-    "trap_mode": "attention_check",
-    "id": 827
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Decision trees suffer from high variance and instability on small training data perturbations.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 206,
-    "trap_mode": "attention_check",
-    "id": 828
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Decision trees have zero variance and produce identical trees regardless of training data changes.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 206,
-    "trap_mode": "attention_check",
-    "id": 829
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Bagging primarily reduces model variance without increasing model bias.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 207,
-    "trap_mode": "attention_check",
-    "id": 830
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Bagging primarily reduces model bias without altering model variance.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 207,
-    "trap_mode": "attention_check",
-    "id": 831
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Boosting primarily reduces model bias by sequentially fitting base learners to residual errors.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 208,
-    "trap_mode": "attention_check",
-    "id": 832
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Boosting primarily reduces model variance by averaging independent parallel trees.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 208,
-    "trap_mode": "attention_check",
-    "id": 833
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Gini Impurity formula is 1 minus sum of squared class probabilities.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 209,
-    "trap_mode": "attention_check",
-    "id": 834
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Gini Impurity formula is negative sum of class probability times log class probability.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 209,
-    "trap_mode": "attention_check",
-    "id": 835
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Entropy formula is negative sum of class probability times log base 2 of class probability.",
-    "correct_answer": true,
-    "question_type": "trap",
-    "trap_group_id": 210,
-    "trap_mode": "attention_check",
-    "id": 836
-  },
-  {
-    "tp_id": 5,
-    "topic_id": 13,
-    "text": "Entropy formula is 1 minus sum of squared class probabilities.",
-    "correct_answer": false,
-    "question_type": "trap",
-    "trap_group_id": 210,
-    "trap_mode": "attention_check",
-    "id": 837
+    "id": "TP5_001",
+    "tp": 5,
+    "category": "normal",
+    "question": "Supervised classification trains algorithms on labeled data (X, y) to predict class labels for new unseen observations.",
+    "answer": true,
+    "explanation": "Supervised classification uses feature matrix X and known target vector y to learn a predictive mapping."
+  },
+  {
+    "id": "TP5_002",
+    "tp": 5,
+    "category": "normal",
+    "question": "In scikit-learn, model.fit(X_train, y_train) trains the classification model on training features and target labels.",
+    "answer": true,
+    "explanation": "fit() executes the training procedure, optimizing internal model parameters using training data."
+  },
+  {
+    "id": "TP5_003",
+    "tp": 5,
+    "category": "normal",
+    "question": "In scikit-learn, model.predict(X_test) returns predicted class labels for new input instances.",
+    "answer": true,
+    "explanation": "predict() applies the trained model parameters to infer target class labels for input feature rows."
+  },
+  {
+    "id": "TP5_004",
+    "tp": 5,
+    "category": "normal",
+    "question": "In scikit-learn, model.score(X_test, y_test) calculates the mean classification accuracy on test data.",
+    "answer": true,
+    "explanation": "For classification estimators, score() computes the fraction of correct target predictions on test inputs."
+  },
+  {
+    "id": "TP5_005",
+    "tp": 5,
+    "category": "normal",
+    "question": "In scikit-learn, model.predict_proba(X_test) returns predicted class probability distributions for input samples.",
+    "answer": true,
+    "explanation": "predict_proba() computes continuous class membership probabilities for each sample row."
+  },
+  {
+    "id": "TP5_006",
+    "tp": 5,
+    "category": "normal",
+    "question": "Supervised classification algorithms require feature matrix X to be numerically encoded before training.",
+    "answer": true,
+    "explanation": "Scikit-learn estimators require numerical inputs and raise errors if raw categorical strings are passed directly."
+  },
+  {
+    "id": "TP5_007",
+    "tp": 5,
+    "category": "normal",
+    "question": "Hyperparameters are model configuration settings specified prior to training that are not learned directly from data.",
+    "answer": true,
+    "explanation": "Hyperparameters (e.g., n_neighbors, max_depth) are specified during model initialization before fit() is called."
+  },
+  {
+    "id": "TP5_008",
+    "tp": 5,
+    "category": "normal",
+    "question": "Parameters like linear regression coefficients or decision tree splits are learned automatically during model fitting.",
+    "answer": true,
+    "explanation": "Internal parameters (e.g., coef_, intercept_) are computed automatically by fit() from training data."
+  },
+  {
+    "id": "TP5_009",
+    "tp": 5,
+    "category": "normal",
+    "question": "The target vector y in binary classification contains two distinct class labels (e.g., 0 and 1).",
+    "answer": true,
+    "explanation": "Binary classification targets discrete outcomes into one of two mutually exclusive classes."
+  },
+  {
+    "id": "TP5_010",
+    "tp": 5,
+    "category": "normal",
+    "question": "Multi-class classification involves predicting a target variable that takes three or more distinct class labels.",
+    "answer": true,
+    "explanation": "Multi-class classification targets discrete categorical outcomes spanning three or more unique classes."
+  },
+  {
+    "id": "TP5_011",
+    "tp": 5,
+    "category": "normal",
+    "question": "KNeighborsClassifier classifies a sample based on the majority class vote among its k nearest neighbors in feature space.",
+    "answer": true,
+    "explanation": "k-NN identifies the k closest training instances in distance space and assigns the most common class label."
+  },
+  {
+    "id": "TP5_012",
+    "tp": 5,
+    "category": "normal",
+    "question": "The n_neighbors hyperparameter in KNeighborsClassifier specifies the number of nearest neighbors to evaluate.",
+    "answer": true,
+    "explanation": "n_neighbors dictates how many nearby data points contribute to the classification decision vote."
+  },
+  {
+    "id": "TP5_013",
+    "tp": 5,
+    "category": "normal",
+    "question": "k-NN is a non-parametric, instance-based lazy learning algorithm that stores training instances rather than building an explicit model.",
+    "answer": true,
+    "explanation": "k-NN stores training instances in memory and performs distance computations on-the-fly during prediction."
+  },
+  {
+    "id": "TP5_014",
+    "tp": 5,
+    "category": "normal",
+    "question": "Euclidean distance is a standard distance metric used by KNeighborsClassifier to calculate neighbor proximity.",
+    "answer": true,
+    "explanation": "Euclidean distance (L2 norm) measures straight-line spatial distance between feature vectors."
+  },
+  {
+    "id": "TP5_015",
+    "tp": 5,
+    "category": "normal",
+    "question": "Manhattan distance (L1 norm) computes neighbor proximity by summing absolute differences across feature coordinates.",
+    "answer": true,
+    "explanation": "Manhattan distance measures grid-like distance along feature coordinate axes."
+  },
+  {
+    "id": "TP5_016",
+    "tp": 5,
+    "category": "normal",
+    "question": "A small value of k (e.g., k=1) makes k-NN sensitive to noise, increasing the risk of overfitting.",
+    "answer": true,
+    "explanation": "k=1 creates complex localized decision boundaries around individual outliers, causing high variance."
+  },
+  {
+    "id": "TP5_017",
+    "tp": 5,
+    "category": "normal",
+    "question": "A large value of k (e.g., k=50) smooths decision boundaries, potentially causing underfitting.",
+    "answer": true,
+    "explanation": "Very large k averages over broad regions, oversmoothing boundaries and ignoring local class signals."
+  },
+  {
+    "id": "TP5_018",
+    "tp": 5,
+    "category": "normal",
+    "question": "Feature scaling with StandardScaler is critical for k-NN because unscaled large-magnitude features distort distance metrics.",
+    "answer": true,
+    "explanation": "Distance metrics weigh raw magnitudes equally; unscaled large features dominate neighbor distance calculations."
+  },
+  {
+    "id": "TP5_019",
+    "tp": 5,
+    "category": "normal",
+    "question": "In scikit-learn, metric='minkowski' with p=2 corresponds to standard Euclidean distance in KNeighborsClassifier.",
+    "answer": true,
+    "explanation": "Minkowski distance with p=2 equals Euclidean distance; p=1 equals Manhattan distance."
+  },
+  {
+    "id": "TP5_020",
+    "tp": 5,
+    "category": "normal",
+    "question": "k-NN prediction speed slows down on large training datasets because distance must be computed against stored training samples.",
+    "answer": true,
+    "explanation": "Lazy learning requires calculating distances to stored training points during prediction execution."
+  },
+  {
+    "id": "TP5_021",
+    "tp": 5,
+    "category": "normal",
+    "question": "DecisionTreeClassifier builds a hierarchical tree structure by partitioning feature space using axis-aligned split thresholds.",
+    "answer": true,
+    "explanation": "Decision trees recursively split features at threshold values to maximize class purity in leaf nodes."
+  },
+  {
+    "id": "TP5_022",
+    "tp": 5,
+    "category": "normal",
+    "question": "Decision trees are highly interpretable models because their decision rules can be visualized and understood by humans.",
+    "answer": true,
+    "explanation": "Tree decision rules can be rendered as clear conditional logic flowcharts."
+  },
+  {
+    "id": "TP5_023",
+    "tp": 5,
+    "category": "normal",
+    "question": "The max_depth hyperparameter constrains the maximum vertical depth of a DecisionTreeClassifier.",
+    "answer": true,
+    "explanation": "max_depth limits maximum tree splitting depth to prevent over-complex deep trees."
+  },
+  {
+    "id": "TP5_024",
+    "tp": 5,
+    "category": "normal",
+    "question": "Limiting max_depth in DecisionTreeClassifier helps prevent overfitting on noisy training data.",
+    "answer": true,
+    "explanation": "Restricting tree depth stops the tree from growing leaves around single isolated outliers."
+  },
+  {
+    "id": "TP5_025",
+    "tp": 5,
+    "category": "normal",
+    "question": "Gini Impurity and Entropy are standard criteria used to measure node impurity in DecisionTreeClassifier.",
+    "answer": true,
+    "explanation": "Gini impurity and Entropy quantify class mixing in tree nodes to select optimal feature splits."
+  },
+  {
+    "id": "TP5_026",
+    "tp": 5,
+    "category": "normal",
+    "question": "A decision tree leaf node with Gini impurity equal to 0.0 contains samples belonging to a single pure class.",
+    "answer": true,
+    "explanation": "Gini = 0.0 indicates a perfectly pure node where 100% of samples belong to one target class."
+  },
+  {
+    "id": "TP5_027",
+    "tp": 5,
+    "category": "normal",
+    "question": "DecisionTreeClassifier computes feature_importances_ indicating the relative contribution of each feature to node purity gains.",
+    "answer": true,
+    "explanation": "feature_importances_ quantifies total normalized Gini/Entropy impurity reduction achieved by each feature."
+  },
+  {
+    "id": "TP5_028",
+    "tp": 5,
+    "category": "normal",
+    "question": "Decision trees are invariant to monotonic numerical feature scaling like StandardScaler.",
+    "answer": true,
+    "explanation": "Trees evaluate threshold inequalities (X >= threshold) per feature, making feature scaling unnecessary."
+  },
+  {
+    "id": "TP5_029",
+    "tp": 5,
+    "category": "normal",
+    "question": "An unconstrained DecisionTreeClassifier (max_depth=None) can grow until all leaves are pure, leading to severe overfitting.",
+    "answer": true,
+    "explanation": "Deep unconstrained trees memorize training instances, achieving 100% train accuracy but poor generalization."
+  },
+  {
+    "id": "TP5_030",
+    "tp": 5,
+    "category": "normal",
+    "question": "The min_samples_split hyperparameter sets the minimum number of samples required in a node to attempt a split.",
+    "answer": true,
+    "explanation": "min_samples_split prevents nodes with very few samples from splitting further."
+  },
+  {
+    "id": "TP5_031",
+    "tp": 5,
+    "category": "normal",
+    "question": "RandomForestClassifier is an ensemble learning method that constructs a collection of decision trees and combines their predictions.",
+    "answer": true,
+    "explanation": "Random Forest trains multiple decision trees and aggregates their votes to improve accuracy and stability."
+  },
+  {
+    "id": "TP5_032",
+    "tp": 5,
+    "category": "normal",
+    "question": "Random Forest uses Bootstrap Aggregating (Bagging) to train each tree on a random sample of dataset rows drawn with replacement.",
+    "answer": true,
+    "explanation": "Bagging samples training rows randomly with replacement, creating diverse datasets for individual trees."
+  },
+  {
+    "id": "TP5_033",
+    "tp": 5,
+    "category": "normal",
+    "question": "Random Forest selects a random subset of features at each candidate split to decorrelate individual decision trees.",
+    "answer": true,
+    "explanation": "Random feature subsampling decorrelates individual trees, reducing ensemble variance."
+  },
+  {
+    "id": "TP5_034",
+    "tp": 5,
+    "category": "normal",
+    "question": "Random Forest determines classification outcomes using majority voting across all individual decision trees.",
+    "answer": true,
+    "explanation": "The ensemble predicts the target class that receives the most votes from constituent decision trees."
+  },
+  {
+    "id": "TP5_035",
+    "tp": 5,
+    "category": "normal",
+    "question": "The n_estimators hyperparameter specifies the total number of decision trees in a RandomForestClassifier.",
+    "answer": true,
+    "explanation": "n_estimators sets the number of individual trees constructed inside the ensemble."
+  },
+  {
+    "id": "TP5_036",
+    "tp": 5,
+    "category": "normal",
+    "question": "Random Forest is generally less prone to overfitting than a single unconstrained Decision Tree.",
+    "answer": true,
+    "explanation": "Averaging predictions over multiple diverse trees cancels out individual tree variance."
+  },
+  {
+    "id": "TP5_037",
+    "tp": 5,
+    "category": "normal",
+    "question": "Random Forest computes feature_importances_ by averaging impurity reductions across all trees in the forest.",
+    "answer": true,
+    "explanation": "Ensemble feature importance averages individual tree impurity contributions for each feature."
+  },
+  {
+    "id": "TP5_038",
+    "tp": 5,
+    "category": "normal",
+    "question": "Increasing n_estimators in RandomForestClassifier generally improves ensemble stability without causing overfitting.",
+    "answer": true,
+    "explanation": "Adding more trees smooths ensemble voting without increasing model variance or overfitting."
+  },
+  {
+    "id": "TP5_039",
+    "tp": 5,
+    "category": "normal",
+    "question": "Out-Of-Bag (OOB) error estimates model generalization performance using bootstrap samples omitted during tree training.",
+    "answer": true,
+    "explanation": "OOB scoring evaluates each tree on training rows left out of its bootstrap sample, providing built-in validation."
+  },
+  {
+    "id": "TP5_040",
+    "tp": 5,
+    "category": "normal",
+    "question": "Random Forest can process both numerical and categorical features once categorical variables are properly encoded.",
+    "answer": true,
+    "explanation": "Once text features are numerically encoded, Random Forest processes high-dimensional mixed inputs effectively."
+  },
+  {
+    "id": "TP5_041",
+    "tp": 5,
+    "category": "normal",
+    "question": "Naive Bayes classifiers apply Bayes' Theorem with the strong assumption of conditional independence between features.",
+    "answer": true,
+    "explanation": "Naive Bayes assumes that all predictor features are conditionally independent given the target class label."
+  },
+  {
+    "id": "TP5_042",
+    "tp": 5,
+    "category": "normal",
+    "question": "GaussianNB assumes that continuous feature values within each target class follow a normal (Gaussian) distribution.",
+    "answer": true,
+    "explanation": "GaussianNB models continuous features using Gaussian normal distribution parameters (mean and variance)."
+  },
+  {
+    "id": "TP5_043",
+    "tp": 5,
+    "category": "normal",
+    "question": "BernoulliNB is designed for classification tasks where features are binary (0/1) indicator variables.",
+    "answer": true,
+    "explanation": "BernoulliNB models binary occurrence features, evaluating presence/absence of attributes."
+  },
+  {
+    "id": "TP5_044",
+    "tp": 5,
+    "category": "normal",
+    "question": "Naive Bayes classifiers are fast to train because feature distribution parameters are calculated independently per feature.",
+    "answer": true,
+    "explanation": "Independent feature estimation allows Naive Bayes to train in a single fast pass over data."
+  },
+  {
+    "id": "TP5_045",
+    "tp": 5,
+    "category": "normal",
+    "question": "Despite the unrealistic independence assumption, Naive Bayes often performs surprisingly well on text classification and real-world tasks.",
+    "answer": true,
+    "explanation": "Even when feature independence is violated, Naive Bayes yields accurate classification decision boundaries."
+  },
+  {
+    "id": "TP5_046",
+    "tp": 5,
+    "category": "normal",
+    "question": "In scikit-learn, GaussianNB.fit(X, y) calculates class prior probabilities and feature means/variances per class.",
+    "answer": true,
+    "explanation": "fit() estimates class priors P(y) and feature Gaussian parameters P(X_i|y) from training data."
+  },
+  {
+    "id": "TP5_047",
+    "tp": 5,
+    "category": "normal",
+    "question": "Naive Bayes outputs predicted class probabilities via predict_proba() using Bayes' rule posterior calculations.",
+    "answer": true,
+    "explanation": "predict_proba() normalizes posterior class likelihoods P(y|X) into valid class probabilities."
+  },
+  {
+    "id": "TP5_048",
+    "tp": 5,
+    "category": "normal",
+    "question": "Zero-frequency problem occurs in Naive Bayes when a feature value never appears in a class during training.",
+    "answer": true,
+    "explanation": "Zero counts yield 0 probability multipliers; Laplace smoothing adds pseudo-counts to resolve zero frequency."
+  },
+  {
+    "id": "TP5_049",
+    "tp": 5,
+    "category": "normal",
+    "question": "BernoulliNB is suitable for binary document classification where features flag word presence (1) or absence (0).",
+    "answer": true,
+    "explanation": "BernoulliNB models binary word occurrence matrices for text document classification."
+  },
+  {
+    "id": "TP5_050",
+    "tp": 5,
+    "category": "normal",
+    "question": "GaussianNB does not require tuning complex structural hyperparameters during standard initialization.",
+    "answer": true,
+    "explanation": "GaussianNB has virtually no structural hyperparameters to tune, relying directly on feature statistics."
+  },
+  {
+    "id": "TP5_051",
+    "tp": 5,
+    "category": "normal",
+    "question": "SVC (Support Vector Classifier) finds an optimal decision hyperplane that maximizes the margin between target classes.",
+    "answer": true,
+    "explanation": "SVM constructs a hyper-plane maximizing spatial margin distance to the nearest training support vectors."
+  },
+  {
+    "id": "TP5_052",
+    "tp": 5,
+    "category": "normal",
+    "question": "Support vectors are the training data points located closest to the decision hyperplane that define the margin bounds.",
+    "answer": true,
+    "explanation": "Support vectors lie on margin boundaries and strictly determine hyperplane orientation."
+  },
+  {
+    "id": "TP5_053",
+    "tp": 5,
+    "category": "normal",
+    "question": "The C hyperparameter in SVC controls the trade-off between maximizing margin width and minimizing training classification errors.",
+    "answer": true,
+    "explanation": "A small C allows misclassifications for a wider margin; a large C penalizes errors heavily for a narrower margin."
+  },
+  {
+    "id": "TP5_054",
+    "tp": 5,
+    "category": "normal",
+    "question": "A large value of C in SVC creates a narrow margin and penalizes misclassifications strictly, risking overfitting.",
+    "answer": true,
+    "explanation": "High C forces strict training sample separation, creating complex margins prone to overfitting."
+  },
+  {
+    "id": "TP5_055",
+    "tp": 5,
+    "category": "normal",
+    "question": "A small value of C in SVC creates a wider margin, allowing some training misclassifications to improve generalization.",
+    "answer": true,
+    "explanation": "Low C tolerates minor training errors to achieve a smoother, wider decision boundary."
+  },
+  {
+    "id": "TP5_056",
+    "tp": 5,
+    "category": "normal",
+    "question": "SVC uses kernel functions (e.g., 'linear', 'rbf', 'poly') to map non-linearly separable data into higher dimensions.",
+    "answer": true,
+    "explanation": "Kernel functions compute inner products in implicit high-dimensional spaces to separate non-linear data."
+  },
+  {
+    "id": "TP5_057",
+    "tp": 5,
+    "category": "normal",
+    "question": "The 'rbf' (Radial Basis Function) kernel is a popular default kernel for SVC that models non-linear decision boundaries.",
+    "answer": true,
+    "explanation": "RBF kernel uses Gaussian distance functions to map complex non-linear decision boundaries."
+  },
+  {
+    "id": "TP5_058",
+    "tp": 5,
+    "category": "normal",
+    "question": "The gamma hyperparameter in SVC with RBF kernel controls the radius of influence of individual support vectors.",
+    "answer": true,
+    "explanation": "High gamma limits support vector influence to immediate neighbors; low gamma spreads influence broadly."
+  },
+  {
+    "id": "TP5_059",
+    "tp": 5,
+    "category": "normal",
+    "question": "Feature scaling with StandardScaler is essential for SVC because distance-based margin calculations depend on feature scales.",
+    "answer": true,
+    "explanation": "Unscaled features warp spatial margin distances, causing SVC optimization to fail."
+  },
+  {
+    "id": "TP5_060",
+    "tp": 5,
+    "category": "normal",
+    "question": "SVC training time scales quadratically to cubically with sample size, making it slow on very large datasets.",
+    "answer": true,
+    "explanation": "SVM quadratic programming solver complexity makes SVC slow for datasets with tens of thousands of samples."
+  },
+  {
+    "id": "TP5_061",
+    "tp": 5,
+    "category": "normal",
+    "question": "LogisticRegression models the log-odds of a binary target outcome as a linear combination of input features.",
+    "answer": true,
+    "explanation": "Logistic Regression applies the sigmoid (logistic) function to linear inputs to predict class probabilities."
+  },
+  {
+    "id": "TP5_062",
+    "tp": 5,
+    "category": "normal",
+    "question": "The sigmoid activation function S(z) = 1 / (1 + e^-z) maps linear outputs z to continuous probabilities between 0 and 1.",
+    "answer": true,
+    "explanation": "The sigmoid function squashes any real value into a continuous probability interval [0, 1]."
+  },
+  {
+    "id": "TP5_063",
+    "tp": 5,
+    "category": "normal",
+    "question": "In scikit-learn, LogisticRegression calculates model.coef_ representing feature weights and model.intercept_ representing bias.",
+    "answer": true,
+    "explanation": "coef_ stores learned feature weights and intercept_ stores the baseline bias term."
+  },
+  {
+    "id": "TP5_064",
+    "tp": 5,
+    "category": "normal",
+    "question": "The C hyperparameter in scikit-learn LogisticRegression controls inverse regularization strength.",
+    "answer": true,
+    "explanation": "C = 1/lambda; smaller C values specify stronger regularization, while larger C values weaken regularization."
+  },
+  {
+    "id": "TP5_065",
+    "tp": 5,
+    "category": "normal",
+    "question": "L2 regularization (Ridge) adds a penalty proportional to the sum of squared coefficient weights to prevent overfitting.",
+    "answer": true,
+    "explanation": "L2 penalty shrinks feature weights toward zero without forcing them exactly to zero."
+  },
+  {
+    "id": "TP5_066",
+    "tp": 5,
+    "category": "normal",
+    "question": "L1 regularization (Lasso) adds a penalty proportional to absolute coefficient weights, promoting feature sparsity.",
+    "answer": true,
+    "explanation": "L1 penalty forces uninformative feature coefficients exactly to zero, performing automatic feature selection."
+  },
+  {
+    "id": "TP5_067",
+    "tp": 5,
+    "category": "normal",
+    "question": "SGDClassifier implements linear models (e.g., SVM or Logistic Regression) using Stochastic Gradient Descent optimization.",
+    "answer": true,
+    "explanation": "SGDClassifier optimizes linear loss functions (hinge, log_loss) using efficient mini-batch/sample gradient descent."
+  },
+  {
+    "id": "TP5_068",
+    "tp": 5,
+    "category": "normal",
+    "question": "SGDClassifier with loss='log_loss' fits a logistic regression model using stochastic gradient descent.",
+    "answer": true,
+    "explanation": "Setting loss='log_loss' configures SGDClassifier to optimize logistic loss."
+  },
+  {
+    "id": "TP5_069",
+    "tp": 5,
+    "category": "normal",
+    "question": "SGDClassifier with loss='hinge' fits a linear Support Vector Machine classifier.",
+    "answer": true,
+    "explanation": "Setting loss='hinge' configures SGDClassifier to optimize linear SVM margin loss."
+  },
+  {
+    "id": "TP5_070",
+    "tp": 5,
+    "category": "normal",
+    "question": "SGDClassifier is highly efficient for large-scale and online/streaming datasets because it updates weights per sample/batch.",
+    "answer": true,
+    "explanation": "Stochastic gradient updates process massive datasets iteratively without loading all data into memory at once."
+  },
+  {
+    "id": "TP5_071",
+    "tp": 5,
+    "category": "normal",
+    "question": "Boosting ensembles construct weak learners sequentially, where each new model focuses on correcting errors made by previous models.",
+    "answer": true,
+    "explanation": "Boosting builds sequential chains of weak trees, reweighting misclassified instances at each step."
+  },
+  {
+    "id": "TP5_072",
+    "tp": 5,
+    "category": "normal",
+    "question": "AdaBoostClassifier iteratively adjusts sample weights to increase the influence of misclassified instances in subsequent iterations.",
+    "answer": true,
+    "explanation": "AdaBoost increases weights of incorrectly predicted samples so the next weak learner focuses on hard cases."
+  },
+  {
+    "id": "TP5_073",
+    "tp": 5,
+    "category": "normal",
+    "question": "GradientBoostingClassifier builds sequential decision trees where each new tree fits the residual errors (pseudo-residuals) of the ensemble.",
+    "answer": true,
+    "explanation": "Gradient Boosting optimizes loss functions by fitting new trees to the negative gradient residuals of prior trees."
+  },
+  {
+    "id": "TP5_074",
+    "tp": 5,
+    "category": "normal",
+    "question": "XGBClassifier (Extreme Gradient Boosting) is an optimized, scalable implementation of gradient boosted decision trees.",
+    "answer": true,
+    "explanation": "XGBoost provides high-performance parallelized gradient boosting with built-in regularization and fast tree building."
+  },
+  {
+    "id": "TP5_075",
+    "tp": 5,
+    "category": "normal",
+    "question": "The learning_rate hyperparameter in Gradient Boosting scales the contribution of each individual tree added to the ensemble.",
+    "answer": true,
+    "explanation": "learning_rate shrinks tree contributions, requiring more trees (n_estimators) to prevent overfitting."
+  },
+  {
+    "id": "TP5_076",
+    "tp": 5,
+    "category": "normal",
+    "question": "Lower learning_rate values in Gradient Boosting require more trees (n_estimators) to achieve optimal performance.",
+    "answer": true,
+    "explanation": "Smaller shrinkage steps require adding more sequential trees to fit dataset patterns completely."
+  },
+  {
+    "id": "TP5_077",
+    "tp": 5,
+    "category": "normal",
+    "question": "XGBoost includes built-in L1 and L2 regularization to prevent individual trees from overfitting.",
+    "answer": true,
+    "explanation": "XGBoost incorporates tree complexity penalties directly into its objective optimization loss."
+  },
+  {
+    "id": "TP5_078",
+    "tp": 5,
+    "category": "normal",
+    "question": "Boosting algorithms generally achieve state-of-the-art accuracy on structured tabular datasets.",
+    "answer": true,
+    "explanation": "Gradient boosted decision trees routinely dominate tabular machine learning benchmarks and competitions."
+  },
+  {
+    "id": "TP5_079",
+    "tp": 5,
+    "category": "normal",
+    "question": "Unlike Random Forest which builds trees in parallel independently, Gradient Boosting builds trees sequentially in series.",
+    "answer": true,
+    "explanation": "Random Forest parallelizes independent trees; Gradient Boosting relies on sequential residual error dependencies."
+  },
+  {
+    "id": "TP5_080",
+    "tp": 5,
+    "category": "normal",
+    "question": "AdaBoost commonly uses shallow decision trees (decision stumps with max_depth=1) as base estimators.",
+    "answer": true,
+    "explanation": "AdaBoost historically chains single-split decision stumps as simple weak base learners."
+  },
+  {
+    "id": "TP5_081",
+    "tp": 5,
+    "category": "normal",
+    "question": "KNeighborsClassifier classifies test samples based on the majority class vote of their k nearest spatial neighbors.",
+    "answer": true,
+    "explanation": "k-NN identifies the k nearest training samples in distance space to cast class prediction votes."
+  },
+  {
+    "id": "TP5_082",
+    "tp": 5,
+    "category": "normal",
+    "question": "DecisionTreeClassifier constructs a hierarchical rule tree by making optimal feature threshold splits.",
+    "answer": true,
+    "explanation": "Decision trees recursively partition feature space at thresholds that maximize node purity."
+  },
+  {
+    "id": "TP5_083",
+    "tp": 5,
+    "category": "normal",
+    "question": "RandomForestClassifier combines predictions from multiple decision trees trained on bootstrap samples.",
+    "answer": true,
+    "explanation": "Random Forest builds parallel trees via bagging to reduce variance and improve accuracy."
+  },
+  {
+    "id": "TP5_084",
+    "tp": 5,
+    "category": "normal",
+    "question": "GaussianNB calculates class priors and feature Gaussian normal distributions for continuous variables.",
+    "answer": true,
+    "explanation": "GaussianNB assumes normal feature distributions within target classes."
+  },
+  {
+    "id": "TP5_085",
+    "tp": 5,
+    "category": "normal",
+    "question": "BernoulliNB is tailored for classification problems where features are binary 0/1 indicators.",
+    "answer": true,
+    "explanation": "BernoulliNB models binary feature occurrence probabilities."
+  },
+  {
+    "id": "TP5_086",
+    "tp": 5,
+    "category": "normal",
+    "question": "Support Vector Classifier (SVC) finds an optimal hyperplane that maximizes spatial margin separation between classes.",
+    "answer": true,
+    "explanation": "SVC maximizes spatial margin width to the nearest support vector data points."
+  },
+  {
+    "id": "TP5_087",
+    "tp": 5,
+    "category": "normal",
+    "question": "LogisticRegression uses the sigmoid function to map linear combination outputs to continuous class probabilities.",
+    "answer": true,
+    "explanation": "The sigmoid function squashes real linear outputs into valid continuous probabilities between 0 and 1."
+  },
+  {
+    "id": "TP5_088",
+    "tp": 5,
+    "category": "normal",
+    "question": "SGDClassifier uses stochastic gradient updates to train linear classifiers efficiently on large datasets.",
+    "answer": true,
+    "explanation": "Stochastic gradient descent updates parameters per sample/batch, scaling efficiently to large data."
+  },
+  {
+    "id": "TP5_089",
+    "tp": 5,
+    "category": "normal",
+    "question": "AdaBoostClassifier iteratively increases weights of misclassified instances to train sequential weak learners.",
+    "answer": true,
+    "explanation": "AdaBoost reweights hard misclassified samples so subsequent weak trees focus on correcting errors."
+  },
+  {
+    "id": "TP5_090",
+    "tp": 5,
+    "category": "normal",
+    "question": "GradientBoostingClassifier builds sequential decision trees that fit residual errors of previous ensemble stages.",
+    "answer": true,
+    "explanation": "Gradient Boosting fits sequential decision trees to negative gradient pseudo-residuals."
+  },
+  {
+    "id": "TP5_091",
+    "tp": 5,
+    "category": "tricky",
+    "question": "In scikit-learn, LogisticRegression handles non-linear decision boundaries natively without feature transformations.",
+    "answer": false,
+    "explanation": "LogisticRegression constructs linear decision boundaries in raw feature space; non-linear boundaries require feature engineering or kernels."
+  },
+  {
+    "id": "TP5_092",
+    "tp": 5,
+    "category": "tricky",
+    "question": "DecisionTreeClassifier requires feature scaling with StandardScaler to build accurate decision splits.",
+    "answer": false,
+    "explanation": "Decision trees evaluate axis-aligned threshold splits per feature independently, making them completely invariant to monotonic feature scaling."
+  },
+  {
+    "id": "TP5_093",
+    "tp": 5,
+    "category": "tricky",
+    "question": "RandomForestClassifier fits every constituent tree on the exact same full training dataset without row sampling.",
+    "answer": false,
+    "explanation": "Random Forest uses bootstrap sampling (bagging) to train each tree on a different random sample of rows drawn with replacement."
+  },
+  {
+    "id": "TP5_094",
+    "tp": 5,
+    "category": "tricky",
+    "question": "GaussianNB requires features to be One-Hot encoded before model fitting.",
+    "answer": false,
+    "explanation": "GaussianNB is designed for continuous features assuming normal distributions; binary categorical features are better modeled with BernoulliNB."
+  },
+  {
+    "id": "TP5_095",
+    "tp": 5,
+    "category": "tricky",
+    "question": "SVC with a linear kernel generates non-linear circular decision boundaries in raw 2D feature space.",
+    "answer": false,
+    "explanation": "A linear kernel constructs straight hyperplanes (linear decision boundaries) in feature space."
+  },
+  {
+    "id": "TP5_096",
+    "tp": 5,
+    "category": "tricky",
+    "question": "In scikit-learn LogisticRegression, setting C=1000 applies extremely strong weight regularization.",
+    "answer": false,
+    "explanation": "C is INVERSE regularization strength; large C values (C=1000) specify very WEAK regularization, while small C values (C=0.01) enforce strong regularization."
+  },
+  {
+    "id": "TP5_097",
+    "tp": 5,
+    "category": "tricky",
+    "question": "Increasing n_neighbors in KNeighborsClassifier from 3 to 50 increases model complexity and causes overfitting.",
+    "answer": false,
+    "explanation": "Increasing n_neighbors smooths decision boundaries, REDUCING model complexity and variance (moving toward underfitting)."
+  },
+  {
+    "id": "TP5_098",
+    "tp": 5,
+    "category": "tricky",
+    "question": "GradientBoostingClassifier builds individual decision trees independently in parallel.",
+    "answer": false,
+    "explanation": "Gradient Boosting builds trees SEQUENTIALLY, where each tree fits the residual errors of the prior ensemble; Random Forest builds trees in parallel."
+  },
+  {
+    "id": "TP5_099",
+    "tp": 5,
+    "category": "tricky",
+    "question": "KNeighborsClassifier computes feature_importances_ attributes after fitting.",
+    "answer": false,
+    "explanation": "k-NN is an instance-based lazy learner that stores samples; it does not compute decision trees or feature_importances_."
+  },
+  {
+    "id": "TP5_100",
+    "tp": 5,
+    "category": "tricky",
+    "question": "An unconstrained DecisionTreeClassifier with max_depth=None is guaranteed to generalize well to unseen test data.",
+    "answer": false,
+    "explanation": "Unconstrained trees memorize training noise, achieving 100% train accuracy but severe overfitting and poor test generalization."
+  },
+  {
+    "id": "TP5_101",
+    "tp": 5,
+    "category": "tricky",
+    "question": "SVC with an RBF kernel requires setting n_estimators to control the number of support vector trees.",
+    "answer": false,
+    "explanation": "SVC is a support vector machine, not a tree ensemble; n_estimators is used in Random Forest or Boosting models."
+  },
+  {
+    "id": "TP5_102",
+    "tp": 5,
+    "category": "tricky",
+    "question": "BernoulliNB models continuous floating-point variables using Gaussian distribution means.",
+    "answer": false,
+    "explanation": "BernoulliNB models binary 0/1 indicator features; continuous floating-point variables are modeled by GaussianNB."
+  },
+  {
+    "id": "TP5_103",
+    "tp": 5,
+    "category": "tricky",
+    "question": "Random Forest uses boosting to build sequential trees that correct prior tree classification errors.",
+    "answer": false,
+    "explanation": "Random Forest uses BAGGING (bootstrap aggregating) of independent parallel trees; sequential error correction is used by BOOSTING (AdaBoost/GBDT)."
+  },
+  {
+    "id": "TP5_104",
+    "tp": 5,
+    "category": "tricky",
+    "question": "In LogisticRegression, L1 regularization shrinks feature weights without forcing any weight exactly to zero.",
+    "answer": false,
+    "explanation": "L1 regularization (Lasso) forces uninformative feature weights EXACTLY to zero; L2 regularization shrinks weights without zeroing them."
+  },
+  {
+    "id": "TP5_105",
+    "tp": 5,
+    "category": "tricky",
+    "question": "AdaBoostClassifier assigns equal voting weight to every constituent weak learner tree regardless of its accuracy.",
+    "answer": false,
+    "explanation": "AdaBoost weights tree voting power based on individual tree accuracy; Random Forest weights all tree votes equally."
+  },
+  {
+    "id": "TP5_106",
+    "tp": 5,
+    "category": "tricky",
+    "question": "In scikit-learn, calling model.predict_proba() on a trained DecisionTreeClassifier raises an error.",
+    "answer": false,
+    "explanation": "DecisionTreeClassifier supports predict_proba(), returning class sample proportions in the matching leaf node."
+  },
+  {
+    "id": "TP5_107",
+    "tp": 5,
+    "category": "tricky",
+    "question": "Stochastic Gradient Descent (SGDClassifier) updates model weights only once after processing the complete dataset.",
+    "answer": false,
+    "explanation": "SGD updates model weights iteratively per sample or mini-batch, unlike Batch Gradient Descent which processes all data before updating."
+  },
+  {
+    "id": "TP5_108",
+    "tp": 5,
+    "category": "tricky",
+    "question": "XGBClassifier requires all input numerical features to be normalized between 0 and 1 using MinMaxScaler.",
+    "answer": false,
+    "explanation": "XGBoost builds decision trees that split on feature thresholds independently, making tree logic invariant to monotonic feature scaling."
+  },
+  {
+    "id": "TP5_109",
+    "tp": 5,
+    "category": "tricky",
+    "question": "Support vectors in SVC represent the training samples located farthest from the decision boundary.",
+    "answer": false,
+    "explanation": "Support vectors are the training points located CLOSEST to the decision boundary that define margin bounds."
+  },
+  {
+    "id": "TP5_110",
+    "tp": 5,
+    "category": "tricky",
+    "question": "Increasing the gamma hyperparameter in SVC with RBF kernel creates a smoother, less complex decision boundary.",
+    "answer": false,
+    "explanation": "High gamma restricts support vector influence to small local radii, creating highly complex, wiggly decision boundaries prone to overfitting."
+  },
+  {
+    "id": "TP5_111",
+    "tp": 5,
+    "category": "tricky",
+    "question": "KNeighborsClassifier requires training target labels y to be continuous floating-point values.",
+    "answer": false,
+    "explanation": "KNeighborsClassifier is a classification model requiring discrete target labels; continuous targets use KNeighborsRegressor."
+  },
+  {
+    "id": "TP5_112",
+    "tp": 5,
+    "category": "tricky",
+    "question": "In scikit-learn, RandomForestClassifier automatically performs feature selection by deleting features with low importance during fit().",
+    "answer": false,
+    "explanation": "RandomForestClassifier computes feature_importances_ for inspection but does NOT delete columns from X during fit()."
+  },
+  {
+    "id": "TP5_113",
+    "tp": 5,
+    "category": "tricky",
+    "question": "GaussianNB computes covariance matrices between all pairs of features during model fitting.",
+    "answer": false,
+    "explanation": "GaussianNB assumes naive conditional independence between features, calculating univariate variance per feature rather than full covariance matrices."
+  },
+  {
+    "id": "TP5_114",
+    "tp": 5,
+    "category": "tricky",
+    "question": "SVC with penalty C=0.0001 forces the decision boundary to fit every training point with zero error.",
+    "answer": false,
+    "explanation": "Very small C enforces massive regularization, allowing many training errors to achieve a wide, simple margin."
+  },
+  {
+    "id": "TP5_115",
+    "tp": 5,
+    "category": "tricky",
+    "question": "LogisticRegression outputs raw unbounded real values from -infinity to +infinity as class probabilities.",
+    "answer": false,
+    "explanation": "LogisticRegression passes linear outputs through the sigmoid function, constraining predictions strictly to probabilities between 0 and 1."
+  },
+  {
+    "id": "TP5_116",
+    "tp": 5,
+    "category": "tricky",
+    "question": "Setting max_depth=1 in RandomForestClassifier produces a highly complex, overfitted model.",
+    "answer": false,
+    "explanation": "max_depth=1 restricts trees to single-split decision stumps, producing an underfitted ensemble with low complexity."
+  },
+  {
+    "id": "TP5_117",
+    "tp": 5,
+    "category": "tricky",
+    "question": "SGDClassifier loss='hinge' optimizes logistic loss to output class probabilities via predict_proba().",
+    "answer": false,
+    "explanation": "loss='hinge' optimizes SVM margin loss and does NOT support predict_proba(); probability estimates require loss='log_loss'."
+  },
+  {
+    "id": "TP5_118",
+    "tp": 5,
+    "category": "tricky",
+    "question": "AdaBoostClassifier increases the weights of correctly classified samples after each boosting iteration.",
+    "answer": false,
+    "explanation": "AdaBoost INCREASES weights of MISCLASSIFIED samples (and decreases weights of correctly classified samples) to focus on hard cases."
+  },
+  {
+    "id": "TP5_119",
+    "tp": 5,
+    "category": "tricky",
+    "question": "A Gini Impurity score of 0.5 in a binary decision tree node represents a completely pure node.",
+    "answer": false,
+    "explanation": "In binary classification, Gini = 0.5 represents maximum IMPURITY (50% Class 0, 50% Class 1); Gini = 0.0 represents a pure node."
+  },
+  {
+    "id": "TP5_120",
+    "tp": 5,
+    "category": "tricky",
+    "question": "Random Forest performs poorly when dataset rows contain unencoded string values.",
+    "answer": false,
+    "explanation": "ALL scikit-learn models (including Random Forest) require categorical strings to be numerically encoded before fitting."
+  },
+  {
+    "id": "TP5_121",
+    "tp": 5,
+    "category": "tricky",
+    "question": "k-NN classifier prediction time is fastest when the training dataset contains 1,000,000 samples.",
+    "answer": false,
+    "explanation": "k-NN lazy learning computes distances against stored training samples during prediction, making prediction very SLOW on large datasets."
+  },
+  {
+    "id": "TP5_122",
+    "tp": 5,
+    "category": "tricky",
+    "question": "SVC(kernel='rbf') computes an explicit finite 100-dimensional matrix for feature inputs.",
+    "answer": false,
+    "explanation": "The RBF kernel computes inner products in an IMPLICIT infinite-dimensional Hilbert space using the kernel trick."
+  },
+  {
+    "id": "TP5_123",
+    "tp": 5,
+    "category": "tricky",
+    "question": "GradientBoostingClassifier learning_rate=1.0 heavily regularizes the model to prevent overfitting.",
+    "answer": false,
+    "explanation": "learning_rate=1.0 applies NO shrinkage to tree contributions, increasing the risk of overfitting compared to smaller learning rates like 0.1."
+  },
+  {
+    "id": "TP5_124",
+    "tp": 5,
+    "category": "tricky",
+    "question": "In scikit-learn, model.fit(X_train, y_train) returns a new array containing predicted y labels.",
+    "answer": false,
+    "explanation": "model.fit() trains internal parameters and returns the fitted ESTIMATOR object itself, NOT predicted labels; predictions require predict()."
+  },
+  {
+    "id": "TP5_125",
+    "tp": 5,
+    "category": "tricky",
+    "question": "DecisionTreeClassifier splits nodes by calculating the Euclidean distance between sample vectors.",
+    "answer": false,
+    "explanation": "Decision trees split nodes by evaluating axis-aligned feature inequalities that minimize Gini/Entropy impurity, NOT Euclidean distance."
+  },
+  {
+    "id": "TP5_126",
+    "tp": 5,
+    "category": "tricky",
+    "question": "BernoulliNB models continuous features by calculating sample means and standard deviations.",
+    "answer": false,
+    "explanation": "BernoulliNB evaluates binary feature presence (0/1); continuous features are modeled by GaussianNB."
+  },
+  {
+    "id": "TP5_127",
+    "tp": 5,
+    "category": "tricky",
+    "question": "In LogisticRegression, feature coefficients stored in model.coef_ are always non-negative numbers.",
+    "answer": false,
+    "explanation": "Logistic regression coefficients can be positive (increasing odds) or negative (decreasing odds)."
+  },
+  {
+    "id": "TP5_128",
+    "tp": 5,
+    "category": "tricky",
+    "question": "Out-Of-Bag (OOB) scoring in RandomForestClassifier requires evaluating models on a separate test set.",
+    "answer": false,
+    "explanation": "OOB scoring uses training samples left out of bootstrap samples during forest construction, requiring NO separate test set."
+  },
+  {
+    "id": "TP5_129",
+    "tp": 5,
+    "category": "tricky",
+    "question": "XGBClassifier cannot handle missing NaN values natively in input datasets.",
+    "answer": false,
+    "explanation": "XGBoost includes native missing value handling, automatically learning default split directions for missing NaN entries."
+  },
+  {
+    "id": "TP5_130",
+    "tp": 5,
+    "category": "tricky",
+    "question": "Increasing n_estimators in AdaBoostClassifier from 10 to 1000 never leads to overfitting.",
+    "answer": false,
+    "explanation": "Unlike Random Forest, boosting algorithms sequentially fit residual noise and CAN overfit if n_estimators is set excessively high without regularization."
+  },
+  {
+    "id": "TP5_131",
+    "tp": 5,
+    "category": "tricky",
+    "question": "Setting p=1 in KNeighborsClassifier Minkowski metric evaluates standard Euclidean distance.",
+    "answer": false,
+    "explanation": "p=1 evaluates Manhattan distance (L1 norm); p=2 evaluates Euclidean distance (L2 norm)."
+  },
+  {
+    "id": "TP5_132",
+    "tp": 5,
+    "category": "tricky",
+    "question": "In scikit-learn, DecisionTreeClassifier compute feature importances that sum to 1.0.",
+    "answer": true,
+    "explanation": "Decision tree feature_importances_ are normalized so that total feature contributions sum to 1.0."
+  },
+  {
+    "id": "TP5_133",
+    "tp": 5,
+    "category": "tricky",
+    "question": "Linear SVC decision boundaries are curved non-linear parabolas in 2D space.",
+    "answer": false,
+    "explanation": "Linear SVC constructs straight linear hyperplanes in feature space."
+  },
+  {
+    "id": "TP5_134",
+    "tp": 5,
+    "category": "tricky",
+    "question": "Logistic regression assumes that predictor features are non-linearly combined to predict log-odds.",
+    "answer": false,
+    "explanation": "Logistic regression assumes a LINEAR combination of features to model log-odds: z = w1*x1 + w2*x2 + b."
+  },
+  {
+    "id": "TP5_135",
+    "tp": 5,
+    "category": "tricky",
+    "question": "GaussianNB performs poorly when continuous features follow normal distributions within each class.",
+    "answer": false,
+    "explanation": "GaussianNB explicitly assumes normal distributions per class and performs optimally when features are normally distributed."
+  },
+  {
+    "id": "TP5_136",
+    "tp": 5,
+    "category": "tricky",
+    "question": "In RandomForestClassifier, max_features='sqrt' selects a random sample of rows for each tree.",
+    "answer": false,
+    "explanation": "max_features='sqrt' selects a random subset of FEATURES at each split; row sampling is controlled by bootstrap."
+  },
+  {
+    "id": "TP5_137",
+    "tp": 5,
+    "category": "tricky",
+    "question": "SGDClassifier requires feature scaling with StandardScaler prior to model training for gradient stability.",
+    "answer": true,
+    "explanation": "Gradient descent optimization in SGD is sensitive to feature scales and requires standardized features to converge efficiently."
+  },
+  {
+    "id": "TP5_138",
+    "tp": 5,
+    "category": "tricky",
+    "question": "AdaBoost base estimators must be deep, complex decision trees with max_depth=20.",
+    "answer": false,
+    "explanation": "AdaBoost works best with simple weak learners, typically shallow decision stumps with max_depth=1."
+  },
+  {
+    "id": "TP5_139",
+    "tp": 5,
+    "category": "tricky",
+    "question": "SVC predict_proba() is enabled by default without configuring probability=True during initialization.",
+    "answer": false,
+    "explanation": "SVC requires setting probability=True during initialization to enable predict_proba() using Platt scaling."
+  },
+  {
+    "id": "TP5_140",
+    "tp": 5,
+    "category": "tricky",
+    "question": "GradientBoostingClassifier fits each new decision tree on the raw original target labels y.",
+    "answer": false,
+    "explanation": "Gradient Boosting fits new trees to the RESIDUAL ERRORS (pseudo-residuals) of the preceding ensemble, not raw target y."
+  },
+  {
+    "id": "TP5_141",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing Random Forest parallel bagging with Gradient Boosting sequential boosting.",
+    "answer": false,
+    "explanation": "Random Forest builds independent trees in parallel via bagging; Gradient Boosting builds dependent trees sequentially to fit residuals."
+  },
+  {
+    "id": "TP5_142",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that DecisionTreeClassifier requires feature scaling with StandardScaler prior to training.",
+    "answer": false,
+    "explanation": "Decision trees evaluate threshold splits per feature independently, making tree split decisions invariant to feature scaling."
+  },
+  {
+    "id": "TP5_143",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that k-NN classifiers construct explicit decision tree flowcharts during fit().",
+    "answer": false,
+    "explanation": "k-NN is an instance-based lazy learner that stores training points in memory without building explicit parametric trees."
+  },
+  {
+    "id": "TP5_144",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing GaussianNB (continuous normal features) with BernoulliNB (binary 0/1 features).",
+    "answer": false,
+    "explanation": "GaussianNB models continuous features via normal distributions; BernoulliNB models binary occurrence features."
+  },
+  {
+    "id": "TP5_145",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that SVC C parameter is direct regularization strength where large C increases regularization.",
+    "answer": false,
+    "explanation": "C is INVERSE regularization strength: small C enforces strong regularization; large C weakens regularization."
+  },
+  {
+    "id": "TP5_146",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that LogisticRegression outputs unbounded continuous numbers from -infinity to +infinity as probabilities.",
+    "answer": false,
+    "explanation": "LogisticRegression applies the sigmoid function, constraining class probability outputs strictly to [0, 1]."
+  },
+  {
+    "id": "TP5_147",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing small k (k=1, high variance overfitting) with large k (k=50, low variance underfitting) in k-NN.",
+    "answer": false,
+    "explanation": "k=1 creates complex boundaries sensitive to noise (overfitting); large k smooths boundaries excessively (underfitting)."
+  },
+  {
+    "id": "TP5_148",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that scikit-learn estimators can fit raw unencoded string columns directly.",
+    "answer": false,
+    "explanation": "All scikit-learn classification estimators require numerical feature matrices X and fail on raw string columns."
+  },
+  {
+    "id": "TP5_149",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that LogisticRegression can only perform binary classification and cannot handle multi-class targets.",
+    "answer": false,
+    "explanation": "LogisticRegression handles multi-class targets natively using One-vs-Rest (OvR) or Multinomial (Cross-Entropy) strategies."
+  },
+  {
+    "id": "TP5_150",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing SGDClassifier loss='hinge' (linear SVM) with loss='log_loss' (logistic regression).",
+    "answer": false,
+    "explanation": "loss='hinge' fits a linear SVM; loss='log_loss' fits a logistic regression model."
+  },
+  {
+    "id": "TP5_151",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that increasing n_estimators in RandomForestClassifier causes severe overfitting.",
+    "answer": false,
+    "explanation": "Adding more trees in Random Forest averages ensemble voting, improving stability without increasing overfitting risk."
+  },
+  {
+    "id": "TP5_152",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that AdaBoost weights all weak learner trees equally during final prediction voting.",
+    "answer": false,
+    "explanation": "AdaBoost weights tree voting power based on individual tree accuracy; Random Forest weights all trees equally."
+  },
+  {
+    "id": "TP5_153",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing decision tree Gini Impurity 0.0 (pure node) with maximum impurity 0.5.",
+    "answer": false,
+    "explanation": "Gini = 0.0 indicates a perfectly pure single-class node; Gini = 0.5 represents maximum binary class mixing."
+  },
+  {
+    "id": "TP5_154",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that SVC with RBF kernel gamma=1000 creates a smooth, flat decision boundary.",
+    "answer": false,
+    "explanation": "High gamma restricts support vector influence to tiny local radii, creating highly wiggly decision boundaries prone to severe overfitting."
+  },
+  {
+    "id": "TP5_155",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that model.fit(X, y) returns predicted target labels y_pred.",
+    "answer": false,
+    "explanation": "model.fit() trains internal model parameters and returns the fitted estimator object; target predictions require model.predict(X)."
+  },
+  {
+    "id": "TP5_156",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing L1 regularization (Lasso, zeroing weights) with L2 regularization (Ridge, shrinking weights).",
+    "answer": false,
+    "explanation": "L1 regularization forces uninformative weights exactly to 0; L2 regularization shrinks weights toward 0 without zeroing them."
+  },
+  {
+    "id": "TP5_157",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that k-NN classifier prediction is fast on massive 1,000,000 sample datasets.",
+    "answer": false,
+    "explanation": "k-NN must compute spatial distances against stored training samples for every query, making prediction very slow on large datasets."
+  },
+  {
+    "id": "TP5_158",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that XGBClassifier requires feature scaling with MinMaxScaler prior to training.",
+    "answer": false,
+    "explanation": "XGBoost builds decision trees that evaluate threshold splits per feature independently, making tree logic invariant to scaling."
+  },
+  {
+    "id": "TP5_159",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing support vectors in SVC (closest points defining margin) with dataset outliers.",
+    "answer": false,
+    "explanation": "Support vectors are critical boundary samples defining the margin; they are not corrupt data outliers."
+  },
+  {
+    "id": "TP5_160",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that Naive Bayes conditional independence assumption must strictly hold for the model to work.",
+    "answer": false,
+    "explanation": "Naive Bayes often yields highly accurate classification decision boundaries even when the independence assumption is violated."
+  },
+  {
+    "id": "TP5_161",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that DecisionTreeClassifier feature_importances_ can take negative values.",
+    "answer": false,
+    "explanation": "Decision tree feature_importances_ measure normalized impurity reductions and are strictly non-negative (>= 0)."
+  },
+  {
+    "id": "TP5_162",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing Gradient Boosting learning_rate shrinkage with optimizer gradient descent steps.",
+    "answer": false,
+    "explanation": "learning_rate in boosting shrinks individual tree contributions to the ensemble, requiring more trees to fit data."
+  },
+  {
+    "id": "TP5_163",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that BernoulliNB models multi-class continuous features using Gaussian distributions.",
+    "answer": false,
+    "explanation": "BernoulliNB models binary 0/1 indicator features; continuous features require GaussianNB."
+  },
+  {
+    "id": "TP5_164",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that Out-Of-Bag (OOB) scoring in Random Forest requires a dedicated held-out test set.",
+    "answer": false,
+    "explanation": "OOB scoring evaluates trees on training samples omitted from bootstrap samples, requiring no separate test set."
+  },
+  {
+    "id": "TP5_165",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing Linear SVC decision boundaries with non-linear kernel boundaries.",
+    "answer": false,
+    "explanation": "Linear SVC constructs straight linear hyperplanes; RBF/Polynomial kernels construct non-linear boundaries."
+  },
+  {
+    "id": "TP5_166",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that AdaBoost base estimators should be deep decision trees with max_depth=20.",
+    "answer": false,
+    "explanation": "AdaBoost works best with shallow weak base learners, typically decision stumps with max_depth=1."
+  },
+  {
+    "id": "TP5_167",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that SVC predict_proba() is enabled by default without configuring probability=True.",
+    "answer": false,
+    "explanation": "SVC requires setting probability=True during initialization to enable predict_proba() via Platt scaling."
+  },
+  {
+    "id": "TP5_168",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing LogisticRegression coef_ (learned feature weights) with hyperparameters (e.g., C, penalty).",
+    "answer": false,
+    "explanation": "coef_ represents learned internal weights fit from data; C and penalty are hyperparameters specified before training."
+  },
+  {
+    "id": "TP5_169",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that Random Forest max_features='sqrt' restricts row sampling.",
+    "answer": false,
+    "explanation": "max_features='sqrt' restricts feature selection at each node split; row sampling is controlled by bootstrap."
+  },
+  {
+    "id": "TP5_170",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that Gradient Boosting fits each sequential tree directly on the raw original target labels y.",
+    "answer": false,
+    "explanation": "Gradient Boosting fits sequential trees to residual errors (pseudo-residuals) of prior trees, not raw target y."
+  },
+  {
+    "id": "TP5_171",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing k-NN Minkowski metric p=1 (Manhattan distance) with p=2 (Euclidean distance).",
+    "answer": false,
+    "explanation": "Minkowski p=1 computes Manhattan distance (L1); p=2 computes Euclidean distance (L2)."
+  },
+  {
+    "id": "TP5_172",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that GaussianNB calculates full feature covariance matrices for multi-dimensional data.",
+    "answer": false,
+    "explanation": "GaussianNB assumes naive conditional independence, calculating univariate feature variances independently per class."
+  },
+  {
+    "id": "TP5_173",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that unconstrained DecisionTreeClassifier (max_depth=None) prevents overfitting.",
+    "answer": false,
+    "explanation": "Unconstrained trees grow until all leaves are pure, memorizing training noise and causing severe overfitting."
+  },
+  {
+    "id": "TP5_174",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing SGDClassifier (online stochastic gradient optimization) with batch gradient descent.",
+    "answer": false,
+    "explanation": "SGDClassifier updates model weights per sample/batch iteratively, enabling fast online streaming learning."
+  },
+  {
+    "id": "TP5_175",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that LogisticRegression sigmoid function outputs values from -1 to +1.",
+    "answer": false,
+    "explanation": "The sigmoid function squashes inputs strictly into continuous probabilities between 0 and 1."
+  },
+  {
+    "id": "TP5_176",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that Random Forest feature_importances_ sum to 100.0 instead of 1.0.",
+    "answer": false,
+    "explanation": "Feature importances in scikit-learn tree ensembles are normalized to sum to 1.0."
+  },
+  {
+    "id": "TP5_177",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing SVM margin maximization with decision tree Gini impurity minimization.",
+    "answer": false,
+    "explanation": "SVM maximizes spatial distance (margin) between support vectors; decision trees minimize node impurity (Gini/Entropy)."
+  },
+  {
+    "id": "TP5_178",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that AdaBoost increases weights of correctly classified samples after each fold.",
+    "answer": false,
+    "explanation": "AdaBoost increases weights of MISCLASSIFIED samples to force subsequent weak learners to focus on hard cases."
+  },
+  {
+    "id": "TP5_179",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that XGBClassifier does not support native missing value handling.",
+    "answer": false,
+    "explanation": "XGBoost automatically learns optimal split directions for missing NaN values during tree construction."
+  },
+  {
+    "id": "TP5_180",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing n_neighbors parameter in k-NN with n_estimators parameter in Random Forest.",
+    "answer": false,
+    "explanation": "n_neighbors specifies nearby data points in k-NN; n_estimators specifies tree counts in ensemble models."
+  },
+  {
+    "id": "TP5_181",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that LogisticRegression calculates predictions using Euclidean distance to class centroids.",
+    "answer": false,
+    "explanation": "LogisticRegression computes linear dot products of features and weights passed through a sigmoid function, not centroid distances."
+  },
+  {
+    "id": "TP5_182",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that Naive Bayes classifiers are slow to train on high-dimensional text data.",
+    "answer": false,
+    "explanation": "Naive Bayes computes independent univariate probability distributions, making training extremely fast on high-dimensional text data."
+  },
+  {
+    "id": "TP5_183",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing Decision Tree max_depth with min_samples_split.",
+    "answer": false,
+    "explanation": "max_depth limits vertical tree height; min_samples_split sets the minimum node sample count required to split."
+  },
+  {
+    "id": "TP5_184",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that SVC rbf kernel gamma=0.0001 creates highly localized decision boundaries.",
+    "answer": false,
+    "explanation": "Small gamma expands support vector influence broadly, creating smooth linear-like decision boundaries."
+  },
+  {
+    "id": "TP5_185",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that RandomForestClassifier predictions change on every execution when random_state is set.",
+    "answer": false,
+    "explanation": "Setting random_state ensures reproducible random bootstrap sampling and feature selection across executions."
+  },
+  {
+    "id": "TP5_186",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing boosting (sequential error reduction) with bagging (parallel variance reduction).",
+    "answer": false,
+    "explanation": "Boosting builds sequential models to reduce bias/error; bagging builds parallel independent models to reduce variance."
+  },
+  {
+    "id": "TP5_187",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that SGDClassifier loss='log_loss' fits a Support Vector Machine.",
+    "answer": false,
+    "explanation": "loss='log_loss' fits a logistic regression model; loss='hinge' fits a linear SVM."
+  },
+  {
+    "id": "TP5_188",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that DecisionTreeClassifier requires categorical target labels y to be string text.",
+    "answer": false,
+    "explanation": "Target labels y can be integers (0, 1, 2) or encoded strings; scikit-learn handles integer class labels natively."
+  },
+  {
+    "id": "TP5_189",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing k-NN lazy evaluation with eager model training in decision trees.",
+    "answer": false,
+    "explanation": "k-NN delays computation until prediction (lazy); decision trees build explicit tree structures during fit() (eager)."
+  },
+  {
+    "id": "TP5_190",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that AdaBoost handles continuous targets natively in classification mode.",
+    "answer": false,
+    "explanation": "AdaBoostClassifier requires discrete classification target labels y; continuous targets require AdaBoostRegressor."
+  },
+  {
+    "id": "TP5_191",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that LogisticRegression with L2 penalty sets uninformative feature weights strictly to zero.",
+    "answer": false,
+    "explanation": "L2 regularization shrinks weights toward zero without forcing them to exact zero; L1 regularization forces weights to 0."
+  },
+  {
+    "id": "TP5_192",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing GaussianNB with KNeighborsClassifier in scikit-learn.",
+    "answer": false,
+    "explanation": "GaussianNB is a probabilistic Bayes model; KNeighborsClassifier is a distance-based instance model."
+  },
+  {
+    "id": "TP5_193",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that RandomForestClassifier requires training data to be sorted prior to fitting.",
+    "answer": false,
+    "explanation": "Random Forest evaluates sample rows independently; row sorting order does not affect tree splits or predictions."
+  },
+  {
+    "id": "TP5_194",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that GradientBoostingClassifier builds deep trees with max_depth=50 by default.",
+    "answer": false,
+    "explanation": "Gradient Boosting builds shallow weak trees (typically max_depth=3 to 5) to prevent sequential ensemble overfitting."
+  },
+  {
+    "id": "TP5_195",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing SVC support vectors with hyperplane normal vectors.",
+    "answer": false,
+    "explanation": "Support vectors are actual data sample points on margin boundaries; normal vectors specify hyperplane orientation math."
+  },
+  {
+    "id": "TP5_196",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that XGBClassifier executes single-threaded iterations exclusively.",
+    "answer": false,
+    "explanation": "XGBoost is highly parallelized, utilizing multi-threading CPU/GPU acceleration for fast tree construction."
+  },
+  {
+    "id": "TP5_197",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that model.score() on a trained classifier evaluates mean squared error (MSE).",
+    "answer": false,
+    "explanation": "model.score() on classification estimators evaluates mean classification ACCURACY, not mean squared error."
+  },
+  {
+    "id": "TP5_198",
+    "tp": 5,
+    "category": "trap",
+    "question": "Confusing k-NN distance weights (weights='distance') with uniform voting (weights='uniform').",
+    "answer": false,
+    "explanation": "weights='distance' weighs closer neighbors more heavily; weights='uniform' treats all k neighbors equally in voting."
+  },
+  {
+    "id": "TP5_199",
+    "tp": 5,
+    "category": "trap",
+    "question": "Assuming that DecisionTreeClassifier Gini impurity calculation requires log transformations.",
+    "answer": false,
+    "explanation": "Gini impurity uses squared class probabilities (1 - sum(p_i^2)); Entropy uses log probability terms."
+  },
+  {
+    "id": "TP5_200",
+    "tp": 5,
+    "category": "trap",
+    "question": "Believing that supervised classification algorithms can learn patterns without ground truth target labels y.",
+    "answer": false,
+    "explanation": "Supervised classification strictly requires ground truth target labels y during training to learn predictive mappings."
   }
 ]
