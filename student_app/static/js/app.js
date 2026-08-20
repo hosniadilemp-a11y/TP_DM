@@ -597,6 +597,16 @@ document.addEventListener('DOMContentLoaded', () => {
         btnAnswerSkip.addEventListener('click', () => submitAnswer(null));
     }
 
+    const btnExitTest = document.getElementById('btn-exit-test');
+    if (btnExitTest) {
+        btnExitTest.addEventListener('click', () => {
+            if (confirm("Are you sure you want to end your test early? Any unanswered questions will score 0 points and your evaluation attempt will be finalized.")) {
+                clearInterval(timerInterval);
+                finishAttempt();
+            }
+        });
+    }
+
     // 9. Finish Quiz Attempt
     async function finishAttempt() {
         clearInterval(timerInterval);
