@@ -140,6 +140,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (btnResetCooldown) btnResetCooldown.addEventListener('click', executeResetCooldown);
     if (btnTopResetCooldown) btnTopResetCooldown.addEventListener('click', executeResetCooldown);
 
+    let isQuizActive = false;
+
     // 3. Screen Switching Helper
     function showScreen(screenName) {
         hideAlert();
@@ -153,14 +155,22 @@ document.addEventListener('DOMContentLoaded', () => {
         screenResults.classList.remove('active');
 
         if (screenName === 'login') {
+            isQuizActive = false;
+            if (fullscreenOverlay) fullscreenOverlay.classList.add('hidden');
             screenLogin.classList.remove('hidden');
             screenLogin.classList.add('active');
             userBadge.classList.add('hidden');
         } else if (screenName === 'quiz') {
+            isQuizActive = true;
             screenQuiz.classList.remove('hidden');
             screenQuiz.classList.add('active');
             userBadge.classList.remove('hidden');
         } else if (screenName === 'results') {
+            isQuizActive = false;
+            if (fullscreenOverlay) fullscreenOverlay.classList.add('hidden');
+            if (document.fullscreenElement) {
+                document.exitFullscreen().catch(() => {});
+            }
             screenResults.classList.remove('hidden');
             screenResults.classList.add('active');
             userBadge.classList.remove('hidden');
@@ -369,13 +379,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     document.addEventListener('fullscreenchange', () => {
-        if (screenQuiz.classList.contains('active')) {
+        if (screenQuiz.classList.contains('active') && isQuizActive) {
             if (!document.fullscreenElement) {
                 if (fullscreenOverlay) fullscreenOverlay.classList.remove('hidden');
                 reportViolationEvent("fullscreen_exit", "Exited fullscreen mode");
             } else {
                 if (fullscreenOverlay) fullscreenOverlay.classList.add('hidden');
             }
+        } else {
+            if (fullscreenOverlay) fullscreenOverlay.classList.add('hidden');
         }
     });
 
@@ -601,6 +613,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (btnExitTest) {
         btnExitTest.addEventListener('click', () => {
             if (confirm("Are you sure you want to end your test early? Any unanswered questions will score 0 points and your evaluation attempt will be finalized.")) {
+                isQuizActive = false;
+                if (fullscreenOverlay) fullscreenOverlay.classList.add('hidden');
                 clearInterval(timerInterval);
                 finishAttempt();
             }
@@ -609,6 +623,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 9. Finish Quiz Attempt
     async function finishAttempt() {
+        isQuizActive = false;
+        if (fullscreenOverlay) fullscreenOverlay.classList.add('hidden');
+        if (document.fullscreenElement) {
+            document.exitFullscreen().catch(() => {});
+        }
         clearInterval(timerInterval);
         try {
             const res = await fetch(`/api/attempt/${attemptId}/finish`, {
