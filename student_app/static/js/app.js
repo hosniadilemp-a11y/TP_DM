@@ -295,6 +295,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     } else if (res.headers.get('X-Cooldown-Remaining-Sec')) {
                         sec = parseInt(res.headers.get('X-Cooldown-Remaining-Sec'));
                     }
+                    showAlert(data.detail || `⏳ Cooldown active. Please wait ${sec}s before starting another attempt.`, true);
                     startCooldownTimer(sec);
                 } else {
                     showAlert(data.detail || `Wrong student code typed: '${studentCode}'. Please check your code.`);

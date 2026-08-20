@@ -108,7 +108,7 @@ def start_attempt(
             remaining_min = max(1, (remaining_sec + 59) // 60)
             raise HTTPException(
                 status_code=status.HTTP_429_TOO_MANY_REQUESTS,
-                detail=f"Cooldown active on your PC/IP address (TP {recent_finished.tp_id} completed). Please wait {remaining_min} minute(s) before starting any attempt. ({remaining_sec}s remaining)",
+                detail=f"Cooldown active (TP {recent_finished.tp_id} completed). Please wait {remaining_min} minute(s) before starting any attempt. ({remaining_sec}s remaining)",
                 headers={"X-Cooldown-Remaining-Sec": str(remaining_sec)}
             )
 
