@@ -152,6 +152,27 @@ def start_attempt(
 
     return {"attempt_id": attempt.id}
 
+_QUESTIONS_CACHE = {}
+
+def _get_tp_questions_dict(db: DBSession, tp_id: int):
+    global _QUESTIONS_CACHE
+    if tp_id not in _QUESTIONS_CACHE:
+        raw_qs = db.query(Question).filter(
+            Question.tp_id == tp_id,
+            Question.active == True
+        ).all()
+        _QUESTIONS_CACHE[tp_id] = [
+            {
+                "id": q.id,
+                "text": q.text,
+                "correct_answer": q.correct_answer,
+                "trap_group_id": q.trap_group_id,
+                "trap_mode": q.trap_mode
+            }
+            for q in raw_qs
+        ]
+    return _QUESTIONS_CACHE[tp_id]
+
 @router.get("/attempt/{attempt_id}/next-question")
 def get_next_question(attempt_id: int, db: DBSession = Depends(get_db)):
     attempt = db.query(Attempt).filter(Attempt.id == attempt_id).first()
@@ -163,7 +184,6 @@ def get_next_question(attempt_id: int, db: DBSession = Depends(get_db)):
 
     now = datetime.utcnow()
 
-    # Process previous unanswered question (if expired)
     served_answers = db.query(AttemptAnswer).filter(
         AttemptAnswer.attempt_id == attempt_id
     ).order_by(AttemptAnswer.position).all()
@@ -181,66 +201,54 @@ def get_next_question(attempt_id: int, db: DBSession = Depends(get_db)):
 
     position_count = len(served_answers)
 
-    # Check if quiz is complete (20 questions reached)
     if position_count >= 20:
         return {"finished": True, "total": 20}
 
-    # Fast in-memory candidate lookup
-    global _QUESTIONS_CACHE
-    if 'tp_questions' not in globals():
-        _QUESTIONS_CACHE = {}
+    tp_all_qs = _get_tp_questions_dict(db, attempt.tp_id)
+    q_map = {q["id"]: q for q in tp_all_qs}
 
-    if attempt.tp_id not in _QUESTIONS_CACHE:
-        _QUESTIONS_CACHE[attempt.tp_id] = db.query(Question).filter(
-            Question.tp_id == attempt.tp_id,
-            Question.active == True
-        ).all()
-
-    tp_all_qs = _QUESTIONS_CACHE[attempt.tp_id]
-    q_map = {q.id: q for q in tp_all_qs}
-
-    # If the last question was just served and is still waiting for answer (and hasn't expired), return it
     if served_answers and served_answers[-1].answered_at is None:
         current = served_answers[-1]
-        q = q_map.get(current.question_id) or db.query(Question).filter(Question.id == current.question_id).first()
+        q = q_map.get(current.question_id)
+        if not q:
+            raw_q = db.query(Question).filter(Question.id == current.question_id).first()
+            q = {"id": raw_q.id, "text": raw_q.text} if raw_q else {"id": current.question_id, "text": "Question"}
         options_order = [True, False]
         random.shuffle(options_order)
         return {
             "finished": False,
-            "question_id": q.id,
-            "text": q.text,
+            "question_id": q["id"],
+            "text": q["text"],
             "options": options_order,
             "position": current.position,
             "total": 20
         }
 
-    # Sample next question respecting trap rules
     served_q_ids = {ans.question_id for ans in served_answers}
     served_questions = [q_map[qid] for qid in served_q_ids if qid in q_map]
 
     served_trap_groups = {}
     for sq in served_questions:
-        if sq.trap_group_id is not None:
-            ans_pos = next(a.position for a in served_answers if a.question_id == sq.id)
-            served_trap_groups[sq.trap_group_id] = (sq.trap_mode, ans_pos)
+        if sq["trap_group_id"] is not None:
+            ans_pos = next(a.position for a in served_answers if a.question_id == sq["id"])
+            served_trap_groups[sq["trap_group_id"]] = (sq["trap_mode"], ans_pos)
 
-    candidates = [q for q in tp_all_qs if q.id not in served_q_ids]
+    candidates = [q for q in tp_all_qs if q["id"] not in served_q_ids]
     valid_candidates = []
     next_position = position_count + 1
 
     for cand in candidates:
-        if cand.trap_group_id is not None and cand.trap_group_id in served_trap_groups:
-            mode, served_pos = served_trap_groups[cand.trap_group_id]
+        if cand["trap_group_id"] is not None and cand["trap_group_id"] in served_trap_groups:
+            mode, served_pos = served_trap_groups[cand["trap_group_id"]]
             if mode == "hidden":
-                continue # Never serve both hidden trap pair members in same attempt
+                continue
             elif mode == "attention_check":
                 if next_position < served_pos + 4:
-                    continue # Ensure at least 3 questions separation
+                    continue
 
         valid_candidates.append(cand)
 
     if not valid_candidates:
-        # Fallback if constraint too tight: any unserved question for this TP
         valid_candidates = candidates
 
     if not valid_candidates:
@@ -248,10 +256,9 @@ def get_next_question(attempt_id: int, db: DBSession = Depends(get_db)):
 
     next_q = random.choice(valid_candidates)
 
-    # Record AttemptAnswer row
     new_ans = AttemptAnswer(
         attempt_id=attempt.id,
-        question_id=next_q.id,
+        question_id=next_q["id"],
         position=next_position,
         shown_at=now,
         chosen=None,
@@ -267,11 +274,124 @@ def get_next_question(attempt_id: int, db: DBSession = Depends(get_db)):
 
     return {
         "finished": False,
-        "question_id": next_q.id,
-        "text": next_q.text,
+        "question_id": next_q["id"],
+        "text": next_q["text"],
         "options": options_order,
         "position": next_position,
         "total": 20
+    }
+
+@router.post("/attempt/{attempt_id}/answer-and-next")
+def answer_and_next(
+    attempt_id: int,
+    req_data: AnswerSubmitRequest,
+    db: DBSession = Depends(get_db)
+):
+    attempt = db.query(Attempt).filter(Attempt.id == attempt_id).first()
+    if not attempt or attempt.status != "in_progress":
+        raise HTTPException(status_code=400, detail="Attempt invalid or not in progress.")
+
+    now = datetime.utcnow()
+    tp_all_qs = _get_tp_questions_dict(db, attempt.tp_id)
+    q_map = {q["id"]: q for q in tp_all_qs}
+
+    # 1. Process current answer
+    ans_row = db.query(AttemptAnswer).filter(
+        AttemptAnswer.attempt_id == attempt_id,
+        AttemptAnswer.question_id == req_data.question_id
+    ).first()
+
+    if ans_row and ans_row.answered_at is None:
+        elapsed_ms = int((now - ans_row.shown_at).total_seconds() * 1000)
+        ans_row.response_ms = elapsed_ms
+        ans_row.answered_at = now
+        ans_row.chosen = req_data.chosen
+
+        max_allowed_ms = (QUESTION_TIMEOUT_SEC * 1000) + LATENCY_BUFFER_MS
+        if elapsed_ms > max_allowed_ms:
+            ans_row.is_late = True
+            ans_row.is_correct = False
+        else:
+            ans_row.is_late = False
+            if req_data.chosen is None:
+                ans_row.is_correct = None
+            else:
+                question = q_map.get(req_data.question_id)
+                if question is not None:
+                    ans_row.is_correct = (req_data.chosen == question["correct_answer"])
+                else:
+                    ans_row.is_correct = False
+
+    # 2. Immediately sample next question in the SAME transaction
+    served_answers = db.query(AttemptAnswer).filter(
+        AttemptAnswer.attempt_id == attempt_id
+    ).order_by(AttemptAnswer.position).all()
+
+    position_count = len(served_answers)
+    if position_count >= 20:
+        db.commit()
+        return {
+            "received": True,
+            "next_question": {"finished": True, "total": 20}
+        }
+
+    served_q_ids = {ans.question_id for ans in served_answers}
+    served_questions = [q_map[qid] for qid in served_q_ids if qid in q_map]
+
+    served_trap_groups = {}
+    for sq in served_questions:
+        if sq["trap_group_id"] is not None:
+            ans_pos = next(a.position for a in served_answers if a.question_id == sq["id"])
+            served_trap_groups[sq["trap_group_id"]] = (sq["trap_mode"], ans_pos)
+
+    candidates = [q for q in tp_all_qs if q["id"] not in served_q_ids]
+    valid_candidates = []
+    next_position = position_count + 1
+
+    for cand in candidates:
+        if cand["trap_group_id"] is not None and cand["trap_group_id"] in served_trap_groups:
+            mode, served_pos = served_trap_groups[cand["trap_group_id"]]
+            if mode == "hidden":
+                continue
+            elif mode == "attention_check":
+                if next_position < served_pos + 4:
+                    continue
+        valid_candidates.append(cand)
+
+    if not valid_candidates:
+        valid_candidates = candidates
+
+    if not valid_candidates:
+        db.commit()
+        raise HTTPException(status_code=400, detail="No eligible questions available in bank.")
+
+    next_q = random.choice(valid_candidates)
+
+    new_ans = AttemptAnswer(
+        attempt_id=attempt.id,
+        question_id=next_q["id"],
+        position=next_position,
+        shown_at=now,
+        chosen=None,
+        is_correct=None,
+        is_late=False
+    )
+    db.add(new_ans)
+    db.commit()
+
+    options_order = [True, False]
+    random.shuffle(options_order)
+
+    return {
+        "received": True,
+        "next_question": {
+            "finished": False,
+            "question_id": next_q["id"],
+            "text": next_q["text"],
+            "options": options_order,
+            "position": next_position,
+            "total": 20
+        }
     }
 
 @router.post("/attempt/{attempt_id}/answer", response_model=AnswerSubmitResponse)
@@ -293,7 +413,7 @@ def submit_answer(
         raise HTTPException(status_code=404, detail="Question answer slot not found.")
 
     if ans_row.answered_at is not None:
-        return {"received": True} # Already submitted
+        return {"received": True}
 
     now = datetime.utcnow()
     elapsed_ms = int((now - ans_row.shown_at).total_seconds() * 1000)
@@ -301,7 +421,6 @@ def submit_answer(
     ans_row.answered_at = now
     ans_row.chosen = req_data.chosen
 
-    # Check timeout server-side
     max_allowed_ms = (QUESTION_TIMEOUT_SEC * 1000) + LATENCY_BUFFER_MS
     if elapsed_ms > max_allowed_ms:
         ans_row.is_late = True
@@ -309,12 +428,13 @@ def submit_answer(
     else:
         ans_row.is_late = False
         if req_data.chosen is None:
-            # Voluntary skip / left blank: 0 points (neither +1 nor -1)
             ans_row.is_correct = None
         else:
-            question = db.query(Question).filter(Question.id == req_data.question_id).first()
+            tp_all_qs = _get_tp_questions_dict(db, attempt.tp_id)
+            q_map = {q["id"]: q for q in tp_all_qs}
+            question = q_map.get(req_data.question_id)
             if question is not None:
-                ans_row.is_correct = (req_data.chosen == question.correct_answer)
+                ans_row.is_correct = (req_data.chosen == question["correct_answer"])
             else:
                 ans_row.is_correct = False
 

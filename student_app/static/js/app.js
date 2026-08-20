@@ -487,12 +487,52 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // 6. Fetch Next Question
+    function renderQuestionPayload(data) {
+        if (!data) return;
+
+        if (data.finished) {
+            finishAttempt();
+            return;
+        }
+
+        // Render Question & Dynamic Options Order
+        currentQuestionId = data.question_id;
+        questionTextEl.textContent = data.text;
+        
+        currentPosEl.textContent = data.position;
+        totalPosEl.textContent = data.total;
+
+        const progressPct = (data.position / data.total) * 100;
+        progressBarFill.style.width = `${progressPct}%`;
+
+        // Render Randomized True/False Button Order
+        const optionsContainer = document.querySelector('.answers-grid');
+        if (optionsContainer && data.options && Array.isArray(data.options)) {
+            optionsContainer.innerHTML = '';
+            data.options.forEach(optVal => {
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = `btn btn-choice ${optVal ? 'btn-true' : 'btn-false'}`;
+                btn.id = optVal ? 'btn-answer-true' : 'btn-answer-false';
+                btn.innerHTML = optVal 
+                    ? '<i class="fa-solid fa-check"></i><span>TRUE</span>' 
+                    : '<i class="fa-solid fa-xmark"></i><span>FALSE</span>';
+                btn.onclick = () => submitAnswer(optVal);
+                optionsContainer.appendChild(btn);
+            });
+        }
+
+        const btnSkip = document.getElementById('btn-answer-skip');
+        if (btnSkip) btnSkip.disabled = false;
+        isSubmitting = false;
+
+        // Start 20s Timer
+        startQuestionTimer();
+    }
+
     async function fetchNextQuestion() {
         clearInterval(timerInterval);
         isSubmitting = false;
-        btnAnswerTrue.disabled = false;
-        btnAnswerFalse.disabled = false;
-        if (btnAnswerSkip) btnAnswerSkip.disabled = false;
 
         try {
             const res = await fetch(`/api/attempt/${attemptId}/next-question`);
@@ -503,40 +543,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
-            if (data.finished) {
-                finishAttempt();
-                return;
-            }
-
-            // Render Question & Dynamic Options Order
-            currentQuestionId = data.question_id;
-            questionTextEl.textContent = data.text;
-            
-            currentPosEl.textContent = data.position;
-            totalPosEl.textContent = data.total;
-
-            const progressPct = (data.position / data.total) * 100;
-            progressBarFill.style.width = `${progressPct}%`;
-
-            // Render Randomized True/False Button Order
-            const optionsContainer = document.querySelector('.answers-grid');
-            if (optionsContainer && data.options && Array.isArray(data.options)) {
-                optionsContainer.innerHTML = '';
-                data.options.forEach(optVal => {
-                    const btn = document.createElement('button');
-                    btn.type = 'button';
-                    btn.className = `btn btn-choice ${optVal ? 'btn-true' : 'btn-false'}`;
-                    btn.id = optVal ? 'btn-answer-true' : 'btn-answer-false';
-                    btn.innerHTML = optVal 
-                        ? '<i class="fa-solid fa-check"></i><span>TRUE</span>' 
-                        : '<i class="fa-solid fa-xmark"></i><span>FALSE</span>';
-                    btn.onclick = () => submitAnswer(optVal);
-                    optionsContainer.appendChild(btn);
-                });
-            }
-
-            // Start 20s Timer
-            startQuestionTimer();
+            renderQuestionPayload(data);
 
         } catch (err) {
             showAlert('Network error fetching next question.');
@@ -577,7 +584,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // 8. Submit Answer
+    // 8. Submit Answer (Fast Unified Transaction)
     async function submitAnswer(chosenValue) {
         if (isSubmitting) return;
         isSubmitting = true;
@@ -587,7 +594,7 @@ document.addEventListener('DOMContentLoaded', () => {
         allBtns.forEach(b => b.disabled = true);
 
         try {
-            await fetch(`/api/attempt/${attemptId}/answer`, {
+            const res = await fetch(`/api/attempt/${attemptId}/answer-and-next`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -596,8 +603,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 })
             });
 
-            // Immediately load next question
-            fetchNextQuestion();
+            if (!res.ok) {
+                fetchNextQuestion();
+                return;
+            }
+
+            const data = await res.json();
+            renderQuestionPayload(data.next_question);
 
         } catch (err) {
             showAlert('Failed to transmit answer. Retrying...');
