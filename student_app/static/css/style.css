@@ -763,3 +763,88 @@ body {
     border-radius: 6px;
     border: 1px solid rgba(245, 158, 11, 0.5);
 }
+
+/* Fullscreen Exit Blocking Overlay */
+.fullscreen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(16px);
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.fullscreen-modal {
+    max-width: 480px;
+    padding: 32px;
+    border: 1px solid rgba(245, 158, 11, 0.5);
+    box-shadow: 0 0 40px rgba(245, 158, 11, 0.2);
+}
+
+/* Violation Warning Toast */
+.violation-toast {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 10000;
+    background: rgba(30, 41, 59, 0.95);
+    border: 2px solid #EF4444;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 8px 30px rgba(239, 68, 68, 0.35);
+    backdrop-filter: blur(12px);
+    padding: 16px 20px;
+    max-width: 420px;
+    color: #F8FAFC;
+    animation: slideInUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.violation-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 13px;
+    color: #EF4444;
+    margin-bottom: 6px;
+    letter-spacing: 0.5px;
+}
+
+.violation-badge {
+    margin-left: auto;
+    background: rgba(239, 68, 68, 0.2);
+    color: #F87171;
+    border: 1px solid rgba(239, 68, 68, 0.5);
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.violation-desc {
+    font-size: 13px;
+    color: var(--text-main);
+    margin: 4px 0 6px;
+    line-height: 1.4;
+}
+
+.violation-subtext {
+    font-size: 11px;
+    color: var(--text-dark);
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

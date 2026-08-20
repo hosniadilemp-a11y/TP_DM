@@ -37,3 +37,12 @@ class FinishAttemptResponse(BaseModel):
     wrong_count: int
     skipped_count: int
     status: str
+
+class ViolationEventRequest(BaseModel):
+    event_type: str = Field(..., description="e.g. fullscreen_exit, tab_hidden, window_blur, mouse_left_viewport, copy_or_context_menu_attempt")
+    details: Optional[str] = None
+
+class ViolationEventResponse(BaseModel):
+    violation_count: int
+    auto_failed: bool = False
+    message: str

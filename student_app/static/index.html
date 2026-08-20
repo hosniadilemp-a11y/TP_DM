@@ -50,7 +50,34 @@
         <i class="fa-solid fa-circle-exclamation alert-icon"></i>
         <span id="alert-message">Error message</span>
         <button id="btn-reset-cooldown" class="btn btn-sm btn-secondary hidden" style="margin-left: auto; padding: 4px 10px; font-size: 12px;">Reset Cooldown</button>
-        <button id="alert-close" class="alert-close"><i class="fa-solid fa-xmark"></i></button>
+        <button id="top-cooldown-close" class="banner-close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <!-- Fullscreen Exit Blocking Overlay -->
+    <div id="fullscreen-overlay" class="fullscreen-overlay hidden">
+        <div class="card glass-card text-center fullscreen-modal">
+            <div class="alert-icon-wrapper text-warning" style="font-size: 48px; margin-bottom: 12px;">
+                <i class="fa-solid fa-expand"></i>
+            </div>
+            <h2>Fullscreen Required</h2>
+            <p style="margin: 12px 0 20px; color: var(--text-dark);">
+                You exited fullscreen mode. Test progress is paused and violations are recorded. Click below to return to fullscreen and resume your evaluation test.
+            </p>
+            <button id="btn-reenter-fullscreen" class="btn btn-primary btn-lg w-100">
+                <i class="fa-solid fa-compress"></i> Re-enter Fullscreen Mode
+            </button>
+        </div>
+    </div>
+
+    <!-- Violation Warning Banner / Toast -->
+    <div id="violation-toast" class="violation-toast hidden">
+        <div class="violation-header">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <span>ANTI-CHEAT VIOLATION DETECTED</span>
+            <span id="violation-badge" class="violation-badge">Warning 1/4</span>
+        </div>
+        <p id="violation-desc" class="violation-desc">Tab switching or window focus loss detected.</p>
+        <div class="violation-subtext">4 violations will result in automatic test failure (Score: 0.0/20).</div>
     </div>
 
     <!-- Main App Container -->

@@ -301,9 +301,11 @@ document.addEventListener('DOMContentLoaded', () => {
             setCookie('student_code', studentCode, 30);
 
             attemptId = data.attempt_id;
+            currentViolationCount = 0;
             activeUserCode.textContent = studentCode + ' (TP ' + selectedTPId + ')';
             
             showScreen('quiz');
+            requestFullscreenMode();
             fetchNextQuestion();
 
         } catch (err) {
@@ -317,6 +319,137 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('beforeunload', () => {
         if (attemptId && screenQuiz.classList.contains('active')) {
             navigator.sendBeacon(`/api/attempt/${attemptId}/finish`);
+        }
+    });
+
+    // Anti-Cheat Violation Manager & Toast System
+    const fullscreenOverlay = document.getElementById('fullscreen-overlay');
+    const btnReenterFullscreen = document.getElementById('btn-reenter-fullscreen');
+    const violationToast = document.getElementById('violation-toast');
+    const violationBadge = document.getElementById('violation-badge');
+    const violationDesc = document.getElementById('violation-desc');
+
+    let currentViolationCount = 0;
+    let violationToastTimeout = null;
+
+    function requestFullscreenMode() {
+        try {
+            const docEl = document.documentElement;
+            if (docEl.requestFullscreen) {
+                docEl.requestFullscreen().catch(err => {
+                    console.warn("Fullscreen request rejected/unsupported:", err);
+                });
+            }
+        } catch (e) {}
+    }
+
+    if (btnReenterFullscreen) {
+        btnReenterFullscreen.addEventListener('click', () => {
+            requestFullscreenMode();
+        });
+    }
+
+    document.addEventListener('fullscreenchange', () => {
+        if (screenQuiz.classList.contains('active')) {
+            if (!document.fullscreenElement) {
+                if (fullscreenOverlay) fullscreenOverlay.classList.remove('hidden');
+                reportViolationEvent("fullscreen_exit", "Exited fullscreen mode");
+            } else {
+                if (fullscreenOverlay) fullscreenOverlay.classList.add('hidden');
+            }
+        }
+    });
+
+    function reportViolationEvent(eventType, details) {
+        if (!attemptId || !screenQuiz.classList.contains('active')) return;
+
+        const payload = JSON.stringify({ event_type: eventType, details: details });
+        if (navigator.sendBeacon) {
+            navigator.sendBeacon(`/api/attempt/${attemptId}/event`, new Blob([payload], { type: 'application/json' }));
+        } else {
+            fetch(`/api/attempt/${attemptId}/event`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: payload
+            }).catch(() => {});
+        }
+
+        currentViolationCount++;
+        showViolationToast(eventType, details, currentViolationCount);
+
+        if (currentViolationCount >= 4) {
+            clearInterval(timerInterval);
+            setTimeout(() => {
+                finishQuizEarlyDueToViolations();
+            }, 600);
+        }
+    }
+
+    function showViolationToast(eventType, details, count) {
+        if (!violationToast) return;
+        clearTimeout(violationToastTimeout);
+        if (violationBadge) violationBadge.textContent = `Warning ${count}/4`;
+        if (violationDesc) violationDesc.textContent = `${details || eventType}!`;
+        violationToast.classList.remove('hidden');
+
+        violationToastTimeout = setTimeout(() => {
+            violationToast.classList.add('hidden');
+        }, 4000);
+    }
+
+    async function finishQuizEarlyDueToViolations() {
+        clearInterval(timerInterval);
+        try {
+            await fetch(`/api/attempt/${attemptId}/finish`, { method: 'POST' });
+        } catch (e) {}
+        finishAttempt();
+    }
+
+    // Monitor Page Visibility & Window Focus
+    document.addEventListener('visibilitychange', () => {
+        if (document.hidden && screenQuiz.classList.contains('active')) {
+            reportViolationEvent("tab_hidden", "Switched tab or minimized browser window");
+        }
+    });
+
+    window.addEventListener('blur', () => {
+        if (screenQuiz.classList.contains('active')) {
+            reportViolationEvent("window_blur", "Window focus lost");
+        }
+    });
+
+    // Monitor Mouse Leaving Viewport
+    document.addEventListener('mouseleave', (e) => {
+        if (screenQuiz.classList.contains('active') && e.clientY <= 0) {
+            reportViolationEvent("mouse_left_viewport", "Mouse exited top of window");
+        }
+    });
+
+    // Prevent Context Menu & Shortcut Keys
+    document.addEventListener('contextmenu', (e) => {
+        if (screenQuiz.classList.contains('active')) {
+            e.preventDefault();
+            reportViolationEvent("copy_or_context_menu_attempt", "Right-click context menu attempt");
+            return false;
+        }
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (!screenQuiz.classList.contains('active')) return;
+
+        const key = e.key.toLowerCase();
+        const isCmdCtrl = e.ctrlKey || e.metaKey;
+
+        if (isCmdCtrl && (key === 'c' || key === 'v' || key === 'u' || key === 'a' || key === 's' || key === 'p')) {
+            e.preventDefault();
+            reportViolationEvent("shortcut_attempt", `Keyboard shortcut Ctrl+${key.toUpperCase()} attempt`);
+            return false;
+        }
+
+        if (e.key === 'F12' || (isCmdCtrl && e.shiftKey && (key === 'i' || key === 'j' || key === 'c'))) {
+            e.preventDefault();
+            reportViolationEvent("shortcut_attempt", "Developer tools shortcut attempt");
+            return false;
         }
     });
 
@@ -342,7 +475,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
-            // Render Question
+            // Render Question & Dynamic Options Order
             currentQuestionId = data.question_id;
             questionTextEl.textContent = data.text;
             
@@ -351,6 +484,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const progressPct = (data.position / data.total) * 100;
             progressBarFill.style.width = `${progressPct}%`;
+
+            // Render Randomized True/False Button Order
+            const optionsContainer = document.querySelector('.quiz-actions');
+            if (optionsContainer && data.options && Array.isArray(data.options)) {
+                optionsContainer.innerHTML = '';
+                data.options.forEach(optVal => {
+                    const btn = document.createElement('button');
+                    btn.type = 'button';
+                    btn.className = `btn btn-lg ${optVal ? 'btn-true' : 'btn-false'}`;
+                    btn.id = optVal ? 'btn-answer-true' : 'btn-answer-false';
+                    btn.innerHTML = optVal ? '<i class="fa-solid fa-check"></i> True' : '<i class="fa-solid fa-xmark"></i> False';
+                    btn.onclick = () => submitAnswer(optVal);
+                    optionsContainer.appendChild(btn);
+                });
+
+                // Add Skip button
+                const btnSkip = document.createElement('button');
+                btnSkip.type = 'button';
+                btnSkip.className = 'btn btn-lg btn-secondary';
+                btnSkip.id = 'btn-answer-skip';
+                btnSkip.innerHTML = '<i class="fa-solid fa-forward"></i> Skip (0 pts)';
+                btnSkip.onclick = () => submitAnswer(null);
+                optionsContainer.appendChild(btnSkip);
+            }
 
             // Start 20s Timer
             startQuestionTimer();
@@ -400,9 +557,8 @@ document.addEventListener('DOMContentLoaded', () => {
         isSubmitting = true;
         clearInterval(timerInterval);
 
-        btnAnswerTrue.disabled = true;
-        btnAnswerFalse.disabled = true;
-        if (btnAnswerSkip) btnAnswerSkip.disabled = true;
+        const allBtns = document.querySelectorAll('.quiz-actions button');
+        allBtns.forEach(b => b.disabled = true);
 
         try {
             await fetch(`/api/attempt/${attemptId}/answer`, {
@@ -423,8 +579,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    btnAnswerTrue.addEventListener('click', () => submitAnswer(true));
-    btnAnswerFalse.addEventListener('click', () => submitAnswer(false));
+    if (btnAnswerTrue) btnAnswerTrue.addEventListener('click', () => submitAnswer(true));
+    if (btnAnswerFalse) btnAnswerFalse.addEventListener('click', () => submitAnswer(false));
     if (btnAnswerSkip) {
         btnAnswerSkip.addEventListener('click', () => submitAnswer(null));
     }

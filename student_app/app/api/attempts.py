@@ -1,4 +1,5 @@
 import os
+import json
 import hashlib
 import random
 from datetime import datetime, timedelta
@@ -16,7 +17,9 @@ from student_app.app.schemas import (
     QuestionServeResponse,
     AnswerSubmitRequest,
     AnswerSubmitResponse,
-    FinishAttemptResponse
+    FinishAttemptResponse,
+    ViolationEventRequest,
+    ViolationEventResponse
 )
 
 router = APIRouter(prefix="/api", tags=["attempts"])
@@ -250,11 +253,14 @@ def get_next_question(attempt_id: int, db: DBSession = Depends(get_db)):
     db.commit()
     db.refresh(new_ans)
 
+    options_order = [True, False]
+    random.shuffle(options_order)
+
     return {
         "finished": False,
         "question_id": next_q.id,
         "text": next_q.text,
-        "options": [True, False],
+        "options": options_order,
         "position": next_position,
         "total": 20
     }
@@ -306,6 +312,67 @@ def submit_answer(
     db.commit()
     return {"received": True}
 
+@router.post("/attempt/{attempt_id}/event", response_model=ViolationEventResponse)
+def log_violation_event(
+    attempt_id: int,
+    req_data: ViolationEventRequest,
+    db: DBSession = Depends(get_db)
+):
+    attempt = db.query(Attempt).filter(Attempt.id == attempt_id).first()
+    if not attempt:
+        raise HTTPException(status_code=404, detail="Attempt not found.")
+
+    if attempt.status != "in_progress":
+        return {
+            "violation_count": getattr(attempt, "violation_count", 0) or 0,
+            "auto_failed": True,
+            "message": "Attempt already finished."
+        }
+
+    now = datetime.utcnow()
+    current_count = (getattr(attempt, "violation_count", 0) or 0) + 1
+    attempt.violation_count = current_count
+
+    log_list = []
+    if attempt.violation_log:
+        try:
+            log_list = json.loads(attempt.violation_log)
+        except Exception:
+            log_list = []
+
+    timestamp_str = now.strftime("%H:%M:%S")
+    log_entry = f"{timestamp_str} - {req_data.event_type}"
+    if req_data.details:
+        log_entry += f" ({req_data.details})"
+    log_list.append(log_entry)
+    attempt.violation_log = json.dumps(log_list)
+
+    auto_failed = False
+    msg = f"Violation recorded ({current_count}/4)."
+
+    if current_count >= 4:
+        auto_failed = True
+        attempt.status = "finished"
+        attempt.score = 0.0
+        attempt.flagged = True
+        attempt.ended_at = now
+        msg = "4 violations recorded. Test automatically failed (Score 0.0/20)."
+
+        answers = db.query(AttemptAnswer).filter(AttemptAnswer.attempt_id == attempt_id).all()
+        for ans in answers:
+            if ans.answered_at is None:
+                ans.answered_at = now
+                ans.chosen = None
+                ans.is_late = False
+                ans.is_correct = None
+
+    db.commit()
+    return {
+        "violation_count": current_count,
+        "auto_failed": auto_failed,
+        "message": msg
+    }
+
 @router.post("/attempt/{attempt_id}/finish", response_model=FinishAttemptResponse)
 def finish_attempt(attempt_id: int, db: DBSession = Depends(get_db)):
     attempt = db.query(Attempt).filter(Attempt.id == attempt_id).first()
@@ -329,10 +396,15 @@ def finish_attempt(attempt_id: int, db: DBSession = Depends(get_db)):
 
     # Raw score: +1 for correct, -1 for wrong/late, 0 for skipped/unanswered
     raw_score = float(correct_count - wrong_or_late_count)
-    # Final score out of 20. If below 0, final mark = 0.0
     final_mark = max(0.0, min(20.0, raw_score))
 
-    attempt.score = raw_score
+    # If 4 or more violations recorded OR exited early before answering 20 questions, set score = 0.0 & flag
+    if (getattr(attempt, "violation_count", 0) or 0) >= 4 or len(answers) < 20:
+        final_mark = 0.0
+        raw_score = 0.0
+        attempt.flagged = True
+
+    attempt.score = final_mark
     attempt.ended_at = now
     attempt.status = "finished"
 

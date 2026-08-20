@@ -168,3 +168,45 @@ def test_skipped_question_scores_zero():
     assert f_data["raw_score"] == 0.0
     assert f_data["final_mark"] == 0.0
     assert f_data["skipped_count"] == 20
+
+def test_anti_cheat_4_warning_auto_failure():
+    client.post("/api/dev/reset_cooldown")
+    start_res = client.post("/api/attempt/start", json={"code": "IASD01", "tp_id": 1})
+    assert start_res.status_code == 200
+    attempt_id = start_res.json()["attempt_id"]
+
+    # Log 3 violations
+    for i in range(1, 4):
+        v_res = client.post(f"/api/attempt/{attempt_id}/event", json={
+            "event_type": "tab_hidden",
+            "details": f"Violation #{i}"
+        })
+        assert v_res.status_code == 200
+        assert v_res.json()["violation_count"] == i
+        assert v_res.json()["auto_failed"] is False
+
+    # Log 4th violation -> triggers auto-failure
+    v_res4 = client.post(f"/api/attempt/{attempt_id}/event", json={
+        "event_type": "fullscreen_exit",
+        "details": "Exited fullscreen mode"
+    })
+    assert v_res4.status_code == 200
+    assert v_res4.json()["violation_count"] == 4
+    assert v_res4.json()["auto_failed"] is True
+
+    # Check attempt is finished with score 0.0
+    finish_res = client.post(f"/api/attempt/{attempt_id}/finish")
+    assert finish_res.status_code == 200
+    assert finish_res.json()["final_mark"] == 0.0
+
+def test_randomized_options_in_question_payload():
+    client.post("/api/dev/reset_cooldown")
+    start_res = client.post("/api/attempt/start", json={"code": "SIAD01", "tp_id": 1})
+    assert start_res.status_code == 200
+    attempt_id = start_res.json()["attempt_id"]
+
+    q_res = client.get(f"/api/attempt/{attempt_id}/next-question")
+    assert q_res.status_code == 200
+    q_data = q_res.json()
+    assert "options" in q_data
+    assert set(q_data["options"]) == {True, False}

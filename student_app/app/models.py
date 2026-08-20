@@ -71,6 +71,8 @@ class Attempt(Base):
     user_agent = Column(String, nullable=True)
     flagged = Column(Boolean, default=False, nullable=False)
     excluded_from_score = Column(Boolean, default=False, nullable=False)
+    violation_count = Column(Integer, default=0, nullable=False)
+    violation_log = Column(String, nullable=True) # JSON string of timestamped violation events
 
     answers = relationship("AttemptAnswer", back_populates="attempt")
 
