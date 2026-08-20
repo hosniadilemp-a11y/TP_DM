@@ -321,6 +321,7 @@ document.addEventListener('DOMContentLoaded', () => {
             btnStartTest.querySelector('span').textContent = 'Start Timed Test';
         }
     });
+}
 
     // Auto-finish attempt if student refreshes or exits page during active quiz
     window.addEventListener('beforeunload', () => {
