@@ -1597,6 +1597,8 @@
     "category": "trap",
     "question": "Confusing raw data exploration with automated feature extraction in biomedical pipelines.",
     "answer": false,
-    "explanation": "Raw data exploration inspects distributions and errors; feature extraction engineers new variables."
+    "explanation": "Raw data exploration inspects distributions and errors; feature extraction engineers new variables.",
+    "text": "Confusing raw data exploration with automated feature extraction in biomedical pipelines.",
+    "correct_answer": false
   }
 ]
