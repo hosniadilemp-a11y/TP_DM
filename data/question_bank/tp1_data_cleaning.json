@@ -1,0 +1,1682 @@
+[
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "The IQR method identifies outliers as values below Q1 - 1.5*IQR or above Q3 + 1.5*IQR.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 1
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.dropna() removes rows containing missing values by default.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 2
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Mean imputation is sensitive to extreme outliers present in the dataset.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 3
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Z-score normalization assumes the underlying feature follows a Gaussian distribution.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 4
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "A value with a Z-score of +3.5 is generally considered a potential outlier in a normal distribution.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 5
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Median imputation is more robust to extreme skewness than mean imputation.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 6
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.duplicated() returns a boolean Series indicating duplicate rows.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 7
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "MCAR (Missing Completely at Random) implies missingness does not depend on observed or unobserved data.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 8
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Forward fill (ffill) propagates the last valid observation forward to fill missing values.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 9
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Data cleaning should ideally be performed before model training to prevent data leakage.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 10
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Extrapolating missing continuous values with linear interpolation requires sorted index values.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 11
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Removing all rows with any missing value can severely reduce sample size if missingness is widespread.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 12
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Winsorization replaces extreme values with less extreme values at specified percentiles.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 13
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Deduplication based on a subset of columns retains only unique combinations of those columns.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 14
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "The mode is the preferred imputation statistic for categorical variables with missing entries.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 15
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.isna().sum() calculates the total count of missing values per column.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 16
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Outliers can significantly distort calculated covariance and variance values.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 17
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "MAR (Missing at Random) means missingness depends on observed data but not on unobserved values.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 18
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Trimming outliers entirely removes extreme observations from the training dataset.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 19
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Data consistency checks verify that numerical attributes fall within valid domain bounds.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 20
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Deduplication should precede summary statistic computations to prevent duplicate weighting.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 21
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Constant imputation replaces missing values with a user-specified default placeholder value.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 22
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "The Z-score of a data point measures how many standard deviations it lies from the sample mean.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 23
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "The interquartile range (IQR) is calculated as the difference between the 75th and 25th percentiles.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 24
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.fillna(method='bfill') propagates the next valid observation backward.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 25
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Replacing missing values with zero is always equivalent to mean imputation when data is normalized.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 26
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Outlier detection using Z-score is completely unaffected by the presence of extreme outliers.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 27
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "The IQR method assumes the dataset follows a strict standard normal distribution.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 28
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.dropna(axis=1) drops rows that contain missing values.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 29
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "MNAR (Missing Not at Random) data can be safely imputed without introducing bias.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 30
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Forward fill (ffill) is the optimal missing value strategy for unordered categorical attributes.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 31
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "A Z-score threshold of 0 is typically used to flag extreme statistical outliers.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 32
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Deduplication automatically fixes incorrect data values and typographical errors in text columns.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 33
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Mean imputation increases the overall variance of the attribute column.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 34
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Listwise deletion never introduces bias into subsequent statistical model estimates.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 35
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "The interquartile range (IQR) expands when extreme positive outliers are added to a dataset.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 36
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Deleting duplicate rows will alter the sample median of a strictly symmetric distribution.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 37
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "K-NN imputation requires categorical variables to remain unencoded during distance calculation.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 38
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.fillna() modifies the DataFrame in-place by default without needing inplace=True.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 39
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Z-score capping preserves the exact parametric mean of the original dataset.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 40
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Median imputation is optimal for uniform distributions with heavy tail missingness.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 41
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "A boxplot upper whisker always extends precisely to Q3 + 1.5*IQR regardless of sample data points.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 42
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Data cleaning guarantees that the downstream classification accuracy will increase.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 43
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.isna() returns True for empty string values '' in text columns.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 44
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Outlier removal should always be conducted prior to analyzing domain specific anomaly events.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 45
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Imputing missing values with the mode decreases the frequency of the most common category.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 46
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "The standard normal Z-score formula uses median and IQR instead of mean and standard deviation.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 47
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Linear interpolation is recommended for non-time-series random shuffled categorical columns.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 48
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Removing outliers using IQR guarantees that no remaining data point lies outside [-3, 3].",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 49
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Data leakage occurs when test set missing values are imputed using test set statistics only.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 50
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Truncating missing values to 0 preserves the exact variance of the target feature.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 51
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.duplicated(keep=False) marks only the second occurrence of duplicate rows.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 52
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Z-score transformation changes a highly skewed right distribution into a symmetric normal curve.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 53
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Mean imputation preserves the correlation structure between attributes in multivariate data.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 54
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Outliers identified by Z-score are guaranteed to be data entry errors rather than genuine extreme events.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 55
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Listwise deletion is more sample-efficient than pairwise deletion when handling missing data.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 56
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Capping outliers at the 99th percentile increases the maximum value of the dataset.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 57
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.isna().any() returns a single boolean scalar for the entire DataFrame.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 58
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "The median is more sensitive to extreme maximum values than the arithmetic mean.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 59
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Outlier detection using IQR can only be applied to continuous variables following a Gaussian distribution.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 60
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.drop_duplicates() modifies original index order by resetting it to 0..N-1 automatically.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 61
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Mean imputation increases correlation coefficients between imputed variables.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 62
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "A negative Z-score indicates that a data point lies above the population mean.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 63
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Boxplot whiskers can extend up to 3.0*IQR to mark mild outliers.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 64
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Single imputation methods capture the uncertainty of missing values better than multiple imputation.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 65
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Imputing missing values in the target variable with feature means improves generalization.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 66
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Data cleaning removes the need for cross-validation during evaluation.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 67
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Deduplication should be applied after splitting data into train and test sets to avoid data leakage.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 68
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.isna().sum().sum() returns the count of non-missing values in a DataFrame.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 69
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Forward fill is valid for cross-sectional data sorted alphabetically by student name.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 70
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Outliers always reduce the training accuracy of Decision Tree algorithms.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 71
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Z-score outlier detection requires at least 10,000 samples to be mathematically valid.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 72
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "The interquartile range (IQR) equals the difference between the maximum and minimum values.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 73
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.replace() can only replace numeric values and cannot handle strings.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 74
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Mean imputation reduces the statistical power of subsequent hypothesis tests by artificially reducing variance.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 75
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Extreme outliers have no effect on the calculation of Pearson correlation coefficients.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 76
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Data cleaning steps can be skipped if using robust non-parametric models like Random Forest.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 77
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, dropna(thresh=2) drops rows with more than 2 non-NA values.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 78
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "MCAR assumptions can be verified definitively using single univariate normality tests.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 79
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Removing outliers always leads to higher model performance on unseen test data.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 80
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Interpolation methods work independently of sample order in tabular data.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 81
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Median imputation changes the ranking order of non-missing observations in a feature.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 82
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Outlier detection via IQR is affected by non-linear monotonic transformations of the feature.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 83
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Linear interpolation assumes a constant rate of change between adjacent known data points.",
+    "correct_answer": true,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 84
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "The lower bound for IQR outlier detection is defined as Q1 - 1.5 * IQR.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 1,
+    "trap_mode": "hidden",
+    "id": 85
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "The lower bound for IQR outlier detection is defined as Q1 - 2.5 * IQR.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 1,
+    "trap_mode": "hidden",
+    "id": 86
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "The upper bound for IQR outlier detection is defined as Q3 + 1.5 * IQR.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 2,
+    "trap_mode": "hidden",
+    "id": 87
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "The upper bound for IQR outlier detection is defined as Q3 + 2.5 * IQR.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 2,
+    "trap_mode": "hidden",
+    "id": 88
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.dropna(axis=0) removes rows containing missing values.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 3,
+    "trap_mode": "hidden",
+    "id": 89
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.dropna(axis=0) removes columns containing missing values.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 3,
+    "trap_mode": "hidden",
+    "id": 90
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.dropna(axis=1) removes columns containing missing values.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 4,
+    "trap_mode": "hidden",
+    "id": 91
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.dropna(axis=1) removes rows containing missing values.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 4,
+    "trap_mode": "hidden",
+    "id": 92
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Mean imputation preserves the sample mean of the feature column.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 5,
+    "trap_mode": "hidden",
+    "id": 93
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Mean imputation preserves the sample variance of the feature column.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 5,
+    "trap_mode": "hidden",
+    "id": 94
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Median imputation is resistant to extreme numerical outliers.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 6,
+    "trap_mode": "hidden",
+    "id": 95
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Median imputation is sensitive to extreme numerical outliers.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 6,
+    "trap_mode": "hidden",
+    "id": 96
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "The Z-score of a sample point is calculated as (x - mean) / std.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 7,
+    "trap_mode": "hidden",
+    "id": 97
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "The Z-score of a sample point is calculated as (x - std) / mean.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 7,
+    "trap_mode": "hidden",
+    "id": 98
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "A positive Z-score indicates that a observation lies above the sample mean.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 8,
+    "trap_mode": "hidden",
+    "id": 99
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "A positive Z-score indicates that a observation lies below the sample mean.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 8,
+    "trap_mode": "hidden",
+    "id": 100
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Forward fill (ffill) propagates the last valid value forward to replace missing entries.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 9,
+    "trap_mode": "hidden",
+    "id": 101
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Forward fill (ffill) propagates the next valid value backward to replace missing entries.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 9,
+    "trap_mode": "hidden",
+    "id": 102
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Backward fill (bfill) propagates the next valid value backward to replace missing entries.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 10,
+    "trap_mode": "hidden",
+    "id": 103
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Backward fill (bfill) propagates the last valid value forward to replace missing entries.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 10,
+    "trap_mode": "hidden",
+    "id": 104
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "MCAR implies missingness is completely independent of observed and unobserved variables.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 11,
+    "trap_mode": "hidden",
+    "id": 105
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "MCAR implies missingness depends directly on observed feature values.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 11,
+    "trap_mode": "hidden",
+    "id": 106
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "MAR implies missingness depends on observed data but not on unobserved data.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 12,
+    "trap_mode": "hidden",
+    "id": 107
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "MAR implies missingness depends on unobserved data but not on observed data.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 12,
+    "trap_mode": "hidden",
+    "id": 108
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Mode imputation replaces missing cells with the most frequent categorical value.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 13,
+    "trap_mode": "hidden",
+    "id": 109
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Mode imputation replaces missing cells with the arithmetic average of numeric values.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 13,
+    "trap_mode": "hidden",
+    "id": 110
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Listwise deletion removes all rows that contain at least one missing cell.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 14,
+    "trap_mode": "hidden",
+    "id": 111
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Listwise deletion removes only the specific missing cells while keeping the row.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 14,
+    "trap_mode": "hidden",
+    "id": 112
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Winsorization caps extreme outliers at pre-specified percentile thresholds.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 15,
+    "trap_mode": "hidden",
+    "id": 113
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Winsorization deletes extreme outlier rows completely from the dataset.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 15,
+    "trap_mode": "hidden",
+    "id": 114
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Deduplication using df.drop_duplicates() keeps the first occurrence by default.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 16,
+    "trap_mode": "hidden",
+    "id": 115
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Deduplication using df.drop_duplicates() keeps the last occurrence by default.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 16,
+    "trap_mode": "hidden",
+    "id": 116
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Interpolation computes replacement values based on neighboring known observations.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 17,
+    "trap_mode": "hidden",
+    "id": 117
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Interpolation computes replacement values by taking the global column mode.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 17,
+    "trap_mode": "hidden",
+    "id": 118
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.isna() returns True for missing values like NaN and None.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 18,
+    "trap_mode": "hidden",
+    "id": 119
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.isna() returns False for missing values like NaN and None.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 18,
+    "trap_mode": "hidden",
+    "id": 120
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "The Interquartile Range (IQR) is calculated as Q3 - Q1.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 19,
+    "trap_mode": "hidden",
+    "id": 121
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "The Interquartile Range (IQR) is calculated as Q1 - Q3.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 19,
+    "trap_mode": "hidden",
+    "id": 122
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Trimming removes outlier observations completely from the dataset.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 20,
+    "trap_mode": "hidden",
+    "id": 123
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Trimming caps outlier observations at maximum allowed boundary values.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 20,
+    "trap_mode": "hidden",
+    "id": 124
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Z-score threshold of 3.0 flags points more than 3 standard deviations from mean.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 21,
+    "trap_mode": "hidden",
+    "id": 125
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Z-score threshold of 3.0 flags points more than 3 interquartile ranges from mean.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 21,
+    "trap_mode": "hidden",
+    "id": 126
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Mean imputation artificially decreases the variance of the imputed variable.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 22,
+    "trap_mode": "hidden",
+    "id": 127
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Mean imputation artificially increases the variance of the imputed variable.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 22,
+    "trap_mode": "hidden",
+    "id": 128
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Data leakage happens when test set statistics are used during training data preprocessing.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 23,
+    "trap_mode": "hidden",
+    "id": 129
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Data leakage happens when training set statistics are used during test data preprocessing.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 23,
+    "trap_mode": "hidden",
+    "id": 130
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Pairwise deletion keeps cases that have valid values for the specific variables analyzed.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 24,
+    "trap_mode": "hidden",
+    "id": 131
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Pairwise deletion removes entire cases if any variable in the dataset is missing.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 24,
+    "trap_mode": "hidden",
+    "id": 132
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Single imputation substitutes one single value for each missing value.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 25,
+    "trap_mode": "hidden",
+    "id": 133
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Single imputation generates multiple plausible datasets to model uncertainty.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 25,
+    "trap_mode": "hidden",
+    "id": 134
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.fillna(0) replaces all NA entries with the integer value zero.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 26,
+    "trap_mode": "hidden",
+    "id": 135
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.fillna(0) replaces all NA entries with the column mean.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 26,
+    "trap_mode": "hidden",
+    "id": 136
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Capping outliers modifies extreme values without changing dataset sample size.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 27,
+    "trap_mode": "hidden",
+    "id": 137
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Capping outliers deletes extreme values and reduces dataset sample size.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 27,
+    "trap_mode": "hidden",
+    "id": 138
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Z-score normalization transforms a feature to have a mean of 0 and std of 1.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 28,
+    "trap_mode": "hidden",
+    "id": 139
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Z-score normalization transforms a feature to have a min of 0 and max of 1.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 28,
+    "trap_mode": "hidden",
+    "id": 140
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.duplicated() returns a boolean Series marking duplicate rows.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 29,
+    "trap_mode": "hidden",
+    "id": 141
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.duplicated() returns a list of column names that contain duplicate values.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 29,
+    "trap_mode": "hidden",
+    "id": 142
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Robust scaler uses median and IQR to normalize features.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 30,
+    "trap_mode": "hidden",
+    "id": 143
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Robust scaler uses mean and standard deviation to normalize features.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 30,
+    "trap_mode": "hidden",
+    "id": 144
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Linear interpolation requires data to be ordered logically along an index.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 31,
+    "trap_mode": "attention_check",
+    "id": 145
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Linear interpolation requires data to be randomly shuffled before calculation.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 31,
+    "trap_mode": "attention_check",
+    "id": 146
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Mode is the only central tendency metric applicable to nominal categorical variables.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 32,
+    "trap_mode": "attention_check",
+    "id": 147
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Mean is the only central tendency metric applicable to nominal categorical variables.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 32,
+    "trap_mode": "attention_check",
+    "id": 148
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "MNAR missingness depends on the unobserved value itself.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 33,
+    "trap_mode": "attention_check",
+    "id": 149
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "MNAR missingness is completely independent of the unobserved value.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 33,
+    "trap_mode": "attention_check",
+    "id": 150
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Data cleaning should be performed prior to feature scaling transformations.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 34,
+    "trap_mode": "attention_check",
+    "id": 151
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Data cleaning should be performed after model training is finished.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 34,
+    "trap_mode": "attention_check",
+    "id": 152
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Outlier detection using boxplots relies on quartiles Q1 and Q3.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 35,
+    "trap_mode": "attention_check",
+    "id": 153
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Outlier detection using boxplots relies on sample mean and standard deviation.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 35,
+    "trap_mode": "attention_check",
+    "id": 154
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.isna().sum() sums missing values column by column.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 36,
+    "trap_mode": "attention_check",
+    "id": 155
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "In pandas, df.isna().sum() sums non-missing values row by row.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 36,
+    "trap_mode": "attention_check",
+    "id": 156
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Zero imputation introduces bias if zero is a meaningful non-missing measurement.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 37,
+    "trap_mode": "attention_check",
+    "id": 157
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Zero imputation preserves unbiased distribution properties when zero is a valid measure.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 37,
+    "trap_mode": "attention_check",
+    "id": 158
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Constant fill replaces missing values with a designated fixed placeholder.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 38,
+    "trap_mode": "attention_check",
+    "id": 159
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Constant fill replaces missing values with linear regression predictions.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 38,
+    "trap_mode": "attention_check",
+    "id": 160
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Extrapolating estimates missing values outside the range of observed data points.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 39,
+    "trap_mode": "attention_check",
+    "id": 161
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Extrapolating estimates missing values inside the range of observed data points.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 39,
+    "trap_mode": "attention_check",
+    "id": 162
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Deduplication on a primary key ensures each entity appears exactly once.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 40,
+    "trap_mode": "attention_check",
+    "id": 163
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Deduplication on a primary key ensures each feature column has equal variance.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 40,
+    "trap_mode": "attention_check",
+    "id": 164
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Trimming reduces sample size N when extreme outliers are removed.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 41,
+    "trap_mode": "attention_check",
+    "id": 165
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "Trimming increases sample size N by imputing synthetic outlier observations.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 41,
+    "trap_mode": "attention_check",
+    "id": 166
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "A boxplot displays the 25th, 50th, and 75th percentiles of a continuous distribution.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 42,
+    "trap_mode": "attention_check",
+    "id": 167
+  },
+  {
+    "tp_id": 1,
+    "topic_id": 1,
+    "text": "A boxplot displays the 10th, 50th, and 90th percentiles of a continuous distribution.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 42,
+    "trap_mode": "attention_check",
+    "id": 168
+  }
+]

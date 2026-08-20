@@ -1,0 +1,1672 @@
+[
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Decision Trees split nodes to maximize Information Gain or minimize Gini Impurity.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 671
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Gini Impurity measures the likelihood of misclassifying a randomly chosen element.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 672
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Entropy measures the degree of impurity or randomness in a group of samples.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 673
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Random Forest is an ensemble learning method using bagging (bootstrap aggregating) of decision trees.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 674
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "K-Nearest Neighbors (KNN) is a non-parametric, instance-based lazy learning algorithm.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 675
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Support Vector Machines (SVM) find the optimal hyperplane maximizing the margin between classes.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 676
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Naive Bayes classifier assumes conditional independence between features given the class label.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 677
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Logistic Regression uses the sigmoid (logistic) function to model binary class probabilities.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 678
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Random Forest reduces prediction variance compared to an individual single decision tree.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 679
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Pruning a decision tree reduces model complexity and helps prevent overfitting.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 680
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "SVM uses kernel functions (RBF, Polynomial) to project data into higher-dimensional linearly separable spaces.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 681
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "In KNN, smaller values of K make the model more sensitive to noise and local data fluctuations.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 682
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Out-of-Bag (OOB) error in Random Forest provides an unbiased estimate of test error using un-sampled bootstrap data.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 683
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Decision Trees are non-parametric models capable of capturing non-linear relationships.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 684
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Feature scaling is mandatory for distance-based algorithms like KNN and SVM with RBF kernel.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 685
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Gini Impurity for a pure node containing only one class is equal to 0.0.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 686
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Gradient Boosting builds trees sequentially, where each tree fits to the residual errors of prior trees.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 687
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Logistic Regression produces output values bounded strictly between 0 and 1.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 688
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Naive Bayes computes class posterior probability using Bayes' theorem.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 689
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Support vectors are the data points lying closest to the SVM decision boundary hyperplane.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 690
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Increasing tree depth in a Decision Tree increases model complexity and overfitting risk.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 691
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Random Forest samples both observations (bootstrap) and feature subsets at each split node.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 692
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Logistic Regression decision boundary is linear in feature space when using linear features.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 693
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "KNN requires storing the entire training dataset in memory during prediction time.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 694
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Gaussian Naive Bayes assumes continuous features follow a Gaussian normal distribution per class.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 695
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Decision Trees require features to be scaled using StandardScaler prior to model training.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 696
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Gini Impurity for a node with equal 50/50 binary class distribution is equal to 1.0.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 697
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Random Forest builds sequential trees where each tree corrects errors of the previous tree.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 698
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "KNN algorithm requires an explicit training phase to compute internal model parameters.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 699
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "SVM maximizes the classification error margin on training instances.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 700
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Naive Bayes assumption of feature independence is strictly satisfied in almost all real-world tabular datasets.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 701
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Logistic Regression is a regression model used to predict continuous numeric target outputs.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 702
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Random Forest is more prone to overfitting than a single unpruned decision tree.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 703
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Pruning a decision tree increases tree depth and increases training set accuracy.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 704
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Linear SVM can easily classify non-linearly separable data without kernel transformations.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 705
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "In KNN, setting K equal to the total number of training samples N creates a model that overfits noise.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 706
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "OOB error estimation in Random Forest requires a separate held-out test dataset.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 707
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Decision Trees compute non-linear hyperplane boundaries with diagonal slopes in feature space.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 708
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "KNN classification predictions are independent of feature measurement scale.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 709
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Gini Impurity calculation is computationally slower than Log Entropy calculation due to logarithm evaluations.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 710
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "AdaBoost builds independent decision trees in parallel using bootstrap aggregating.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 711
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Logistic Regression uses the linear step function to output exact discrete 0/1 class decisions.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 712
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Naive Bayes cannot handle zero probability categories even when Laplace smoothing is applied.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 713
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Support vectors consist of all training data points located far away from the decision margin.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 714
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Increasing min_samples_split in a Decision Tree leads to deeper trees and overfitting.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 715
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Random Forest selects the best feature split from all available features at every node.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 716
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Logistic Regression odds ratio is unbounded negative to positive infinity.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 717
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "KNN makes instant predictions with O(1) time complexity during inference time.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 718
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Gaussian Naive Bayes requires categorical variables to remain unencoded as raw strings.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 719
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Entropy of a node with equal 50/50 binary class distribution is equal to 0.0.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 720
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Bagging algorithms fit base estimators sequentially on weighted residual samples.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 721
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "SVM hyper-parameter C controls the tree depth of internal weak learners.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 722
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "KNN with K=1 yields a smooth decision boundary resistant to noise.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 723
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Information Gain is calculated as the sum of child node impurities minus parent impurity.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 724
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Logistic Regression cost function (Log-loss) is non-convex with multiple local minima.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 725
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Random Forest feature importance measures the absolute correlation between features and target.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 726
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Decision Trees can extrapolate linear trends far outside the range of training data.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 727
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Kernel trick in SVM explicitly computes feature coordinates in high-dimensional space.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 728
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Laplace smoothing in Naive Bayes adds 1 to the numerator to avoid zero probability estimates.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 729
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Hard-margin SVM allows misclassified training points within the margin zone.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 730
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Random Forest requires all base decision trees to be fully pruned to single root nodes.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 731
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "KNN uses gradient descent optimization during training to find optimal cluster centroids.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 732
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Information Gain Ratio penalizes attributes with many fine-grained uniform categories.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 733
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Logistic regression models multi-class target labels natively without One-vs-Rest or Softmax.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 734
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Decision Tree splits are always computed using principal component directions.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 735
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Soft-margin SVM with high C value allows large margin violations and tolerates misclassifications.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 736
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Multinomial Naive Bayes is designed specifically for continuous Gaussian features.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 737
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Increasing K in KNN increases model variance and decreases bias.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 738
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Random Forest trees are correlated because each tree receives identical training bootstrap samples.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 739
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Gini Impurity ranges from 0.0 to 1.0 for binary classification problems.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 740
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Decision Trees split continuous attributes into categorical bins prior to calculating impurity.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 741
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Sigmoid function maps real inputs to output range [-1, 1].",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 742
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "SVM with RBF kernel has only one hyper-parameter C and no gamma parameter.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 743
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Naive Bayes computes exact joint probability distributions without independence assumptions.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 744
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Random Forest cannot perform regression tasks on continuous numerical target variables.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 745
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Pruning methods include pre-pruning (early stopping) and post-pruning (cost-complexity pruning).",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 746
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "KNN prediction speed increases linearly as the size of training data N increases.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 747
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Logistic regression assumes features are highly multicollinear with each other.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 748
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Decision Trees are highly sensitive to small variations in training sample data.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 749
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "SVM decision boundary depends on every single training instance in the dataset.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 750
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Boosting algorithms reduce model variance while Bagging algorithms primarily reduce model bias.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 751
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Entropy calculation uses log base 10 by default in standard information theory formulations.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 752
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 17,
+    "text": "Single Decision Trees always outperform Random Forests on noisy high-dimensional data.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 753
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Random Forest uses Bagging (bootstrap aggregating) to train independent decision trees in parallel.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 169,
+    "trap_mode": "hidden",
+    "id": 754
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Random Forest uses Boosting to train sequential decision trees on residual error weights.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 169,
+    "trap_mode": "hidden",
+    "id": 755
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Gradient Boosting trains sequential trees where each tree fits to residual errors of prior trees.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 170,
+    "trap_mode": "hidden",
+    "id": 756
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Gradient Boosting trains independent trees in parallel using bootstrap sample aggregation.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 170,
+    "trap_mode": "hidden",
+    "id": 757
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Gini Impurity for a completely pure single-class node is equal to 0.0.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 171,
+    "trap_mode": "hidden",
+    "id": 758
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Gini Impurity for a completely pure single-class node is equal to 1.0.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 171,
+    "trap_mode": "hidden",
+    "id": 759
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Entropy for a completely pure single-class node is equal to 0.0.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 172,
+    "trap_mode": "hidden",
+    "id": 760
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Entropy for a completely pure single-class node is equal to 1.0.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 172,
+    "trap_mode": "hidden",
+    "id": 761
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Gini Impurity for an equal 50/50 binary class node is equal to 0.5.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 173,
+    "trap_mode": "hidden",
+    "id": 762
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Gini Impurity for an equal 50/50 binary class node is equal to 1.0.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 173,
+    "trap_mode": "hidden",
+    "id": 763
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Entropy for an equal 50/50 binary class node is equal to 1.0 (with log base 2).",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 174,
+    "trap_mode": "hidden",
+    "id": 764
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Entropy for an equal 50/50 binary class node is equal to 0.0 (with log base 2).",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 174,
+    "trap_mode": "hidden",
+    "id": 765
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "KNN is a non-parametric lazy learner that performs computation during prediction time.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 175,
+    "trap_mode": "hidden",
+    "id": 766
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "KNN is an eager parametric learner that computes model weights during training phase.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 175,
+    "trap_mode": "hidden",
+    "id": 767
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Smaller K in KNN makes the model more sensitive to noise and increases variance.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 176,
+    "trap_mode": "hidden",
+    "id": 768
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Smaller K in KNN smooths decision boundaries and decreases variance.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 176,
+    "trap_mode": "hidden",
+    "id": 769
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Larger K in KNN smooths decision boundaries and increases bias.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 177,
+    "trap_mode": "hidden",
+    "id": 770
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Larger K in KNN overfits noisy training instances and increases variance.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 177,
+    "trap_mode": "hidden",
+    "id": 771
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "SVM finds the optimal hyperplane that maximizes the margin between classes.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 178,
+    "trap_mode": "hidden",
+    "id": 772
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "SVM finds the optimal hyperplane that minimizes the distance between class centroids.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 178,
+    "trap_mode": "hidden",
+    "id": 773
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Support vectors are data points lying closest to the SVM decision margin boundary.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 179,
+    "trap_mode": "hidden",
+    "id": 774
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Support vectors are data points lying furthest away from the SVM decision margin boundary.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 179,
+    "trap_mode": "hidden",
+    "id": 775
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Naive Bayes assumes features are conditionally independent given the class label.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 180,
+    "trap_mode": "hidden",
+    "id": 776
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Naive Bayes assumes features are highly correlated and interdependent given the class label.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 180,
+    "trap_mode": "hidden",
+    "id": 777
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Laplace smoothing adds a constant to frequency counts to prevent zero probability estimates.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 181,
+    "trap_mode": "hidden",
+    "id": 778
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Laplace smoothing removes low-frequency categories to reduce feature space size.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 181,
+    "trap_mode": "hidden",
+    "id": 779
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Logistic Regression uses the sigmoid function to map real inputs to probabilities [0, 1].",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 182,
+    "trap_mode": "hidden",
+    "id": 780
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Logistic Regression uses the step function to map real inputs to continuous linear predictions.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 182,
+    "trap_mode": "hidden",
+    "id": 781
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Sigmoid function outputs values strictly bounded between 0.0 and 1.0.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 183,
+    "trap_mode": "hidden",
+    "id": 782
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Sigmoid function outputs values strictly bounded between -1.0 and +1.0.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 183,
+    "trap_mode": "hidden",
+    "id": 783
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Pruning decision trees reduces tree depth and prevents overfitting.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 184,
+    "trap_mode": "hidden",
+    "id": 784
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Pruning decision trees increases tree depth and causes overfitting.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 184,
+    "trap_mode": "hidden",
+    "id": 785
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Out-of-Bag (OOB) error in Random Forest uses unselected bootstrap samples for validation.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 185,
+    "trap_mode": "hidden",
+    "id": 786
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Out-of-Bag (OOB) error in Random Forest uses training samples to evaluate training accuracy.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 185,
+    "trap_mode": "hidden",
+    "id": 787
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Random Forest samples both observations and feature subsets at each split node.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 186,
+    "trap_mode": "hidden",
+    "id": 788
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Random Forest uses all observations and all features at every split node.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 186,
+    "trap_mode": "hidden",
+    "id": 789
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Decision Trees create axis-aligned orthogonal split boundaries in feature space.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 187,
+    "trap_mode": "hidden",
+    "id": 790
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Decision Trees create smooth non-linear circular split boundaries in feature space.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 187,
+    "trap_mode": "hidden",
+    "id": 791
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "SVM kernel trick projects data into higher-dimensional space without computing new coordinates explicitly.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 188,
+    "trap_mode": "hidden",
+    "id": 792
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "SVM kernel trick projects data into lower-dimensional space by dropping non-linear features.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 188,
+    "trap_mode": "hidden",
+    "id": 793
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Hard-margin SVM requires data to be perfectly linearly separable without misclassifications.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 189,
+    "trap_mode": "hidden",
+    "id": 794
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Hard-margin SVM allows margin violations and tolerates misclassified training points.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 189,
+    "trap_mode": "hidden",
+    "id": 795
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Soft-margin SVM uses hyper-parameter C to control trade-off between margin width and error penalty.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 190,
+    "trap_mode": "hidden",
+    "id": 796
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Soft-margin SVM uses hyper-parameter K to control number of nearest neighbors.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 190,
+    "trap_mode": "hidden",
+    "id": 797
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Higher C parameter in SVM penalizes misclassifications heavily, creating a narrower margin.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 191,
+    "trap_mode": "hidden",
+    "id": 798
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Higher C parameter in SVM allows large margin violations, creating a wider soft margin.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 191,
+    "trap_mode": "hidden",
+    "id": 799
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "KNN requires feature scaling because Euclidean distance is sensitive to attribute magnitude.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 192,
+    "trap_mode": "hidden",
+    "id": 800
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "KNN is invariant to feature scaling because Euclidean distance normalizes feature scales.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 192,
+    "trap_mode": "hidden",
+    "id": 801
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Decision Trees are invariant to monotonic feature scaling transformations.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 193,
+    "trap_mode": "hidden",
+    "id": 802
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Decision Trees require features to be scaled with StandardScaler before computing splits.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 193,
+    "trap_mode": "hidden",
+    "id": 803
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Information Gain is calculated as parent node entropy minus weighted average child entropy.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 194,
+    "trap_mode": "hidden",
+    "id": 804
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Information Gain is calculated as child node entropy minus parent node entropy.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 194,
+    "trap_mode": "hidden",
+    "id": 805
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Information Gain Ratio penalizes attributes with large numbers of distinct fine-grained categories.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 195,
+    "trap_mode": "hidden",
+    "id": 806
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Information Gain Ratio favors attributes with large numbers of distinct fine-grained categories.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 195,
+    "trap_mode": "hidden",
+    "id": 807
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "AdaBoost adjusts sample weights after each iteration to focus on misclassified instances.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 196,
+    "trap_mode": "hidden",
+    "id": 808
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "AdaBoost adjusts feature scaling factors after each iteration to reduce dimensionality.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 196,
+    "trap_mode": "hidden",
+    "id": 809
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Gaussian Naive Bayes assumes continuous feature variables follow Gaussian normal distributions per class.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 197,
+    "trap_mode": "hidden",
+    "id": 810
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Gaussian Naive Bayes assumes continuous feature variables follow uniform step distributions.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 197,
+    "trap_mode": "hidden",
+    "id": 811
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "KNN prediction time complexity scales linearly O(N) with number of training samples N.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 198,
+    "trap_mode": "hidden",
+    "id": 812
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "KNN prediction time complexity is constant O(1) regardless of training sample size N.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 198,
+    "trap_mode": "hidden",
+    "id": 813
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Cost-complexity pruning (post-pruning) trims branches after full decision tree is grown.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 199,
+    "trap_mode": "attention_check",
+    "id": 814
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Cost-complexity pruning (post-pruning) stops tree growth early before reaching max depth.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 199,
+    "trap_mode": "attention_check",
+    "id": 815
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Pre-pruning halts decision tree expansion early based on depth or min sample thresholds.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 200,
+    "trap_mode": "attention_check",
+    "id": 816
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Pre-pruning grows the tree to full max depth and then deletes non-essential leaves.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 200,
+    "trap_mode": "attention_check",
+    "id": 817
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Linear SVM decision boundary is a linear hyperplane in input feature space.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 201,
+    "trap_mode": "attention_check",
+    "id": 818
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Linear SVM decision boundary is a non-linear parabolic curve in input feature space.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 201,
+    "trap_mode": "attention_check",
+    "id": 819
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "RBF kernel (Gaussian) measures similarity between samples based on squared Euclidean distance.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 202,
+    "trap_mode": "attention_check",
+    "id": 820
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "RBF kernel (Gaussian) measures similarity based on categorical one-hot dot products.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 202,
+    "trap_mode": "attention_check",
+    "id": 821
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Multinomial Naive Bayes is suited for discrete feature counts like word frequencies in text.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 203,
+    "trap_mode": "attention_check",
+    "id": 822
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Multinomial Naive Bayes is suited for continuous scaled Gaussian features.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 203,
+    "trap_mode": "attention_check",
+    "id": 823
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Logistic regression models log-odds ratio as a linear combination of input features.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 204,
+    "trap_mode": "attention_check",
+    "id": 824
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Logistic regression models sample variance as a quadratic combination of input features.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 204,
+    "trap_mode": "attention_check",
+    "id": 825
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Base decision trees in Random Forest are decorrelated by random feature subspace sampling.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 205,
+    "trap_mode": "attention_check",
+    "id": 826
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Base decision trees in Random Forest are identical because they use identical feature subsets.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 205,
+    "trap_mode": "attention_check",
+    "id": 827
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Decision trees suffer from high variance and instability on small training data perturbations.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 206,
+    "trap_mode": "attention_check",
+    "id": 828
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Decision trees have zero variance and produce identical trees regardless of training data changes.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 206,
+    "trap_mode": "attention_check",
+    "id": 829
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Bagging primarily reduces model variance without increasing model bias.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 207,
+    "trap_mode": "attention_check",
+    "id": 830
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Bagging primarily reduces model bias without altering model variance.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 207,
+    "trap_mode": "attention_check",
+    "id": 831
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Boosting primarily reduces model bias by sequentially fitting base learners to residual errors.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 208,
+    "trap_mode": "attention_check",
+    "id": 832
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Boosting primarily reduces model variance by averaging independent parallel trees.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 208,
+    "trap_mode": "attention_check",
+    "id": 833
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Gini Impurity formula is 1 minus sum of squared class probabilities.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 209,
+    "trap_mode": "attention_check",
+    "id": 834
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Gini Impurity formula is negative sum of class probability times log class probability.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 209,
+    "trap_mode": "attention_check",
+    "id": 835
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Entropy formula is negative sum of class probability times log base 2 of class probability.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 210,
+    "trap_mode": "attention_check",
+    "id": 836
+  },
+  {
+    "tp_id": 5,
+    "topic_id": 13,
+    "text": "Entropy formula is 1 minus sum of squared class probabilities.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 210,
+    "trap_mode": "attention_check",
+    "id": 837
+  }
+]

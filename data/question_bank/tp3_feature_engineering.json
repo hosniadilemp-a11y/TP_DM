@@ -1,0 +1,1672 @@
+[
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "MinMaxScaler scales feature values into a fixed range, typically between 0 and 1.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 337
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "StandardScaler centers data by subtracting the mean and scaling to unit variance.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 338
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "One-Hot Encoding creates K binary dummy variables for a categorical feature with K categories.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 339
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "PCA (Principal Component Analysis) projects high-dimensional data onto orthogonal axes of maximum variance.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 340
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "RobustScaler uses the median and IQR, making it less sensitive to extreme outliers.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 341
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Feature scaling is crucial for distance-based algorithms like K-NN and SVM.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 342
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Label Encoding assigns an integer code to each unique category in a ordinal variable.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 343
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Tree-based models like Decision Trees are invariant to monotonic feature scaling transformations.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 344
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "The first principal component accounts for the largest possible variance in the dataset.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 345
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Dummy variable trap occurs when one-hot encoded features are perfectly multicollinear.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 346
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "PCA principal components are linear combinations of the original input features.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 347
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Eigenvalues of the covariance matrix represent the variance explained by corresponding principal components.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 348
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Target Encoding replaces categorical levels with the average target value for each category.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 349
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Feature selection reduces dimensionality by retaining a subset of original features without transformation.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 350
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "MinMaxScaler is sensitive to extreme outliers because min and max values define the scaling bound.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 351
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "StandardScaler produces transformed features with a mean of 0 and standard deviation of 1.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 352
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "One-Hot Encoding with drop='first' avoids perfect multicollinearity in linear models.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 353
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "PCA eigenvectors determine the directions of the new principal component axes.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 354
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Interaction terms are generated by multiplying two or more existing features together.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 355
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Polynomial features expand feature space by generating all degree-d combinations of attributes.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 356
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Feature scaling parameters (mean, std, min, max) must be fitted on training data only.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 357
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Dimensionality reduction helps alleviate the curse of dimensionality in high-dimensional space.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 358
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Variance Thresholding removes features whose sample variance falls below a designated threshold.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 359
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Sequential Feature Selection iteratively adds or removes features based on model cross-validation score.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 360
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Standardizing features ensures equal weighting in distance metric calculations.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 361
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "StandardScaler bounds scaled output values strictly between -1.0 and +1.0.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 362
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "MinMaxScaler is unaffected by the presence of extreme minimum or maximum outliers.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 363
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Label Encoding should be applied to nominal categories with no inherent ordinal ranking.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 364
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "PCA transforms features into non-linear orthogonal polynomial curves.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 365
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Decision Trees perform significantly better after applying StandardScaler normalization.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 366
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "One-Hot Encoding reduces the total number of features in high-cardinality datasets.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 367
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "The sum of variances of all PCA components is smaller than the total variance of original features.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 368
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "StandardScaler should be fitted on the combined train and test dataset before splitting.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 369
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "PCA principal components are correlated with each other by design.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 370
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "RobustScaler uses mean and standard deviation to scale feature vectors.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 371
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Label Encoding creates K separate binary columns for K unique categorical labels.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 372
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "MinMaxScaler preserves zero values in sparse matrices without dense conversion.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 373
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Feature extraction selects a subset of original attributes without altering feature definitions.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 374
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Principal components are always ranked in order of decreasing correlation with the target class.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 375
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "One-Hot Encoding guarantees that linear regression models will not overfit.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 376
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "PCA can be applied directly to unencoded categorical attributes without numerical conversion.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 377
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Target Encoding never risks target leakage or overfitting on small training samples.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 378
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Polynomial features reduce the total number of dimensions in the transformed dataset.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 379
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "RobustScaler sets feature variance to exactly 1.0 regardless of sample distribution.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 380
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "In scikit-learn, fit_transform() should be called on the test dataset.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 381
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "MinMaxScaler transforms any non-Gaussian feature into a perfect standard normal curve.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 382
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "The first principal component always captures 100% of total sample variance.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 383
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Ordinal Encoding loses ranking information when converting ordered categories to numbers.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 384
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "L1 regularization (Lasso) performs feature selection by setting coefficient weights to zero.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 385
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "StandardScaler modifies the correlation coefficient between two scaled features.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 386
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Feature engineering can be completely automated without domain knowledge or data analysis.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 387
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "PCA eigenvectors are non-orthogonal vectors in the feature space.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 388
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "One-Hot Encoding with high-cardinality features improves memory efficiency.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 389
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "MinMaxScaler produces negative output values when input data contains only positive numbers.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 390
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "PCA requires target class labels to calculate the principal component directions.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 391
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Scaling features is required before calculating Random Forest feature importances.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 392
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Variance Thresholding removes features that have high correlation with the target variable.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 393
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Target Encoding replaces categorical values with their frequency counts in the dataset.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 394
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "PCA projection retains the original feature column names and physical interpretations.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 395
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "StandardScaler relies on median and IQR to compute scaling factors.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 396
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "One-Hot Encoding works optimally for high-cardinality features with over 10,000 unique values.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 397
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "RobustScaler scales data using the minimum and maximum observed values.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 398
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "PCA variance explained ratio is independent of initial feature scaling.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 399
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Label Encoding introduces artificial magnitude order relationships into nominal categories.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 400
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Filtering features using correlation threshold guarantees improved model classification accuracy.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 401
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "MinMaxScaler maps negative input values into positive range [0, 1].",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 402
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Feature selection using Recursive Feature Elimination (RFE) operates independently of any base estimator.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 403
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "PCA components are always ordered by increasing variance explained.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 404
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "StandardScaler should be re-fitted separately on each mini-batch during prediction.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 405
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Polynomial features of degree 2 for 10 features generate fewer than 15 total features.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 406
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Frequency encoding replaces categories with their target probability distribution.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 407
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "One-Hot Encoding causes the dummy variable trap in tree-based algorithms.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 408
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "PCA can reduce dimensionality only if input features are perfectly linear.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 409
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "MinMaxScaler formula is (x - mean) / (max - min).",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 410
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Feature transformation always increases the total variance of the dataset.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 411
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "StandardScaler is less sensitive to extreme outliers than RobustScaler.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 412
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Label Binarizer is restricted to single-label binary classification targets.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 413
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "PCA principal components retain physical measurement units of the original input features.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 414
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Scaling features changes the optimal split decisions in a Decision Tree model.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 415
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "One-Hot Encoding creates ordinal numerical values for text features.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 416
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "L2 regularization (Ridge) sets redundant feature coefficients to exact zero.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 417
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Scree plots show the cumulative loss function value per PCA component.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 418
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 9,
+    "text": "Data scaling must be re-executed after cross-validation folds are created.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 419
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "StandardScaler normalizes features to have a mean of 0 and a standard deviation of 1.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 85,
+    "trap_mode": "hidden",
+    "id": 420
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "StandardScaler normalizes features to have a median of 0 and an interquartile range of 1.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 85,
+    "trap_mode": "hidden",
+    "id": 421
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "MinMaxScaler maps feature values into a bounded range between 0 and 1.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 86,
+    "trap_mode": "hidden",
+    "id": 422
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "MinMaxScaler maps feature values into an unbounded range centered at zero.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 86,
+    "trap_mode": "hidden",
+    "id": 423
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "RobustScaler uses median and IQR to scale features in the presence of outliers.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 87,
+    "trap_mode": "hidden",
+    "id": 424
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "RobustScaler uses sample mean and standard deviation to scale features in the presence of outliers.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 87,
+    "trap_mode": "hidden",
+    "id": 425
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "One-Hot Encoding creates K binary dummy columns for K unique categories.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 88,
+    "trap_mode": "hidden",
+    "id": 426
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "One-Hot Encoding creates a single integer column containing unique numerical category IDs.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 88,
+    "trap_mode": "hidden",
+    "id": 427
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Label Encoding converts categorical categories into ordered integer labels.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 89,
+    "trap_mode": "hidden",
+    "id": 428
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Label Encoding creates K separate binary vector columns for nominal categories.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 89,
+    "trap_mode": "hidden",
+    "id": 429
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "PCA projects high-dimensional data onto orthogonal directions of maximum variance.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 90,
+    "trap_mode": "hidden",
+    "id": 430
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "PCA projects high-dimensional data onto non-orthogonal directions of minimum variance.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 90,
+    "trap_mode": "hidden",
+    "id": 431
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "The first principal component accounts for the largest proportion of total variance.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 91,
+    "trap_mode": "hidden",
+    "id": 432
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "The first principal component accounts for the smallest proportion of total variance.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 91,
+    "trap_mode": "hidden",
+    "id": 433
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "PCA principal components are uncorrelated with each other.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 92,
+    "trap_mode": "hidden",
+    "id": 434
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "PCA principal components are highly correlated with each other by design.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 92,
+    "trap_mode": "hidden",
+    "id": 435
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Tree-based algorithms are invariant to monotonic feature scaling transformations.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 93,
+    "trap_mode": "hidden",
+    "id": 436
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Tree-based algorithms require features to be scaled using StandardScaler prior to training.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 93,
+    "trap_mode": "hidden",
+    "id": 437
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Distance-based algorithms like KNN require features to be normalized on equal scales.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 94,
+    "trap_mode": "hidden",
+    "id": 438
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Distance-based algorithms like KNN perform identically regardless of feature scale differences.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 94,
+    "trap_mode": "hidden",
+    "id": 439
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Target Encoding replaces categories with the mean target value of each class level.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 95,
+    "trap_mode": "hidden",
+    "id": 440
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Target Encoding replaces categories with principal component score coordinates.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 95,
+    "trap_mode": "hidden",
+    "id": 441
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Feature selection retains a subset of original features without changing their definitions.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 96,
+    "trap_mode": "hidden",
+    "id": 442
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Feature selection transforms original features into linear combinations of new components.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 96,
+    "trap_mode": "hidden",
+    "id": 443
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Feature extraction creates new transformed features from combinations of original inputs.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 97,
+    "trap_mode": "hidden",
+    "id": 444
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Feature extraction removes low-variance columns while preserving original feature names.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 97,
+    "trap_mode": "hidden",
+    "id": 445
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Dummy variable trap occurs when one-hot encoded columns exhibit perfect multicollinearity.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 98,
+    "trap_mode": "hidden",
+    "id": 446
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Dummy variable trap occurs when features are normalized to zero mean.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 98,
+    "trap_mode": "hidden",
+    "id": 447
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Dropping one dummy column (drop='first') eliminates perfect multicollinearity in linear models.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 99,
+    "trap_mode": "hidden",
+    "id": 448
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Dropping one dummy column (drop='first') increases multicollinearity in linear models.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 99,
+    "trap_mode": "hidden",
+    "id": 449
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Scaling parameters must be fitted exclusively on the training dataset to prevent data leakage.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 100,
+    "trap_mode": "hidden",
+    "id": 450
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Scaling parameters must be fitted on the combined train and test dataset before splitting.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 100,
+    "trap_mode": "hidden",
+    "id": 451
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Eigenvalues of the covariance matrix represent the variance captured by each principal component.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 101,
+    "trap_mode": "hidden",
+    "id": 452
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Eigenvalues of the covariance matrix represent the classification error rate of each component.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 101,
+    "trap_mode": "hidden",
+    "id": 453
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Scree plot displays the variance explained by each principal component in descending order.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 102,
+    "trap_mode": "hidden",
+    "id": 454
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Scree plot displays the correlation between features and target labels in ascending order.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 102,
+    "trap_mode": "hidden",
+    "id": 455
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "PCA is an unsupervised dimensionality reduction method operating without target labels.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 103,
+    "trap_mode": "hidden",
+    "id": 456
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "PCA is a supervised dimensionality reduction method requiring target class labels.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 103,
+    "trap_mode": "hidden",
+    "id": 457
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Ordinal Encoding preserves inherent logical ranking order among categorical levels.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 104,
+    "trap_mode": "hidden",
+    "id": 458
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Ordinal Encoding converts ordered categories into unordered binary dummy vectors.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 104,
+    "trap_mode": "hidden",
+    "id": 459
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "MinMaxScaler formula subtracts the minimum value and divides by the feature range.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 105,
+    "trap_mode": "hidden",
+    "id": 460
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "MinMaxScaler formula subtracts the sample mean and divides by standard deviation.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 105,
+    "trap_mode": "hidden",
+    "id": 461
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "StandardScaler formula subtracts the sample mean and divides by standard deviation.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 106,
+    "trap_mode": "hidden",
+    "id": 462
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "StandardScaler formula subtracts the minimum value and divides by the feature range.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 106,
+    "trap_mode": "hidden",
+    "id": 463
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "RobustScaler formula subtracts the median and divides by the interquartile range (IQR).",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 107,
+    "trap_mode": "hidden",
+    "id": 464
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "RobustScaler formula subtracts the mode and divides by total range (Max - Min).",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 107,
+    "trap_mode": "hidden",
+    "id": 465
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "L1 regularization (Lasso) can reduce feature weights to exact zero for feature selection.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 108,
+    "trap_mode": "hidden",
+    "id": 466
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "L2 regularization (Ridge) reduces feature weights to exact zero for feature selection.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 108,
+    "trap_mode": "hidden",
+    "id": 467
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "L2 regularization (Ridge) shrinks feature weights toward zero without driving them to exact zero.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 109,
+    "trap_mode": "hidden",
+    "id": 468
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "L1 regularization (Lasso) shrinks feature weights toward zero without driving them to exact zero.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 109,
+    "trap_mode": "hidden",
+    "id": 469
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "PolynomialFeatures generates degree-d power combinations of input attributes.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 110,
+    "trap_mode": "hidden",
+    "id": 470
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "PolynomialFeatures applies logarithmic transformations to continuous attributes.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 110,
+    "trap_mode": "hidden",
+    "id": 471
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "VarianceThreshold removes features whose sample variance falls below a designated threshold.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 111,
+    "trap_mode": "hidden",
+    "id": 472
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "VarianceThreshold removes features whose correlation with target falls below a threshold.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 111,
+    "trap_mode": "hidden",
+    "id": 473
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Recursive Feature Elimination (RFE) selects features by recursively pruning smallest weights.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 112,
+    "trap_mode": "hidden",
+    "id": 474
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Recursive Feature Elimination (RFE) selects features by computing unsupervised PCA eigenvalues.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 112,
+    "trap_mode": "hidden",
+    "id": 475
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "The sum of variances of all PCA components equals total variance of original scaled features.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 113,
+    "trap_mode": "hidden",
+    "id": 476
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "The sum of variances of all PCA components is always zero.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 113,
+    "trap_mode": "hidden",
+    "id": 477
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Eigenvectors define the directional axes of principal components in feature space.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 114,
+    "trap_mode": "hidden",
+    "id": 478
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Eigenvectors define the optimal classification decision threshold values.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 114,
+    "trap_mode": "hidden",
+    "id": 479
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "One-Hot Encoding expands feature space dimensionality proportionally to number of categories.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 115,
+    "trap_mode": "attention_check",
+    "id": 480
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "One-Hot Encoding reduces feature space dimensionality to a single column.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 115,
+    "trap_mode": "attention_check",
+    "id": 481
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Frequency encoding replaces categorical levels with their frequency counts in the dataset.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 116,
+    "trap_mode": "attention_check",
+    "id": 482
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Frequency encoding replaces categorical levels with target class log-odds ratio.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 116,
+    "trap_mode": "attention_check",
+    "id": 483
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Interaction features capture multiplicative combined effects between two or more attributes.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 117,
+    "trap_mode": "attention_check",
+    "id": 484
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Interaction features remove non-linear correlations between input variables.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 117,
+    "trap_mode": "attention_check",
+    "id": 485
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "MinMaxScaler output values lie strictly within [0, 1] when test inputs stay within train bounds.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 118,
+    "trap_mode": "attention_check",
+    "id": 486
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "MinMaxScaler output values lie strictly within [-3, +3] regardless of input values.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 118,
+    "trap_mode": "attention_check",
+    "id": 487
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "StandardScaler output values have mean 0 and standard deviation 1.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 119,
+    "trap_mode": "attention_check",
+    "id": 488
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "StandardScaler output values have mean 1 and standard deviation 0.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 119,
+    "trap_mode": "attention_check",
+    "id": 489
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "PCA components are ranked in decreasing order of variance explained.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 120,
+    "trap_mode": "attention_check",
+    "id": 490
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "PCA components are ranked in increasing order of variance explained.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 120,
+    "trap_mode": "attention_check",
+    "id": 491
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Curse of dimensionality refers to sparsity and distance distortion in high-dimensional space.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 121,
+    "trap_mode": "attention_check",
+    "id": 492
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Curse of dimensionality refers to high memory usage during one-hot encoding of binary features.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 121,
+    "trap_mode": "attention_check",
+    "id": 493
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Fitting scaler parameters on test data causes data leakage from evaluation set.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 122,
+    "trap_mode": "attention_check",
+    "id": 494
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Fitting scaler parameters on training data causes data leakage into test set.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 122,
+    "trap_mode": "attention_check",
+    "id": 495
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Target encoding risks severe overfitting on small dataset sample sizes.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 123,
+    "trap_mode": "attention_check",
+    "id": 496
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Target encoding guarantees zero overfitting on small dataset sample sizes.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 123,
+    "trap_mode": "attention_check",
+    "id": 497
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "PCA cannot capture non-linear manifold structures without kernel extensions.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 124,
+    "trap_mode": "attention_check",
+    "id": 498
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "PCA captures non-linear manifold structures natively using Euclidean distance.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 124,
+    "trap_mode": "attention_check",
+    "id": 499
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Feature binarization threshold converts continuous numeric values into binary 0 or 1.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 125,
+    "trap_mode": "attention_check",
+    "id": 500
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Feature binarization threshold converts categorical text strings into principal components.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 125,
+    "trap_mode": "attention_check",
+    "id": 501
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Scaling continuous features preserves the correlation matrix structure among features.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 126,
+    "trap_mode": "attention_check",
+    "id": 502
+  },
+  {
+    "tp_id": 3,
+    "topic_id": 7,
+    "text": "Scaling continuous features flips the sign of all positive correlation coefficients.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 126,
+    "trap_mode": "attention_check",
+    "id": 503
+  }
+]

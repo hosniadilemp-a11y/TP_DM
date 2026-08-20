@@ -1,0 +1,1632 @@
+[
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means is an unsupervised partitioning algorithm that clusters data into K predefined clusters.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 838
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means objective function minimizes the Within-Cluster Sum of Squares (WCSS / Inertia).",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 839
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Elbow Method plots WCSS against values of K to identify the optimal number of clusters.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 840
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Silhouette Score measures how similar an object is to its own cluster compared to other clusters.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 841
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Silhouette Score ranges from -1.0 to +1.0, where higher values indicate well-separated clusters.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 842
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Hierarchical Agglomerative Clustering is a bottom-up approach merging closest clusters iteratively.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 843
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Dendrogram is a tree diagram visual representation of hierarchical clustering steps.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 844
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "DBSCAN identifies clusters of arbitrary shape based on local point density thresholds.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 845
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "In DBSCAN, points that do not meet core or border point density criteria are labeled as noise (-1).",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 846
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "DBSCAN uses two primary hyperparameters: eps (neighborhood radius) and min_samples.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 847
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "DBSCAN can discover non-spherical geometric clusters where K-Means fails.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 848
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means clustering is sensitive to initial centroid locations and feature scale.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 849
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means++ initialization picks initial centroids far apart to speed up convergence.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 850
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Single linkage hierarchical clustering defines distance between two clusters as the minimum distance between points.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 851
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Complete linkage hierarchical clustering uses maximum distance between points in two clusters.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 852
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Average linkage hierarchical clustering uses average pairwise distance between points in two clusters.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 853
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Ward's linkage minimizes the increase in total within-cluster variance after merging.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 854
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Feature scaling with StandardScaler is essential before running K-Means or DBSCAN on continuous attributes.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 855
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Dendrogram height on the y-axis represents the distance threshold at which cluster merges occur.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 856
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "In scikit-learn, silhouette_score requires scaled features and cluster label arrays as input.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 857
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Clustering is an unsupervised learning task because target class labels are absent in training data.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 858
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means assumes clusters are spherical and of roughly equal size and variance.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 859
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Inertia (WCSS) monotonically decreases as the number of clusters K increases.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 860
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Silhouette score near 0.0 indicates that data points lie on or very near cluster decision boundaries.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 861
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "DBSCAN does not require pre-specifying the number of clusters K beforehand.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 862
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means clustering algorithm automatically determines the optimal number of clusters K without user input.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 863
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "WCSS (Inertia) increases as the number of clusters K increases from 1 to N.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 864
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Elbow Method guarantees finding a unique sharp inflection point for every dataset.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 865
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Silhouette Score of -1.0 indicates that data points are perfectly assigned to their correct clusters.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 866
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Agglomerative clustering is a top-down divisive approach starting with one single all-inclusive cluster.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 867
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "DBSCAN requires users to specify the total number of target clusters K before execution.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 868
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "In DBSCAN, noise points are assigned to the nearest cluster centroid with positive integer label.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 869
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "DBSCAN performs effectively on datasets with widely varying cluster densities.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 870
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means handles non-spherical complex geometric shapes like concentric circles effectively.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 871
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Hierarchical clustering algorithms require specifying the exact number of clusters K before running linkage.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 872
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Dendrogram y-axis represents the total number of data points inside each merged cluster.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 873
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "DBSCAN noise points are included when calculating Silhouette score for individual clusters.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 874
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means converges to the global minimum solution regardless of initial centroid selection.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 875
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Single linkage hierarchical clustering is immune to the chaining effect.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 876
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Complete linkage hierarchical clustering tends to produce elongated trailing clusters.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 877
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means clustering works directly on categorical nominal attributes using Euclidean distance.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 878
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Inertia (WCSS) reaches its maximum value when K is set equal to the total number of observations N.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 879
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Silhouette score calculation is independent of pairwise inter-cluster distance measurements.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 880
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Ward's linkage minimizes the maximum Euclidean distance between cluster medoids.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 881
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Medoids (PAM) is more sensitive to extreme outliers than K-Means.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 882
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "DBSCAN requires all points in the dataset to be assigned to at least one valid cluster.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 883
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means++ initialization chooses initial centroids completely at random with equal probability.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 884
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Hierarchical clustering result can be modified dynamically after dendrogram construction without re-computing.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 885
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Euclidean distance is appropriate for high-dimensional sparse text data without scaling.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 886
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means objective function minimizes the sum of Manhattan distances to cluster medians.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 887
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Silhouette coefficient for a dataset with K=1 cluster is equal to +1.0.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 888
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Cross-validation can be directly applied to evaluate K-Means cluster validity without labels.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 889
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Dendrogram horizontal cuts at different height thresholds yield identical cluster groupings.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 890
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means cluster assignments are deterministic and produce identical results across random seeds.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 891
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Grid Search is used to tune centroid coordinates in K-Means clustering.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 892
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Agglomerative clustering has a low computational time complexity of O(N).",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 893
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Silhouette score uses only within-cluster mean distance without considering nearest-cluster distance.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 894
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means clustering is invariant to feature scaling transformations.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 895
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Inertia can be compared meaningfully between two datasets with different numbers of features.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 896
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Single linkage merges clusters with maximum inter-point distance.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 897
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Hierarchical clustering dendrogram cannot be cut to produce a specific K number of clusters.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 898
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means algorithm always converges in fewer than 3 iterations on all datasets.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 899
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Silhouette coefficient ranges between 0.0 and 100.0.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 900
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Density-based clustering like DBSCAN requires all clusters to have equal density.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 901
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means clustering maximizes between-cluster sum of squares while WCSS minimizes it.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 902
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "DBSCAN parameter eps defines the minimum number of points required to form a dense region.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 903
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "In DBSCAN, a border point has at least min_samples points within its eps neighborhood.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 904
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means inertia drops to zero when K equals 1.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 905
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Silhouette analysis cannot be computed for non-convex clusters produced by DBSCAN.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 906
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Dendrogram leaf nodes represent final merged clusters containing all dataset instances.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 907
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "StandardScaler changes the geometric shape of clusters identified by DBSCAN.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 908
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Agglomerative clustering recalculates proximity matrix after every pair merge step.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 909
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means centroids are guaranteed to correspond to actual data points in the training set.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 910
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "DBSCAN labels core points with negative integers starting from -1.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 911
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Divisive hierarchical clustering starts with individual singleton clusters and merges them.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 912
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Inertia measures the average distance between centroids of different clusters.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 913
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Silhouette score of 0.9 indicates poor cluster separation and high sample overlap.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 914
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means requires target class labels to compute cluster centroids.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 915
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "DBSCAN fails on moon-shaped synthetic datasets due to non-linear boundaries.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 916
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Ward linkage uses maximum distance between cluster boundaries.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 917
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Elbow method guarantees finding the exact true number of classes in any dataset.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 918
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "K-Means++ initialization picks initial centroids as close to each other as possible.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 919
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 21,
+    "text": "Hierarchical clustering linkage matrix stores inertia values for each iteration.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 920
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "DBSCAN identifies clusters of arbitrary shape based on local point density thresholds without pre-specifying K.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 211,
+    "trap_mode": "hidden",
+    "id": 921
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "DBSCAN identifies clusters of arbitrary shape based on local point density thresholds after pre-specifying K.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 211,
+    "trap_mode": "hidden",
+    "id": 922
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "K-Means clustering objective minimizes Within-Cluster Sum of Squares (WCSS / Inertia).",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 212,
+    "trap_mode": "hidden",
+    "id": 923
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "K-Means clustering objective maximizes Within-Cluster Sum of Squares (WCSS / Inertia).",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 212,
+    "trap_mode": "hidden",
+    "id": 924
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Inertia (WCSS) decreases monotonically as the number of clusters K increases.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 213,
+    "trap_mode": "hidden",
+    "id": 925
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Inertia (WCSS) increases monotonically as the number of clusters K increases.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 213,
+    "trap_mode": "hidden",
+    "id": 926
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Elbow method selects K at the point of diminishing marginal returns in WCSS reduction.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 214,
+    "trap_mode": "hidden",
+    "id": 927
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Elbow method selects K at the point of maximum peak inertia.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 214,
+    "trap_mode": "hidden",
+    "id": 928
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Silhouette score ranges strictly between -1.0 and +1.0.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 215,
+    "trap_mode": "hidden",
+    "id": 929
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Silhouette score ranges strictly between 0.0 and +100.0.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 215,
+    "trap_mode": "hidden",
+    "id": 930
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Silhouette score near +1.0 indicates sample is well-matched to its own cluster and far from neighbors.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 216,
+    "trap_mode": "hidden",
+    "id": 931
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Silhouette score near +1.0 indicates sample is misclassified and assigned to wrong cluster.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 216,
+    "trap_mode": "hidden",
+    "id": 932
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Agglomerative hierarchical clustering is a bottom-up approach starting with N singleton clusters.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 217,
+    "trap_mode": "hidden",
+    "id": 933
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Agglomerative hierarchical clustering is a top-down approach starting with 1 all-inclusive cluster.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 217,
+    "trap_mode": "hidden",
+    "id": 934
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Divisive hierarchical clustering is a top-down approach starting with 1 all-inclusive cluster.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 218,
+    "trap_mode": "hidden",
+    "id": 935
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Divisive hierarchical clustering is a bottom-up approach starting with N singleton clusters.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 218,
+    "trap_mode": "hidden",
+    "id": 936
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Dendrogram displays the tree hierarchy of cluster merges and distance thresholds.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 219,
+    "trap_mode": "hidden",
+    "id": 937
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Dendrogram displays feature importance rankings for supervised classification trees.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 219,
+    "trap_mode": "hidden",
+    "id": 938
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "DBSCAN labels unassigned low-density outlier points as noise with label -1.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 220,
+    "trap_mode": "hidden",
+    "id": 939
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "DBSCAN labels unassigned low-density outlier points as core cluster 0.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 220,
+    "trap_mode": "hidden",
+    "id": 940
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Single linkage defines distance between clusters as the minimum distance between any pair of points.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 221,
+    "trap_mode": "hidden",
+    "id": 941
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Single linkage defines distance between clusters as the maximum distance between any pair of points.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 221,
+    "trap_mode": "hidden",
+    "id": 942
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Complete linkage defines distance between clusters as the maximum distance between any pair of points.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 222,
+    "trap_mode": "hidden",
+    "id": 943
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Complete linkage defines distance between clusters as the minimum distance between any pair of points.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 222,
+    "trap_mode": "hidden",
+    "id": 944
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Average linkage defines distance between clusters as average distance between all pairs of points.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 223,
+    "trap_mode": "hidden",
+    "id": 945
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Average linkage defines distance between clusters as distance between cluster medoids.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 223,
+    "trap_mode": "hidden",
+    "id": 946
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Ward linkage minimizes the increase in total within-cluster variance when merging clusters.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 224,
+    "trap_mode": "hidden",
+    "id": 947
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Ward linkage maximizes the distance between outer boundary noise points when merging clusters.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 224,
+    "trap_mode": "hidden",
+    "id": 948
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "K-Means++ initialization chooses initial centroids far apart from each other.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 225,
+    "trap_mode": "hidden",
+    "id": 949
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "K-Means++ initialization chooses initial centroids as close to each other as possible.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 225,
+    "trap_mode": "hidden",
+    "id": 950
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "DBSCAN parameter eps defines the maximum neighborhood radius around a point.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 226,
+    "trap_mode": "hidden",
+    "id": 951
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "DBSCAN parameter eps defines the minimum number of clusters to generate.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 226,
+    "trap_mode": "hidden",
+    "id": 952
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "DBSCAN parameter min_samples specifies minimum points required within eps to form a core point.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 227,
+    "trap_mode": "hidden",
+    "id": 953
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "DBSCAN parameter min_samples specifies maximum number of iterations allowed.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 227,
+    "trap_mode": "hidden",
+    "id": 954
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "K-Means assumes clusters are spherical with isotropic variance.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 228,
+    "trap_mode": "hidden",
+    "id": 955
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "K-Means assumes clusters are elongated non-convex moon shapes.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 228,
+    "trap_mode": "hidden",
+    "id": 956
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "DBSCAN can successfully segment non-spherical geometric shapes like concentric circles.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 229,
+    "trap_mode": "hidden",
+    "id": 957
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "K-Means can successfully segment non-spherical geometric shapes like concentric circles.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 229,
+    "trap_mode": "hidden",
+    "id": 958
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Inertia equals zero when number of clusters K equals total sample size N.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 230,
+    "trap_mode": "hidden",
+    "id": 959
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Inertia reaches maximum value when number of clusters K equals total sample size N.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 230,
+    "trap_mode": "hidden",
+    "id": 960
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "K-Means centroids are computed as mean coordinates of points assigned to each cluster.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 231,
+    "trap_mode": "hidden",
+    "id": 961
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "K-Means centroids are computed as median coordinates of points assigned to each cluster.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 231,
+    "trap_mode": "hidden",
+    "id": 962
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "K-Medoids (PAM) chooses actual data points as cluster centers making it robust to outliers.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 232,
+    "trap_mode": "hidden",
+    "id": 963
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "K-Means chooses actual data points as cluster centers making it robust to outliers.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 232,
+    "trap_mode": "hidden",
+    "id": 964
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Cutting a dendrogram at a horizontal height threshold determines the final cluster partitioning.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 233,
+    "trap_mode": "hidden",
+    "id": 965
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Cutting a dendrogram at a vertical line determines feature selection importance.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 233,
+    "trap_mode": "hidden",
+    "id": 966
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "StandardScaler normalization is required before K-Means because Euclidean distance is scale-sensitive.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 234,
+    "trap_mode": "hidden",
+    "id": 967
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "StandardScaler normalization is prohibited before K-Means because it distorts cluster shapes.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 234,
+    "trap_mode": "hidden",
+    "id": 968
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "DBSCAN core point has at least min_samples within its eps radius neighborhood.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 235,
+    "trap_mode": "hidden",
+    "id": 969
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "DBSCAN core point has fewer than min_samples within its eps radius neighborhood.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 235,
+    "trap_mode": "hidden",
+    "id": 970
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "DBSCAN border point is within eps radius of a core point but has fewer than min_samples neighbors.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 236,
+    "trap_mode": "hidden",
+    "id": 971
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "DBSCAN border point is an isolated noise point far away from all core points.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 236,
+    "trap_mode": "hidden",
+    "id": 972
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Silhouette score near 0.0 indicates sample lies near decision boundary between two clusters.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 237,
+    "trap_mode": "hidden",
+    "id": 973
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Silhouette score near 0.0 indicates perfect cluster separation.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 237,
+    "trap_mode": "hidden",
+    "id": 974
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Silhouette score near -1.0 indicates sample is likely assigned to wrong cluster.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 238,
+    "trap_mode": "hidden",
+    "id": 975
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Silhouette score near -1.0 indicates perfect cluster separation.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 238,
+    "trap_mode": "hidden",
+    "id": 976
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Agglomerative clustering linkage matrix size is (N-1) by 4 for N samples.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 239,
+    "trap_mode": "attention_check",
+    "id": 977
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Agglomerative clustering linkage matrix size is N by N for N samples.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 239,
+    "trap_mode": "attention_check",
+    "id": 978
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "K-Means is sensitive to initial random centroid placement and can converge to local minima.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 240,
+    "trap_mode": "attention_check",
+    "id": 979
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "K-Means is guaranteed to find global optimal clustering regardless of initial centroid placement.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 240,
+    "trap_mode": "attention_check",
+    "id": 980
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Dendrogram y-axis represents cophenetic distance between merged cluster nodes.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 241,
+    "trap_mode": "attention_check",
+    "id": 981
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Dendrogram y-axis represents sample count of leaf node instances.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 241,
+    "trap_mode": "attention_check",
+    "id": 982
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Elbow plot shows WCSS on y-axis and number of clusters K on x-axis.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 242,
+    "trap_mode": "attention_check",
+    "id": 983
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Elbow plot shows Silhouette score on y-axis and feature count on x-axis.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 242,
+    "trap_mode": "attention_check",
+    "id": 984
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Clustering iris dataset without species labels simulates unsupervised exploratory analysis.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 243,
+    "trap_mode": "attention_check",
+    "id": 985
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Clustering iris dataset requires species labels to calculate cluster centroids.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 243,
+    "trap_mode": "attention_check",
+    "id": 986
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "DBSCAN does not require specifying number of clusters K beforehand.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 244,
+    "trap_mode": "attention_check",
+    "id": 987
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "K-Means does not require specifying number of clusters K beforehand.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 244,
+    "trap_mode": "attention_check",
+    "id": 988
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "DBSCAN noise points are excluded when computing cluster centroid coordinates.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 245,
+    "trap_mode": "attention_check",
+    "id": 989
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "DBSCAN noise points are assigned to cluster 0 and used to compute centroids.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 245,
+    "trap_mode": "attention_check",
+    "id": 990
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Hierarchical clustering creates a nested sequence of partitions.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 246,
+    "trap_mode": "attention_check",
+    "id": 991
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Hierarchical clustering creates non-overlapping flat partitions in a single iteration.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 246,
+    "trap_mode": "attention_check",
+    "id": 992
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Distance metrics like Euclidean or Manhattan define proximity between data points in clustering.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 247,
+    "trap_mode": "attention_check",
+    "id": 993
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Impurity metrics like Gini or Entropy define proximity between data points in clustering.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 247,
+    "trap_mode": "attention_check",
+    "id": 994
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "K-Means algorithm alternates between cluster assignment step and centroid update step.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 248,
+    "trap_mode": "attention_check",
+    "id": 995
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "K-Means algorithm alternates between forward selection step and backward elimination step.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 248,
+    "trap_mode": "attention_check",
+    "id": 996
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Cophenetic correlation measures how faithfully a dendrogram preserves pairwise distances.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 249,
+    "trap_mode": "attention_check",
+    "id": 997
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Cophenetic correlation measures classification accuracy of decision tree leaves.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 249,
+    "trap_mode": "attention_check",
+    "id": 998
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Partitioning algorithms divide data into non-overlapping subsets without hierarchical structure.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 250,
+    "trap_mode": "attention_check",
+    "id": 999
+  },
+  {
+    "tp_id": 6,
+    "topic_id": 16,
+    "text": "Partitioning algorithms build a nested tree hierarchy of cluster merges.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 250,
+    "trap_mode": "attention_check",
+    "id": 1000
+  }
+]

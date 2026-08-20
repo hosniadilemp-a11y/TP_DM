@@ -1,0 +1,1682 @@
+[
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "The sample mean is sensitive to extreme values in a skewed distribution.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 169
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Pearson correlation measures linear relationships between continuous variables.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 170
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "A Spearman correlation of +1.0 indicates a perfect monotonic relationship.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 171
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "In a right-skewed distribution, the mean is typically greater than the median.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 172
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "A boxplot visually displays the median, IQR, and potential outliers of a dataset.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 173
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Covariance measures the direction of linear association between two quantitative variables.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 174
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Histograms display the frequency distribution of a continuous feature divided into bins.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 175
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Zero correlation between two variables does not necessarily imply independence.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 176
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "The variance of a sample is the average of squared deviations from the mean.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 177
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Spearman correlation is calculated based on rank order rather than raw metric values.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 178
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Kurtosis measures the heavy-tailedness or lightness of tails relative to a normal distribution.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 179
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Scatter plots are used to visualize the bivariate relationship between two continuous variables.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 180
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "A correlation matrix is symmetric across its main diagonal.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 181
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "The diagonal entries of a standardized correlation matrix are all equal to 1.0.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 182
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Positive skewness indicates a distribution with a tail extending towards higher positive values.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 183
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Pairplots show scatter plots for all pairs of continuous variables in a dataset.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 184
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "The median divides a dataset into two halves containing equal numbers of observations.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 185
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Standard deviation is expressed in the same physical units as the original data measurement.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 186
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "A heat map is effective for visualizing correlation matrices using color gradients.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 187
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Negative covariance indicates that as one variable increases, the other tends to decrease.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 188
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "A bimodal distribution contains two local modes or peaks in its probability density.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 189
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "The 50th percentile of a sample distribution corresponds to the sample median.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 190
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Cross-tabulation (contingency tables) summarizes the joint frequency distribution of categorical attributes.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 191
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Quantile-Quantile (Q-Q) plots assess whether a sample distribution matches a theoretical distribution.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 192
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "The standard error of the mean decreases as the sample size increases.",
+    "correct_answer": true,
+    "question_type": "plain",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 193
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Pearson correlation coefficient ranges from -100 to +100 depending on variance scaling.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 194
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "A Pearson correlation of 0 guarantees that two continuous variables are completely independent.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 195
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "In a left-skewed distribution, the mean is strictly greater than the median and mode.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 196
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Spearman rank correlation requires both attributes to follow a Gaussian normal distribution.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 197
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Covariance values are bounded strictly between -1.0 and +1.0 regardless of measurement scale.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 198
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "A boxplot box width represents the total range (Max - Min) of the dataset.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 199
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Histograms are used to visualize the exact joint frequency distribution of two categorical features.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 200
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "High correlation between two features directly implies a causal relationship between them.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 201
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "The variance of a feature can be negative if values lie between 0 and 1.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 202
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Adding a constant value to all data points changes the sample standard deviation proportionally.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 203
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "A symmetric distribution always has a sample kurtosis of exactly zero.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 204
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Bar charts and histograms are identical plots used interchangeably for continuous variables.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 205
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "The correlation between feature X and feature Y can differ from the correlation between Y and X.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 206
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Pearson correlation is robust against non-linear monotonic relationships.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 207
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Skewness is measured in squared units of the original feature variable.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 208
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "The median of a sample changes when all values are multiplied by a positive constant.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 209
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Covariance between two variables is zero if and only if they are linearly correlated.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 210
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Scatter plot matrices can only display continuous variables against categorical targets.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 211
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Standard deviation is insensitive to extreme value outliers.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 212
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "In pandas, df.describe() includes mode calculations for numeric columns by default.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 213
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "A correlation of -0.9 indicates a much weaker relationship than a correlation of +0.3.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 214
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Spearman correlation measures linear relationships while Pearson measures rank monotonic relationships.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 215
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Q-Q plot points forming a straight line indicate severe deviation from normality.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 216
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "The empirical rule states that 99.7% of data lies within 1 standard deviation of the mean.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 217
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "A boxplot whisker length is proportional to the mean standard error of the sample.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 218
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Multivariate EDA eliminates the need for checking univariate distributions.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 219
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Logarithmic transformation increases the positive skewness of a right-skewed variable.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 220
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "A heatmap requires input data to be strictly non-negative values.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 221
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "The mode is always unique for any given continuous numerical dataset.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 222
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Sample standard deviation uses N in the denominator instead of N-1 for unbiased estimation.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 223
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Covariance retains the same value regardless of changes in unit measurement scale.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 224
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Zero skewness guarantees that a probability distribution is perfectly Gaussian normal.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 225
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "In pandas, df.corr() computes Spearman correlation by default unless specified otherwise.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 226
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Violin plots display only the mean and standard deviation without density estimates.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 227
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Pearson correlation can accurately capture quadratic parabolic relationships between variables.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 228
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Extreme outliers increase the median more than they increase the sample mean.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 229
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "A scatter plot with points forming a circle represents a correlation of r = 1.0.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 230
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "High variance in a feature indicates that all data points are clustered near the mean.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 231
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Cross-tabulation can only be computed for continuous numerical variables.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 232
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Standardizing a dataset changes its Pearson correlation coefficient with another variable.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 233
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Bimodal distributions always have equal frequency counts in both local modes.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 234
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "The range of a dataset is resistant to extreme outliers.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 235
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Spearman correlation is sensitive to linear scaling of raw values.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 236
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Linear correlation implies non-linear independence in all cases.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 237
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Density plots represent discrete probability mass functions for continuous attributes.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 238
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "The mean absolute deviation (MAD) is always larger than the sample variance.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 239
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Skewness values above +1 indicate a left-skewed distribution with a heavy left tail.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 240
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "In pandas, df.skew() returns 0 for a dataset with all identical values.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 241
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Histograms with 100 bins always reveal the true underlying distribution better than 10 bins.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 242
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Boxplots display individual data points for all observations inside the IQR box.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 243
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Correlation coefficients change sign when features are shifted by adding a positive constant.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 244
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Pairplots can only process maximum 3 variables simultaneously in seaborn.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 245
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Covariance is dimensionless and unconstrained by feature measurement units.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 246
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Negative kurtosis indicates a distribution with heavier tails than a normal distribution.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 247
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Calculating Spearman correlation on ranked data yields a different value than Pearson correlation on ranks.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 248
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "The 75th percentile is also known as the first quartile (Q1).",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 249
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "EDA should only be performed after model evaluation is complete.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 250
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Summary statistics provide a complete description of distribution shape without visualization.",
+    "correct_answer": false,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 251
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 5,
+    "text": "Covariance between two standardized features equals their Pearson correlation coefficient.",
+    "correct_answer": true,
+    "question_type": "trick",
+    "trap_group_id": null,
+    "trap_mode": null,
+    "id": 252
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Pearson correlation measures linear relationships between continuous variables.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 43,
+    "trap_mode": "hidden",
+    "id": 253
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Pearson correlation measures non-linear monotonic relationships between continuous variables.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 43,
+    "trap_mode": "hidden",
+    "id": 254
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Spearman correlation measures monotonic relationships using feature rank orders.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 44,
+    "trap_mode": "hidden",
+    "id": 255
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Spearman correlation measures linear relationships using raw metric values.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 44,
+    "trap_mode": "hidden",
+    "id": 256
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "In a right-skewed distribution, the mean is greater than the median.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 45,
+    "trap_mode": "hidden",
+    "id": 257
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "In a right-skewed distribution, the mean is less than the median.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 45,
+    "trap_mode": "hidden",
+    "id": 258
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "In a left-skewed distribution, the mean is less than the median.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 46,
+    "trap_mode": "hidden",
+    "id": 259
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "In a left-skewed distribution, the mean is greater than the median.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 46,
+    "trap_mode": "hidden",
+    "id": 260
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "A Pearson correlation coefficient ranges strictly between -1.0 and +1.0.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 47,
+    "trap_mode": "hidden",
+    "id": 261
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "A Pearson correlation coefficient ranges strictly between 0.0 and +1.0.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 47,
+    "trap_mode": "hidden",
+    "id": 262
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Covariance values depend on the measurement units of the input variables.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 48,
+    "trap_mode": "hidden",
+    "id": 263
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Covariance values are dimensionless and independent of input measurement units.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 48,
+    "trap_mode": "hidden",
+    "id": 264
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Pearson correlation is dimensionless and unconstrained by measurement units.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 49,
+    "trap_mode": "hidden",
+    "id": 265
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Pearson correlation depends directly on the physical units of measurement.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 49,
+    "trap_mode": "hidden",
+    "id": 266
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "A scatter plot visualizes the bivariate relationship between two continuous attributes.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 50,
+    "trap_mode": "hidden",
+    "id": 267
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "A scatter plot visualizes the univariate frequency distribution of one continuous attribute.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 50,
+    "trap_mode": "hidden",
+    "id": 268
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Histograms group continuous data into discrete numerical bins.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 51,
+    "trap_mode": "hidden",
+    "id": 269
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Histograms group categorical nominal data into ordered discrete categories.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 51,
+    "trap_mode": "hidden",
+    "id": 270
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Boxplots display the median as a line inside the interquartile range box.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 52,
+    "trap_mode": "hidden",
+    "id": 271
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Boxplots display the arithmetic mean as a line inside the interquartile range box.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 52,
+    "trap_mode": "hidden",
+    "id": 272
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Positive skewness indicates a long tail extending toward higher positive values.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 53,
+    "trap_mode": "hidden",
+    "id": 273
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Positive skewness indicates a long tail extending toward lower negative values.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 53,
+    "trap_mode": "hidden",
+    "id": 274
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Negative skewness indicates a long tail extending toward lower negative values.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 54,
+    "trap_mode": "hidden",
+    "id": 275
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Negative skewness indicates a long tail extending toward higher positive values.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 54,
+    "trap_mode": "hidden",
+    "id": 276
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Kurtosis measures the tail weight and peakedness of a distribution relative to normal.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 55,
+    "trap_mode": "hidden",
+    "id": 277
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Kurtosis measures the directional asymmetry of a distribution relative to normal.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 55,
+    "trap_mode": "hidden",
+    "id": 278
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "A correlation matrix is always symmetric across its main diagonal.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 56,
+    "trap_mode": "hidden",
+    "id": 279
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "A correlation matrix is always asymmetric across its main diagonal.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 56,
+    "trap_mode": "hidden",
+    "id": 280
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "The diagonal values of a correlation matrix are all equal to 1.0.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 57,
+    "trap_mode": "hidden",
+    "id": 281
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "The diagonal values of a correlation matrix are all equal to 0.0.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 57,
+    "trap_mode": "hidden",
+    "id": 282
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Zero Pearson correlation implies no linear association between two variables.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 58,
+    "trap_mode": "hidden",
+    "id": 283
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Zero Pearson correlation guarantees complete statistical independence between two variables.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 58,
+    "trap_mode": "hidden",
+    "id": 284
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "The median is the 50th percentile of an ordered sample distribution.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 59,
+    "trap_mode": "hidden",
+    "id": 285
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "The median is the 75th percentile of an ordered sample distribution.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 59,
+    "trap_mode": "hidden",
+    "id": 286
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "The first quartile (Q1) corresponds to the 25th percentile of a sample.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 60,
+    "trap_mode": "hidden",
+    "id": 287
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "The first quartile (Q1) corresponds to the 50th percentile of a sample.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 60,
+    "trap_mode": "hidden",
+    "id": 288
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "The third quartile (Q3) corresponds to the 75th percentile of a sample.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 61,
+    "trap_mode": "hidden",
+    "id": 289
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "The third quartile (Q3) corresponds to the 25th percentile of a sample.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 61,
+    "trap_mode": "hidden",
+    "id": 290
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Variance is measured in squared units of the original attribute.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 62,
+    "trap_mode": "hidden",
+    "id": 291
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Variance is measured in the exact same physical units as the original attribute.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 62,
+    "trap_mode": "hidden",
+    "id": 292
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Standard deviation is expressed in the same units as the original feature.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 63,
+    "trap_mode": "hidden",
+    "id": 293
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Standard deviation is expressed in squared units of the original feature.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 63,
+    "trap_mode": "hidden",
+    "id": 294
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Cross-tabulation computes joint frequency distributions between categorical features.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 64,
+    "trap_mode": "hidden",
+    "id": 295
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Cross-tabulation computes continuous covariance matrices between numerical features.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 64,
+    "trap_mode": "hidden",
+    "id": 296
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Violin plots combine boxplots with kernel density probability estimates.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 65,
+    "trap_mode": "hidden",
+    "id": 297
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Violin plots combine scatter plots with linear regression trendlines.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 65,
+    "trap_mode": "hidden",
+    "id": 298
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Q-Q plots compare sample quantiles against theoretical distribution quantiles.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 66,
+    "trap_mode": "hidden",
+    "id": 299
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Q-Q plots compare bivariate sample correlation against covariance matrices.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 66,
+    "trap_mode": "hidden",
+    "id": 300
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Spearman correlation is robust against extreme numerical outliers.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 67,
+    "trap_mode": "hidden",
+    "id": 301
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Spearman correlation is highly sensitive to extreme numerical outliers.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 67,
+    "trap_mode": "hidden",
+    "id": 302
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Pearson correlation of +1.0 indicates a perfect positive linear relationship.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 68,
+    "trap_mode": "hidden",
+    "id": 303
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Pearson correlation of +1.0 indicates a perfect positive monotonic non-linear relationship.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 68,
+    "trap_mode": "hidden",
+    "id": 304
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Pearson correlation of -1.0 indicates a perfect negative linear relationship.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 69,
+    "trap_mode": "hidden",
+    "id": 305
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Pearson correlation of -1.0 indicates zero association between variables.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 69,
+    "trap_mode": "hidden",
+    "id": 306
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Standardizing variables does not change their Pearson correlation coefficient.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 70,
+    "trap_mode": "hidden",
+    "id": 307
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Standardizing variables doubles their Pearson correlation coefficient.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 70,
+    "trap_mode": "hidden",
+    "id": 308
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Bimodal distributions feature two distinct local modes or frequency peaks.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 71,
+    "trap_mode": "hidden",
+    "id": 309
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Bimodal distributions feature no local modes and a completely flat density.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 71,
+    "trap_mode": "hidden",
+    "id": 310
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Interquartile range (IQR) measures the spread of the middle 50% of data.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 72,
+    "trap_mode": "hidden",
+    "id": 311
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Interquartile range (IQR) measures the spread of the outer 10% of data.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 72,
+    "trap_mode": "hidden",
+    "id": 312
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Mean absolute deviation (MAD) measures average distance of points from mean.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 73,
+    "trap_mode": "attention_check",
+    "id": 313
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Mean absolute deviation (MAD) measures squared distance of points from mean.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 73,
+    "trap_mode": "attention_check",
+    "id": 314
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Correlation of 0.8 represents a stronger linear relationship than 0.3.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 74,
+    "trap_mode": "attention_check",
+    "id": 315
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Correlation of 0.3 represents a stronger linear relationship than -0.8.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 74,
+    "trap_mode": "attention_check",
+    "id": 316
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Correlation of -0.9 represents a stronger linear relationship than +0.4.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 75,
+    "trap_mode": "attention_check",
+    "id": 317
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Correlation of +0.4 represents a stronger linear relationship than -0.9.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 75,
+    "trap_mode": "attention_check",
+    "id": 318
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Adding a constant shift to a variable leaves its variance unchanged.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 76,
+    "trap_mode": "attention_check",
+    "id": 319
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Adding a constant shift to a variable increases its variance proportionally.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 76,
+    "trap_mode": "attention_check",
+    "id": 320
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Multiplying a variable by a constant scale factor scales its standard deviation.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 77,
+    "trap_mode": "attention_check",
+    "id": 321
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Multiplying a variable by a constant scale factor leaves its standard deviation unchanged.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 77,
+    "trap_mode": "attention_check",
+    "id": 322
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Scatter plot matrices display pairwise relationships for multiple continuous attributes.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 78,
+    "trap_mode": "attention_check",
+    "id": 323
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Scatter plot matrices display decision tree rules for classification features.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 78,
+    "trap_mode": "attention_check",
+    "id": 324
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "High variance indicates data points are spread out widely around the mean.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 79,
+    "trap_mode": "attention_check",
+    "id": 325
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "High variance indicates data points are tightly clustered at the exact mean.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 79,
+    "trap_mode": "attention_check",
+    "id": 326
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Contingency tables display frequency counts for combinations of categorical levels.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 80,
+    "trap_mode": "attention_check",
+    "id": 327
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Contingency tables display continuous regression residuals for fitted models.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 80,
+    "trap_mode": "attention_check",
+    "id": 328
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Heatmaps use color intensity gradients to visualize numerical matrix values.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 81,
+    "trap_mode": "attention_check",
+    "id": 329
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Heatmaps use dendrogram branch lengths to visualize cluster distance thresholds.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 81,
+    "trap_mode": "attention_check",
+    "id": 330
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Range is calculated as maximum value minus minimum value.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 82,
+    "trap_mode": "attention_check",
+    "id": 331
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Range is calculated as upper quartile Q3 minus lower quartile Q1.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 82,
+    "trap_mode": "attention_check",
+    "id": 332
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Empirical rule states that ~68% of normal data lies within 1 standard deviation.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 83,
+    "trap_mode": "attention_check",
+    "id": 333
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Empirical rule states that ~95% of normal data lies within 1 standard deviation.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 83,
+    "trap_mode": "attention_check",
+    "id": 334
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Empirical rule states that ~95% of normal data lies within 2 standard deviations.",
+    "correct_answer": true,
+    "question_type": "trap",
+    "trap_group_id": 84,
+    "trap_mode": "attention_check",
+    "id": 335
+  },
+  {
+    "tp_id": 2,
+    "topic_id": 4,
+    "text": "Empirical rule states that ~68% of normal data lies within 2 standard deviations.",
+    "correct_answer": false,
+    "question_type": "trap",
+    "trap_group_id": 84,
+    "trap_mode": "attention_check",
+    "id": 336
+  }
+]

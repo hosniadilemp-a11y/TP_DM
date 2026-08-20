@@ -1,0 +1,71 @@
+{
+  "total_questions": 1000,
+  "tp_summary": [
+    {
+      "tp_id": 1,
+      "name": "Data Cleaning & Preparation",
+      "filename": "tp1_data_cleaning.json",
+      "total_questions": 168,
+      "plain_count": 25,
+      "trick_count": 59,
+      "trap_count": 84,
+      "true_count": 68,
+      "false_count": 100
+    },
+    {
+      "tp_id": 2,
+      "name": "Exploratory Data Analysis & Visualization",
+      "filename": "tp2_eda_visualization.json",
+      "total_questions": 168,
+      "plain_count": 25,
+      "trick_count": 59,
+      "trap_count": 84,
+      "true_count": 68,
+      "false_count": 100
+    },
+    {
+      "tp_id": 3,
+      "name": "Feature Engineering & Selection",
+      "filename": "tp3_feature_engineering.json",
+      "total_questions": 167,
+      "plain_count": 25,
+      "trick_count": 58,
+      "trap_count": 84,
+      "true_count": 67,
+      "false_count": 100
+    },
+    {
+      "tp_id": 4,
+      "name": "Supervised Learning — Classification",
+      "filename": "tp4_classification.json",
+      "total_questions": 167,
+      "plain_count": 25,
+      "trick_count": 58,
+      "trap_count": 84,
+      "true_count": 67,
+      "false_count": 100
+    },
+    {
+      "tp_id": 5,
+      "name": "Supervised Learning — Regression",
+      "filename": "tp5_regression.json",
+      "total_questions": 167,
+      "plain_count": 25,
+      "trick_count": 58,
+      "trap_count": 84,
+      "true_count": 67,
+      "false_count": 100
+    },
+    {
+      "tp_id": 6,
+      "name": "Unsupervised Learning & Clustering",
+      "filename": "tp6_clustering.json",
+      "total_questions": 163,
+      "plain_count": 25,
+      "trick_count": 58,
+      "trap_count": 80,
+      "true_count": 65,
+      "false_count": 98
+    }
+  ]
+}
