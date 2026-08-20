@@ -113,20 +113,22 @@ document.addEventListener('DOMContentLoaded', () => {
         btnResetCooldown.classList.add('hidden');
     }
 
-    alertClose.addEventListener('click', hideAlert);
+    if (alertClose) alertClose.addEventListener('click', hideAlert);
 
-    btnResetCooldown.addEventListener('click', async () => {
-        try {
-            const code = codeInput.value.trim().toUpperCase();
-            const res = await fetch(`/api/dev/reset_cooldown?code=${encodeURIComponent(code)}`, { method: 'POST' });
-            if (res.ok) {
-                hideAlert();
-                showAlert('✅ Cooldown reset! You can now start a new evaluation attempt.');
+    if (btnResetCooldown) {
+        btnResetCooldown.addEventListener('click', async () => {
+            try {
+                const code = codeInput ? codeInput.value.trim().toUpperCase() : '';
+                const res = await fetch(`/api/dev/reset_cooldown?code=${encodeURIComponent(code)}`, { method: 'POST' });
+                if (res.ok) {
+                    hideAlert();
+                    showAlert('✅ Cooldown reset! You can now start a new evaluation attempt.');
+                }
+            } catch (e) {
+                showAlert('Failed to reset cooldown.');
             }
-        } catch (e) {
-            showAlert('Failed to reset cooldown.');
-        }
-    });
+        });
+    }
 
     // 3. Screen Switching Helper
     function showScreen(screenName) {
@@ -197,21 +199,25 @@ document.addEventListener('DOMContentLoaded', () => {
         btnStartTest.disabled = (code.length < 2);
     }
 
-    codeInput.addEventListener('input', () => {
-        hideAlert();
-        validateForm();
-    });
+    if (codeInput) {
+        codeInput.addEventListener('input', () => {
+            hideAlert();
+            validateForm();
+        });
+    }
 
     const topCooldownBar = document.getElementById('top-cooldown-bar');
     const topCooldownTimer = document.getElementById('top-cooldown-timer');
 
     // Disable text copying, context menu, and dragging on quiz screen
-    ['copy', 'cut', 'contextmenu', 'dragstart', 'selectstart'].forEach(eventType => {
-        screenQuiz.addEventListener(eventType, (e) => {
-            e.preventDefault();
-            return false;
+    if (screenQuiz) {
+        ['copy', 'cut', 'contextmenu', 'dragstart', 'selectstart'].forEach(eventType => {
+            screenQuiz.addEventListener(eventType, (e) => {
+                e.preventDefault();
+                return false;
+            });
         });
-    });
+    }
 
     let cooldownInterval = null;
 
@@ -244,9 +250,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // 5. Start Quiz Attempt
-    startForm.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        hideAlert();
+    if (startForm) {
+        startForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            hideAlert();
 
         studentCode = codeInput.value.trim().toUpperCase();
 
@@ -623,16 +630,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // 10. Return Home Button
-    btnReturnHome.addEventListener('click', () => {
-        selectedTPId = null;
-        attemptId = null;
-        currentQuestionId = null;
-        btnStartTest.disabled = false;
-        btnStartTest.querySelector('span').textContent = 'Start Timed Test';
-        document.querySelectorAll('.tp-card').forEach(c => c.classList.remove('selected'));
-        showScreen('login');
-        loadSavedStudentCode();
-    });
+    if (btnReturnHome) {
+        btnReturnHome.addEventListener('click', () => {
+            selectedTPId = null;
+            attemptId = null;
+            currentQuestionId = null;
+            if (btnStartTest) {
+                btnStartTest.disabled = false;
+                const sp = btnStartTest.querySelector('span');
+                if (sp) sp.textContent = 'Start Timed Test';
+            }
+            document.querySelectorAll('.tp-card').forEach(c => c.classList.remove('selected'));
+            showScreen('login');
+            loadSavedStudentCode();
+        });
+    }
 
     // Init App
     loadTPs();
