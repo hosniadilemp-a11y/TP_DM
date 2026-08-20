@@ -9,6 +9,7 @@ start_admin_app.sh
 
 # Question Bank & Private Evaluation Data (NEVER COMMIT TO GITHUB)
 data/question_bank.json
+data/question_bank/
 data/*.json
 data/*.db
 data/*.sqlite3
