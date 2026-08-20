@@ -70,6 +70,27 @@
         </div>
     </div>
 
+    <!-- In-App End Test Confirmation Modal -->
+    <div id="end-test-modal" class="fullscreen-overlay hidden" style="z-index: 100001;">
+        <div class="card glass-card text-center fullscreen-modal">
+            <div class="alert-icon-wrapper" style="font-size: 44px; margin-bottom: 12px; color: #F87171;">
+                <i class="fa-solid fa-right-from-bracket"></i>
+            </div>
+            <h2 style="font-size: 22px; margin-bottom: 8px;">End Evaluation Test Early?</h2>
+            <p style="margin: 12px 0 20px; color: var(--text-dark); font-size: 14px; line-height: 1.5;">
+                Are you sure you want to finalize your evaluation attempt now? Any unanswered questions will score 0 points. Timer continues running in the background.
+            </p>
+            <div style="display: flex; gap: 12px; justify-content: center; margin-top: 8px;">
+                <button id="btn-cancel-end-test" class="btn btn-secondary" style="flex: 1; padding: 12px; border-radius: 8px; font-weight: 600; cursor: pointer;">
+                    <i class="fa-solid fa-arrow-left"></i> Continue Test
+                </button>
+                <button id="btn-confirm-end-test" class="btn btn-exit" style="flex: 1; padding: 12px; background: rgba(239, 68, 68, 0.3); border: 1px solid #EF4444; color: #FFF; border-radius: 8px; font-weight: 700; cursor: pointer;">
+                    <i class="fa-solid fa-check"></i> End & Submit
+                </button>
+            </div>
+        </div>
+    </div>
+
     <!-- Violation Warning Banner / Toast -->
     <div id="violation-toast" class="violation-toast hidden">
         <div class="violation-header">

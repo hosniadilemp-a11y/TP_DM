@@ -391,8 +391,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    let isEndTestModalOpen = false;
+
     function reportViolationEvent(eventType, details) {
-        if (!attemptId || !screenQuiz.classList.contains('active')) return;
+        if (!attemptId || !screenQuiz.classList.contains('active') || isEndTestModalOpen || !isQuizActive) return;
 
         const payload = JSON.stringify({ event_type: eventType, details: details });
         if (navigator.sendBeacon) {
@@ -609,15 +611,32 @@ document.addEventListener('DOMContentLoaded', () => {
         btnAnswerSkip.addEventListener('click', () => submitAnswer(null));
     }
 
+    const endTestModal = document.getElementById('end-test-modal');
+    const btnCancelEndTest = document.getElementById('btn-cancel-end-test');
+    const btnConfirmEndTest = document.getElementById('btn-confirm-end-test');
     const btnExitTest = document.getElementById('btn-exit-test');
+
     if (btnExitTest) {
         btnExitTest.addEventListener('click', () => {
-            if (confirm("Are you sure you want to end your test early? Any unanswered questions will score 0 points and your evaluation attempt will be finalized.")) {
-                isQuizActive = false;
-                if (fullscreenOverlay) fullscreenOverlay.classList.add('hidden');
-                clearInterval(timerInterval);
-                finishAttempt();
-            }
+            isEndTestModalOpen = true;
+            if (endTestModal) endTestModal.classList.remove('hidden');
+        });
+    }
+
+    if (btnCancelEndTest) {
+        btnCancelEndTest.addEventListener('click', () => {
+            isEndTestModalOpen = false;
+            if (endTestModal) endTestModal.classList.add('hidden');
+        });
+    }
+
+    if (btnConfirmEndTest) {
+        btnConfirmEndTest.addEventListener('click', () => {
+            isEndTestModalOpen = false;
+            if (endTestModal) endTestModal.classList.add('hidden');
+            isQuizActive = false;
+            if (fullscreenOverlay) fullscreenOverlay.classList.add('hidden');
+            finishAttempt();
         });
     }
 
