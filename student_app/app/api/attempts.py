@@ -185,22 +185,38 @@ def get_next_question(attempt_id: int, db: DBSession = Depends(get_db)):
     if position_count >= 20:
         return {"finished": True, "total": 20}
 
+    # Fast in-memory candidate lookup
+    global _QUESTIONS_CACHE
+    if 'tp_questions' not in globals():
+        _QUESTIONS_CACHE = {}
+
+    if attempt.tp_id not in _QUESTIONS_CACHE:
+        _QUESTIONS_CACHE[attempt.tp_id] = db.query(Question).filter(
+            Question.tp_id == attempt.tp_id,
+            Question.active == True
+        ).all()
+
+    tp_all_qs = _QUESTIONS_CACHE[attempt.tp_id]
+    q_map = {q.id: q for q in tp_all_qs}
+
     # If the last question was just served and is still waiting for answer (and hasn't expired), return it
     if served_answers and served_answers[-1].answered_at is None:
         current = served_answers[-1]
-        q = db.query(Question).filter(Question.id == current.question_id).first()
+        q = q_map.get(current.question_id) or db.query(Question).filter(Question.id == current.question_id).first()
+        options_order = [True, False]
+        random.shuffle(options_order)
         return {
             "finished": False,
             "question_id": q.id,
             "text": q.text,
-            "options": [True, False],
+            "options": options_order,
             "position": current.position,
             "total": 20
         }
 
     # Sample next question respecting trap rules
     served_q_ids = {ans.question_id for ans in served_answers}
-    served_questions = db.query(Question).filter(Question.id.in_(served_q_ids)).all() if served_q_ids else []
+    served_questions = [q_map[qid] for qid in served_q_ids if qid in q_map]
 
     served_trap_groups = {}
     for sq in served_questions:
@@ -208,14 +224,7 @@ def get_next_question(attempt_id: int, db: DBSession = Depends(get_db)):
             ans_pos = next(a.position for a in served_answers if a.question_id == sq.id)
             served_trap_groups[sq.trap_group_id] = (sq.trap_mode, ans_pos)
 
-    # Eligible candidate questions
-    candidate_query = db.query(Question).filter(
-        Question.tp_id == attempt.tp_id,
-        Question.active == True,
-        Question.id.not_in(served_q_ids) if served_q_ids else True
-    )
-
-    candidates = candidate_query.all()
+    candidates = [q for q in tp_all_qs if q.id not in served_q_ids]
     valid_candidates = []
     next_position = position_count + 1
 

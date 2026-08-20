@@ -115,20 +115,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (alertClose) alertClose.addEventListener('click', hideAlert);
 
-    if (btnResetCooldown) {
-        btnResetCooldown.addEventListener('click', async () => {
-            try {
-                const code = codeInput ? codeInput.value.trim().toUpperCase() : '';
-                const res = await fetch(`/api/dev/reset_cooldown?code=${encodeURIComponent(code)}`, { method: 'POST' });
-                if (res.ok) {
-                    hideAlert();
-                    showAlert('✅ Cooldown reset! You can now start a new evaluation attempt.');
+    const btnTopResetCooldown = document.getElementById('btn-top-reset-cooldown');
+
+    async function executeResetCooldown() {
+        try {
+            const code = codeInput ? codeInput.value.trim().toUpperCase() : '';
+            const res = await fetch(`/api/dev/reset_cooldown?code=${encodeURIComponent(code)}`, { method: 'POST' });
+            if (res.ok) {
+                if (typeof cooldownInterval !== 'undefined') clearInterval(cooldownInterval);
+                if (topCooldownBar) topCooldownBar.classList.add('hidden');
+                hideAlert();
+                showAlert('✅ Cooldown reset! You can now start a new evaluation attempt.');
+                if (btnStartTest) {
+                    btnStartTest.disabled = false;
+                    const sp = btnStartTest.querySelector('span');
+                    if (sp) sp.textContent = 'Start Timed Test';
                 }
-            } catch (e) {
-                showAlert('Failed to reset cooldown.');
             }
-        });
+        } catch (e) {
+            showAlert('Failed to reset cooldown.');
+        }
     }
+
+    if (btnResetCooldown) btnResetCooldown.addEventListener('click', executeResetCooldown);
+    if (btnTopResetCooldown) btnTopResetCooldown.addEventListener('click', executeResetCooldown);
 
     // 3. Screen Switching Helper
     function showScreen(screenName) {
