@@ -494,27 +494,20 @@ document.addEventListener('DOMContentLoaded', () => {
             progressBarFill.style.width = `${progressPct}%`;
 
             // Render Randomized True/False Button Order
-            const optionsContainer = document.querySelector('.quiz-actions');
+            const optionsContainer = document.querySelector('.answers-grid');
             if (optionsContainer && data.options && Array.isArray(data.options)) {
                 optionsContainer.innerHTML = '';
                 data.options.forEach(optVal => {
                     const btn = document.createElement('button');
                     btn.type = 'button';
-                    btn.className = `btn btn-lg ${optVal ? 'btn-true' : 'btn-false'}`;
+                    btn.className = `btn btn-choice ${optVal ? 'btn-true' : 'btn-false'}`;
                     btn.id = optVal ? 'btn-answer-true' : 'btn-answer-false';
-                    btn.innerHTML = optVal ? '<i class="fa-solid fa-check"></i> True' : '<i class="fa-solid fa-xmark"></i> False';
+                    btn.innerHTML = optVal 
+                        ? '<i class="fa-solid fa-check"></i><span>TRUE</span>' 
+                        : '<i class="fa-solid fa-xmark"></i><span>FALSE</span>';
                     btn.onclick = () => submitAnswer(optVal);
                     optionsContainer.appendChild(btn);
                 });
-
-                // Add Skip button
-                const btnSkip = document.createElement('button');
-                btnSkip.type = 'button';
-                btnSkip.className = 'btn btn-lg btn-secondary';
-                btnSkip.id = 'btn-answer-skip';
-                btnSkip.innerHTML = '<i class="fa-solid fa-forward"></i> Skip (0 pts)';
-                btnSkip.onclick = () => submitAnswer(null);
-                optionsContainer.appendChild(btnSkip);
             }
 
             // Start 20s Timer
@@ -565,7 +558,7 @@ document.addEventListener('DOMContentLoaded', () => {
         isSubmitting = true;
         clearInterval(timerInterval);
 
-        const allBtns = document.querySelectorAll('.quiz-actions button');
+        const allBtns = document.querySelectorAll('.answers-grid button, #btn-answer-skip');
         allBtns.forEach(b => b.disabled = true);
 
         try {
